@@ -1,0 +1,25 @@
+var classjugimap_1_1_sprite_layer =
+[
+    [ "SpriteLayer", "classjugimap_1_1_sprite_layer.html#a826eecd14cba0bd333df541e300fcff9", null ],
+    [ "~SpriteLayer", "classjugimap_1_1_sprite_layer.html#a424aeed753533e2fbdea01dc6563ed98", null ],
+    [ "InitEngineLayer", "classjugimap_1_1_sprite_layer.html#abd2fa7f8b8696e7704f6518f2afc7d26", null ],
+    [ "InitLayerParameters", "classjugimap_1_1_sprite_layer.html#a84122fdc2496e00c479de5903c48c747", null ],
+    [ "UpdateEngineLayer", "classjugimap_1_1_sprite_layer.html#a7392b58a706f44dbabfd7b58c9f8a27b", null ],
+    [ "DrawEngineLayer", "classjugimap_1_1_sprite_layer.html#af287eaf605fd03fe0d39d206a8b369d9", null ],
+    [ "GetSprites", "classjugimap_1_1_sprite_layer.html#a1871e4876af8a3b2eef64611a19984c8", null ],
+    [ "UpdateBoundingBox", "classjugimap_1_1_sprite_layer.html#aaa24a4f87f25b1bd5a7d66c81afb409e", null ],
+    [ "GetBoundingBox", "classjugimap_1_1_sprite_layer.html#ab3f86f0895178dc4664647008cbe5361", null ],
+    [ "SetAlpha", "classjugimap_1_1_sprite_layer.html#a6af26982eee6793ec41cc60168bc46cd", null ],
+    [ "GetAlpha", "classjugimap_1_1_sprite_layer.html#a5763f2e48e9cbad0bd8c032038b4a4b6", null ],
+    [ "SetBlend", "classjugimap_1_1_sprite_layer.html#abd62d809b65fb2d1381de1a31e2919d2", null ],
+    [ "GetBlend", "classjugimap_1_1_sprite_layer.html#ac5ba72649291279f9810a7847e6ee808", null ],
+    [ "AddSprite", "classjugimap_1_1_sprite_layer.html#abba487e64a96fba65a86949a4347fa38", null ],
+    [ "RemoveAndDeleteSprite", "classjugimap_1_1_sprite_layer.html#a50d4abae55e17c0a4e519deeea9cddfd", null ],
+    [ "CaptureForLerpDrawing", "classjugimap_1_1_sprite_layer.html#a66ef472c486043771699ba0b49236bba", null ],
+    [ "SetSpritesChanged", "classjugimap_1_1_sprite_layer.html#a5223d00aa698d46abe142c1fef25c7c6", null ],
+    [ "IsSpritesChanged", "classjugimap_1_1_sprite_layer.html#aea50a52afec5da26485553be4cf5b6d1", null ],
+    [ "SetSpritesChangeFlag", "classjugimap_1_1_sprite_layer.html#ae5ac60bc14cb2fee9f6414d4a3fc4095", null ],
+    [ "AppendToSpritesChangeFlag", "classjugimap_1_1_sprite_layer.html#a59765719f4a46b2a9198821b33abf33f", null ],
+    [ "GetSpritesChangeFlag", "classjugimap_1_1_sprite_layer.html#a2f2074e28072f733c8c690dd5fdcfb85", null ],
+    [ "IsEditorTileLayer", "classjugimap_1_1_sprite_layer.html#a5dd98e6e8554e230f1e53527e47ee839", null ]
+];
