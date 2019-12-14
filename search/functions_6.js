@@ -45,7 +45,7 @@ var searchData=
   ['getlayersplanesize_749',['GetLayersPlaneSize',['../classjugimap_1_1_layer.html#afb038714eea9b834d541d6765a51d787',1,'jugimap::Layer']]],
   ['getlerpdrawingfactor_750',['GetLerpDrawingFactor',['../classjugimap_1_1_settings.html#af759021463a5344f1eb52c8fea06499b',1,'jugimap::Settings']]],
   ['getlinkobject_751',['GetLinkObject',['../classjugimap_1_1_sprite.html#a493448a01adb65f2e9e1a284e781a95a',1,'jugimap::Sprite::GetLinkObject()'],['../classjugimap_1_1_text.html#a493448a01adb65f2e9e1a284e781a95a',1,'jugimap::Text::GetLinkObject()']]],
-  ['getlogictimestepms_752',['GetLogicTimeStepMS',['../classjugimap_1_1_time.html#a7d9e21713fbdd29fe05043115dfdee07',1,'jugimap::Time']]],
+  ['getlogictimems_752',['GetLogicTimeMS',['../classjugimap_1_1_time.html#a115d8e28976d8dc8e07a4d7684359eca',1,'jugimap::Time']]],
   ['getmap_753',['GetMap',['../classjugimap_1_1_layer.html#af5bef468b12b88b8802da0c7a8dbafb2',1,'jugimap::Layer']]],
   ['getmaphandle_754',['GetMapHandle',['../classjugimap_1_1_screen_map_camera.html#ac2c550be1011ba5d311b6f8f8507e12d',1,'jugimap::ScreenMapCamera']]],
   ['getmapncnode_755',['GetMapNCNode',['../classjugimap_1_1_map_n_c.html#a3c03c435ce09714c3b8b15dd2b687946',1,'jugimap::MapNC']]],

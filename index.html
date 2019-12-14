@@ -119,22 +119,17 @@ $(document).ready(function(){initNavTree('index.html','');});
 </ul>
 <p>Extensions are possible for engines with the following features:</p><ul>
 <li>Programming language is c++ (support for more languages will follow in future).</li>
-<li>Game source code can be fully programmed (as opposed to engines which require using visual editors).</li>
+<li>Game source code can be fully programmed (as opposed to engines which require visual editors).</li>
 <li>Sufficient 2D functionality for supporting jugimap features.</li>
 </ul>
 <h2>Using the API</h2>
 <p>A game which uses scenes constructed from one or more JugiMap maps should be set up in the following way:</p>
 <p><b>application initialization</b></p><ul>
 <li>...</li>
-<li>Set required global jugimap parameters: <em>screen size, engine specific parameters</em></li>
-<li>Load shaders needed for some sprite properties.</li>
+<li>Set required global jugimap parameters: <em>screen size</em>, engine specific parameters</li>
+<li>Load shaders which are needed for some sprite properties.</li>
 <li>Make <em>object factory</em> for creating objects from the engine extended classes.</li>
 <li>Make <em>scene manager</em> (optional)</li>
-<li>...</li>
-</ul>
-<p><b>application update</b></p><ul>
-<li>...</li>
-<li>Update scene (directly or via scene manager)</li>
 <li>...</li>
 </ul>
 <p><b>scene initialization</b></p><ul>
@@ -145,8 +140,13 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>Make <em>cameras</em> and assign them to maps.</li>
 <li>...</li>
 </ul>
+<p><b>application update</b></p><ul>
+<li>...</li>
+<li>Update scene (called directly or via scene manager)</li>
+<li>...</li>
+</ul>
 <p><b>scene update</b></p><ul>
-<li>Set required global jugimap time parameters - <em>logic update period</em> and <em>passed time</em>.</li>
+<li>Set required global jugimap time parameters: <em>logic time</em> and <em>passed time</em>.</li>
 <li>...</li>
 <li>(Game logic)</li>
 <li>...</li>

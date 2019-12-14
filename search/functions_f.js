@@ -31,7 +31,7 @@ var searchData=
   ['setinitialized_937',['SetInitialized',['../classjugimap_1_1_scene.html#ac3696554118e70be219c7d1cf93cd935',1,'jugimap::Scene']]],
   ['setlerpdrawingfactor_938',['SetLerpDrawingFactor',['../classjugimap_1_1_settings.html#a1e275ab01941818df8051e2162b5e9ed',1,'jugimap::Settings']]],
   ['setlinkobject_939',['SetLinkObject',['../classjugimap_1_1_sprite.html#aa3c21188262775c1efafcaab31838041',1,'jugimap::Sprite::SetLinkObject()'],['../classjugimap_1_1_text.html#aa3c21188262775c1efafcaab31838041',1,'jugimap::Text::SetLinkObject()']]],
-  ['setlogictimestepms_940',['SetLogicTimeStepMS',['../classjugimap_1_1_time.html#a783e709b01f1cd29242662e4f3686581',1,'jugimap::Time']]],
+  ['setlogictimems_940',['SetLogicTimeMS',['../classjugimap_1_1_time.html#a299315a2c2e0fae426be1650b8b7f135',1,'jugimap::Time']]],
   ['setmaphandle_941',['SetMapHandle',['../classjugimap_1_1_screen_map_camera.html#afb49c261ae0a6fcfda9ae60d62a5e8f3',1,'jugimap::ScreenMapCamera']]],
   ['setmapposition_942',['SetMapPosition',['../classjugimap_1_1_screen_map_camera.html#ad54db96550414b492f706324c4549719',1,'jugimap::ScreenMapCamera']]],
   ['setoutlinecolor_943',['SetOutlineColor',['../classjugimap_1_1_drawer.html#a1912e48c01ad2ede108bc20ce3790de3',1,'jugimap::Drawer::SetOutlineColor()'],['../classjugimap_1_1_drawer_s_f_m_l.html#a03e84fa33cca8502f0fdda257da73323',1,'jugimap::DrawerSFML::SetOutlineColor()'],['../classjugimap_1_1_drawer_c_c.html#a03e84fa33cca8502f0fdda257da73323',1,'jugimap::DrawerCC::SetOutlineColor()'],['../classjugimap_1_1_drawer_a_g_k.html#a03e84fa33cca8502f0fdda257da73323',1,'jugimap::DrawerAGK::SetOutlineColor()']]],

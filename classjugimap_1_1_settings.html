@@ -109,7 +109,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5f6f5214b7bfb9ab44b716ea7f8ac420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the screen size.  <a href="classjugimap_1_1_settings.html#a5f6f5214b7bfb9ab44b716ea7f8ac420">More...</a><br /></td></tr>
 <tr class="separator:a5f6f5214b7bfb9ab44b716ea7f8ac420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65db7329ca4886efade006c46229e663"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_settings.html#a65db7329ca4886efade006c46229e663">SetYCoordinateUp</a> (bool _yCoordinateUp)</td></tr>
-<tr class="memdesc:a65db7329ca4886efade006c46229e663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to <em>true</em> if the y coordinate in the used game engine goes up.  <a href="classjugimap_1_1_settings.html#a65db7329ca4886efade006c46229e663">More...</a><br /></td></tr>
+<tr class="memdesc:a65db7329ca4886efade006c46229e663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to <em>true</em> if the y coordinate in the used game engine points up.  <a href="classjugimap_1_1_settings.html#a65db7329ca4886efade006c46229e663">More...</a><br /></td></tr>
 <tr class="separator:a65db7329ca4886efade006c46229e663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41e596418a6d08e6e51938eca82f1d64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_settings.html#a41e596418a6d08e6e51938eca82f1d64">IsYCoordinateUp</a> ()</td></tr>
 <tr class="memdesc:a41e596418a6d08e6e51938eca82f1d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the y coordinate points up; if it points down returns false.  <a href="classjugimap_1_1_settings.html#a41e596418a6d08e6e51938eca82f1d64">More...</a><br /></td></tr>
@@ -176,7 +176,7 @@ std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div><div class="memdoc">
 
 <p>Set the screen size to the given *_screenSize*. </p>
-<p>This function must be called at the start of the game initialization before loading any maps.</p>
+<p>This function must be called at the game initialization before loading any maps.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classjugimap_1_1_settings.html#a5f6f5214b7bfb9ab44b716ea7f8ac420" title="Returns the screen size.">GetScreenSize</a> </dd></dl>
 
 </div>
@@ -233,8 +233,8 @@ std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </table>
 </div><div class="memdoc">
 
-<p>Set to <em>true</em> if the y coordinate in the used game engine goes up. </p>
-<p>This function must be called at the start of the game initialization before loading any maps. The default value is <em>false</em>.</p>
+<p>Set to <em>true</em> if the y coordinate in the used game engine points up. </p>
+<p>This function must be called at the game initialization before loading any maps. The default value is <em>false</em>.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classjugimap_1_1_settings.html#a41e596418a6d08e6e51938eca82f1d64" title="Returns true if the y coordinate points up; if it points down returns false.">IsYCoordinateUp</a> </dd></dl>
 
 </div>
@@ -263,7 +263,7 @@ std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div><div class="memdoc">
 
 <p>Returns true if the y coordinate points up; if it points down returns false. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classjugimap_1_1_settings.html#a65db7329ca4886efade006c46229e663" title="Set to true if the y coordinate in the used game engine goes up.">SetYCoordinateUp</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classjugimap_1_1_settings.html#a65db7329ca4886efade006c46229e663" title="Set to true if the y coordinate in the used game engine points up.">SetYCoordinateUp</a> </dd></dl>
 
 </div>
 </div>
@@ -292,7 +292,7 @@ std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div><div class="memdoc">
 
 <p>Set to <em>true</em> if the Collider objects should be used for the sprites collision detection. </p>
-<p>This function must be called at the start of the game initialization before loading any maps. Collider objects are used for the <a class="el" href="classjugimap_1_1_sprite.html" title="The base sprite class.">Sprite</a> interface functions for collision detection. Some engines offer a collision system which is not available via colliders. In that case you can disable colliders and use solely the engine methods for all collision detection tasks in your game.</p>
+<p>This option is usable only for engines which provide collision system. The function must be called at the game initialization before loading any maps. Collider objects are used for the <a class="el" href="classjugimap_1_1_sprite.html" title="The base sprite class.">Sprite</a> interface functions for collision detection. Some engines offer a collision system which is not available via colliders. In that case you can disable colliders and use solely the engine methods for all collision detection tasks in your game.</p>
 <p>The default value is <em>true</em>.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classjugimap_1_1_settings.html#a2f81e6f8b197e596308fa8ee2d3cf266" title="Returns true if the Collider objects are used for the sprites collision detection; otherwise returns ...">SpriteCollidersEnabled</a> </dd></dl>
 
@@ -351,7 +351,7 @@ std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div><div class="memdoc">
 
 <p>Set to <em>false</em> if the engine physics are available in the used engine but disabled. </p>
-<p>This function must be called at the start of the game initialization before loading any maps. This parameter has no effect with engines which does not provide a physics simulation or it can not be disabled.</p>
+<p>This parameter has no effect with engines which does not provide a physics simulation or it can not be disabled.</p>
 <p>The default value is <em>true</em>.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classjugimap_1_1_settings.html#ad6d150802ffbd0af8ec7523900bc832d" title="Returns true if the engine physics system is enabled; otherwise returns false.">EnginePhysicsEnabled</a> </dd></dl>
 
@@ -410,8 +410,8 @@ std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div><div class="memdoc">
 
 <p>Set to <em>true</em> to enable the <em>lerp drawing</em> technique; otherwsie set to false. </p>
-<p><b>Important:</b> This option has no effect on engines which manages drawing (rendering) of sprites internally! It may be usefull on development frameworks where the developer manages main logic loop and drawing manually.</p>
-<p><em>Lerp drawing</em> describes a technique for reducing the stutter in scrolling or sprite movements which occurs when the game logic rate and the game drawing rate are not synchronized. This may happen if the game can't perform in the specified <em>frameTimeMS</em> or if the monitor refresh time is different then the <em>frameTimeMS</em>. The <em>lerp drawing</em> means that we obtain the actual drawing position of sprites as an interpolated point between the previous and the current position. The in-between point is calculated via the <b>lerpFactor</b> which should be set in the fixed rate logic of the main game loop.</p>
+<p>This option can be used with engines which update game logic with fixed time step.</p>
+<p><em>Lerp drawing</em> describes a technique for reducing the stutter in scrolling or sprite movements which occurs when the game logic rate and the game drawing rate are not synchronized. The <em>lerp drawing</em> means that we obtain the actual drawing position of sprites as an interpolated point between the previous and the current position. The in-between point is calculated via the <b>lerpFactor</b> which should be set in the fixed rate logic of the main game loop.</p>
 <p>An important function related to <em>lerp drawing</em> is a function called **CaptureForLerpDrawing*. It is available for maps, layers and sprites. Capture for <em>lerp drawing</em> means that you set the sprite's previous position variable to the same value as the current position. This function must be called at initialization and whenever a sprite changes its position abruptly - the change is not a part of animated (smooth) movement.</p>
 <p>If the <em>CaptureForLerpDrawing</em> is not called correctly there may be weird sprite placements in the game. It may be a good idea to temporary disable <em>useLerpDrawing</em> during development and when everything works as intended we activate it to improve smoothness.</p>
 <p>The default value is <em>false</em>.</p>
@@ -506,7 +506,7 @@ std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Development/JugiMapProject/JugiMap_API/api/c++/jugimap/<a class="el" href="jm_global_8h_source.html">jmGlobal.h</a></li>
+<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/<a class="el" href="jm_global_8h_source.html">jmGlobal.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
