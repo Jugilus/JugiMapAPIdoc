@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>JugiMap API documentation: <a href="https://jugilus.github.io/JugiMapAPIdoc">https://jugilus.github.io/JugiMapAPIdoc</a></li>
 </ul>
 <h2>Main library</h2>
-<p>The main library is an engine independent part of JugiMap API. It consists of classes and functions which provide support for:</p>
+<p>The main library is an engine independent part of JugiMap API. It provides support for:</p>
 <ul>
 <li>Map elements from the editor: map, layers, sprites, vector shapes, ...</li>
 <li>Other map elements: text, drawing layers for geometric primitives, ...</li>
@@ -118,26 +118,26 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>nCine</li>
 </ul>
 <p>Extensions are possible for engines with the following features:</p><ul>
-<li>Programming language is c++ (support for more languages will follow in future).</li>
-<li>Game source code can be fully programmed (as opposed to engines which require visual editors).</li>
+<li>Programming language is c++.</li>
+<li>Game can be fully programmed by hand (as opposed to engines which require visual editors).</li>
 <li>Sufficient 2D functionality for supporting jugimap features.</li>
 </ul>
 <h2>Using the API</h2>
-<p>A game which uses scenes constructed from one or more JugiMap maps should be set up in the following way:</p>
+<p>A game which uses scenes made from one or more JugiMap maps should be set up in the following way:</p>
 <p><b>application initialization</b></p><ul>
 <li>...</li>
-<li>Set required global jugimap parameters: <em>screen size</em>, engine specific parameters</li>
+<li>Set required global jugimap parameters: screen size, engine specific parameters, path prefixes.</li>
 <li>Load shaders which are needed for some sprite properties.</li>
-<li>Make <em>object factory</em> for creating objects from the engine extended classes.</li>
+<li>Make <em>object factory</em> for creating objects of the engine extended classes.</li>
 <li>Make <em>scene manager</em> (optional)</li>
 <li>...</li>
 </ul>
 <p><b>scene initialization</b></p><ul>
 <li>...</li>
 <li>Load maps.</li>
-<li>Initialize maps as <em>world</em>, <em>parallax</em> or <em>screen</em> maps.</li>
-<li>Initialize the maps engine objects.</li>
-<li>Make <em>cameras</em> and assign them to maps.</li>
+<li>Initialize maps as world, parallax or screen maps.</li>
+<li>Initialize engine objects of the maps.</li>
+<li>Make cameras and assign them to the maps.</li>
 <li>...</li>
 </ul>
 <p><b>application update</b></p><ul>
@@ -150,16 +150,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>...</li>
 <li>(Game logic)</li>
 <li>...</li>
-<li>Update map engine objects.</li>
+<li>Update engine objects of the maps.</li>
 </ul>
 <p>These are standard operations. Some engines may require more things. In general JugiMap API provides a consistent way to set up and use scenes based on JugiMap maps.</p>
 <p><b>Manipulation of map elements</b></p>
 <p>The API library provides an engine independent interface for managing map elements. It is possible to manipulate engine objects directly but you should not mix direct manipulation and manipulation via interface as that would lead to synchronization issues between jugimap and engine objects. It is recommended to use direct manipulation only for things not supported by the library, e.g. for sprites in physics simulation.</p>
 <h2>API Demo Test</h2>
-<p>A good and extensive example of setting up and using a scene from JugiMap maps is an application called API Demo Test. It's source code is available for all supported engines and should be examined by developers interested in using JugiMap maps in their projects.</p>
+<p>An extensive example of setting up and using a scene from JugiMap maps is an application called API Demo Test. It's source code is available for all supported engines and should be examined by developers interested in using JugiMap maps in their projects.</p>
 <p>Features:</p>
 <ul>
-<li>A scene with world, parallax and screen maps. Covered tasks include:<ul>
+<li>A scene with world, parallax and screen maps. Covered subjects include:<ul>
 <li>Loading maps.</li>
 <li>Initializing maps.</li>
 <li>Initializing map cameras.</li>
@@ -169,18 +169,19 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>Updating scene.</li>
 </ul>
 </li>
-<li>Game entities from jugimap sprites. Covered tasks include:<ul>
+<li>Game entities from jugimap sprites. Covered subjects include:<ul>
+<li>Setting up and updating entities.</li>
 <li>Managing sprite frame animation.</li>
 <li>Using sprite colliders with a custom collision system.</li>
 <li>Dynamically adding and removing entities.</li>
 </ul>
 </li>
-<li>A simple GUI.<ul>
-<li>Implementation of buttons with jugimap sprites and text.</li>
+<li>A simple GUI. Covered subjects include:<ul>
+<li>Creating and using buttons from sprites and text objects.</li>
 </ul>
 </li>
-<li>Physics test (for engines which provides a 2d physics system)<ul>
-<li>Using sprites as physics objects. </li>
+<li>Physics test (for engines which provide a 2d physics system). Covered subjects include:<ul>
+<li>Using sprites as dynamic objects in physics simulation. </li>
 </ul>
 </li>
 </ul>

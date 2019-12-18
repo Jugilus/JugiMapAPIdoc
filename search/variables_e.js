@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['usepixelcoordinatesfortilelayersprites_1027',['usePixelCoordinatesForTileLayerSprites',['../classjugimap_1_1_jugi_map_binary_loader.html#ab4ac5f0ec077d17cb9f3f8ccb26249a7',1,'jugimap::JugiMapBinaryLoader']]]
+  ['value_1026',['value',['../structjugimap_1_1_parameter.html#a5c33da5929c9f2f9ef8d006d2350e6ec',1,'jugimap::Parameter']]]
 ];

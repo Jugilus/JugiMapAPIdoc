@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['j_1016',['j',['../structjugimap_1_1_affine_mat3.html#a5a6d762e54f8787af79c6f1cb129c939',1,'jugimap::AffineMat3']]]
+  ['kind_1015',['kind',['../structjugimap_1_1_parameter.html#ab961f0bab26537f6671c9c1add6e6725',1,'jugimap::Parameter']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['kind_1017',['kind',['../structjugimap_1_1_parameter.html#ab961f0bab26537f6671c9c1add6e6725',1,'jugimap::Parameter']]]
+  ['max_1016',['max',['../structjugimap_1_1_rect.html#a0aa298eff63d204d1116e5c51e7bfb36',1,'jugimap::Rect']]],
+  ['messages_1017',['messages',['../classjugimap_1_1_jugi_map_binary_loader.html#ad2a4538d9fca7c399a1b3157b6911ecb',1,'jugimap::JugiMapBinaryLoader']]],
+  ['min_1018',['min',['../structjugimap_1_1_rect.html#a1b34d6d1dd2ec26671f16bba5599bbc7',1,'jugimap::Rect']]]
 ];

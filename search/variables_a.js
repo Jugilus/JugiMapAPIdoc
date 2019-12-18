@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pathprefix_1022',['pathPrefix',['../classjugimap_1_1_jugi_map_binary_loader.html#a2e7e62422efd1227b5a0e3d29a9d5cbd',1,'jugimap::JugiMapBinaryLoader']]]
+  ['r_1021',['r',['../structjugimap_1_1_color_r_g_b_a.html#afd7b1ea9ff115205b65e0bffc92946ac',1,'jugimap::ColorRGBA::r()'],['../structjugimap_1_1_color_r_g_b_af.html#a4788d82c901b9367dd5c0daff8a7616b',1,'jugimap::ColorRGBAf::r()']]]
 ];
