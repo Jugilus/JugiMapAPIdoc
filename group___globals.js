@@ -55,21 +55,8 @@ var group___globals =
     [ "WorldLayerMode", "group___globals.html#ga8602b877136ad9772440edbddcf30d2a", [
       [ "NO_CHANGE", "group___globals.html#gga8602b877136ad9772440edbddcf30d2aa1b7e0a590f9d0878bcc4b725e2998cb1", null ]
     ] ],
-    [ "ParallaxLayerMode", "group___globals.html#ga46525d78fadf7f3c38d9f23148e9f61a", [
-      [ "NO_CHANGE", "group___globals.html#gga46525d78fadf7f3c38d9f23148e9f61aa1b7e0a590f9d0878bcc4b725e2998cb1", null ],
-      [ "TILING_X", "group___globals.html#gga46525d78fadf7f3c38d9f23148e9f61aac42edf822a6f2dadbd555f77ec2f2438", null ],
-      [ "TILING_Y", "group___globals.html#gga46525d78fadf7f3c38d9f23148e9f61aa09dae0c91b12c285fd415d9a891c2379", null ],
-      [ "TILING_XY", "group___globals.html#gga46525d78fadf7f3c38d9f23148e9f61aac0ba0f6e9736c13747e2b1b9e3609f39", null ],
-      [ "SINGLE_SPRITE_STRETCH_X", "group___globals.html#gga46525d78fadf7f3c38d9f23148e9f61aa7fd5e1ddce1a9e3a6f3d02cdc9c6d55f", null ],
-      [ "SINGLE_SPRITE_STRETCH_Y", "group___globals.html#gga46525d78fadf7f3c38d9f23148e9f61aaa15b5e001a4074193803d12cd2214601", null ],
-      [ "SINGLE_SPRITE_STRETCH_XY", "group___globals.html#gga46525d78fadf7f3c38d9f23148e9f61aa68ce7ede88b729ea0a847337f936de86", null ]
-    ] ],
-    [ "ScreenLayerMode", "group___globals.html#ga9517d716d5b2d2516bb0ff561aa724d0", [
-      [ "NO_CHANGE", "group___globals.html#gga9517d716d5b2d2516bb0ff561aa724d0a1b7e0a590f9d0878bcc4b725e2998cb1", null ],
-      [ "SINGLE_SPRITE_STRETCH_X", "group___globals.html#gga9517d716d5b2d2516bb0ff561aa724d0a7fd5e1ddce1a9e3a6f3d02cdc9c6d55f", null ],
-      [ "SINGLE_SPRITE_STRETCH_Y", "group___globals.html#gga9517d716d5b2d2516bb0ff561aa724d0aa15b5e001a4074193803d12cd2214601", null ],
-      [ "SINGLE_SPRITE_STRETCH_XY", "group___globals.html#gga9517d716d5b2d2516bb0ff561aa724d0a68ce7ede88b729ea0a847337f936de86", null ]
-    ] ],
+    [ "LayerType", "group___globals.html#ga56943a0946e5f15e5e58054b8e7a04a4", null ],
+    [ "StretchingVariant", "group___globals.html#ga44a6afb54d27fc91926f14cceaaf6938", null ],
     [ "AlignX", "group___globals.html#ga1e98c8c780114323be63116006eb2cf6", [
       [ "LEFT", "group___globals.html#gga1e98c8c780114323be63116006eb2cf6a684d325a7303f52e64011467ff5c5758", null ],
       [ "MIDDLE", "group___globals.html#gga1e98c8c780114323be63116006eb2cf6a43eedd8685eb86592022f8da962e3474", null ],

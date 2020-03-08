@@ -1,5 +1,8 @@
 var group___engine_extension___cocos2d_x =
 [
+    [ "BinaryFileStreamReaderCC", "classjugimap_1_1_binary_file_stream_reader_c_c.html", [
+      [ "BinaryFileStreamReaderCC", "classjugimap_1_1_binary_file_stream_reader_c_c.html#a2abc079a2eef8257d560f0195ff5b626", null ]
+    ] ],
     [ "GraphicFileCC", "classjugimap_1_1_graphic_file_c_c.html", [
       [ "Init", "classjugimap_1_1_graphic_file_c_c.html#a47de93e849d14c3eda08d78613506608", null ],
       [ "GetTexture", "classjugimap_1_1_graphic_file_c_c.html#a40daf3c6fd26b31e5be079fb60ada820", null ]

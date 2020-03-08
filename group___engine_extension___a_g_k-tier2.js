@@ -1,5 +1,9 @@
 var group___engine_extension___a_g_k_tier2 =
 [
+    [ "BinaryFileStreamReaderAGK", "classjugimap_1_1_binary_file_stream_reader_a_g_k.html", [
+      [ "BinaryFileStreamReaderAGK", "classjugimap_1_1_binary_file_stream_reader_a_g_k.html#a23309fa5cbed487c909d2b1cb9c42a74", null ],
+      [ "ReadString", "classjugimap_1_1_binary_file_stream_reader_a_g_k.html#af9e1ee611eb34427d52412166193373f", null ]
+    ] ],
     [ "GraphicItemAGK", "classjugimap_1_1_graphic_item_a_g_k.html", [
       [ "Init", "classjugimap_1_1_graphic_item_a_g_k.html#a47de93e849d14c3eda08d78613506608", null ]
     ] ],

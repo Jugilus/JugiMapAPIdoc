@@ -2,6 +2,14 @@ var hierarchy =
 [
     [ "AffineMat3< T >", "structjugimap_1_1_affine_mat3.html", null ],
     [ "AffineMat3< float >", "structjugimap_1_1_affine_mat3.html", null ],
+    [ "BinaryStreamReader", "classjugimap_1_1_binary_stream_reader.html", [
+      [ "BinaryBufferStreamReader", "classjugimap_1_1_binary_buffer_stream_reader.html", [
+        [ "BinaryFileStreamReaderCC", "classjugimap_1_1_binary_file_stream_reader_c_c.html", null ]
+      ] ],
+      [ "BinaryFileStreamReaderAGK", "classjugimap_1_1_binary_file_stream_reader_a_g_k.html", null ],
+      [ "BinaryFileStreamReaderSFML", "classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html", null ],
+      [ "StdBinaryFileStreamReader", "classjugimap_1_1_std_binary_file_stream_reader.html", null ]
+    ] ],
     [ "Camera", "classjugimap_1_1_camera.html", [
       [ "ScreenMapCamera", "classjugimap_1_1_screen_map_camera.html", null ],
       [ "WorldMapCamera", "classjugimap_1_1_world_map_camera.html", null ]
@@ -85,7 +93,10 @@ var hierarchy =
         [ "StandardSpriteSFML", "classjugimap_1_1_standard_sprite_s_f_m_l.html", null ]
       ] ]
     ] ],
-    [ "StandardSpriteFrameAnimationPlayer", "classjugimap_1_1_standard_sprite_frame_animation_player.html", null ],
+    [ "SpriteFrameAnimationPlayer", "classjugimap_1_1_sprite_frame_animation_player.html", [
+      [ "SpritesFrameAnimationPlayer", "classjugimap_1_1_sprites_frame_animation_player.html", null ],
+      [ "StandardSpriteFrameAnimationPlayer", "classjugimap_1_1_standard_sprite_frame_animation_player.html", null ]
+    ] ],
     [ "Text", "classjugimap_1_1_text.html", [
       [ "TextAGK", "classjugimap_1_1_text_a_g_k.html", null ],
       [ "TextCC", "classjugimap_1_1_text_c_c.html", null ],

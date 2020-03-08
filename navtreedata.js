@@ -42,9 +42,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classjugimap_1_1_object_factory_s_f_m_l.html#a11e2b0cc914b07a4a771ddf38907921c",
-"classjugimap_1_1_text.html#aa3c21188262775c1efafcaab31838041",
-"group___search_functions.html#gaf060d20bb8197f1ac19d89ee3e377a31"
+"classjugimap_1_1_object_factory_a_g_k.html#ad361a204231239dd4984fcd8e2573127",
+"classjugimap_1_1_standard_sprite_s_f_m_l.html#a5af558fa00a17e1c4f586b6a59d1c94d",
+"group___search_functions.html#ga0d720f390f8b5c59890ebf988a3476c3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

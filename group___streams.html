@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: Loaders</title>
+<title>JugiMap API: Streams</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -68,7 +68,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('group___loaders.html','');});
+$(document).ready(function(){initNavTree('group___streams.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,14 +90,20 @@ $(document).ready(function(){initNavTree('group___loaders.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Loaders</div>  </div>
+<div class="title">Streams</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_jugi_map_binary_loader.html">JugiMapBinaryLoader</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classjugimap_1_1_jugi_map_binary_loader.html" title="The JugiMapBinaryLoader class loads data from jugimap binary files (.jmb).">JugiMapBinaryLoader</a> class loads data from jugimap binary files (.jmb).  <a href="classjugimap_1_1_jugi_map_binary_loader.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_stream_reader.html">BinaryStreamReader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base abstract class for reading binary streams.  <a href="classjugimap_1_1_binary_stream_reader.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_std_binary_file_stream_reader.html">StdBinaryFileStreamReader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended <a class="el" href="classjugimap_1_1_binary_stream_reader.html" title="The base abstract class for reading binary streams.">BinaryStreamReader</a> class which utilizes the standard library <em>ifstream</em> class for reading.  <a href="classjugimap_1_1_std_binary_file_stream_reader.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_buffer_stream_reader.html">BinaryBufferStreamReader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended <a class="el" href="classjugimap_1_1_binary_stream_reader.html" title="The base abstract class for reading binary streams.">BinaryStreamReader</a> class which reads from a memory buffer.  <a href="classjugimap_1_1_binary_buffer_stream_reader.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
