@@ -1,7 +1,7 @@
 var searchData=
 [
   ['valid_517',['Valid',['../structjugimap_1_1_rect.html#a62f0e274c1fe43a9411e2c6d3d144913',1,'jugimap::Rect']]],
-  ['value_518',['Value',['../structjugimap_1_1_parameter.html#abe9ca0c157ae747d1ff8d04017130f31',1,'jugimap::Parameter::Value(const std::vector&lt; Parameter &gt; &amp;parameters, const std::string &amp;name, const std::string &amp;defaultValue=&quot;&quot;)'],['../structjugimap_1_1_parameter.html#a5c33da5929c9f2f9ef8d006d2350e6ec',1,'jugimap::Parameter::value()']]],
+  ['value_518',['value',['../structjugimap_1_1_parameter.html#a5c33da5929c9f2f9ef8d006d2350e6ec',1,'jugimap::Parameter::value()'],['../structjugimap_1_1_parameter.html#abe9ca0c157ae747d1ff8d04017130f31',1,'jugimap::Parameter::Value(const std::vector&lt; Parameter &gt; &amp;parameters, const std::string &amp;name, const std::string &amp;defaultValue=&quot;&quot;)']]],
   ['vec2_519',['Vec2',['../structjugimap_1_1_vec2.html',1,'Vec2&lt; T &gt;'],['../structjugimap_1_1_vec2.html#a1ab54d75ff36ed23a47e9229039c825d',1,'jugimap::Vec2::Vec2()'],['../structjugimap_1_1_vec2.html#a45878cc9b5c3214d23cae0857c4c6c78',1,'jugimap::Vec2::Vec2(T _x, T _y)']]],
   ['vec2_3c_20float_20_3e_520',['Vec2&lt; float &gt;',['../structjugimap_1_1_vec2.html',1,'jugimap']]],
   ['vec2_3c_20int_20_3e_521',['Vec2&lt; int &gt;',['../structjugimap_1_1_vec2.html',1,'jugimap']]],

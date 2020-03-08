@@ -107,6 +107,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ace860cc3b491aefcf3b3a305ea33fc9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#ace860cc3b491aefcf3b3a305ea33fc9c">BinaryFileStreamReaderSFML</a> (const std::string &amp;fileName)</td></tr>
 <tr class="memdesc:ace860cc3b491aefcf3b3a305ea33fc9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#ace860cc3b491aefcf3b3a305ea33fc9c">More...</a><br /></td></tr>
 <tr class="separator:ace860cc3b491aefcf3b3a305ea33fc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af91f730b8df50aa1e4c23540d55a826a"><td class="memItemLeft" align="right" valign="top"><a id="af91f730b8df50aa1e4c23540d55a826a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#af91f730b8df50aa1e4c23540d55a826a">IsOpen</a> () override</td></tr>
+<tr class="memdesc:af91f730b8df50aa1e4c23540d55a826a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>true</em> if the stream of this object is open for reading; if not it returns <em>false</em>. <br /></td></tr>
+<tr class="separator:af91f730b8df50aa1e4c23540d55a826a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a394ff88db6f3fe5da3fa22278db6d6"><td class="memItemLeft" align="right" valign="top"><a id="a1a394ff88db6f3fe5da3fa22278db6d6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#a1a394ff88db6f3fe5da3fa22278db6d6">Pos</a> () override</td></tr>
+<tr class="memdesc:a1a394ff88db6f3fe5da3fa22278db6d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current reading position of the stream. <br /></td></tr>
+<tr class="separator:a1a394ff88db6f3fe5da3fa22278db6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06e5dc7bdae7ec67655d15bcb9b7912"><td class="memItemLeft" align="right" valign="top"><a id="ae06e5dc7bdae7ec67655d15bcb9b7912"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#ae06e5dc7bdae7ec67655d15bcb9b7912">Seek</a> (int _pos) override</td></tr>
+<tr class="memdesc:ae06e5dc7bdae7ec67655d15bcb9b7912"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current reading position of the stream. <br /></td></tr>
+<tr class="separator:ae06e5dc7bdae7ec67655d15bcb9b7912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636bc54f4a9937ad0e2d35d7f5196c96"><td class="memItemLeft" align="right" valign="top"><a id="a636bc54f4a9937ad0e2d35d7f5196c96"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#a636bc54f4a9937ad0e2d35d7f5196c96">Size</a> () override</td></tr>
+<tr class="memdesc:a636bc54f4a9937ad0e2d35d7f5196c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the stream. <br /></td></tr>
+<tr class="separator:a636bc54f4a9937ad0e2d35d7f5196c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4eb5ff84787dcf5fb51d255d1b1727d"><td class="memItemLeft" align="right" valign="top"><a id="ad4eb5ff84787dcf5fb51d255d1b1727d"></a>
+unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#ad4eb5ff84787dcf5fb51d255d1b1727d">ReadByte</a> () override</td></tr>
+<tr class="memdesc:ad4eb5ff84787dcf5fb51d255d1b1727d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and returns the byte number. <br /></td></tr>
+<tr class="separator:ad4eb5ff84787dcf5fb51d255d1b1727d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb95c65eff2036c8d6f4d4d026fd1889"><td class="memItemLeft" align="right" valign="top"><a id="aeb95c65eff2036c8d6f4d4d026fd1889"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#aeb95c65eff2036c8d6f4d4d026fd1889">ReadInt</a> () override</td></tr>
+<tr class="memdesc:aeb95c65eff2036c8d6f4d4d026fd1889"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and returns the integer number (4 bytes). <br /></td></tr>
+<tr class="separator:aeb95c65eff2036c8d6f4d4d026fd1889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c74172dede22f9cfee51c02a0eb0ad"><td class="memItemLeft" align="right" valign="top"><a id="a34c74172dede22f9cfee51c02a0eb0ad"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#a34c74172dede22f9cfee51c02a0eb0ad">ReadFloat</a> () override</td></tr>
+<tr class="memdesc:a34c74172dede22f9cfee51c02a0eb0ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and returns the float number (4 bytes). <br /></td></tr>
+<tr class="separator:a34c74172dede22f9cfee51c02a0eb0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9e1ee611eb34427d52412166193373f"><td class="memItemLeft" align="right" valign="top"><a id="af9e1ee611eb34427d52412166193373f"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#af9e1ee611eb34427d52412166193373f">ReadString</a> () override</td></tr>
 <tr class="memdesc:af9e1ee611eb34427d52412166193373f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and returns the string. The length of string is written as the integer at the start. <br /></td></tr>

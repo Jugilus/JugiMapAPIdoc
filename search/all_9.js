@@ -24,7 +24,7 @@ var searchData=
   ['isenginetextuseddirectly_270',['IsEngineTextUsedDirectly',['../classjugimap_1_1_text.html#ad32a6d6b6069f61996a1a680be2ca6e7',1,'jugimap::Text']]],
   ['isinitialized_271',['IsInitialized',['../classjugimap_1_1_scene.html#a5d722e33d5e4075d4f0fc88c7cb54bd2',1,'jugimap::Scene']]],
   ['ismaplayer_272',['IsMapLayer',['../classjugimap_1_1_layer.html#af2a17fb25072bf9be250f50c104b8e26',1,'jugimap::Layer']]],
-  ['isopen_273',['IsOpen',['../classjugimap_1_1_binary_stream_reader.html#a114ef75bb5cfe916e64a072b16027e0a',1,'jugimap::BinaryStreamReader']]],
+  ['isopen_273',['IsOpen',['../classjugimap_1_1_binary_stream_reader.html#a114ef75bb5cfe916e64a072b16027e0a',1,'jugimap::BinaryStreamReader::IsOpen()'],['../classjugimap_1_1_std_binary_file_stream_reader.html#af91f730b8df50aa1e4c23540d55a826a',1,'jugimap::StdBinaryFileStreamReader::IsOpen()'],['../classjugimap_1_1_binary_buffer_stream_reader.html#af91f730b8df50aa1e4c23540d55a826a',1,'jugimap::BinaryBufferStreamReader::IsOpen()'],['../classjugimap_1_1_binary_file_stream_reader_s_f_m_l.html#af91f730b8df50aa1e4c23540d55a826a',1,'jugimap::BinaryFileStreamReaderSFML::IsOpen()'],['../classjugimap_1_1_binary_file_stream_reader_a_g_k.html#af91f730b8df50aa1e4c23540d55a826a',1,'jugimap::BinaryFileStreamReaderAGK::IsOpen()']]],
   ['isoverlaycoloractive_274',['IsOverlayColorActive',['../classjugimap_1_1_sprite.html#af991a61d6064b647ac282e06d460e18a',1,'jugimap::Sprite']]],
   ['isprobe_275',['IsProbe',['../classjugimap_1_1_vector_shape.html#ad34c1dadcfa997de8e61f1ab3f1424bc',1,'jugimap::VectorShape']]],
   ['isspriteschanged_276',['IsSpritesChanged',['../classjugimap_1_1_sprite_layer.html#aea50a52afec5da26485553be4cf5b6d1',1,'jugimap::SpriteLayer']]],
