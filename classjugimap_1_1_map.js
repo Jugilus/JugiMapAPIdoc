@@ -18,11 +18,12 @@ var classjugimap_1_1_map =
     [ "GetParameters", "classjugimap_1_1_map.html#a198f46b16f622f1feeedd9591cae41d4", null ],
     [ "GetWorldMapSize", "classjugimap_1_1_map.html#a3653592876e0f0b30440354ffe41f400", null ],
     [ "GetScreenMapDesignSize", "classjugimap_1_1_map.html#a17ef89e64314f6619f8cf4508234edb8", null ],
+    [ "ModifyXParallaxFactorsForFixedMapWidth", "classjugimap_1_1_map.html#ab36f46927a48ab36b9454e220db12044", null ],
     [ "CaptureForLerpDrawing", "classjugimap_1_1_map.html#a66ef472c486043771699ba0b49236bba", null ],
     [ "_AddLayer", "classjugimap_1_1_map.html#ab89b6890f1d9db8e5b353635500e2930", null ],
     [ "_SetName", "classjugimap_1_1_map.html#a44b2ff91aac4ed54f91c8ce4bd2aee04", null ],
     [ "_SetType", "classjugimap_1_1_map.html#a9b0fa166769e6933f1ea9faea56793a6", null ],
     [ "_SetZOrderStart", "classjugimap_1_1_map.html#a5abea10c9dda50e2d01428aac37213b1", null ],
     [ "GetZOrderStart", "classjugimap_1_1_map.html#abe76c1e36dfa786e7acdf062a416d4c5", null ],
-    [ "GetNextZOrder", "classjugimap_1_1_map.html#ac214709e86dcb65d1a0677c92e99cc60", null ]
+    [ "GetNextZOrder", "classjugimap_1_1_map.html#a87e338830e85dadd5e66819cb2b6b5bf", null ]
 ];

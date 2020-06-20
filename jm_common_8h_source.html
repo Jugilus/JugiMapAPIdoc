@@ -503,16 +503,43 @@ $(document).ready(function(){initNavTree('jm_common_8h_source.html','');});
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160; </div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160; </div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160; </div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160; </div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;<span class="comment">//================================================================================================================================</span></div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160; </div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160; </div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;}</div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160; </div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160; </div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160; </div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160; </div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160; </div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160; </div>
+<div class="line"><a name="l00512"></a><span class="lineno"><a class="line" href="classjugimap_1_1_easing.html">  512</a></span>&#160;<span class="keyword">class </span><a class="code" href="classjugimap_1_1_easing.html">Easing</a></div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;{</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160; </div>
+<div class="line"><a name="l00517"></a><span class="lineno"><a class="line" href="classjugimap_1_1_easing.html#a47628b5c91f6f759e32276c3d5c3a178">  517</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="classjugimap_1_1_easing.html#a47628b5c91f6f759e32276c3d5c3a178">Kind</a> : int</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    {</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        LINEAR = 0,             </div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;        EASE_START = 1,         </div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;        EASE_END = 2,           </div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        EASE_START_END = 3,     </div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        CONSTANT = 4            </div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    };</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160; </div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160; </div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    <span class="keywordtype">float</span> GetValue(<span class="keywordtype">float</span> p);</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160; </div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <span class="comment">//std::string GetKindString();</span></div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    <span class="comment">//EasingKind GetKindFromString(const std::string &amp;_kind);</span></div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <span class="comment">//EasingKind GetKindFromInt(int _kind);</span></div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160; </div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    Kind kind = Kind::LINEAR;</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;};</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160; </div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160; </div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160; </div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160; </div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;}</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160; </div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160; </div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160; </div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160; </div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160; </div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="astructjugimap_1_1_affine_mat3_html_aec2880e681b6daf2b3cc57ddf2544d3f"><div class="ttname"><a href="structjugimap_1_1_affine_mat3.html#aec2880e681b6daf2b3cc57ddf2544d3f">jugimap::AffineMat3::Translate</a></div><div class="ttdeci">AffineMat3&lt; T &gt; Translate(T tx, T ty) const</div><div class="ttdoc">Returns a matrix formed by translating this matrix by the given vector coordinates tx and ty.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:330</div></div>
@@ -584,6 +611,7 @@ $(document).ready(function(){initNavTree('jm_common_8h_source.html','');});
 <div class="ttc" id="astructjugimap_1_1_color_r_g_b_a_html_a41cede1b4c0d05cff170ad5761f70964"><div class="ttname"><a href="structjugimap_1_1_color_r_g_b_a.html#a41cede1b4c0d05cff170ad5761f70964">jugimap::ColorRGBA::b</a></div><div class="ttdeci">unsigned char b</div><div class="ttdoc">Red component of the color in the range 0 - 255.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:394</div></div>
 <div class="ttc" id="astructjugimap_1_1_affine_mat3_html_a1b701221f1a6703f96f6a4a80a466ba8"><div class="ttname"><a href="structjugimap_1_1_affine_mat3.html#a1b701221f1a6703f96f6a4a80a466ba8">jugimap::AffineMat3::Scaling</a></div><div class="ttdeci">static AffineMat3&lt; T &gt; Scaling(const Vec2&lt; T &gt; &amp;sv)</div><div class="ttdoc">Creates a matrix representing a scaling by the given vector sv.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:361</div></div>
 <div class="ttc" id="astructjugimap_1_1_vec2_html_a1ce64b2b4d5cb73b623f9dd2c0c76b22"><div class="ttname"><a href="structjugimap_1_1_vec2.html#a1ce64b2b4d5cb73b623f9dd2c0c76b22">jugimap::Vec2::operator+=</a></div><div class="ttdeci">Vec2&lt; T &gt; &amp; operator+=(T s)</div><div class="ttdoc">Adds the given s to this vector and return a reference to this vector.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:96</div></div>
+<div class="ttc" id="aclassjugimap_1_1_easing_html_a47628b5c91f6f759e32276c3d5c3a178"><div class="ttname"><a href="classjugimap_1_1_easing.html#a47628b5c91f6f759e32276c3d5c3a178">jugimap::Easing::Kind</a></div><div class="ttdeci">Kind</div><div class="ttdoc">The kind of Easing.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:517</div></div>
 <div class="ttc" id="astructjugimap_1_1_rect_html_a841951a70d219e1c4b1d84b533ac9c30"><div class="ttname"><a href="structjugimap_1_1_rect.html#a841951a70d219e1c4b1d84b533ac9c30">jugimap::Rect::Contains</a></div><div class="ttdeci">bool Contains(const Rect&lt; T &gt; &amp;r) const</div><div class="ttdoc">Returns true if the given rectangle r is inside this rectangle; otherwise returns false.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:242</div></div>
 <div class="ttc" id="astructjugimap_1_1_vec2_html_a65341d14068aefb716ead5ffaf0affba"><div class="ttname"><a href="structjugimap_1_1_vec2.html#a65341d14068aefb716ead5ffaf0affba">jugimap::Vec2::operator+</a></div><div class="ttdeci">Vec2&lt; T &gt; operator+(T s) const</div><div class="ttdoc">Returns a vector object formed by adding the given s to this vector.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:134</div></div>
 <div class="ttc" id="astructjugimap_1_1_rect_html_aeeb94e8c30a5ae3a6819c8a159cb9216"><div class="ttname"><a href="structjugimap_1_1_rect.html#aeeb94e8c30a5ae3a6819c8a159cb9216">jugimap::Rect::Unite</a></div><div class="ttdeci">Rect&lt; T &gt; Unite(const Rect&lt; T &gt; &amp;r) const</div><div class="ttdoc">Returns a rectangle formed by uniting this rectangle with the given rectangle r.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:207</div></div>
@@ -613,6 +641,7 @@ $(document).ready(function(){initNavTree('jm_common_8h_source.html','');});
 <div class="ttc" id="astructjugimap_1_1_vec2_html_aea4367bf4e27ab4635b9436ac148488e"><div class="ttname"><a href="structjugimap_1_1_vec2.html#aea4367bf4e27ab4635b9436ac148488e">jugimap::Vec2::operator/</a></div><div class="ttdeci">Vec2&lt; T &gt; operator/(double s) const</div><div class="ttdoc">Returns a vector object formed by dividing this vector with the given s.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:131</div></div>
 <div class="ttc" id="astructjugimap_1_1_rect_html_a5bb45450f588aa56c816b99c4ab11363"><div class="ttname"><a href="structjugimap_1_1_rect.html#a5bb45450f588aa56c816b99c4ab11363">jugimap::Rect::operator!=</a></div><div class="ttdeci">bool operator!=(const Rect&lt; T &gt; &amp;r) const</div><div class="ttdoc">Returns true if this rectangle is not equal to the given rectangle r; otherwise returns false.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:194</div></div>
 <div class="ttc" id="astructjugimap_1_1_affine_mat3_html_afaaeb079bf1cd1e73d9105b47ecd415d"><div class="ttname"><a href="structjugimap_1_1_affine_mat3.html#afaaeb079bf1cd1e73d9105b47ecd415d">jugimap::AffineMat3::Transform</a></div><div class="ttdeci">AffineMat3&lt; T &gt; Transform(float ix, float iy, float jx, float jy, float tx, float ty) const</div><div class="ttdoc">Returns a matrix formed by multiplying this matrix with the given matrix components ix,...</div><div class="ttdef"><b>Definition:</b> jmCommon.h:320</div></div>
+<div class="ttc" id="aclassjugimap_1_1_easing_html"><div class="ttname"><a href="classjugimap_1_1_easing.html">jugimap::Easing</a></div><div class="ttdoc">The Easing struct defines interpolation methods used for obtaining values between a start value and a...</div><div class="ttdef"><b>Definition:</b> jmCommon.h:512</div></div>
 <div class="ttc" id="astructjugimap_1_1_affine_mat3_html_a63ee53c1eb04e256a6ff81ba1351640c"><div class="ttname"><a href="structjugimap_1_1_affine_mat3.html#a63ee53c1eb04e256a6ff81ba1351640c">jugimap::AffineMat3::Rotation</a></div><div class="ttdeci">static AffineMat3&lt; T &gt; Rotation(double rz)</div><div class="ttdoc">Creates a matrix representing a rotation by the given angle rz; the angle is in radians.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:355</div></div>
 <!-- HTML footer for doxygen 1.8.16-->
 <!-- start footer part -->

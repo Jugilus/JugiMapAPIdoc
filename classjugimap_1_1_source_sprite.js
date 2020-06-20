@@ -14,5 +14,7 @@ var classjugimap_1_1_source_sprite =
     [ "GetConstantParameters", "classjugimap_1_1_source_sprite.html#a1fe2e644444ef607dab3ae52a2ab7344", null ],
     [ "GetGraphicItems", "classjugimap_1_1_source_sprite.html#a065cdc73232c8dc31b8ed3a463c55337", null ],
     [ "GetFrameAnimations", "classjugimap_1_1_source_sprite.html#a4454ba73e31f2db551f959740fd3a70f", null ],
-    [ "GetStatusFlags", "classjugimap_1_1_source_sprite.html#a33d7c9ef57dcf40d1e5027cbf327b000", null ]
+    [ "GetTimelineAnimations", "classjugimap_1_1_source_sprite.html#a70b617546ab6a97313b474ffc79d2898", null ],
+    [ "GetStatusFlags", "classjugimap_1_1_source_sprite.html#a33d7c9ef57dcf40d1e5027cbf327b000", null ],
+    [ "GetSourceComposedSprite", "classjugimap_1_1_source_sprite.html#a1927bc9359a7201866a05b5f96e6df2d", null ]
 ];

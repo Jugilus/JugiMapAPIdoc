@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['r_1053',['r',['../structjugimap_1_1_color_r_g_b_a.html#afd7b1ea9ff115205b65e0bffc92946ac',1,'jugimap::ColorRGBA::r()'],['../structjugimap_1_1_color_r_g_b_af.html#a4788d82c901b9367dd5c0daff8a7616b',1,'jugimap::ColorRGBAf::r()']]]
+  ['name_1185',['name',['../structjugimap_1_1_parameter.html#a9b45b3e13bd9167aab02e17e08916231',1,'jugimap::Parameter']]],
+  ['none_1186',['NONE',['../structjugimap_1_1_animation_player_flags.html#a7b20f1b443e093d5ec5e990e73b47232',1,'jugimap::AnimationPlayerFlags']]]
 ];

@@ -164,12 +164,14 @@ var group___map_elements =
       [ "GetConstantParameters", "classjugimap_1_1_source_sprite.html#a1fe2e644444ef607dab3ae52a2ab7344", null ],
       [ "GetGraphicItems", "classjugimap_1_1_source_sprite.html#a065cdc73232c8dc31b8ed3a463c55337", null ],
       [ "GetFrameAnimations", "classjugimap_1_1_source_sprite.html#a4454ba73e31f2db551f959740fd3a70f", null ],
-      [ "GetStatusFlags", "classjugimap_1_1_source_sprite.html#a33d7c9ef57dcf40d1e5027cbf327b000", null ]
+      [ "GetTimelineAnimations", "classjugimap_1_1_source_sprite.html#a70b617546ab6a97313b474ffc79d2898", null ],
+      [ "GetStatusFlags", "classjugimap_1_1_source_sprite.html#a33d7c9ef57dcf40d1e5027cbf327b000", null ],
+      [ "GetSourceComposedSprite", "classjugimap_1_1_source_sprite.html#a1927bc9359a7201866a05b5f96e6df2d", null ]
     ] ],
     [ "Sprite", "classjugimap_1_1_sprite.html", [
       [ "Property", "classjugimap_1_1_sprite.html#a80e3abfdceb5f0f2ef6e0e50ab2fd1aa", null ],
       [ "Sprite", "classjugimap_1_1_sprite.html#a637dbaba7024234f1dd304df1706c371", null ],
-      [ "~Sprite", "classjugimap_1_1_sprite.html#a440cf0c1da7415cbfb272f37b5b50656", null ],
+      [ "~Sprite", "classjugimap_1_1_sprite.html#ae2ec7be3ca7853c7f3ac5d639b6b951d", null ],
       [ "MakePassiveCopy", "classjugimap_1_1_sprite.html#a31d8008b529e9eef26694a26cb36e481", null ],
       [ "MakeActiveCopy", "classjugimap_1_1_sprite.html#afcbe6a3432a5847766b60797dfb817d0", null ],
       [ "CopyProperties", "classjugimap_1_1_sprite.html#a4ce707e6a7c1509a613e6adcccf8c0e0", null ],
@@ -188,6 +190,10 @@ var group___map_elements =
       [ "GetSourceSprite", "classjugimap_1_1_sprite.html#a7e27e04761f0c0490d5ad39be7dc1aec", null ],
       [ "GetParentComposedSprite", "classjugimap_1_1_sprite.html#a5347dfd120eeb91c9286951edd605a54", null ],
       [ "GetKind", "classjugimap_1_1_sprite.html#adac36f24b1a54ac9473a2e588b558f55", null ],
+      [ "SetId", "classjugimap_1_1_sprite.html#a9c3ff3a164af5e50e29199b9c69b559d", null ],
+      [ "GetId", "classjugimap_1_1_sprite.html#a7afa9b288457f394b566c93d58820852", null ],
+      [ "SetName", "classjugimap_1_1_sprite.html#a723a0e293f607b76799d7d24c5a47aaf", null ],
+      [ "GetName", "classjugimap_1_1_sprite.html#a8facce7acc5e95194c232b9bbd1363d5", null ],
       [ "SetTag", "classjugimap_1_1_sprite.html#a754846b17037e88154f17fd4b116e2cd", null ],
       [ "GetTag", "classjugimap_1_1_sprite.html#a4a714b3ee8f1f0fa2c9403375b2323aa", null ],
       [ "SetLinkObject", "classjugimap_1_1_sprite.html#aa3c21188262775c1efafcaab31838041", null ],
@@ -195,33 +201,33 @@ var group___map_elements =
       [ "GetParameters", "classjugimap_1_1_sprite.html#a198f46b16f622f1feeedd9591cae41d4", null ],
       [ "GetDataFlags", "classjugimap_1_1_sprite.html#a251b78f76d89d55e485854f9bc3d572f", null ],
       [ "SetPosition", "classjugimap_1_1_sprite.html#af1ef4cc6a8bb6503db9e8a4d42478c67", null ],
-      [ "GetPosition", "classjugimap_1_1_sprite.html#a4846947cdefab21d9ee66466fdaa745a", null ],
-      [ "GetGlobalPosition", "classjugimap_1_1_sprite.html#a51c4e1f773abf46c302d27489bfda22a", null ],
-      [ "GetFullPosition", "classjugimap_1_1_sprite.html#aad524a090ad5a8375224de59edf653ee", null ],
-      [ "GetFullGlobalPosition", "classjugimap_1_1_sprite.html#aeca444583b323c5e313bfdcb5a21af0d", null ],
-      [ "SetAnimationFrameOffset", "classjugimap_1_1_sprite.html#a179c2d87892438441f81ab89d98715b9", null ],
-      [ "GetAnimationFrameOffset", "classjugimap_1_1_sprite.html#a95489c2a5458e3a33cdd816fc91c5cc5", null ],
+      [ "GetPosition", "classjugimap_1_1_sprite.html#a34fb3062f4d9f3a6b70edc4bcf034161", null ],
+      [ "GetGlobalPosition", "classjugimap_1_1_sprite.html#a4c5385a95487845609f651e5779560df", null ],
       [ "SetScale", "classjugimap_1_1_sprite.html#a91c4c3102fc318244c4a7f30bbd2f042", null ],
-      [ "GetScale", "classjugimap_1_1_sprite.html#a8655d4d54506d85a2585c6609e7b4955", null ],
-      [ "GetGlobalScale", "classjugimap_1_1_sprite.html#af60c0bc14a578aff9a55ead986b01137", null ],
+      [ "GetScale", "classjugimap_1_1_sprite.html#ab6e932f2a7ef7b1cd29b526d9eee66e1", null ],
+      [ "GetGlobalScale", "classjugimap_1_1_sprite.html#a245eccc9d4cdb60e51860dfddf13b998", null ],
       [ "SetRotation", "classjugimap_1_1_sprite.html#a8da2669c3fde89516a03bb4be9bdfe60", null ],
-      [ "GetRotation", "classjugimap_1_1_sprite.html#a00672243cea68b19fda6506be0994fb0", null ],
-      [ "GetGlobalRotation", "classjugimap_1_1_sprite.html#a93580abb1fb9901e217467af38a83564", null ],
+      [ "GetRotation", "classjugimap_1_1_sprite.html#ad7e75070c0de56f174e490cbb5e269aa", null ],
+      [ "GetGlobalRotation", "classjugimap_1_1_sprite.html#a25d62a5e2fca6c282d49d662c5c51372", null ],
       [ "SetFlip", "classjugimap_1_1_sprite.html#a3d1bc6729aaae6aff44673778ddfe681", null ],
-      [ "GetFlip", "classjugimap_1_1_sprite.html#a6f770ebb6278cd500f33b76da4999a48", null ],
-      [ "GetGlobalFlip", "classjugimap_1_1_sprite.html#a560182350990c0cf81db71fe847ef217", null ],
+      [ "GetFlip", "classjugimap_1_1_sprite.html#ac7555ab529a70ec290f741bd62009b90", null ],
+      [ "GetGlobalFlip", "classjugimap_1_1_sprite.html#ab4e8528f22d67af51bedccbca1f4f1d1", null ],
       [ "SetHandle", "classjugimap_1_1_sprite.html#abc5c2ec6b0cec1fa88c82e23cb2aee45", null ],
       [ "GetHandle", "classjugimap_1_1_sprite.html#a4b17ee1b04c6979e3c89e2d7d6dbaddc", null ],
       [ "SetAlpha", "classjugimap_1_1_sprite.html#a6af26982eee6793ec41cc60168bc46cd", null ],
-      [ "GetAlpha", "classjugimap_1_1_sprite.html#a5763f2e48e9cbad0bd8c032038b4a4b6", null ],
+      [ "GetAlpha", "classjugimap_1_1_sprite.html#ad255fe4bf6feb9b9ee55dfa52b8d38d6", null ],
       [ "SetOwnBlend", "classjugimap_1_1_sprite.html#a75d661089b03d22996bda57acedb931b", null ],
       [ "GetOwnBlend", "classjugimap_1_1_sprite.html#a1a4cb8dff21945319c9616375bdf5464", null ],
       [ "SetColorOverlayActive", "classjugimap_1_1_sprite.html#a3c6e472c0a40e9f151c89317ad7f0563", null ],
       [ "IsOverlayColorActive", "classjugimap_1_1_sprite.html#af991a61d6064b647ac282e06d460e18a", null ],
       [ "SetColorOverlayRGBA", "classjugimap_1_1_sprite.html#a41b6be30297d141a22095cd434245e3b", null ],
-      [ "GetOverlayColorRGBA", "classjugimap_1_1_sprite.html#ac6332a19c67e639c64100a5c0dc3c356", null ],
+      [ "GetOverlayColorRGBA", "classjugimap_1_1_sprite.html#a7db21c9efbc40f893bfba8307ac55044", null ],
       [ "SetColorOverlayBlend", "classjugimap_1_1_sprite.html#af88b2324831ba49bb6ab0e07adb6f534", null ],
-      [ "GetOverlayColorBlend", "classjugimap_1_1_sprite.html#a8d11c8630eb37fa05fd4d62dd316680f", null ],
+      [ "GetOverlayColorBlend", "classjugimap_1_1_sprite.html#a390e0de4aecace2ef14f453ed12ca74c", null ],
+      [ "GetAnimatedProperties", "classjugimap_1_1_sprite.html#a3554f3ad77ce6304df03e96533116467", null ],
+      [ "CreateAnimatedPropertiesIfNone", "classjugimap_1_1_sprite.html#a9da65ae7c5bd98fa8185f1aff7c1239e", null ],
+      [ "ResetAnimatedProperties", "classjugimap_1_1_sprite.html#ad720d104b20db2ed7f1f778062af6cde", null ],
+      [ "AppendAnimatedProperties", "classjugimap_1_1_sprite.html#ac4815d364abeb41a383a9d7cf4b0f23d", null ],
       [ "HasCollider", "classjugimap_1_1_sprite.html#a90bb542dae6bf39c1bc380e7909e4477", null ],
       [ "PointInside", "classjugimap_1_1_sprite.html#ad43b510d37be2462366c70cd4a986c03", null ],
       [ "Overlaps", "classjugimap_1_1_sprite.html#a0c10b2ea03e63a6f25f7bf275ea518ab", null ],
@@ -245,6 +251,7 @@ var group___map_elements =
       [ "RaycastHit", "classjugimap_1_1_composed_sprite.html#a2d48ed26229900ebf0c6b5cff10abb62", null ],
       [ "UpdateBoundingBox", "classjugimap_1_1_composed_sprite.html#a09af1ef6dd8050fe625978d668b6964c", null ],
       [ "CaptureForLerpDrawing", "classjugimap_1_1_composed_sprite.html#a5af558fa00a17e1c4f586b6a59d1c94d", null ],
+      [ "ResetAnimatedProperties", "classjugimap_1_1_composed_sprite.html#aa20ccb1f39432ce626e38152244534bc", null ],
       [ "ConvertToWorldPos", "classjugimap_1_1_composed_sprite.html#aa52ffed8d735998afefa2fd7341d9c71", null ],
       [ "ConvertToWorldScale", "classjugimap_1_1_composed_sprite.html#a029b01a2467cbe778b2804c6b89b4f32", null ],
       [ "ConvertToWorldRotation", "classjugimap_1_1_composed_sprite.html#a86cbef931ee948999afbcd2053e795df", null ],
@@ -270,7 +277,8 @@ var group___map_elements =
       [ "SetCollider", "classjugimap_1_1_standard_sprite.html#a52d292192903029d880da29c23c45882", null ],
       [ "GetCollider", "classjugimap_1_1_standard_sprite.html#acf99839ca7aaf09fedf8216581044f09", null ],
       [ "GetPhysicsMode", "classjugimap_1_1_standard_sprite.html#abd3c659e170ef605c9d67adf75ef356f", null ],
-      [ "SetPhysicsMode", "classjugimap_1_1_standard_sprite.html#a269c37546c5274519689d2f758334f5b", null ]
+      [ "SetPhysicsMode", "classjugimap_1_1_standard_sprite.html#a269c37546c5274519689d2f758334f5b", null ],
+      [ "AppendAnimatedProperties", "classjugimap_1_1_standard_sprite.html#a52c5085855a8435c4920cbe28e45bd9e", null ]
     ] ],
     [ "SkeletonSprite", "classjugimap_1_1_skeleton_sprite.html", [
       [ "SkeletonSprite", "classjugimap_1_1_skeleton_sprite.html#a57f7a2f981ba94ab25873a60a2e9356c", null ],
@@ -325,28 +333,31 @@ var group___map_elements =
     [ "GeometricShape", "structjugimap_1_1_geometric_shape.html", [
       [ "GetKind", "structjugimap_1_1_geometric_shape.html#a2ebee93a791c22017dc3afbc451cc169", null ],
       [ "IsValid", "structjugimap_1_1_geometric_shape.html#a8c87e58b1882fd909b4ba8294ad36a0a", null ],
-      [ "CalculatePathLength", "structjugimap_1_1_geometric_shape.html#a79ceaadf56f93ac762dc40eebc771f78", null ],
-      [ "GetPathPoint", "structjugimap_1_1_geometric_shape.html#afa190ac4c4246bf555b06ecaf2e47db5", null ]
+      [ "IsClosed", "structjugimap_1_1_geometric_shape.html#ae9f4ba8cf98f1fe724f93b1cf9801518", null ],
+      [ "_SetClosed", "structjugimap_1_1_geometric_shape.html#a4fe92d0d15afe589acccc7ad10542559", null ],
+      [ "GetPath", "structjugimap_1_1_geometric_shape.html#a61e92ac9a9049136cca85ed5cf8dfec4", null ],
+      [ "RebuildPath", "structjugimap_1_1_geometric_shape.html#a7544023eb9c267ba3d6f934ca99ce447", null ],
+      [ "GetPathLength", "structjugimap_1_1_geometric_shape.html#a01d9c404f27501fec002e5a691ba2c33", null ],
+      [ "GetPathPoint", "structjugimap_1_1_geometric_shape.html#a4891ae806459e81df2e4d000c9500271", null ],
+      [ "GetPathPoint", "structjugimap_1_1_geometric_shape.html#a14bc0f1db99d425e57eea2dc7806ef79", null ]
     ] ],
     [ "PolyLineShape", "structjugimap_1_1_poly_line_shape.html", [
       [ "IsValid", "structjugimap_1_1_poly_line_shape.html#a2591feb8e6cc3117d15aaeb9c899f79d", null ],
-      [ "CalculatePathLength", "structjugimap_1_1_poly_line_shape.html#aa274049eae698d8b6a6ade0a30a5dc2d", null ],
-      [ "GetPathPoint", "structjugimap_1_1_poly_line_shape.html#a24f0e1befe6169dd7004605a53ae326e", null ]
+      [ "RebuildPath", "structjugimap_1_1_poly_line_shape.html#afd393c881b8889076142cc51b4cb4324", null ]
     ] ],
     [ "BezierShape", "structjugimap_1_1_bezier_shape.html", [
       [ "IsValid", "structjugimap_1_1_bezier_shape.html#a2591feb8e6cc3117d15aaeb9c899f79d", null ],
-      [ "CalculatePathLength", "structjugimap_1_1_bezier_shape.html#aa274049eae698d8b6a6ade0a30a5dc2d", null ],
-      [ "GetPathPoint", "structjugimap_1_1_bezier_shape.html#a24f0e1befe6169dd7004605a53ae326e", null ]
+      [ "RebuildPath", "structjugimap_1_1_bezier_shape.html#afd393c881b8889076142cc51b4cb4324", null ]
     ] ],
     [ "EllipseShape", "structjugimap_1_1_ellipse_shape.html", [
       [ "IsValid", "structjugimap_1_1_ellipse_shape.html#a2591feb8e6cc3117d15aaeb9c899f79d", null ],
-      [ "CalculatePathLength", "structjugimap_1_1_ellipse_shape.html#aa274049eae698d8b6a6ade0a30a5dc2d", null ],
-      [ "GetPathPoint", "structjugimap_1_1_ellipse_shape.html#a24f0e1befe6169dd7004605a53ae326e", null ]
+      [ "RebuildPath", "structjugimap_1_1_ellipse_shape.html#afd393c881b8889076142cc51b4cb4324", null ]
     ] ],
     [ "SinglePointShape", "structjugimap_1_1_single_point_shape.html", [
       [ "IsValid", "structjugimap_1_1_single_point_shape.html#a2591feb8e6cc3117d15aaeb9c899f79d", null ],
-      [ "CalculatePathLength", "structjugimap_1_1_single_point_shape.html#aa274049eae698d8b6a6ade0a30a5dc2d", null ],
-      [ "GetPathPoint", "structjugimap_1_1_single_point_shape.html#a24f0e1befe6169dd7004605a53ae326e", null ]
+      [ "RebuildPath", "structjugimap_1_1_single_point_shape.html#afd393c881b8889076142cc51b4cb4324", null ],
+      [ "GetPathPoint", "structjugimap_1_1_single_point_shape.html#a7ca3fb5c46bc6eb43e278c575c0175f8", null ],
+      [ "GetPathPoint", "structjugimap_1_1_single_point_shape.html#a08b63126079131704945c99eaeab708d", null ]
     ] ],
     [ "VectorShape", "classjugimap_1_1_vector_shape.html", [
       [ "VectorShape", "classjugimap_1_1_vector_shape.html#ac3a7784b066876a934cfb6a792df4f5b", null ],
@@ -360,10 +371,11 @@ var group___map_elements =
       [ "IsProbe", "classjugimap_1_1_vector_shape.html#ad34c1dadcfa997de8e61f1ab3f1424bc", null ],
       [ "GetDataFlags", "classjugimap_1_1_vector_shape.html#a251b78f76d89d55e485854f9bc3d572f", null ],
       [ "GetParameters", "classjugimap_1_1_vector_shape.html#a198f46b16f622f1feeedd9591cae41d4", null ],
-      [ "CalculatePathLength", "classjugimap_1_1_vector_shape.html#a1c98890e5b6bf2411ac5fbeb78e365c5", null ],
       [ "GetPathLength", "classjugimap_1_1_vector_shape.html#a01d9c404f27501fec002e5a691ba2c33", null ],
       [ "GetPathPoint", "classjugimap_1_1_vector_shape.html#ab55f94378a96f68f0bde388e33f322ed", null ],
-      [ "IsValid", "classjugimap_1_1_vector_shape.html#a9dcb9b43a3d0fa9003d4c1c9d921f6b2", null ]
+      [ "GetPathPoint", "classjugimap_1_1_vector_shape.html#a3d1ac5c935f4f36e67dca9e852cf56cf", null ],
+      [ "IsValid", "classjugimap_1_1_vector_shape.html#a9dcb9b43a3d0fa9003d4c1c9d921f6b2", null ],
+      [ "IsClosed", "classjugimap_1_1_vector_shape.html#ae9f4ba8cf98f1fe724f93b1cf9801518", null ]
     ] ],
     [ "Map", "classjugimap_1_1_map.html", [
       [ "Map", "classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7", null ],
@@ -384,13 +396,14 @@ var group___map_elements =
       [ "GetParameters", "classjugimap_1_1_map.html#a198f46b16f622f1feeedd9591cae41d4", null ],
       [ "GetWorldMapSize", "classjugimap_1_1_map.html#a3653592876e0f0b30440354ffe41f400", null ],
       [ "GetScreenMapDesignSize", "classjugimap_1_1_map.html#a17ef89e64314f6619f8cf4508234edb8", null ],
+      [ "ModifyXParallaxFactorsForFixedMapWidth", "classjugimap_1_1_map.html#ab36f46927a48ab36b9454e220db12044", null ],
       [ "CaptureForLerpDrawing", "classjugimap_1_1_map.html#a66ef472c486043771699ba0b49236bba", null ],
       [ "_AddLayer", "classjugimap_1_1_map.html#ab89b6890f1d9db8e5b353635500e2930", null ],
       [ "_SetName", "classjugimap_1_1_map.html#a44b2ff91aac4ed54f91c8ce4bd2aee04", null ],
       [ "_SetType", "classjugimap_1_1_map.html#a9b0fa166769e6933f1ea9faea56793a6", null ],
       [ "_SetZOrderStart", "classjugimap_1_1_map.html#a5abea10c9dda50e2d01428aac37213b1", null ],
       [ "GetZOrderStart", "classjugimap_1_1_map.html#abe76c1e36dfa786e7acdf062a416d4c5", null ],
-      [ "GetNextZOrder", "classjugimap_1_1_map.html#ac214709e86dcb65d1a0677c92e99cc60", null ]
+      [ "GetNextZOrder", "classjugimap_1_1_map.html#a87e338830e85dadd5e66819cb2b6b5bf", null ]
     ] ],
     [ "SourceGraphics", "classjugimap_1_1_source_graphics.html", [
       [ "SourceGraphics", "classjugimap_1_1_source_graphics.html#ad5a35eccf367981d14dba52768a8cae8", null ],

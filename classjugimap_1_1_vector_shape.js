@@ -11,8 +11,9 @@ var classjugimap_1_1_vector_shape =
     [ "IsProbe", "classjugimap_1_1_vector_shape.html#ad34c1dadcfa997de8e61f1ab3f1424bc", null ],
     [ "GetDataFlags", "classjugimap_1_1_vector_shape.html#a251b78f76d89d55e485854f9bc3d572f", null ],
     [ "GetParameters", "classjugimap_1_1_vector_shape.html#a198f46b16f622f1feeedd9591cae41d4", null ],
-    [ "CalculatePathLength", "classjugimap_1_1_vector_shape.html#a1c98890e5b6bf2411ac5fbeb78e365c5", null ],
     [ "GetPathLength", "classjugimap_1_1_vector_shape.html#a01d9c404f27501fec002e5a691ba2c33", null ],
     [ "GetPathPoint", "classjugimap_1_1_vector_shape.html#ab55f94378a96f68f0bde388e33f322ed", null ],
-    [ "IsValid", "classjugimap_1_1_vector_shape.html#a9dcb9b43a3d0fa9003d4c1c9d921f6b2", null ]
+    [ "GetPathPoint", "classjugimap_1_1_vector_shape.html#a3d1ac5c935f4f36e67dca9e852cf56cf", null ],
+    [ "IsValid", "classjugimap_1_1_vector_shape.html#a9dcb9b43a3d0fa9003d4c1c9d921f6b2", null ],
+    [ "IsClosed", "classjugimap_1_1_vector_shape.html#ae9f4ba8cf98f1fe724f93b1cf9801518", null ]
 ];

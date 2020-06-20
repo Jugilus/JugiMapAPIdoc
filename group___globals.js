@@ -1,5 +1,6 @@
 var group___globals =
 [
+    [ "AnimationPlayerFlags", "structjugimap_1_1_animation_player_flags.html", null ],
     [ "Settings", "classjugimap_1_1_settings.html", [
       [ "SetScreenSize", "classjugimap_1_1_settings.html#abafb65395a806668fdcfc06478ab926b", null ],
       [ "GetScreenSize", "classjugimap_1_1_settings.html#a5f6f5214b7bfb9ab44b716ea7f8ac420", null ],
@@ -14,7 +15,9 @@ var group___globals =
       [ "SetLerpDrawingFactor", "classjugimap_1_1_settings.html#a1e275ab01941818df8051e2162b5e9ed", null ],
       [ "GetLerpDrawingFactor", "classjugimap_1_1_settings.html#af759021463a5344f1eb52c8fea06499b", null ],
       [ "SetErrorMessage", "classjugimap_1_1_settings.html#a2172171bc8476714dfe99eb9c214b81d", null ],
-      [ "GetErrorMessage", "classjugimap_1_1_settings.html#a9a7dd090189038e49644eba9cc666d53", null ]
+      [ "GetErrorMessage", "classjugimap_1_1_settings.html#a9a7dd090189038e49644eba9cc666d53", null ],
+      [ "SetZOrderStep", "classjugimap_1_1_settings.html#a2c0a574a097d30f179e9cc61af43e6e5", null ],
+      [ "GetZOrderStep", "classjugimap_1_1_settings.html#af1bdf17db4bcc48ca84e56d9b9026163", null ]
     ] ],
     [ "Time", "classjugimap_1_1_time.html", [
       [ "UpdatePassedTimeMS", "classjugimap_1_1_time.html#a24610a0a30fda48cce0276062046a5f6", null ],
@@ -51,9 +54,6 @@ var group___globals =
       [ "TEXT", "group___globals.html#ggaa52763de299dba8324198f93970f3799a61a96ffcb251bb9bf0abf8fec19d0ea8", null ],
       [ "CUSTOM", "group___globals.html#ggaa52763de299dba8324198f93970f3799a72baef04098f035e8a320b03ad197818", null ],
       [ "NOT_DEFINED", "group___globals.html#ggaa52763de299dba8324198f93970f3799abfd8c78fbb91fe67b9886fad146392a4", null ]
-    ] ],
-    [ "WorldLayerMode", "group___globals.html#ga8602b877136ad9772440edbddcf30d2a", [
-      [ "NO_CHANGE", "group___globals.html#gga8602b877136ad9772440edbddcf30d2aa1b7e0a590f9d0878bcc4b725e2998cb1", null ]
     ] ],
     [ "LayerType", "group___globals.html#ga56943a0946e5f15e5e58054b8e7a04a4", null ],
     [ "StretchingVariant", "group___globals.html#ga44a6afb54d27fc91926f14cceaaf6938", null ],
@@ -92,6 +92,32 @@ var group___globals =
       [ "ELLIPSE", "group___globals.html#ggaaa9206375355490ae37301b68d135f8ea3507764cffdfea213396f9d9eb30f870", null ],
       [ "SINGLE_POINT", "group___globals.html#ggaaa9206375355490ae37301b68d135f8ea9e57b62f97ebcf747995338945dc3451", null ],
       [ "NOT_DEFINED", "group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4", null ]
+    ] ],
+    [ "AnimationKind", "group___globals.html#ga62b69112568377399dfb840cb23549f7", [
+      [ "FRAME_ANIMATION", "group___globals.html#gga62b69112568377399dfb840cb23549f7a69c783c9b451124d5866513d1b91757d", null ],
+      [ "TIMELINE_ANIMATION", "group___globals.html#gga62b69112568377399dfb840cb23549f7a52ae94d7d8d6c6bd38960412bc5b84ee", null ]
+    ] ],
+    [ "AnimationTrackKind", "group___globals.html#ga443d7ae6f4c0138e4bbcee01e46a2403", [
+      [ "TRANSLATION", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a0da044e5b37e6bcb3a8d01dc7362b276", null ],
+      [ "SCALING", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403ae4738c2e8d13809f2e73485a6c53c24b", null ],
+      [ "ROTATION", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403aa27939099e0fe4086159364fcf8d5f73", null ],
+      [ "ALPHA_CHANGE", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403ac6978ff4f0717f24eb9eba607acf8bef", null ],
+      [ "OVERLAY_COLOR_CHANGE", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403aec933255bf3c0c63cd9e8ac4ba9fa4a8", null ],
+      [ "PATH_MOVEMENT", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a2c25ffc99635a4f2f74ab42f622a8978", null ],
+      [ "FRAME_CHANGE", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403aa80e960c6a9395fc61813e12ba5145cb", null ],
+      [ "FRAME_ANIMATION", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a69c783c9b451124d5866513d1b91757d", null ],
+      [ "TIMELINE_ANIMATION", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a52ae94d7d8d6c6bd38960412bc5b84ee", null ],
+      [ "FLIP_HIDE", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a8ff0803c1b3ad048fbf3e05658117d64", null ],
+      [ "META", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403ae59f1c4fb1aa1d70a8c3eb59ff3e461b", null ],
+      [ "NOT_DEFINED", "group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403abfd8c78fbb91fe67b9886fad146392a4", null ]
+    ] ],
+    [ "AnimationPlayerState", "group___globals.html#ga50bdd3122560e2010412f9acd67687c4", [
+      [ "IDLE", "group___globals.html#gga50bdd3122560e2010412f9acd67687c4aa5daf7f2ebbba4975d61dab1c40188c7", null ],
+      [ "PLAYING", "group___globals.html#gga50bdd3122560e2010412f9acd67687c4a50366a49630a416ab3ccaa004196027e", null ],
+      [ "STALLED", "group___globals.html#gga50bdd3122560e2010412f9acd67687c4a4be6a75b35e47c01bca1a18f1b0ce3fb", null ],
+      [ "PAUSED", "group___globals.html#gga50bdd3122560e2010412f9acd67687c4a99b2439e63f73ad515f7ab2447a80673", null ],
+      [ "WAITING_TO_START", "group___globals.html#gga50bdd3122560e2010412f9acd67687c4a85ae1e1a056b346a0c767e365502306a", null ],
+      [ "WAITING_TO_REPEAT", "group___globals.html#gga50bdd3122560e2010412f9acd67687c4a3bea7bb71f24711c333db4c6de97f281", null ]
     ] ],
     [ "DeleteGlobalObjects", "group___globals.html#ga407856c9eaa02b435227d555d45330d4", null ],
     [ "settings", "group___globals.html#ga19276c778f3034b94881cf1f8614dbb2", null ]

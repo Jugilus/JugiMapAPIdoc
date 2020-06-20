@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['error_1043',['error',['../classjugimap_1_1_jugi_map_binary_loader.html#a8c94119e5bd6fbde0680ef83f01c9685',1,'jugimap::JugiMapBinaryLoader']]]
+  ['discard_5fanimation_5fqueue_1173',['DISCARD_ANIMATION_QUEUE',['../structjugimap_1_1_animation_player_flags.html#aff8f2399cc42869ba8230eef524335b2',1,'jugimap::AnimationPlayerFlags']]]
 ];

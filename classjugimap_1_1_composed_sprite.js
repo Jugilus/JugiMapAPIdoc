@@ -12,6 +12,7 @@ var classjugimap_1_1_composed_sprite =
     [ "RaycastHit", "classjugimap_1_1_composed_sprite.html#a2d48ed26229900ebf0c6b5cff10abb62", null ],
     [ "UpdateBoundingBox", "classjugimap_1_1_composed_sprite.html#a09af1ef6dd8050fe625978d668b6964c", null ],
     [ "CaptureForLerpDrawing", "classjugimap_1_1_composed_sprite.html#a5af558fa00a17e1c4f586b6a59d1c94d", null ],
+    [ "ResetAnimatedProperties", "classjugimap_1_1_composed_sprite.html#aa20ccb1f39432ce626e38152244534bc", null ],
     [ "ConvertToWorldPos", "classjugimap_1_1_composed_sprite.html#aa52ffed8d735998afefa2fd7341d9c71", null ],
     [ "ConvertToWorldScale", "classjugimap_1_1_composed_sprite.html#a029b01a2467cbe778b2804c6b89b4f32", null ],
     [ "ConvertToWorldRotation", "classjugimap_1_1_composed_sprite.html#a86cbef931ee948999afbcd2053e795df", null ],

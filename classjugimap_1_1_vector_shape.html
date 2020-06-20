@@ -145,10 +145,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 std::vector&lt; <a class="el" href="structjugimap_1_1_parameter.html">jugimap::Parameter</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_vector_shape.html#a198f46b16f622f1feeedd9591cae41d4">GetParameters</a> ()</td></tr>
 <tr class="memdesc:a198f46b16f622f1feeedd9591cae41d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the vector of data parameters in this vector shape. <br /></td></tr>
 <tr class="separator:a198f46b16f622f1feeedd9591cae41d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c98890e5b6bf2411ac5fbeb78e365c5"><td class="memItemLeft" align="right" valign="top"><a id="a1c98890e5b6bf2411ac5fbeb78e365c5"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_vector_shape.html#a1c98890e5b6bf2411ac5fbeb78e365c5">CalculatePathLength</a> ()</td></tr>
-<tr class="memdesc:a1c98890e5b6bf2411ac5fbeb78e365c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate and returns the length of this vector shape. <br /></td></tr>
-<tr class="separator:a1c98890e5b6bf2411ac5fbeb78e365c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01d9c404f27501fec002e5a691ba2c33"><td class="memItemLeft" align="right" valign="top"><a id="a01d9c404f27501fec002e5a691ba2c33"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_vector_shape.html#a01d9c404f27501fec002e5a691ba2c33">GetPathLength</a> ()</td></tr>
 <tr class="memdesc:a01d9c404f27501fec002e5a691ba2c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of this vector shape. <br /></td></tr>
@@ -157,10 +153,18 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_vector_shape.html#ab55f94378a96f68f0bde388e33f322ed">GetPathPoint</a> (float r)</td></tr>
 <tr class="memdesc:ab55f94378a96f68f0bde388e33f322ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point along the path at the given parametric position <em>r</em>. <br /></td></tr>
 <tr class="separator:ab55f94378a96f68f0bde388e33f322ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1ac5c935f4f36e67dca9e852cf56cf"><td class="memItemLeft" align="right" valign="top"><a id="a3d1ac5c935f4f36e67dca9e852cf56cf"></a>
+<a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_vector_shape.html#a3d1ac5c935f4f36e67dca9e852cf56cf">GetPathPoint</a> (float r, float &amp;directionAngle)</td></tr>
+<tr class="memdesc:a3d1ac5c935f4f36e67dca9e852cf56cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point along the path at the given parametric position <em>r</em>. <br /></td></tr>
+<tr class="separator:a3d1ac5c935f4f36e67dca9e852cf56cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dcb9b43a3d0fa9003d4c1c9d921f6b2"><td class="memItemLeft" align="right" valign="top"><a id="a9dcb9b43a3d0fa9003d4c1c9d921f6b2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_vector_shape.html#a9dcb9b43a3d0fa9003d4c1c9d921f6b2">IsValid</a> ()</td></tr>
 <tr class="memdesc:a9dcb9b43a3d0fa9003d4c1c9d921f6b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>true</em> if this vector shape has a geometric object which is valid; otherwise returns false. <br /></td></tr>
 <tr class="separator:a9dcb9b43a3d0fa9003d4c1c9d921f6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f4ba8cf98f1fe724f93b1cf9801518"><td class="memItemLeft" align="right" valign="top"><a id="ae9f4ba8cf98f1fe724f93b1cf9801518"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_vector_shape.html#ae9f4ba8cf98f1fe724f93b1cf9801518">IsClosed</a> ()</td></tr>
+<tr class="memdesc:ae9f4ba8cf98f1fe724f93b1cf9801518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>true</em> if this vector shape has a geometric object which is closed; otherwise returns false. <br /></td></tr>
+<tr class="separator:ae9f4ba8cf98f1fe724f93b1cf9801518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The vector shape. </p>

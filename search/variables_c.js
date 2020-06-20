@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['t_1055',['t',['../structjugimap_1_1_affine_mat3.html#aa61a7a6d17dbcf0298cb5d78364486ad',1,'jugimap::AffineMat3']]],
-  ['texturesmoothfilter_1056',['textureSmoothFilter',['../classjugimap_1_1_graphic_file_s_f_m_l.html#aa80b49f6efb89e955dd172d54992553e',1,'jugimap::GraphicFileSFML']]]
+  ['r_1191',['r',['../structjugimap_1_1_color_r_g_b_a.html#afd7b1ea9ff115205b65e0bffc92946ac',1,'jugimap::ColorRGBA::r()'],['../structjugimap_1_1_color_r_g_b_af.html#a4788d82c901b9367dd5c0daff8a7616b',1,'jugimap::ColorRGBAf::r()']]],
+  ['repeat_1192',['repeat',['../structjugimap_1_1_animation_base_parameters.html#a98c61ed9410ab805baab005fe7713d9b',1,'jugimap::AnimationBaseParameters']]],
+  ['repeat_5fdelaytimeend_1193',['repeat_DelayTimeEnd',['../structjugimap_1_1_animation_base_parameters.html#af8316ba78e976f030bfbe54265915620',1,'jugimap::AnimationBaseParameters']]],
+  ['repeat_5fdelaytimestart_1194',['repeat_DelayTimeStart',['../structjugimap_1_1_animation_base_parameters.html#a63398977bb761715a1129fd8d47b126f',1,'jugimap::AnimationBaseParameters']]]
 ];

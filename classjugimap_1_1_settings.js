@@ -13,5 +13,7 @@ var classjugimap_1_1_settings =
     [ "SetLerpDrawingFactor", "classjugimap_1_1_settings.html#a1e275ab01941818df8051e2162b5e9ed", null ],
     [ "GetLerpDrawingFactor", "classjugimap_1_1_settings.html#af759021463a5344f1eb52c8fea06499b", null ],
     [ "SetErrorMessage", "classjugimap_1_1_settings.html#a2172171bc8476714dfe99eb9c214b81d", null ],
-    [ "GetErrorMessage", "classjugimap_1_1_settings.html#a9a7dd090189038e49644eba9cc666d53", null ]
+    [ "GetErrorMessage", "classjugimap_1_1_settings.html#a9a7dd090189038e49644eba9cc666d53", null ],
+    [ "SetZOrderStep", "classjugimap_1_1_settings.html#a2c0a574a097d30f179e9cc61af43e6e5", null ],
+    [ "GetZOrderStep", "classjugimap_1_1_settings.html#af1bdf17db4bcc48ca84e56d9b9026163", null ]
 ];

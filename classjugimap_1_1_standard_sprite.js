@@ -18,5 +18,6 @@ var classjugimap_1_1_standard_sprite =
     [ "SetCollider", "classjugimap_1_1_standard_sprite.html#a52d292192903029d880da29c23c45882", null ],
     [ "GetCollider", "classjugimap_1_1_standard_sprite.html#acf99839ca7aaf09fedf8216581044f09", null ],
     [ "GetPhysicsMode", "classjugimap_1_1_standard_sprite.html#abd3c659e170ef605c9d67adf75ef356f", null ],
-    [ "SetPhysicsMode", "classjugimap_1_1_standard_sprite.html#a269c37546c5274519689d2f758334f5b", null ]
+    [ "SetPhysicsMode", "classjugimap_1_1_standard_sprite.html#a269c37546c5274519689d2f758334f5b", null ],
+    [ "AppendAnimatedProperties", "classjugimap_1_1_standard_sprite.html#a52c5085855a8435c4920cbe28e45bd9e", null ]
 ];

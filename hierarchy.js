@@ -2,6 +2,19 @@ var hierarchy =
 [
     [ "AffineMat3< T >", "structjugimap_1_1_affine_mat3.html", null ],
     [ "AffineMat3< float >", "structjugimap_1_1_affine_mat3.html", null ],
+    [ "Animation", "classjugimap_1_1_animation.html", [
+      [ "FrameAnimation", "classjugimap_1_1_frame_animation.html", null ],
+      [ "TimelineAnimation", "classjugimap_1_1_timeline_animation.html", null ]
+    ] ],
+    [ "AnimationBaseParameters", "structjugimap_1_1_animation_base_parameters.html", null ],
+    [ "AnimationInstance", "classjugimap_1_1_animation_instance.html", [
+      [ "DummyNoAnimationInstance", "classjugimap_1_1_dummy_no_animation_instance.html", null ],
+      [ "FrameAnimationInstance", "classjugimap_1_1_frame_animation_instance.html", null ],
+      [ "TimelineAnimationInstance", "classjugimap_1_1_timeline_animation_instance.html", null ]
+    ] ],
+    [ "AnimationPlayer", "classjugimap_1_1_animation_player.html", null ],
+    [ "AnimationPlayerFlags", "structjugimap_1_1_animation_player_flags.html", null ],
+    [ "AnimationQueuePlayer", "classjugimap_1_1_animation_queue_player.html", null ],
     [ "BinaryStreamReader", "classjugimap_1_1_binary_stream_reader.html", [
       [ "BinaryBufferStreamReader", "classjugimap_1_1_binary_buffer_stream_reader.html", [
         [ "BinaryFileStreamReaderCC", "classjugimap_1_1_binary_file_stream_reader_c_c.html", null ]
@@ -19,14 +32,15 @@ var hierarchy =
     [ "Drawer", "classjugimap_1_1_drawer.html", [
       [ "DrawerAGK", "classjugimap_1_1_drawer_a_g_k.html", null ],
       [ "DrawerCC", "classjugimap_1_1_drawer_c_c.html", null ],
+      [ "DrawerNC", "classjugimap_1_1_drawer_n_c.html", null ],
       [ "DrawerSFML", "classjugimap_1_1_drawer_s_f_m_l.html", null ]
     ] ],
+    [ "Easing", "classjugimap_1_1_easing.html", null ],
     [ "Font", "classjugimap_1_1_font.html", [
       [ "FontAGK", "classjugimap_1_1_font_a_g_k.html", null ],
       [ "FontNC", "classjugimap_1_1_font_n_c.html", null ],
       [ "FontSFML", "classjugimap_1_1_font_s_f_m_l.html", null ]
     ] ],
-    [ "FrameAnimation", "classjugimap_1_1_frame_animation.html", null ],
     [ "GeometricShape", "structjugimap_1_1_geometric_shape.html", [
       [ "BezierShape", "structjugimap_1_1_bezier_shape.html", null ],
       [ "EllipseShape", "structjugimap_1_1_ellipse_shape.html", null ],
@@ -92,10 +106,6 @@ var hierarchy =
         [ "StandardSpriteNC", "classjugimap_1_1_standard_sprite_n_c.html", null ],
         [ "StandardSpriteSFML", "classjugimap_1_1_standard_sprite_s_f_m_l.html", null ]
       ] ]
-    ] ],
-    [ "SpriteFrameAnimationPlayer", "classjugimap_1_1_sprite_frame_animation_player.html", [
-      [ "SpritesFrameAnimationPlayer", "classjugimap_1_1_sprites_frame_animation_player.html", null ],
-      [ "StandardSpriteFrameAnimationPlayer", "classjugimap_1_1_standard_sprite_frame_animation_player.html", null ]
     ] ],
     [ "Text", "classjugimap_1_1_text.html", [
       [ "TextAGK", "classjugimap_1_1_text_a_g_k.html", null ],

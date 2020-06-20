@@ -107,17 +107,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2591feb8e6cc3117d15aaeb9c899f79d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_single_point_shape.html#a2591feb8e6cc3117d15aaeb9c899f79d">IsValid</a> () override</td></tr>
 <tr class="memdesc:a2591feb8e6cc3117d15aaeb9c899f79d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>true</em> if this shape is a valid geometric object; otherwise returns false.  <a href="structjugimap_1_1_single_point_shape.html#a2591feb8e6cc3117d15aaeb9c899f79d">More...</a><br /></td></tr>
 <tr class="separator:a2591feb8e6cc3117d15aaeb9c899f79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa274049eae698d8b6a6ade0a30a5dc2d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_single_point_shape.html#aa274049eae698d8b6a6ade0a30a5dc2d">CalculatePathLength</a> () override</td></tr>
-<tr class="memdesc:aa274049eae698d8b6a6ade0a30a5dc2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate and returns the length of this shape.  <a href="structjugimap_1_1_single_point_shape.html#aa274049eae698d8b6a6ade0a30a5dc2d">More...</a><br /></td></tr>
-<tr class="separator:aa274049eae698d8b6a6ade0a30a5dc2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24f0e1befe6169dd7004605a53ae326e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_single_point_shape.html#a24f0e1befe6169dd7004605a53ae326e">GetPathPoint</a> (float r, float pathLength) override</td></tr>
-<tr class="memdesc:a24f0e1befe6169dd7004605a53ae326e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point along the path at the given parametric position <em>r</em>.  <a href="structjugimap_1_1_single_point_shape.html#a24f0e1befe6169dd7004605a53ae326e">More...</a><br /></td></tr>
-<tr class="separator:a24f0e1befe6169dd7004605a53ae326e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd393c881b8889076142cc51b4cb4324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_single_point_shape.html#afd393c881b8889076142cc51b4cb4324">RebuildPath</a> () override</td></tr>
+<tr class="memdesc:afd393c881b8889076142cc51b4cb4324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuild the path from the current shape geometry.  <a href="structjugimap_1_1_single_point_shape.html#afd393c881b8889076142cc51b4cb4324">More...</a><br /></td></tr>
+<tr class="separator:afd393c881b8889076142cc51b4cb4324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca3fb5c46bc6eb43e278c575c0175f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_single_point_shape.html#a7ca3fb5c46bc6eb43e278c575c0175f8">GetPathPoint</a> (float p) override</td></tr>
+<tr class="memdesc:a7ca3fb5c46bc6eb43e278c575c0175f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point along the path at the given parametric position <em>p</em>.  <a href="structjugimap_1_1_single_point_shape.html#a7ca3fb5c46bc6eb43e278c575c0175f8">More...</a><br /></td></tr>
+<tr class="separator:a7ca3fb5c46bc6eb43e278c575c0175f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08b63126079131704945c99eaeab708d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_single_point_shape.html#a08b63126079131704945c99eaeab708d">GetPathPoint</a> (float p, float &amp;directionAngle) override</td></tr>
+<tr class="memdesc:a08b63126079131704945c99eaeab708d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point along the path at the given parametric position <em>p</em>.  <a href="structjugimap_1_1_single_point_shape.html#a08b63126079131704945c99eaeab708d">More...</a><br /></td></tr>
+<tr class="separator:a08b63126079131704945c99eaeab708d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structjugimap_1_1_geometric_shape"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structjugimap_1_1_geometric_shape')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structjugimap_1_1_geometric_shape.html">GeometricShape</a></td></tr>
 <tr class="memitem:a2ebee93a791c22017dc3afbc451cc169 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memItemLeft" align="right" valign="top"><a id="a2ebee93a791c22017dc3afbc451cc169"></a>
 <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_geometric_shape.html#a2ebee93a791c22017dc3afbc451cc169">GetKind</a> ()</td></tr>
 <tr class="memdesc:a2ebee93a791c22017dc3afbc451cc169 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the kind of this shape. <br /></td></tr>
 <tr class="separator:a2ebee93a791c22017dc3afbc451cc169 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f4ba8cf98f1fe724f93b1cf9801518 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_geometric_shape.html#ae9f4ba8cf98f1fe724f93b1cf9801518">IsClosed</a> ()</td></tr>
+<tr class="memdesc:ae9f4ba8cf98f1fe724f93b1cf9801518 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>true</em> if this shape is a closed geometric object; otherwise returns false.  <a href="structjugimap_1_1_geometric_shape.html#ae9f4ba8cf98f1fe724f93b1cf9801518">More...</a><br /></td></tr>
+<tr class="separator:ae9f4ba8cf98f1fe724f93b1cf9801518 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fe92d0d15afe589acccc7ad10542559 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memItemLeft" align="right" valign="top"><a id="a4fe92d0d15afe589acccc7ad10542559"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_geometric_shape.html#a4fe92d0d15afe589acccc7ad10542559">_SetClosed</a> (bool _closed)</td></tr>
+<tr class="memdesc:a4fe92d0d15afe589acccc7ad10542559 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <em>closed</em> parameter when you create a geometric shape by hand. Do not change it for existing shapes! <br /></td></tr>
+<tr class="separator:a4fe92d0d15afe589acccc7ad10542559 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e92ac9a9049136cca85ed5cf8dfec4 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memItemLeft" align="right" valign="top">std::vector&lt; TShapePoint &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_geometric_shape.html#a61e92ac9a9049136cca85ed5cf8dfec4">GetPath</a> ()</td></tr>
+<tr class="memdesc:a61e92ac9a9049136cca85ed5cf8dfec4 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the path vector of this geometric shape.  <a href="structjugimap_1_1_geometric_shape.html#a61e92ac9a9049136cca85ed5cf8dfec4">More...</a><br /></td></tr>
+<tr class="separator:a61e92ac9a9049136cca85ed5cf8dfec4 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d9c404f27501fec002e5a691ba2c33 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjugimap_1_1_geometric_shape.html#a01d9c404f27501fec002e5a691ba2c33">GetPathLength</a> ()</td></tr>
+<tr class="memdesc:a01d9c404f27501fec002e5a691ba2c33 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the path.  <a href="structjugimap_1_1_geometric_shape.html#a01d9c404f27501fec002e5a691ba2c33">More...</a><br /></td></tr>
+<tr class="separator:a01d9c404f27501fec002e5a691ba2c33 inherit pub_methods_structjugimap_1_1_geometric_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -163,8 +179,8 @@ static <a class="el" href="structjugimap_1_1_geometric_shape.html">GeometricShap
 
 </div>
 </div>
-<a id="aa274049eae698d8b6a6ade0a30a5dc2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa274049eae698d8b6a6ade0a30a5dc2d">&#9670;&nbsp;</a></span>CalculatePathLength()</h2>
+<a id="afd393c881b8889076142cc51b4cb4324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd393c881b8889076142cc51b4cb4324">&#9670;&nbsp;</a></span>RebuildPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,7 +189,7 @@ static <a class="el" href="structjugimap_1_1_geometric_shape.html">GeometricShap
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float CalculatePathLength </td>
+          <td class="memname">void RebuildPath </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -181,20 +197,20 @@ static <a class="el" href="structjugimap_1_1_geometric_shape.html">GeometricShap
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Calculate and returns the length of this shape. </p>
-<p>This function is usually called from the <a class="el" href="classjugimap_1_1_vector_shape.html#a1c98890e5b6bf2411ac5fbeb78e365c5" title="Calculate and returns the length of this vector shape.">VectorShape::CalculatePathLength</a>. </p>
+<p>Rebuild the path from the current shape geometry. </p>
+<p>This function is usually called from the VectorShape::RebuildPath. </p>
 
-<p>Implements <a class="el" href="structjugimap_1_1_geometric_shape.html#a79ceaadf56f93ac762dc40eebc771f78">GeometricShape</a>.</p>
+<p>Implements <a class="el" href="structjugimap_1_1_geometric_shape.html#a7544023eb9c267ba3d6f934ca99ce447">GeometricShape</a>.</p>
 
 </div>
 </div>
-<a id="a24f0e1befe6169dd7004605a53ae326e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24f0e1befe6169dd7004605a53ae326e">&#9670;&nbsp;</a></span>GetPathPoint()</h2>
+<a id="a7ca3fb5c46bc6eb43e278c575c0175f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca3fb5c46bc6eb43e278c575c0175f8">&#9670;&nbsp;</a></span>GetPathPoint() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,13 +222,49 @@ static <a class="el" href="structjugimap_1_1_geometric_shape.html">GeometricShap
           <td class="memname"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> GetPathPoint </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a point along the path at the given parametric position <em>p</em>. </p>
+<p>This function is usually called from the <a class="el" href="classjugimap_1_1_vector_shape.html#ab55f94378a96f68f0bde388e33f322ed" title="Returns a point along the path at the given parametric position r.">VectorShape::GetPathPoint</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>A parameter in the range of [0.0 - 1.0] where 0.0 gives the starting point and 1.0 gives the end point of the path. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="structjugimap_1_1_geometric_shape.html#a4891ae806459e81df2e4d000c9500271">GeometricShape</a>.</p>
+
+</div>
+</div>
+<a id="a08b63126079131704945c99eaeab708d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08b63126079131704945c99eaeab708d">&#9670;&nbsp;</a></span>GetPathPoint() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> GetPathPoint </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>pathLength</em>&#160;</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>directionAngle</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -227,21 +279,22 @@ static <a class="el" href="structjugimap_1_1_geometric_shape.html">GeometricShap
 </table>
 </div><div class="memdoc">
 
-<p>Returns a point along the path at the given parametric position <em>r</em>. </p>
+<p>Returns a point along the path at the given parametric position <em>p</em>. </p>
 <p>This function is usually called from the <a class="el" href="classjugimap_1_1_vector_shape.html#ab55f94378a96f68f0bde388e33f322ed" title="Returns a point along the path at the given parametric position r.">VectorShape::GetPathPoint</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">r</td><td>A parameter in the range of [0.0 - 1.0] where 0.0 gives the starting point and 1.0 gives the end point of the path. </td></tr>
-    <tr><td class="paramname">pathLength</td><td>The length of path calculated via CalculatePathLength. </td></tr>
+    <tr><td class="paramname">p</td><td>A parameter in the range of [0.0 - 1.0] where 0.0 gives the starting point and 1.0 gives the end point of the path. </td></tr>
+    <tr><td class="paramname">directionAngle</td><td>The direction angle of the path at the returned point. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="structjugimap_1_1_geometric_shape.html#afa190ac4c4246bf555b06ecaf2e47db5">GeometricShape</a>.</p>
+<p>Reimplemented from <a class="el" href="structjugimap_1_1_geometric_shape.html#a14bc0f1db99d425e57eea2dc7806ef79">GeometricShape</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/<a class="el" href="jm_vector_shapes_8h_source.html">jmVectorShapes.h</a></li>
+<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/jmVectorShapes.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

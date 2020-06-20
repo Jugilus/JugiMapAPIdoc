@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['has_5fimages_5fof_5fdifferent_5fsize_1097',['HAS_IMAGES_OF_DIFFERENT_SIZE',['../classjugimap_1_1_source_sprite.html#a67a0db04d321a74b7e7fcfd3f1a3f70ba5cc40330354b56613d6fea37fca8e936',1,'jugimap::SourceSprite']]],
-  ['has_5fimages_5fwith_5fdifferent_5fsprite_5fshapes_1098',['HAS_IMAGES_WITH_DIFFERENT_SPRITE_SHAPES',['../classjugimap_1_1_source_sprite.html#a67a0db04d321a74b7e7fcfd3f1a3f70bad305517d8840937e5e57da8b74a5ac37',1,'jugimap::SourceSprite']]],
-  ['has_5fimages_5fwith_5fsprite_5fshapes_1099',['HAS_IMAGES_WITH_SPRITE_SHAPES',['../classjugimap_1_1_source_sprite.html#a67a0db04d321a74b7e7fcfd3f1a3f70ba8943d26b11e6212555be523e66d6b963',1,'jugimap::SourceSprite']]],
-  ['has_5fmultiple_5fsprite_5fshapes_5fin_5fimage_1100',['HAS_MULTIPLE_SPRITE_SHAPES_IN_IMAGE',['../classjugimap_1_1_source_sprite.html#a67a0db04d321a74b7e7fcfd3f1a3f70ba76ed920401fda2a6074e5519f7a4fa5f',1,'jugimap::SourceSprite']]]
+  ['flip_5fhide_1246',['FLIP_HIDE',['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a8ff0803c1b3ad048fbf3e05658117d64',1,'jugimap']]],
+  ['frame_5fanimation_1247',['FRAME_ANIMATION',['../group___globals.html#gga62b69112568377399dfb840cb23549f7a69c783c9b451124d5866513d1b91757d',1,'jugimap::FRAME_ANIMATION()'],['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a69c783c9b451124d5866513d1b91757d',1,'jugimap::FRAME_ANIMATION()']]],
+  ['frame_5fchange_1248',['FRAME_CHANGE',['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403aa80e960c6a9395fc61813e12ba5145cb',1,'jugimap']]]
 ];

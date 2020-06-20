@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['text_1126',['TEXT',['../group___globals.html#ggaa52763de299dba8324198f93970f3799a61a96ffcb251bb9bf0abf8fec19d0ea8',1,'jugimap']]],
-  ['tile_5fsheet_5fimage_1127',['TILE_SHEET_IMAGE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaaa94e69e6f6570418b710287d203b3dee',1,'jugimap']]],
-  ['top_1128',['TOP',['../group___globals.html#gga2659edf683218b45cce924eda884b1aba6705777b712ee811e76fb07162081d63',1,'jugimap']]],
-  ['true_5ftype_1129',['TRUE_TYPE',['../group___globals.html#ggad19071725187629f07e7bae695ecf60ca28a8fc326ef35be2a8a8ddb6c1d00768',1,'jugimap']]]
+  ['parallax_1265',['PARALLAX',['../group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ae0c60ad18d407ae1a5264e56362372a2',1,'jugimap']]],
+  ['path_5fmovement_1266',['PATH_MOVEMENT',['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a2c25ffc99635a4f2f74ab42f622a8978',1,'jugimap']]],
+  ['paused_1267',['PAUSED',['../group___globals.html#gga50bdd3122560e2010412f9acd67687c4a99b2439e63f73ad515f7ab2447a80673',1,'jugimap']]],
+  ['playing_1268',['PLAYING',['../group___globals.html#gga50bdd3122560e2010412f9acd67687c4a50366a49630a416ab3ccaa004196027e',1,'jugimap']]],
+  ['polyline_1269',['POLYLINE',['../group___globals.html#ggaaa9206375355490ae37301b68d135f8eaeaa8e11478ccd5c257fe6f8bb5591c89',1,'jugimap']]]
 ];
