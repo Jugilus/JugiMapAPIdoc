@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['layerkind_1222',['LayerKind',['../group___globals.html#gaa52763de299dba8324198f93970f3799',1,'jugimap']]],
-  ['layertype_1223',['LayerType',['../group___globals.html#ga56943a0946e5f15e5e58054b8e7a04a4',1,'jugimap']]]
+  ['filekind_1702',['FileKind',['../group___globals.html#ga84a454511f7473cb2254baa4cff462ea',1,'jugimap']]],
+  ['fontkind_1703',['FontKind',['../group___globals.html#gad19071725187629f07e7bae695ecf60c',1,'jugimap']]]
 ];

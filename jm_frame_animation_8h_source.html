@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/jmFrameAnimation.h Source File</title>
+<title>JugiMap Framework: C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/jmFrameAnimation.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -112,109 +112,113 @@ $(document).ready(function(){initNavTree('jm_frame_animation_8h_source.html','')
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation.html">   26</a></span>&#160;<span class="keyword">class  </span><a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> : <span class="keyword">public</span> <a class="code" href="classjugimap_1_1_animation.html">Animation</a></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_jugi_map_binary_loader.html">JugiMapBinaryLoader</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation.html">   24</a></span>&#160;<span class="keyword">class  </span><a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> : <span class="keyword">public</span> <a class="code" href="classjugimap_1_1_animation.html">Animation</a></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_jugi_map_binary_loader.html">JugiMapBinaryLoader</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::vector&lt;AnimationFrame*&gt;&amp;GetFrames(){ <span class="keywordflow">return</span> frames; }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    ~<a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    std::vector&lt;AnimationFrame*&gt;&amp;GetFrames(){ <span class="keywordflow">return</span> frames; }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    std::vector&lt;AnimationFrame*&gt;frames;                         <span class="comment">// OWNED</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>(<a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a>* _sourceObject);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>(<a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a>* _sourceObject, <span class="keyword">const</span> std::string &amp;_nameID);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> &amp;fa);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> &amp;fa);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>(<a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a>* _sourceObject);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>(<a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a>* _sourceObject, <span class="keyword">const</span> std::string &amp;_nameID);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> &amp;fa);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> &amp;fa);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    ~<a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::vector&lt;AnimationFrame*&gt;frames;                         <span class="comment">// OWNED</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//==================================================================================</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">//==================================================================================</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html">   55</a></span>&#160;<span class="keyword">class </span><a class="code" href="classjugimap_1_1_frame_animation_instance.html">FrameAnimationInstance</a> : <span class="keyword">public</span> <a class="code" href="classjugimap_1_1_animation_instance.html">AnimationInstance</a></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span>EFrameAnimationPlayer;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a19cf68653d1fe9d0ed85f99701e61626">FrameAnimationInstance</a>(<a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> *_animation, <a class="code" href="classjugimap_1_1_sprite.html">Sprite</a> *_sprite);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a19cf68653d1fe9d0ed85f99701e61626">FrameAnimationInstance</a>(<a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> *_animation, std::vector&lt;Sprite*&gt;&amp;_sprites);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a8c54e3117f5c9f62a4754ea7b0546109">~FrameAnimationInstance</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html#af1a6d6c4527515f1a027b2dc27e43fa2">   79</a></span>&#160;    <a class="code" href="classjugimap_1_1_sprite.html">Sprite</a>* <a class="code" href="classjugimap_1_1_frame_animation_instance.html#af1a6d6c4527515f1a027b2dc27e43fa2">GetSprite</a>(){ <span class="keywordflow">return</span> sprite;}</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html#a6f9ec9cbc8bfcf7594263abd74a13b80">   85</a></span>&#160;    std::vector&lt;Sprite*&gt;* <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a6f9ec9cbc8bfcf7594263abd74a13b80">GetSprites</a>(){ <span class="keywordflow">return</span> sprites;}</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html#a0505cc26bc4388a675fff0215a328f27">   89</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a0505cc26bc4388a675fff0215a328f27">GetStartingFrameIndex</a>(){ <span class="keywordflow">return</span> startingFrameIndex;}</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#ab97b5a17b6265aa2fdd744c58b3dcb8a">SetStartingFrameIndex</a>(<span class="keywordtype">int</span> _startingFrameIndex);</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html#a82f591d8a8b6e659e3b7000581c7e66b">   97</a></span>&#160;    AnimatedProperties &amp;<a class="code" href="classjugimap_1_1_frame_animation_instance.html#a82f591d8a8b6e659e3b7000581c7e66b">GetAnimatedProperties</a>(){ <span class="keywordflow">return</span> ap; }</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a301ccd8c8a802af96cc53769300f302a">Update</a>(<span class="keywordtype">int</span> msTimePoint, <span class="keywordtype">int</span> _flags) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#ad975226836b7f6b77218f8d2d9b51049">UpdateAnimatedSprites</a>(<span class="keywordtype">bool</span> _resetSpriteAnimatedProperties) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> ResetAnimatedProperties() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">void</span> OnPlayingStart() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">void</span> OnPlayingStop() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html">   57</a></span>&#160;<span class="keyword">class </span><a class="code" href="classjugimap_1_1_frame_animation_instance.html">FrameAnimationInstance</a> : <span class="keyword">public</span> <a class="code" href="classjugimap_1_1_animation_instance.html">AnimationInstance</a></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span>EFrameAnimationPlayer;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a19cf68653d1fe9d0ed85f99701e61626">FrameAnimationInstance</a>(<a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> *_animation, <a class="code" href="classjugimap_1_1_sprite.html">Sprite</a> *_sprite);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a19cf68653d1fe9d0ed85f99701e61626">FrameAnimationInstance</a>(<a class="code" href="classjugimap_1_1_frame_animation.html">FrameAnimation</a> *_animation, std::vector&lt;Sprite*&gt;&amp;_sprites);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a8c54e3117f5c9f62a4754ea7b0546109">~FrameAnimationInstance</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html#af1a6d6c4527515f1a027b2dc27e43fa2">   81</a></span>&#160;    <a class="code" href="classjugimap_1_1_sprite.html">Sprite</a>* <a class="code" href="classjugimap_1_1_frame_animation_instance.html#af1a6d6c4527515f1a027b2dc27e43fa2">GetSprite</a>(){ <span class="keywordflow">return</span> sprite;}</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html#a6f9ec9cbc8bfcf7594263abd74a13b80">   87</a></span>&#160;    std::vector&lt;Sprite*&gt;* <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a6f9ec9cbc8bfcf7594263abd74a13b80">GetSprites</a>(){ <span class="keywordflow">return</span> sprites;}</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html#a0505cc26bc4388a675fff0215a328f27">   91</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a0505cc26bc4388a675fff0215a328f27">GetStartingFrameIndex</a>(){ <span class="keywordflow">return</span> startingFrameIndex;}</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#ab97b5a17b6265aa2fdd744c58b3dcb8a">SetStartingFrameIndex</a>(<span class="keywordtype">int</span> _startingFrameIndex);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="classjugimap_1_1_frame_animation_instance.html#a82f591d8a8b6e659e3b7000581c7e66b">   99</a></span>&#160;    AnimatedProperties &amp;<a class="code" href="classjugimap_1_1_frame_animation_instance.html#a82f591d8a8b6e659e3b7000581c7e66b">GetAnimatedProperties</a>(){ <span class="keywordflow">return</span> ap; }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a301ccd8c8a802af96cc53769300f302a">Update</a>(<span class="keywordtype">int</span> msTimePoint, <span class="keywordtype">int</span> _flags) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#ad975226836b7f6b77218f8d2d9b51049">UpdateAnimatedSprites</a>(<span class="keywordtype">bool</span> _resetSpriteAnimatedProperties) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">void</span> ResetAnimatedProperties() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">void</span> OnPlayingStart() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordtype">void</span> OnPlayingStop() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="classjugimap_1_1_sprite.html">Sprite</a>* sprite = <span class="keyword">nullptr</span>;                                       <span class="comment">// LINK</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    std::vector&lt;Sprite*&gt;*sprites = <span class="keyword">nullptr</span>;                         <span class="comment">// vector OWNED, sprites LINKS</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    AnimatedProperties ap;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="classjugimap_1_1_sprite.html">Sprite</a>* sprite = <span class="keyword">nullptr</span>;                                       <span class="comment">// LINK</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    std::vector&lt;Sprite*&gt;*sprites = <span class="keyword">nullptr</span>;                         <span class="comment">// vector OWNED, sprites LINKS</span></div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordtype">int</span> startingFrameIndex = 0;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">int</span> activeFrameIndex = 0;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a19cf68653d1fe9d0ed85f99701e61626">FrameAnimationInstance</a>(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html">FrameAnimationInstance</a>&amp; _src) = delete ;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html">FrameAnimationInstance</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html">FrameAnimationInstance</a>&amp; _src) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a301ccd8c8a802af96cc53769300f302a">Update</a>(AnimationFrame *_animationFrame);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    AnimatedProperties ap;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">int</span> startingFrameIndex = 0;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">int</span> activeFrameIndex = 0;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a19cf68653d1fe9d0ed85f99701e61626">FrameAnimationInstance</a>(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html">FrameAnimationInstance</a>&amp; _src) = delete ;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="classjugimap_1_1_frame_animation_instance.html">FrameAnimationInstance</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html">FrameAnimationInstance</a>&amp; _src) = <span class="keyword">delete</span>;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;};</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_frame_animation_instance.html#a301ccd8c8a802af96cc53769300f302a">Update</a>(AnimationFrame *_animationFrame);</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;};</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_af1a6d6c4527515f1a027b2dc27e43fa2"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#af1a6d6c4527515f1a027b2dc27e43fa2">jugimap::FrameAnimationInstance::GetSprite</a></div><div class="ttdeci">Sprite * GetSprite()</div><div class="ttdoc">Returns the assigned sprite; if a vector of sprites has been assigned it returns nullptr!</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:79</div></div>
-<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a6f9ec9cbc8bfcf7594263abd74a13b80"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a6f9ec9cbc8bfcf7594263abd74a13b80">jugimap::FrameAnimationInstance::GetSprites</a></div><div class="ttdeci">std::vector&lt; Sprite * &gt; * GetSprites()</div><div class="ttdoc">Returns a pointer to the vector of assigned sprites; if one sprite has been assigned it returns nullp...</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:85</div></div>
+<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_af1a6d6c4527515f1a027b2dc27e43fa2"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#af1a6d6c4527515f1a027b2dc27e43fa2">jugimap::FrameAnimationInstance::GetSprite</a></div><div class="ttdeci">Sprite * GetSprite()</div><div class="ttdoc">Returns the assigned sprite; if a vector of sprites has been assigned it returns nullptr!</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:81</div></div>
+<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a6f9ec9cbc8bfcf7594263abd74a13b80"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a6f9ec9cbc8bfcf7594263abd74a13b80">jugimap::FrameAnimationInstance::GetSprites</a></div><div class="ttdeci">std::vector&lt; Sprite * &gt; * GetSprites()</div><div class="ttdoc">Returns a pointer to the vector of assigned sprites; if one sprite has been assigned it returns nullp...</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:87</div></div>
 <div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_ad975226836b7f6b77218f8d2d9b51049"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#ad975226836b7f6b77218f8d2d9b51049">jugimap::FrameAnimationInstance::UpdateAnimatedSprites</a></div><div class="ttdeci">void UpdateAnimatedSprites(bool _resetSpriteAnimatedProperties) override</div><div class="ttdoc">Update the animated sprites.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.cpp:293</div></div>
-<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a0505cc26bc4388a675fff0215a328f27"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a0505cc26bc4388a675fff0215a328f27">jugimap::FrameAnimationInstance::GetStartingFrameIndex</a></div><div class="ttdeci">int GetStartingFrameIndex()</div><div class="ttdoc">Returns the starting index in the sequence of frames of this animation.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:89</div></div>
-<div class="ttc" id="aclassjugimap_1_1_animation_instance_html"><div class="ttname"><a href="classjugimap_1_1_animation_instance.html">jugimap::AnimationInstance</a></div><div class="ttdoc">The base animation instance class.</div><div class="ttdef"><b>Definition:</b> jmAnimationCommon.h:161</div></div>
-<div class="ttc" id="aclassjugimap_1_1_sprite_html"><div class="ttname"><a href="classjugimap_1_1_sprite.html">jugimap::Sprite</a></div><div class="ttdoc">The base sprite class.</div><div class="ttdef"><b>Definition:</b> jmSprites.h:27</div></div>
-<div class="ttc" id="aclassjugimap_1_1_frame_animation_html"><div class="ttname"><a href="classjugimap_1_1_frame_animation.html">jugimap::FrameAnimation</a></div><div class="ttdoc">Frame animation of standard sprites.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:26</div></div>
+<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a0505cc26bc4388a675fff0215a328f27"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a0505cc26bc4388a675fff0215a328f27">jugimap::FrameAnimationInstance::GetStartingFrameIndex</a></div><div class="ttdeci">int GetStartingFrameIndex()</div><div class="ttdoc">Returns the starting index in the sequence of frames of this animation.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:91</div></div>
+<div class="ttc" id="aclassjugimap_1_1_animation_instance_html"><div class="ttname"><a href="classjugimap_1_1_animation_instance.html">jugimap::AnimationInstance</a></div><div class="ttdoc">The base animation instance class.</div><div class="ttdef"><b>Definition:</b> jmAnimationCommon.h:163</div></div>
+<div class="ttc" id="aclassjugimap_1_1_sprite_html"><div class="ttname"><a href="classjugimap_1_1_sprite.html">jugimap::Sprite</a></div><div class="ttdoc">The Sprite is the base sprite class.</div><div class="ttdef"><b>Definition:</b> jmSprites.h:32</div></div>
+<div class="ttc" id="aclassjugimap_1_1_frame_animation_html"><div class="ttname"><a href="classjugimap_1_1_frame_animation.html">jugimap::FrameAnimation</a></div><div class="ttdoc">The FrameAnimation class represents the sprite frame animation from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:24</div></div>
 <div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a301ccd8c8a802af96cc53769300f302a"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a301ccd8c8a802af96cc53769300f302a">jugimap::FrameAnimationInstance::Update</a></div><div class="ttdeci">int Update(int msTimePoint, int _flags) override</div><div class="ttdoc">Update the animation state for the given msTimePoint.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.cpp:208</div></div>
-<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a82f591d8a8b6e659e3b7000581c7e66b"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a82f591d8a8b6e659e3b7000581c7e66b">jugimap::FrameAnimationInstance::GetAnimatedProperties</a></div><div class="ttdeci">AnimatedProperties &amp; GetAnimatedProperties()</div><div class="ttdoc">Get a reference to the AnimatedProperties object of this animation instance.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:97</div></div>
+<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a82f591d8a8b6e659e3b7000581c7e66b"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a82f591d8a8b6e659e3b7000581c7e66b">jugimap::FrameAnimationInstance::GetAnimatedProperties</a></div><div class="ttdeci">AnimatedProperties &amp; GetAnimatedProperties()</div><div class="ttdoc">Get a reference to the AnimatedProperties object of this animation instance.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:99</div></div>
 <div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_ab97b5a17b6265aa2fdd744c58b3dcb8a"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#ab97b5a17b6265aa2fdd744c58b3dcb8a">jugimap::FrameAnimationInstance::SetStartingFrameIndex</a></div><div class="ttdeci">void SetStartingFrameIndex(int _startingFrameIndex)</div><div class="ttdoc">Set the starting index in the sequence of frames of this animation to the given *_startingFrameIndex*...</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.cpp:163</div></div>
-<div class="ttc" id="aclassjugimap_1_1_animation_html"><div class="ttname"><a href="classjugimap_1_1_animation.html">jugimap::Animation</a></div><div class="ttdoc">The base animation class.</div><div class="ttdef"><b>Definition:</b> jmAnimationCommon.h:94</div></div>
+<div class="ttc" id="aclassjugimap_1_1_animation_html"><div class="ttname"><a href="classjugimap_1_1_animation.html">jugimap::Animation</a></div><div class="ttdoc">The base animation class.</div><div class="ttdef"><b>Definition:</b> jmAnimationCommon.h:95</div></div>
 <div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a19cf68653d1fe9d0ed85f99701e61626"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a19cf68653d1fe9d0ed85f99701e61626">jugimap::FrameAnimationInstance::FrameAnimationInstance</a></div><div class="ttdeci">FrameAnimationInstance(FrameAnimation *_animation, Sprite *_sprite)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.cpp:125</div></div>
 <div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html_a8c54e3117f5c9f62a4754ea7b0546109"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html#a8c54e3117f5c9f62a4754ea7b0546109">jugimap::FrameAnimationInstance::~FrameAnimationInstance</a></div><div class="ttdeci">~FrameAnimationInstance() override</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.cpp:154</div></div>
-<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html">jugimap::FrameAnimationInstance</a></div><div class="ttdoc">A class for using frame animations in animation players.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:55</div></div>
-<div class="ttc" id="aclassjugimap_1_1_source_sprite_html"><div class="ttname"><a href="classjugimap_1_1_source_sprite.html">jugimap::SourceSprite</a></div><div class="ttdoc">Source sprite.</div><div class="ttdef"><b>Definition:</b> jmSourceGraphics.h:193</div></div>
+<div class="ttc" id="aclassjugimap_1_1_frame_animation_instance_html"><div class="ttname"><a href="classjugimap_1_1_frame_animation_instance.html">jugimap::FrameAnimationInstance</a></div><div class="ttdoc">A class for using frame animations in animation players.</div><div class="ttdef"><b>Definition:</b> jmFrameAnimation.h:57</div></div>
+<div class="ttc" id="aclassjugimap_1_1_source_sprite_html"><div class="ttname"><a href="classjugimap_1_1_source_sprite.html">jugimap::SourceSprite</a></div><div class="ttdoc">The SourceSprite class defines the source sprite from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmSourceGraphics.h:221</div></div>
 <div class="ttc" id="aclassjugimap_1_1_jugi_map_binary_loader_html"><div class="ttname"><a href="classjugimap_1_1_jugi_map_binary_loader.html">jugimap::JugiMapBinaryLoader</a></div><div class="ttdoc">The JugiMapBinaryLoader class loads data from jugimap binary files (.jmb).</div><div class="ttdef"><b>Definition:</b> jmMapBinaryLoader.h:37</div></div>
 <!-- HTML footer for doxygen 1.8.16-->
 <!-- start footer part -->

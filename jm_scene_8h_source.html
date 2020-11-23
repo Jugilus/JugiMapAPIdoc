@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/jmScene.h Source File</title>
+<title>JugiMap Framework: C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/jmScene.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -96,84 +96,137 @@ $(document).ready(function(){initNavTree('jm_scene_8h_source.html','');});
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;chrono&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;jmCommon.h&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;jmGlobal.h&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>jugimap {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>jugimap {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classjugimap_1_1_scene.html">Scene</a></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>Map;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>SourceGraphics;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>EngineScene;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>App;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classjugimap_1_1_scene.html">Scene</a>(){}</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> Init() = 0;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Start() = 0;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Update() = 0;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Draw(){}</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classjugimap_1_1_scene.html">Scene</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_app.html">App</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#ac3696554118e70be219c7d1cf93cd935">   30</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_scene.html#ac3696554118e70be219c7d1cf93cd935">SetInitialized</a>(<span class="keywordtype">bool</span> _initialized){ initialized = _initialized;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="classjugimap_1_1_scene.html#aaffca5c1fbe2171ad39fd6585c314b63">Scene</a>();</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#a5d722e33d5e4075d4f0fc88c7cb54bd2">   34</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classjugimap_1_1_scene.html#a5d722e33d5e4075d4f0fc88c7cb54bd2">IsInitialized</a>(){ <span class="keywordflow">return</span> initialized;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#a3172f15c4f5860e8c276b394f75bae1d">   38</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_scene.html#a3172f15c4f5860e8c276b394f75bae1d">SetActive</a>(<span class="keywordtype">bool</span> _active){ active = _active; }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> Init() = 0;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Start() = 0;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Update() = 0;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> PreUpdate();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> PostUpdate();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Draw();</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#acd2bd274749fe88c223cf2309f6fb9d6">   42</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classjugimap_1_1_scene.html#acd2bd274749fe88c223cf2309f6fb9d6">IsActive</a>(){ <span class="keywordflow">return</span> active;}</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#ac3696554118e70be219c7d1cf93cd935">   42</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_scene.html#ac3696554118e70be219c7d1cf93cd935">SetInitialized</a>(<span class="keywordtype">bool</span> _initialized){ initialized = _initialized;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#a754846b17037e88154f17fd4b116e2cd">   49</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_scene.html#a754846b17037e88154f17fd4b116e2cd">SetTag</a>(<span class="keywordtype">int</span> _tag){ tag = _tag;}</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#a5d722e33d5e4075d4f0fc88c7cb54bd2">   46</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classjugimap_1_1_scene.html#a5d722e33d5e4075d4f0fc88c7cb54bd2">IsInitialized</a>(){ <span class="keywordflow">return</span> initialized;}</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#a2be257d00319bb6f2c2670008e4e1548">   50</a></span>&#160;    <a class="code" href="classjugimap_1_1_engine_scene.html">EngineScene</a>* <a class="code" href="classjugimap_1_1_scene.html#a2be257d00319bb6f2c2670008e4e1548">GetEngineScene</a>(){ <span class="keywordflow">return</span> engineScene; }</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#a4a714b3ee8f1f0fa2c9403375b2323aa">   55</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classjugimap_1_1_scene.html#a4a714b3ee8f1f0fa2c9403375b2323aa">GetTag</a>(){ <span class="keywordflow">return</span> tag; }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#ac8911292d87ebeb64384d7e36abea9f4">   54</a></span>&#160;    std::vector&lt;Map*&gt;&amp; <a class="code" href="classjugimap_1_1_scene.html#ac8911292d87ebeb64384d7e36abea9f4">GetMaps</a>(){ <span class="keywordflow">return</span> maps; }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#a8b32428445aacbaa3601cff00cacb14c">   62</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_scene.html#a8b32428445aacbaa3601cff00cacb14c">SetEngineSceneLink</a>(<span class="keywordtype">void</span>* _engineSceneLink) { engineSceneLink = _engineSceneLink; }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="classjugimap_1_1_source_graphics.html">SourceGraphics</a>* <a class="code" href="classjugimap_1_1_scene.html#aee76bb2a0a2d4f6158af56ccd3a27569">LoadAndAddSourceGraphics</a>(<span class="keyword">const</span> std::string &amp;_filePath);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#aa34da30cf683912ee252cbe085ea486d">   66</a></span>&#160;    <span class="keywordtype">void</span>* <a class="code" href="classjugimap_1_1_scene.html#aa34da30cf683912ee252cbe085ea486d">GetEngineSceneLink</a>(){ <span class="keywordflow">return</span> engineSceneLink; }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#acee0b324b2f9956109e7131340976205">   72</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_scene.html#acee0b324b2f9956109e7131340976205">SetPhysicsEnabled</a>(<span class="keywordtype">bool</span> _physicsEnabled){ physicsEnabled = _physicsEnabled; }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="classjugimap_1_1_map.html">Map</a>* <a class="code" href="classjugimap_1_1_scene.html#a8ebbee3786edd81d08c1b2003cc8f933">LoadAndAddMap</a>(<span class="keyword">const</span> std::string &amp;_filePath, <a class="code" href="classjugimap_1_1_source_graphics.html">SourceGraphics</a>* _sourceGraphics, <a class="code" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> _mapType, <span class="keywordtype">int</span> _mapZOrder = -1);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#acf08974fe7db5c91cd261aeae0add26c">   76</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classjugimap_1_1_scene.html#acf08974fe7db5c91cd261aeae0add26c">HasPhysicsEnabled</a>(){ <span class="keywordflow">return</span> physicsEnabled; }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">bool</span> initialized = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">bool</span> active = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">int</span> tag = 0;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span>* engineSceneLink = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">bool</span> physicsEnabled = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;};</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="classjugimap_1_1_map.html">Map</a>* <a class="code" href="classjugimap_1_1_scene.html#aa08718c34cb84e68d1292139c8bfeb8b">AddMap</a>(<span class="keyword">const</span> std::string &amp;_name, <a class="code" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> _mapType, <span class="keywordtype">int</span> _mapZOrder = -1);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="classjugimap_1_1_scene.html#a2343337fa861f4c6b1093ba51e42daae">   86</a></span>&#160;    std::vector&lt;SourceGraphics*&gt;&amp; <a class="code" href="classjugimap_1_1_scene.html#a2343337fa861f4c6b1093ba51e42daae">GetSourceGraphics</a>(){ <span class="keywordflow">return</span> sourceGraphics; }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classjugimap_1_1_scene.html#a27f0d53a3c22e7fd44cdd3b113942061">~Scene</a>();</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">bool</span> initialized = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">int</span> tag = 0;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="classjugimap_1_1_engine_scene.html">EngineScene</a>* engineScene = <span class="keyword">nullptr</span>;                 <span class="comment">// owned</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    std::vector&lt;Map*&gt;maps;                              <span class="comment">// owned</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    std::vector&lt;SourceGraphics*&gt;sourceGraphics;         <span class="comment">// owned</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;};</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="classjugimap_1_1_engine_scene.html">  109</a></span>&#160;<span class="keyword">class </span><a class="code" href="classjugimap_1_1_engine_scene.html">EngineScene</a></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="classjugimap_1_1_engine_scene.html">EngineScene</a>(<a class="code" href="classjugimap_1_1_scene.html">Scene</a> *_scene) : scene(_scene){}</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classjugimap_1_1_engine_scene.html">EngineScene</a>(){}</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="classjugimap_1_1_engine_scene.html#a1ece8cd0d8b1dd17f128ff67f446962b">  118</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_engine_scene.html#a1ece8cd0d8b1dd17f128ff67f446962b">PreInit</a>(){}</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="classjugimap_1_1_engine_scene.html#a5f456eb40c4d88a20980a054219f5331">  122</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_engine_scene.html#a5f456eb40c4d88a20980a054219f5331">PostInit</a>(){}</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="classjugimap_1_1_engine_scene.html#add4b1a9030b28ec83df50d9170f94d42">  126</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_engine_scene.html#add4b1a9030b28ec83df50d9170f94d42">PreUpdate</a>(){}</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="classjugimap_1_1_engine_scene.html#ab4aeff00204ca6f7a673b69e3c41dc64">  130</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_engine_scene.html#ab4aeff00204ca6f7a673b69e3c41dc64">PostUpdate</a>(){}</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="classjugimap_1_1_engine_scene.html#a0f547312833bbeb884d37e6e30c31ed7">  134</a></span>&#160;    <a class="code" href="classjugimap_1_1_scene.html">Scene</a>* <a class="code" href="classjugimap_1_1_engine_scene.html#a0f547312833bbeb884d37e6e30c31ed7">GetScene</a>(){ <span class="keywordflow">return</span> scene; }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="classjugimap_1_1_scene.html">Scene</a> *scene = <span class="keyword">nullptr</span>;             <span class="comment">// LINK</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;};</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;}</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclassjugimap_1_1_scene_html_acf08974fe7db5c91cd261aeae0add26c"><div class="ttname"><a href="classjugimap_1_1_scene.html#acf08974fe7db5c91cd261aeae0add26c">jugimap::Scene::HasPhysicsEnabled</a></div><div class="ttdeci">bool HasPhysicsEnabled()</div><div class="ttdoc">Returns the physics enabled flag.</div><div class="ttdef"><b>Definition:</b> jmScene.h:76</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html"><div class="ttname"><a href="classjugimap_1_1_scene.html">jugimap::Scene</a></div><div class="ttdoc">The scene class.</div><div class="ttdef"><b>Definition:</b> jmScene.h:17</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_acee0b324b2f9956109e7131340976205"><div class="ttname"><a href="classjugimap_1_1_scene.html#acee0b324b2f9956109e7131340976205">jugimap::Scene::SetPhysicsEnabled</a></div><div class="ttdeci">void SetPhysicsEnabled(bool _physicsEnabled)</div><div class="ttdoc">Set the physics enabled flag.</div><div class="ttdef"><b>Definition:</b> jmScene.h:72</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_a8b32428445aacbaa3601cff00cacb14c"><div class="ttname"><a href="classjugimap_1_1_scene.html#a8b32428445aacbaa3601cff00cacb14c">jugimap::Scene::SetEngineSceneLink</a></div><div class="ttdeci">void SetEngineSceneLink(void *_engineSceneLink)</div><div class="ttdoc">Set the engine scene link of this scene to the given _engineSceneLink.</div><div class="ttdef"><b>Definition:</b> jmScene.h:62</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_a3172f15c4f5860e8c276b394f75bae1d"><div class="ttname"><a href="classjugimap_1_1_scene.html#a3172f15c4f5860e8c276b394f75bae1d">jugimap::Scene::SetActive</a></div><div class="ttdeci">void SetActive(bool _active)</div><div class="ttdoc">Set a flag that indicated if this scene is active.</div><div class="ttdef"><b>Definition:</b> jmScene.h:38</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_a754846b17037e88154f17fd4b116e2cd"><div class="ttname"><a href="classjugimap_1_1_scene.html#a754846b17037e88154f17fd4b116e2cd">jugimap::Scene::SetTag</a></div><div class="ttdeci">void SetTag(int _tag)</div><div class="ttdoc">Set the tag of this scene to the given _tag.</div><div class="ttdef"><b>Definition:</b> jmScene.h:49</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_aa34da30cf683912ee252cbe085ea486d"><div class="ttname"><a href="classjugimap_1_1_scene.html#aa34da30cf683912ee252cbe085ea486d">jugimap::Scene::GetEngineSceneLink</a></div><div class="ttdeci">void * GetEngineSceneLink()</div><div class="ttdoc">Returns the engine scene link object.</div><div class="ttdef"><b>Definition:</b> jmScene.h:66</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_a4a714b3ee8f1f0fa2c9403375b2323aa"><div class="ttname"><a href="classjugimap_1_1_scene.html#a4a714b3ee8f1f0fa2c9403375b2323aa">jugimap::Scene::GetTag</a></div><div class="ttdeci">int GetTag()</div><div class="ttdoc">Returns the tag of this scene.</div><div class="ttdef"><b>Definition:</b> jmScene.h:55</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_ac3696554118e70be219c7d1cf93cd935"><div class="ttname"><a href="classjugimap_1_1_scene.html#ac3696554118e70be219c7d1cf93cd935">jugimap::Scene::SetInitialized</a></div><div class="ttdeci">void SetInitialized(bool _initialized)</div><div class="ttdoc">Set a flag that indicated if this scene has been initialized.</div><div class="ttdef"><b>Definition:</b> jmScene.h:30</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_a5d722e33d5e4075d4f0fc88c7cb54bd2"><div class="ttname"><a href="classjugimap_1_1_scene.html#a5d722e33d5e4075d4f0fc88c7cb54bd2">jugimap::Scene::IsInitialized</a></div><div class="ttdeci">bool IsInitialized()</div><div class="ttdoc">Returns true if this scene has been initialized; otherwise returns false.</div><div class="ttdef"><b>Definition:</b> jmScene.h:34</div></div>
-<div class="ttc" id="aclassjugimap_1_1_scene_html_acd2bd274749fe88c223cf2309f6fb9d6"><div class="ttname"><a href="classjugimap_1_1_scene.html#acd2bd274749fe88c223cf2309f6fb9d6">jugimap::Scene::IsActive</a></div><div class="ttdeci">bool IsActive()</div><div class="ttdoc">Returns true if this scene is active; otherwise returns false.</div><div class="ttdef"><b>Definition:</b> jmScene.h:42</div></div>
+<div class="ttc" id="aclassjugimap_1_1_engine_scene_html_a5f456eb40c4d88a20980a054219f5331"><div class="ttname"><a href="classjugimap_1_1_engine_scene.html#a5f456eb40c4d88a20980a054219f5331">jugimap::EngineScene::PostInit</a></div><div class="ttdeci">virtual void PostInit()</div><div class="ttdoc">Interface function for running engine specific code after the scene initialization.</div><div class="ttdef"><b>Definition:</b> jmScene.h:122</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_aee76bb2a0a2d4f6158af56ccd3a27569"><div class="ttname"><a href="classjugimap_1_1_scene.html#aee76bb2a0a2d4f6158af56ccd3a27569">jugimap::Scene::LoadAndAddSourceGraphics</a></div><div class="ttdeci">SourceGraphics * LoadAndAddSourceGraphics(const std::string &amp;_filePath)</div><div class="ttdoc">Load a new SourceGraphics object from the given file *_filePath* and store it in this scene.</div><div class="ttdef"><b>Definition:</b> jmScene.cpp:118</div></div>
+<div class="ttc" id="aclassjugimap_1_1_engine_scene_html"><div class="ttname"><a href="classjugimap_1_1_engine_scene.html">jugimap::EngineScene</a></div><div class="ttdoc">The EngineScene class defines engine specific scene properties.</div><div class="ttdef"><b>Definition:</b> jmScene.h:109</div></div>
+<div class="ttc" id="aclassjugimap_1_1_app_html"><div class="ttname"><a href="classjugimap_1_1_app.html">jugimap::App</a></div><div class="ttdoc">The App is the base class of the application.</div><div class="ttdef"><b>Definition:</b> jmApp.h:22</div></div>
+<div class="ttc" id="aclassjugimap_1_1_engine_scene_html_ab4aeff00204ca6f7a673b69e3c41dc64"><div class="ttname"><a href="classjugimap_1_1_engine_scene.html#ab4aeff00204ca6f7a673b69e3c41dc64">jugimap::EngineScene::PostUpdate</a></div><div class="ttdeci">virtual void PostUpdate()</div><div class="ttdoc">Interface function for running engine specific code after the scene update.</div><div class="ttdef"><b>Definition:</b> jmScene.h:130</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html"><div class="ttname"><a href="classjugimap_1_1_scene.html">jugimap::Scene</a></div><div class="ttdoc">The Scene class is the base class for the application scenes.</div><div class="ttdef"><b>Definition:</b> jmScene.h:23</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_a2be257d00319bb6f2c2670008e4e1548"><div class="ttname"><a href="classjugimap_1_1_scene.html#a2be257d00319bb6f2c2670008e4e1548">jugimap::Scene::GetEngineScene</a></div><div class="ttdeci">EngineScene * GetEngineScene()</div><div class="ttdoc">Returns the engine scene object of this scene.</div><div class="ttdef"><b>Definition:</b> jmScene.h:50</div></div>
+<div class="ttc" id="aclassjugimap_1_1_source_graphics_html"><div class="ttname"><a href="classjugimap_1_1_source_graphics.html">jugimap::SourceGraphics</a></div><div class="ttdoc">The SourceGraphics class represents source graphics elements from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmSourceGraphics.h:351</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_a27f0d53a3c22e7fd44cdd3b113942061"><div class="ttname"><a href="classjugimap_1_1_scene.html#a27f0d53a3c22e7fd44cdd3b113942061">jugimap::Scene::~Scene</a></div><div class="ttdeci">virtual ~Scene()</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> jmScene.cpp:27</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_ac8911292d87ebeb64384d7e36abea9f4"><div class="ttname"><a href="classjugimap_1_1_scene.html#ac8911292d87ebeb64384d7e36abea9f4">jugimap::Scene::GetMaps</a></div><div class="ttdeci">std::vector&lt; Map * &gt; &amp; GetMaps()</div><div class="ttdoc">Returns a reference to the vector of stored maps.</div><div class="ttdef"><b>Definition:</b> jmScene.h:54</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_a2343337fa861f4c6b1093ba51e42daae"><div class="ttname"><a href="classjugimap_1_1_scene.html#a2343337fa861f4c6b1093ba51e42daae">jugimap::Scene::GetSourceGraphics</a></div><div class="ttdeci">std::vector&lt; SourceGraphics * &gt; &amp; GetSourceGraphics()</div><div class="ttdoc">Returns a reference to the vector of stored source graphics.</div><div class="ttdef"><b>Definition:</b> jmScene.h:86</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_ac3696554118e70be219c7d1cf93cd935"><div class="ttname"><a href="classjugimap_1_1_scene.html#ac3696554118e70be219c7d1cf93cd935">jugimap::Scene::SetInitialized</a></div><div class="ttdeci">void SetInitialized(bool _initialized)</div><div class="ttdoc">Set a flag that indicated if this scene has been initialized.</div><div class="ttdef"><b>Definition:</b> jmScene.h:42</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_aa08718c34cb84e68d1292139c8bfeb8b"><div class="ttname"><a href="classjugimap_1_1_scene.html#aa08718c34cb84e68d1292139c8bfeb8b">jugimap::Scene::AddMap</a></div><div class="ttdeci">Map * AddMap(const std::string &amp;_name, MapType _mapType, int _mapZOrder=-1)</div><div class="ttdoc">Add a new empty Map object to this scene.</div><div class="ttdef"><b>Definition:</b> jmScene.cpp:166</div></div>
+<div class="ttc" id="aclassjugimap_1_1_engine_scene_html_add4b1a9030b28ec83df50d9170f94d42"><div class="ttname"><a href="classjugimap_1_1_engine_scene.html#add4b1a9030b28ec83df50d9170f94d42">jugimap::EngineScene::PreUpdate</a></div><div class="ttdeci">virtual void PreUpdate()</div><div class="ttdoc">Interface function for running engine specific code before the scene update.</div><div class="ttdef"><b>Definition:</b> jmScene.h:126</div></div>
+<div class="ttc" id="agroup___globals_html_ga4c73d8aa04c5b31558f468b95d4748b3"><div class="ttname"><a href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">jugimap::MapType</a></div><div class="ttdeci">MapType</div><div class="ttdoc">The types of map.</div><div class="ttdef"><b>Definition:</b> jmGlobal.h:42</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_a8ebbee3786edd81d08c1b2003cc8f933"><div class="ttname"><a href="classjugimap_1_1_scene.html#a8ebbee3786edd81d08c1b2003cc8f933">jugimap::Scene::LoadAndAddMap</a></div><div class="ttdeci">Map * LoadAndAddMap(const std::string &amp;_filePath, SourceGraphics *_sourceGraphics, MapType _mapType, int _mapZOrder=-1)</div><div class="ttdoc">Load a new Map object from the given file *_filePath* and store it in this scene.</div><div class="ttdef"><b>Definition:</b> jmScene.cpp:140</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_a5d722e33d5e4075d4f0fc88c7cb54bd2"><div class="ttname"><a href="classjugimap_1_1_scene.html#a5d722e33d5e4075d4f0fc88c7cb54bd2">jugimap::Scene::IsInitialized</a></div><div class="ttdeci">bool IsInitialized()</div><div class="ttdoc">Returns true if this scene has been initialized; otherwise returns false.</div><div class="ttdef"><b>Definition:</b> jmScene.h:46</div></div>
+<div class="ttc" id="aclassjugimap_1_1_engine_scene_html_a1ece8cd0d8b1dd17f128ff67f446962b"><div class="ttname"><a href="classjugimap_1_1_engine_scene.html#a1ece8cd0d8b1dd17f128ff67f446962b">jugimap::EngineScene::PreInit</a></div><div class="ttdeci">virtual void PreInit()</div><div class="ttdoc">Interface function for running engine specific code before the scene initialization.</div><div class="ttdef"><b>Definition:</b> jmScene.h:118</div></div>
+<div class="ttc" id="aclassjugimap_1_1_scene_html_aaffca5c1fbe2171ad39fd6585c314b63"><div class="ttname"><a href="classjugimap_1_1_scene.html#aaffca5c1fbe2171ad39fd6585c314b63">jugimap::Scene::Scene</a></div><div class="ttdeci">Scene()</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> jmScene.cpp:21</div></div>
+<div class="ttc" id="aclassjugimap_1_1_engine_scene_html_a0f547312833bbeb884d37e6e30c31ed7"><div class="ttname"><a href="classjugimap_1_1_engine_scene.html#a0f547312833bbeb884d37e6e30c31ed7">jugimap::EngineScene::GetScene</a></div><div class="ttdeci">Scene * GetScene()</div><div class="ttdoc">Returns the scene object.</div><div class="ttdef"><b>Definition:</b> jmScene.h:134</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html"><div class="ttname"><a href="classjugimap_1_1_map.html">jugimap::Map</a></div><div class="ttdoc">The Map class defines the map element from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmMap.h:26</div></div>
 <!-- HTML footer for doxygen 1.8.16-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

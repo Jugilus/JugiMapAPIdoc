@@ -2,8 +2,8 @@ var classjugimap_1_1_composed_sprite =
 [
     [ "ComposedSprite", "classjugimap_1_1_composed_sprite.html#a9059f85006fc5feb207dee2bf6852745", null ],
     [ "~ComposedSprite", "classjugimap_1_1_composed_sprite.html#adbb321fb6c3c0d6f4e42fa0eab8a2c9d", null ],
-    [ "InitEngineSprite", "classjugimap_1_1_composed_sprite.html#ab9e0cbfd77962ca17ca4d35852c0e82d", null ],
-    [ "UpdateEngineSprite", "classjugimap_1_1_composed_sprite.html#aef82fa39fe1c11329b97e0e6e4370bcd", null ],
+    [ "InitEngineObjects", "classjugimap_1_1_composed_sprite.html#ac372e8987a6518a22d16cb203f4d5c23", null ],
+    [ "UpdateEngineObjects", "classjugimap_1_1_composed_sprite.html#ad4e860f4d84ed1007aa9e4ad2762a953", null ],
     [ "DrawEngineSprite", "classjugimap_1_1_composed_sprite.html#afebb20d3ea71fca8698e385d001f7616", null ],
     [ "SetVisible", "classjugimap_1_1_composed_sprite.html#a90331d9ccfce5321f48b33c2327368df", null ],
     [ "HasCollider", "classjugimap_1_1_composed_sprite.html#acfd5cf2837f6a1513c7a9d283746c026", null ],

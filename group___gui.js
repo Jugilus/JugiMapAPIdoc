@@ -1,0 +1,177 @@
+var group___gui =
+[
+    [ "GuiWidgetCallback", "structjugimap_1_1_gui_widget_callback.html", [
+      [ "OnPressed", "structjugimap_1_1_gui_widget_callback.html#ad3e21f3271a27081d5ff956cf14ac185", null ],
+      [ "OnCursorOver", "structjugimap_1_1_gui_widget_callback.html#a43c7562863d0ba6530aca857f1a8b1c2", null ],
+      [ "OnCursorDown", "structjugimap_1_1_gui_widget_callback.html#a40a42bd5249841d29eafd4e7fe5b12c9", null ],
+      [ "OnValueChanged", "structjugimap_1_1_gui_widget_callback.html#ac4506f46ef625d60b3212d77131526c7", null ],
+      [ "OnValueChangedViaButton", "structjugimap_1_1_gui_widget_callback.html#ad59b0e21bb4bd92188110b79f689e867", null ]
+    ] ],
+    [ "GuiWidget", "classjugimap_1_1_gui_widget.html", [
+      [ "IsCursorDown", "classjugimap_1_1_gui_widget.html#ac893a4f6990df39a1249cf91249fb5fb", null ],
+      [ "IsCursorOver", "classjugimap_1_1_gui_widget.html#a2797746e60c28abd2be960475691eb46", null ],
+      [ "IsPressed", "classjugimap_1_1_gui_widget.html#a51e55174b866737b6ff7b6b4883ec74e", null ],
+      [ "IsValueChanged", "classjugimap_1_1_gui_widget.html#af366e15e5d38076ad21c424ba7c98499", null ],
+      [ "SetDisabled", "classjugimap_1_1_gui_widget.html#a928ee97fefdd516f41a5c89de10dfdbe", null ],
+      [ "IsDisabled", "classjugimap_1_1_gui_widget.html#a23fd01790d2823b70d704ed18112689c", null ],
+      [ "SetVisible", "classjugimap_1_1_gui_widget.html#a9d954d6f8820b97c149eeef7069f69c9", null ],
+      [ "IsVisible", "classjugimap_1_1_gui_widget.html#afcd62a638f43f1f9c3a507b923a2dffd", null ],
+      [ "SetName", "classjugimap_1_1_gui_widget.html#a1233a88584929349157ec04ca3d389e3", null ],
+      [ "GetName", "classjugimap_1_1_gui_widget.html#a8facce7acc5e95194c232b9bbd1363d5", null ],
+      [ "SetTag", "classjugimap_1_1_gui_widget.html#a754846b17037e88154f17fd4b116e2cd", null ],
+      [ "GetTag", "classjugimap_1_1_gui_widget.html#a4a714b3ee8f1f0fa2c9403375b2323aa", null ],
+      [ "GetKind", "classjugimap_1_1_gui_widget.html#a753cf7242865834c75481781227ab31f", null ],
+      [ "GetDesignKind", "classjugimap_1_1_gui_widget.html#aae315821b63c2485412150269f7b8605", null ],
+      [ "AssignCustomObject", "classjugimap_1_1_gui_widget.html#a297d6899cbd051712664d947c4ced4b5", null ],
+      [ "GetCustomObject", "classjugimap_1_1_gui_widget.html#a1d8c8d960ce9f65e233280e03ec0798e", null ],
+      [ "AssignCallback", "classjugimap_1_1_gui_widget.html#a0138466ca0520895d7d7d668f4a91288", null ],
+      [ "GetCallback", "classjugimap_1_1_gui_widget.html#a0a94a4924c1709f906fde8c099ad50c8", null ]
+    ] ],
+    [ "GuiCursorDeviceInput", "classjugimap_1_1_gui_cursor_device_input.html", null ],
+    [ "GuiKeyboardAndJoystickInput", "classjugimap_1_1_gui_keyboard_and_joystick_input.html", [
+      [ "SetDisabled", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a928ee97fefdd516f41a5c89de10dfdbe", null ],
+      [ "IsDisabled", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a23fd01790d2823b70d704ed18112689c", null ],
+      [ "SetWidgets", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#ae16f9d96b29816861c99df9bc4badd6f", null ],
+      [ "GetWidgets", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a2ca7ac1380cd9fbc2d3f7699f8b93420", null ],
+      [ "SetNavigateForwardKeys", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a78dd6337f5576d32aed858de8b3aaca7", null ],
+      [ "SetNavigateBackwardKeys", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a28507c67a5632b276deca6b7789e5a1b", null ],
+      [ "SetPressKeys", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a9499eb80a4bbbb9abbd5ba1d7147c078", null ],
+      [ "SetIncrementValueKeys", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a99335cdc5400d3e5959ecd54b9cab9cb", null ],
+      [ "SetDecrementValueKeys", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#ab144a5d9d5580e3c6d505c113eadfa05", null ],
+      [ "SetNavigateForwardJoystickPOV_X", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a7becd002443fcfae6812abcc56c9a61b", null ],
+      [ "SetNavigateForwardJoystickPOV_Y", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a03b5449be83bddae8c28f0148692ef98", null ],
+      [ "SetNavigateBackwardJoystickPOV_X", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a8cdfaf4bb828a722124a10bff433523f", null ],
+      [ "SetNavigateBackwardJoystickPOV_Y", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a446f98631c4d354c270876de1116da72", null ],
+      [ "SetJoystickPressButtons", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#ad1798c127d7a441d552f7c1add9fd8c0", null ],
+      [ "SetIncrementValueJoystickPOV_X", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a06e59e8044982f72b8508d2d0d1fc0c8", null ],
+      [ "SetIncrementValueJoystickPOV_Y", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a0036501f0439281ea442e9d8464b1c77", null ],
+      [ "SetDecrementValueJoystickPOV_X", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#a8588f29a83deca2b7243f9f316860d3f", null ],
+      [ "SetDecrementValueJoystickPOV_Y", "classjugimap_1_1_gui_keyboard_and_joystick_input.html#aa62d8d58f8b2b2d550107ba8aac621d1", null ]
+    ] ],
+    [ "TextSegment", "classjugimap_1_1_text_segment.html", [
+      [ "GetId", "classjugimap_1_1_text_segment.html#a7afa9b288457f394b566c93d58820852", null ],
+      [ "GetParameters", "classjugimap_1_1_text_segment.html#aa74cba13443b87122c1300f4a27cda9f", null ],
+      [ "Replace", "classjugimap_1_1_text_segment.html#a1c82db4ec84ef992023b5179c53ac255", null ],
+      [ "Contains", "classjugimap_1_1_text_segment.html#a3f27282fd2272e5bc7cf099aaa373dde", null ]
+    ] ],
+    [ "TextSequence", "classjugimap_1_1_text_sequence.html", [
+      [ "GetId", "classjugimap_1_1_text_sequence.html#a7afa9b288457f394b566c93d58820852", null ],
+      [ "GetTextSegments", "classjugimap_1_1_text_sequence.html#abc19370d1ab276bf8b72f7dc87dd8004", null ],
+      [ "GetParameters", "classjugimap_1_1_text_sequence.html#aa74cba13443b87122c1300f4a27cda9f", null ]
+    ] ],
+    [ "TextBook", "classjugimap_1_1_text_book.html", [
+      [ "TextBook", "classjugimap_1_1_text_book.html#aca8e056b94eb77ae504a34237d9dd49a", null ],
+      [ "~TextBook", "classjugimap_1_1_text_book.html#aee9a06421a6d1ca96fa2a359682f0ff5", null ],
+      [ "GetName", "classjugimap_1_1_text_book.html#a8facce7acc5e95194c232b9bbd1363d5", null ],
+      [ "LoadContent", "classjugimap_1_1_text_book.html#ab0d696890c7518f9895787d8e678861a", null ],
+      [ "AddTextSegment", "classjugimap_1_1_text_book.html#a44c53a2cf531d61709708c45dd4bafdc", null ],
+      [ "AddTextSequence", "classjugimap_1_1_text_book.html#a08beac7a0d873a9b838060ae4d91411d", null ],
+      [ "GetTextSegments", "classjugimap_1_1_text_book.html#abc19370d1ab276bf8b72f7dc87dd8004", null ],
+      [ "GetTextSequences", "classjugimap_1_1_text_book.html#afba4814050a8f4c738d6122ecdf33502", null ]
+    ] ],
+    [ "TextLibrary", "classjugimap_1_1_text_library.html", [
+      [ "CreateNewBook", "classjugimap_1_1_text_library.html#aa4a20ec31928ab4330753ecb749b81ea", null ],
+      [ "FindBook", "classjugimap_1_1_text_library.html#ac290b850a00bf47febce2a14673f3e90", null ],
+      [ "GetTextSegmentFromBook", "classjugimap_1_1_text_library.html#a361d4beb3281224f073533e5e63b2eb2", null ]
+    ] ],
+    [ "GuiTextField", "classjugimap_1_1_gui_text_field.html", [
+      [ "Alignment", "classjugimap_1_1_gui_text_field.html#acdfaca60ec19c0265bac2692d7982726", [
+        [ "LEFT", "classjugimap_1_1_gui_text_field.html#acdfaca60ec19c0265bac2692d7982726a684d325a7303f52e64011467ff5c5758", null ],
+        [ "JUSTIFY", "classjugimap_1_1_gui_text_field.html#acdfaca60ec19c0265bac2692d7982726a1a8c137fb3ff9dc6fa1a59e8743fc1e9", null ]
+      ] ],
+      [ "DrawingDelay", "classjugimap_1_1_gui_text_field.html#a43d6459c63212e030f589f2333f76545", [
+        [ "NONE", "classjugimap_1_1_gui_text_field.html#a43d6459c63212e030f589f2333f76545ab50339a10e1de285ac99d4c3990b8693", null ],
+        [ "BY_ROWS", "classjugimap_1_1_gui_text_field.html#a43d6459c63212e030f589f2333f76545ab18c78be4ce570b24cb5c648ec8016fe", null ],
+        [ "BY_WORDS", "classjugimap_1_1_gui_text_field.html#a43d6459c63212e030f589f2333f76545a59d1f6fa6dc978b81fa62abb2e9a5851", null ],
+        [ "BY_CHARACTERS", "classjugimap_1_1_gui_text_field.html#a43d6459c63212e030f589f2333f76545aee5231b213efe870dc102a9ff9ac9620", null ]
+      ] ],
+      [ "ScrollingMode", "classjugimap_1_1_gui_text_field.html#a499bf738b0246d7851826f94463130e7", [
+        [ "NORMAL", "classjugimap_1_1_gui_text_field.html#a499bf738b0246d7851826f94463130e7a1e23852820b9154316c7c06e2b7ba051", null ],
+        [ "FIXED_STEP", "classjugimap_1_1_gui_text_field.html#a499bf738b0246d7851826f94463130e7a6e139fad8dac7316dc9202dcc17d024e", null ]
+      ] ],
+      [ "GuiTextField", "classjugimap_1_1_gui_text_field.html#a55ea5653b6aa1a5f3bf96696f38676ae", null ],
+      [ "SetDisabled", "classjugimap_1_1_gui_text_field.html#a811cf68c76f9d9055b824abe86c1c8e6", null ],
+      [ "SetVisible", "classjugimap_1_1_gui_text_field.html#a90331d9ccfce5321f48b33c2327368df", null ],
+      [ "GetTextSegment", "classjugimap_1_1_gui_text_field.html#a22ca4dfa487532b31dc0bc99ec064bda", null ],
+      [ "GetTextSegmentHeight", "classjugimap_1_1_gui_text_field.html#a989a9cce0cfa498b240a3cc1daacd75a", null ],
+      [ "GetClickedButtonName", "classjugimap_1_1_gui_text_field.html#a40fe0bc524c9ff35d445ad5de08cccd8", null ],
+      [ "SetScrollingMode", "classjugimap_1_1_gui_text_field.html#ae35c9e62c6abd1c54977875e4d095cd9", null ],
+      [ "GetScrollingMode", "classjugimap_1_1_gui_text_field.html#af44d68f621fa0db05e939d739a2bef3f", null ],
+      [ "SetScrollingModeFixedStepProperties", "classjugimap_1_1_gui_text_field.html#a33af905b5edd6302cc2775deae47d809", null ],
+      [ "SetDrawingDelay", "classjugimap_1_1_gui_text_field.html#a9cea7a1fd27549b5e147383823520271", null ],
+      [ "GetDrawingDelay", "classjugimap_1_1_gui_text_field.html#a5b07165808fc86b9b5ce3a7a5ce1eea2", null ],
+      [ "SetTextAlignment", "classjugimap_1_1_gui_text_field.html#a7c911b80258ca103e8d079d294a3b9ff", null ],
+      [ "GetTextAlignment", "classjugimap_1_1_gui_text_field.html#ad5503a849dc77d2a2533a41beb4fc95d", null ],
+      [ "SetAlphaFadeAtMargin", "classjugimap_1_1_gui_text_field.html#a296f43d8c9c13fefd2b4b6fb12190546", null ],
+      [ "SetTextRect", "classjugimap_1_1_gui_text_field.html#a1b3dce4bf96f2349c9eee392f57d79a7", null ],
+      [ "GetTextRect", "classjugimap_1_1_gui_text_field.html#aed301da58fb436308fddaee39f59c950", null ],
+      [ "SetVisibleRect", "classjugimap_1_1_gui_text_field.html#a5c70872239b3aaa2fbadfbf8c88e2b71", null ],
+      [ "GetVisibleRect", "classjugimap_1_1_gui_text_field.html#ac2e041e9fa1a430b36bed47e0b7ee4c4", null ],
+      [ "SetClickableRect", "classjugimap_1_1_gui_text_field.html#a3ddb9d44322fe0146898fe3e603ac0c3", null ],
+      [ "GetClickableRect", "classjugimap_1_1_gui_text_field.html#ad1849955733df698d4f864a6a2484d14", null ],
+      [ "SetLocalLinesSpacingFactor", "classjugimap_1_1_gui_text_field.html#a8bd0c45c80587ae0f9111801fcc65188", null ],
+      [ "Start", "classjugimap_1_1_gui_text_field.html#a9a89961d762fd35056629f1058305c7f", null ],
+      [ "Reset", "classjugimap_1_1_gui_text_field.html#a372de693ad40b3f42839c8ec6ac845f4", null ],
+      [ "IsDelayedDrawingActive", "classjugimap_1_1_gui_text_field.html#a40dec097530570a709d0e214924eb022", null ],
+      [ "SkipDelay", "classjugimap_1_1_gui_text_field.html#a3650988d97ffbd6d8faa6e620e74dffc", null ],
+      [ "ScrollTextUp", "classjugimap_1_1_gui_text_field.html#a605e9e1c87a33c9c7b1f0ff41b346911", null ],
+      [ "ScrollTextDown", "classjugimap_1_1_gui_text_field.html#af8c744d94d695124448d8e781bd68d54", null ],
+      [ "IsTextSegmentFirstLineDisplayed", "classjugimap_1_1_gui_text_field.html#acc1585a1de5cfe521973f9a10fe2c010", null ],
+      [ "IsTextSegmentLastLineDisplayed", "classjugimap_1_1_gui_text_field.html#a63e51307ebcd6bf2b3356c16aabdf237", null ]
+    ] ],
+    [ "GuiTextInput", "classjugimap_1_1_gui_text_input.html", [
+      [ "GuiTextInput", "classjugimap_1_1_gui_text_input.html#a70f55e47301400ccde4ff8be216ccdc4", null ],
+      [ "SetDisabled", "classjugimap_1_1_gui_text_input.html#a811cf68c76f9d9055b824abe86c1c8e6", null ],
+      [ "SetVisible", "classjugimap_1_1_gui_text_input.html#a90331d9ccfce5321f48b33c2327368df", null ],
+      [ "Start", "classjugimap_1_1_gui_text_input.html#a07aaf1227e4d645f15e0a964f54ef291", null ],
+      [ "Start", "classjugimap_1_1_gui_text_input.html#a90b4f754594d99eb84ad1aea5190e6f3", null ],
+      [ "SetText", "classjugimap_1_1_gui_text_input.html#a9167f592ae8c887e76f9cfaabf53ec32", null ],
+      [ "GetText", "classjugimap_1_1_gui_text_input.html#a771d3274eeff6cfc2e00f9f47e0d49c5", null ],
+      [ "SetTextMaximumLength", "classjugimap_1_1_gui_text_input.html#a7331e3411a3a868279541251c439a393", null ],
+      [ "SetAllowEscToAbort", "classjugimap_1_1_gui_text_input.html#aa58ef9ea2b70b369071f4a498b51e13a", null ],
+      [ "SetAllowEmptyText", "classjugimap_1_1_gui_text_input.html#af2eedabecb74146e13df3236342dd777", null ],
+      [ "SetBannedChars", "classjugimap_1_1_gui_text_input.html#ab393262985e081b70d8a66d0b1e6879a", null ],
+      [ "MakeCharsFileNameSafe", "classjugimap_1_1_gui_text_input.html#a83298a09a7ded22d55702de317dd7f49", null ],
+      [ "SetCursorFlashingSpeed", "classjugimap_1_1_gui_text_input.html#ac4e2450271873591a7920603c071f9c8", null ]
+    ] ],
+    [ "GuiButton", "classjugimap_1_1_gui_button.html", [
+      [ "GuiButton", "classjugimap_1_1_gui_button.html#a262e68313c641663a199ff6036e4133c", null ],
+      [ "SetDisabled", "classjugimap_1_1_gui_button.html#a811cf68c76f9d9055b824abe86c1c8e6", null ],
+      [ "SetVisible", "classjugimap_1_1_gui_button.html#a90331d9ccfce5321f48b33c2327368df", null ],
+      [ "GetSprite", "classjugimap_1_1_gui_button.html#af1a6d6c4527515f1a027b2dc27e43fa2", null ],
+      [ "SetTextLabel", "classjugimap_1_1_gui_button.html#aea5ad8f9ca1cf536b7400ddbe8c6a25c", null ],
+      [ "IsCheckable", "classjugimap_1_1_gui_button.html#aba57fc2a9c62eabe42077e5ef735a03c", null ],
+      [ "SetCheckable", "classjugimap_1_1_gui_button.html#a7ec6665b5f12c347eadb422f36c4b98f", null ],
+      [ "IsChecked", "classjugimap_1_1_gui_button.html#a5419fc286748decd04354f85f8d2d6a1", null ],
+      [ "SetChecked", "classjugimap_1_1_gui_button.html#a985f79efdbbe54b4732c807014c3a0d1", null ]
+    ] ],
+    [ "GuiSlider", "classjugimap_1_1_gui_slider.html", [
+      [ "GuiSlider", "classjugimap_1_1_gui_slider.html#a0375966edd50f458945cf5fc0ce566fc", null ],
+      [ "SetDisabled", "classjugimap_1_1_gui_slider.html#a811cf68c76f9d9055b824abe86c1c8e6", null ],
+      [ "SetVisible", "classjugimap_1_1_gui_slider.html#a90331d9ccfce5321f48b33c2327368df", null ],
+      [ "IsValueChangedViaStepButtons", "classjugimap_1_1_gui_slider.html#a3c979d376e031fda541c4ec690d1cd19", null ],
+      [ "SetValue", "classjugimap_1_1_gui_slider.html#a3c59b25dfa30388e9ce150f6a8f721a6", null ],
+      [ "GetValue", "classjugimap_1_1_gui_slider.html#a6c2d6c55e1ab5f699d156219a9bb84fc", null ],
+      [ "GetIntValue", "classjugimap_1_1_gui_slider.html#a6a0a8c8b9792d2c6ee135a0033e7da0f", null ],
+      [ "SetValueMin", "classjugimap_1_1_gui_slider.html#a50b6b56985576b801989dc7045335967", null ],
+      [ "GetValueMin", "classjugimap_1_1_gui_slider.html#aff5ffbf0d3eeb9425b91b9b3e8bb827d", null ],
+      [ "SetValueMax", "classjugimap_1_1_gui_slider.html#ae510c9e9bb86b3e4bfbaeff12354abaf", null ],
+      [ "GetValueMax", "classjugimap_1_1_gui_slider.html#a4e2154aa0c1005706cf3054e667584d2", null ],
+      [ "SetValueLabelPrecision", "classjugimap_1_1_gui_slider.html#a10a47d7b6dc1df631054e401b3baecf8", null ],
+      [ "SetValueLabelSuffix", "classjugimap_1_1_gui_slider.html#aedc5b27eb9d2bf2f6cea3c0bc348430b", null ],
+      [ "SetDeltaValue", "classjugimap_1_1_gui_slider.html#a42ab41c7ed34d60a9159257e8f177a24", null ],
+      [ "SetSnapDivision", "classjugimap_1_1_gui_slider.html#acee5804189606a7cc38a137cd47a5e1c", null ]
+    ] ],
+    [ "GuiBar", "classjugimap_1_1_gui_bar.html", [
+      [ "GuiBar", "classjugimap_1_1_gui_bar.html#a769ad5e47c5acf38e73a7bf5cbf21511", null ],
+      [ "SetValue", "classjugimap_1_1_gui_bar.html#a3c59b25dfa30388e9ce150f6a8f721a6", null ],
+      [ "GetValue", "classjugimap_1_1_gui_bar.html#a6c2d6c55e1ab5f699d156219a9bb84fc", null ],
+      [ "GetIntValue", "classjugimap_1_1_gui_bar.html#a6a0a8c8b9792d2c6ee135a0033e7da0f", null ],
+      [ "SetValueMin", "classjugimap_1_1_gui_bar.html#a50b6b56985576b801989dc7045335967", null ],
+      [ "GetValueMin", "classjugimap_1_1_gui_bar.html#aff5ffbf0d3eeb9425b91b9b3e8bb827d", null ],
+      [ "SetValueMax", "classjugimap_1_1_gui_bar.html#ae510c9e9bb86b3e4bfbaeff12354abaf", null ],
+      [ "GetValueMax", "classjugimap_1_1_gui_bar.html#a4e2154aa0c1005706cf3054e667584d2", null ]
+    ] ],
+    [ "guiCursorDeviceInput", "group___gui.html#ga1f0ffda3c4e5dae40ee919cd4fedd534", null ],
+    [ "guiKeyboardAndJoystickInput", "group___gui.html#ga63d9de2e0ee0842ce805e011e36043c3", null ]
+];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/jmDrawing.h Source File</title>
+<title>JugiMap Framework: C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/jmDrawing.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -157,47 +157,49 @@ $(document).ready(function(){initNavTree('jm_drawing_8h_source.html','');});
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classjugimap_1_1_drawing_layer.html#a46843534ef5d291b5d6d5089c716b51c">~DrawingLayer</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_drawing_layer.html#aeb06210e75082096f096eb94a879ad3f">InitEngineLayer</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_drawing_layer.html#af1a1dfb9e9e401d6483fbbb719f0295e">UpdateEngineLayer</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_drawing_layer.html#ac372e8987a6518a22d16cb203f4d5c23">InitEngineObjects</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_drawing_layer.html#ad4e860f4d84ed1007aa9e4ad2762a953">UpdateEngineObjects</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="classjugimap_1_1_drawing_layer.html#a334c205b698f0e28c32681847a610a44">   99</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_drawing_layer.html#a334c205b698f0e28c32681847a610a44">SetDrawer</a>(<a class="code" href="classjugimap_1_1_drawer.html">Drawer</a>* _drawer){ drawer = _drawer; drawer-&gt;<a class="code" href="classjugimap_1_1_drawer.html#a33869a8d8282d4aa08fea678c788187c">SetDrawingLayer</a>(<span class="keyword">this</span>);}</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="classjugimap_1_1_drawing_layer.html#aa32445942a817a1c9187fa7ea7032668">  103</a></span>&#160;    <a class="code" href="classjugimap_1_1_drawer.html">Drawer</a>* <a class="code" href="classjugimap_1_1_drawing_layer.html#aa32445942a817a1c9187fa7ea7032668">GetDrawer</a>() { <span class="keywordflow">return</span> drawer;}</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="classjugimap_1_1_drawer.html">Drawer</a>* drawer = <span class="keyword">nullptr</span>;                 <span class="comment">// OWNED</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">    void SetDrawer(Drawer* _drawer){ drawer = _drawer; drawer-&gt;SetDrawingLayer(this);}</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">    */</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="classjugimap_1_1_drawing_layer.html#aa32445942a817a1c9187fa7ea7032668">  105</a></span>&#160;    <a class="code" href="classjugimap_1_1_drawer.html">Drawer</a>* <a class="code" href="classjugimap_1_1_drawing_layer.html#aa32445942a817a1c9187fa7ea7032668">GetDrawer</a>() { <span class="keywordflow">return</span> drawer;}</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;};</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="classjugimap_1_1_drawer.html">Drawer</a>* drawer = <span class="keyword">nullptr</span>;                 <span class="comment">// OWNED</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;};</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_a6ba11d7c87d889fc80dcfbbe64af3216"><div class="ttname"><a href="classjugimap_1_1_drawer.html#a6ba11d7c87d889fc80dcfbbe64af3216">jugimap::Drawer::Line</a></div><div class="ttdeci">virtual void Line(jugimap::Vec2f p1, jugimap::Vec2f p2)</div><div class="ttdoc">Draw a line from the given position p1 to p2.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:49</div></div>
 <div class="ttc" id="astructjugimap_1_1_rect_html"><div class="ttname"><a href="structjugimap_1_1_rect.html">jugimap::Rect&lt; float &gt;</a></div></div>
-<div class="ttc" id="aclassjugimap_1_1_layer_html"><div class="ttname"><a href="classjugimap_1_1_layer.html">jugimap::Layer</a></div><div class="ttdoc">The base layer class.</div><div class="ttdef"><b>Definition:</b> jmLayers.h:25</div></div>
-<div class="ttc" id="astructjugimap_1_1_color_r_g_b_a_html"><div class="ttname"><a href="structjugimap_1_1_color_r_g_b_a.html">jugimap::ColorRGBA</a></div><div class="ttdoc">Color in RGBA color space - integer variant.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:390</div></div>
+<div class="ttc" id="aclassjugimap_1_1_layer_html"><div class="ttname"><a href="classjugimap_1_1_layer.html">jugimap::Layer</a></div><div class="ttdoc">The Layer class is the base class for layers.</div><div class="ttdef"><b>Definition:</b> jmLayers.h:27</div></div>
+<div class="ttc" id="astructjugimap_1_1_color_r_g_b_a_html"><div class="ttname"><a href="structjugimap_1_1_color_r_g_b_a.html">jugimap::ColorRGBA</a></div><div class="ttdoc">Color in RGBA color space - integer variant.</div><div class="ttdef"><b>Definition:</b> jmColor.h:15</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_a9cdc4abcc46fbd4c9c987b02796485cb"><div class="ttname"><a href="classjugimap_1_1_drawer.html#a9cdc4abcc46fbd4c9c987b02796485cb">jugimap::Drawer::EllipseOutline</a></div><div class="ttdeci">virtual void EllipseOutline(jugimap::Vec2f c, jugimap::Vec2f r)</div><div class="ttdoc">Draw the outline of an ellipse defined by the given center point c and radius r.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:56</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_a46843534ef5d291b5d6d5089c716b51c"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#a46843534ef5d291b5d6d5089c716b51c">jugimap::DrawingLayer::~DrawingLayer</a></div><div class="ttdeci">virtual ~DrawingLayer() override</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> jmDrawing.cpp:20</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_a4e1d4e93c8a28f7cae0f8194c90acda1"><div class="ttname"><a href="classjugimap_1_1_drawer.html#a4e1d4e93c8a28f7cae0f8194c90acda1">jugimap::Drawer::UpdateEngineDrawer</a></div><div class="ttdeci">virtual void UpdateEngineDrawer()</div><div class="ttdoc">Update engine objects related to this drawer.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:37</div></div>
-<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_aeb06210e75082096f096eb94a879ad3f"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#aeb06210e75082096f096eb94a879ad3f">jugimap::DrawingLayer::InitEngineLayer</a></div><div class="ttdeci">virtual void InitEngineLayer() override</div><div class="ttdoc">Initialize all engine objects related to this layer and its content.</div><div class="ttdef"><b>Definition:</b> jmDrawing.cpp:30</div></div>
+<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_ac372e8987a6518a22d16cb203f4d5c23"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#ac372e8987a6518a22d16cb203f4d5c23">jugimap::DrawingLayer::InitEngineObjects</a></div><div class="ttdeci">virtual void InitEngineObjects() override</div><div class="ttdoc">Initialize all engine objects related to this layer and its content.</div><div class="ttdef"><b>Definition:</b> jmDrawing.cpp:30</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_a2f6228c0f08d546e635de6758a4842ba"><div class="ttname"><a href="classjugimap_1_1_drawer.html#a2f6228c0f08d546e635de6758a4842ba">jugimap::Drawer::Clear</a></div><div class="ttdeci">virtual void Clear()</div><div class="ttdoc">Clear this drawer (required by some engines).</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:45</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_ac8e5dc25ee38940b6f9f781aa07065c9"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#ac8e5dc25ee38940b6f9f781aa07065c9">jugimap::DrawingLayer::DrawingLayer</a></div><div class="ttdeci">DrawingLayer(const std::string &amp;_name)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> jmDrawing.cpp:10</div></div>
-<div class="ttc" id="aclassjugimap_1_1_drawer_html"><div class="ttname"><a href="classjugimap_1_1_drawer.html">jugimap::Drawer</a></div><div class="ttdoc">The base drawer class.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:20</div></div>
+<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_ad4e860f4d84ed1007aa9e4ad2762a953"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#ad4e860f4d84ed1007aa9e4ad2762a953">jugimap::DrawingLayer::UpdateEngineObjects</a></div><div class="ttdeci">virtual void UpdateEngineObjects() override</div><div class="ttdoc">Update all engine objects related to this layer and its content.</div><div class="ttdef"><b>Definition:</b> jmDrawing.cpp:36</div></div>
+<div class="ttc" id="aclassjugimap_1_1_drawer_html"><div class="ttname"><a href="classjugimap_1_1_drawer.html">jugimap::Drawer</a></div><div class="ttdoc">The Drawer is the base drawer class.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:20</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_ad095ccc3e3f36f729d510037251460b5"><div class="ttname"><a href="classjugimap_1_1_drawer.html#ad095ccc3e3f36f729d510037251460b5">jugimap::Drawer::GetDrawingLayer</a></div><div class="ttdeci">DrawingLayer * GetDrawingLayer()</div><div class="ttdoc">Returns the drawing layer of this drawer.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:68</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_a9d7658906f9220d2a42a6f9ede651bd4"><div class="ttname"><a href="classjugimap_1_1_drawer.html#a9d7658906f9220d2a42a6f9ede651bd4">jugimap::Drawer::RectangleOutline</a></div><div class="ttdeci">virtual void RectangleOutline(const jugimap::Rectf &amp;rect)</div><div class="ttdoc">Draw the outline of the given rectangle rect.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:53</div></div>
-<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html">jugimap::DrawingLayer</a></div><div class="ttdoc">A layer for drawing geometric primitives.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:81</div></div>
+<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html">jugimap::DrawingLayer</a></div><div class="ttdoc">The DrawingLayer is the base class for drawing geometric primitives.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:81</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_a24436633af5c833ff98c5dd5c2976fe9"><div class="ttname"><a href="classjugimap_1_1_drawer.html#a24436633af5c833ff98c5dd5c2976fe9">jugimap::Drawer::Dot</a></div><div class="ttdeci">virtual void Dot(jugimap::Vec2f p)</div><div class="ttdoc">Draw a dot at the given position p.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:60</div></div>
-<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_af1a1dfb9e9e401d6483fbbb719f0295e"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#af1a1dfb9e9e401d6483fbbb719f0295e">jugimap::DrawingLayer::UpdateEngineLayer</a></div><div class="ttdeci">virtual void UpdateEngineLayer() override</div><div class="ttdoc">Update all engine objects related to this layer and its content.</div><div class="ttdef"><b>Definition:</b> jmDrawing.cpp:36</div></div>
-<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_aa32445942a817a1c9187fa7ea7032668"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#aa32445942a817a1c9187fa7ea7032668">jugimap::DrawingLayer::GetDrawer</a></div><div class="ttdeci">Drawer * GetDrawer()</div><div class="ttdoc">Returns the drawer of this drawing layer.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:103</div></div>
-<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_a334c205b698f0e28c32681847a610a44"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#a334c205b698f0e28c32681847a610a44">jugimap::DrawingLayer::SetDrawer</a></div><div class="ttdeci">void SetDrawer(Drawer *_drawer)</div><div class="ttdoc">Set the drawer of this drawing layer to the given *_drawer*.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:99</div></div>
+<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html_aa32445942a817a1c9187fa7ea7032668"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html#aa32445942a817a1c9187fa7ea7032668">jugimap::DrawingLayer::GetDrawer</a></div><div class="ttdeci">Drawer * GetDrawer()</div><div class="ttdoc">Returns the drawer of this drawing layer.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:105</div></div>
 <div class="ttc" id="astructjugimap_1_1_vec2_html"><div class="ttname"><a href="structjugimap_1_1_vec2.html">jugimap::Vec2&lt; float &gt;</a></div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_a33869a8d8282d4aa08fea678c788187c"><div class="ttname"><a href="classjugimap_1_1_drawer.html#a33869a8d8282d4aa08fea678c788187c">jugimap::Drawer::SetDrawingLayer</a></div><div class="ttdeci">void SetDrawingLayer(DrawingLayer *_drawingLayer)</div><div class="ttdoc">Set the drawing layer of this drawer.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:64</div></div>
 <div class="ttc" id="aclassjugimap_1_1_drawer_html_afcc974ac9107ec618d6caa320817f7f9"><div class="ttname"><a href="classjugimap_1_1_drawer.html#afcc974ac9107ec618d6caa320817f7f9">jugimap::Drawer::~Drawer</a></div><div class="ttdeci">virtual ~Drawer()</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:25</div></div>

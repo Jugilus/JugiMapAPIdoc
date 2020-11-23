@@ -15,6 +15,8 @@ var classjugimap_1_1_standard_sprite =
     [ "RaycastHit", "classjugimap_1_1_standard_sprite.html#a2d48ed26229900ebf0c6b5cff10abb62", null ],
     [ "GetActiveImage", "classjugimap_1_1_standard_sprite.html#a4578c7f54d1ba9b2b5149d89eeeeaf54", null ],
     [ "SetActiveImage", "classjugimap_1_1_standard_sprite.html#a112a388af7638d2c69ad49a1647c21f7", null ],
+    [ "GetActiveImageFrameIndex", "classjugimap_1_1_standard_sprite.html#a8243005919235b2921b0d6894820e9aa", null ],
+    [ "SetActiveImageByFrameIndex", "classjugimap_1_1_standard_sprite.html#a132ec47ea0d444b0929aa136b331fef3", null ],
     [ "SetCollider", "classjugimap_1_1_standard_sprite.html#a52d292192903029d880da29c23c45882", null ],
     [ "GetCollider", "classjugimap_1_1_standard_sprite.html#acf99839ca7aaf09fedf8216581044f09", null ],
     [ "GetPhysicsMode", "classjugimap_1_1_standard_sprite.html#abd3c659e170ef605c9d67adf75ef356f", null ],

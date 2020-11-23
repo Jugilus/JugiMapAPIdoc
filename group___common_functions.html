@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: CommonFunctions</title>
+<title>JugiMap Framework: CommonFunctions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -96,72 +96,78 @@ $(document).ready(function(){initNavTree('group___common_functions.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae5e0e0ea1df607e1d7ece28a70841f03"><td class="memItemLeft" align="right" valign="top"><a id="gae5e0e0ea1df607e1d7ece28a70841f03"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#gae5e0e0ea1df607e1d7ece28a70841f03">DbgOutput</a> (const std::string &amp;_text)</td></tr>
-<tr class="memdesc:gae5e0e0ea1df607e1d7ece28a70841f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print ASCII text in IDE output window - MS Windows only. <br /></td></tr>
+<tr class="memitem:gae5e0e0ea1df607e1d7ece28a70841f03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#gae5e0e0ea1df607e1d7ece28a70841f03">DbgOutput</a> (const std::string &amp;_text)</td></tr>
+<tr class="memdesc:gae5e0e0ea1df607e1d7ece28a70841f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print ASCII text in IDE output window - MS Windows only.  <a href="group___common_functions.html#gae5e0e0ea1df607e1d7ece28a70841f03">More...</a><br /></td></tr>
 <tr class="separator:gae5e0e0ea1df607e1d7ece28a70841f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1057a7b8fbce1e37403d4a1075e9dd45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga1057a7b8fbce1e37403d4a1075e9dd45">AreEqual</a> (double a, double b, double epsilon=0.0001)</td></tr>
 <tr class="memdesc:ga1057a7b8fbce1e37403d4a1075e9dd45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given <b>a</b> and <b>b</b> are equal; otherwise returns false.  <a href="group___common_functions.html#ga1057a7b8fbce1e37403d4a1075e9dd45">More...</a><br /></td></tr>
 <tr class="separator:ga1057a7b8fbce1e37403d4a1075e9dd45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6e04c089f7c8a60a65298ff67aa5ad12"><td class="memTemplParams" colspan="2"><a id="ga6e04c089f7c8a60a65298ff67aa5ad12"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga6e04c089f7c8a60a65298ff67aa5ad12"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga6e04c089f7c8a60a65298ff67aa5ad12">Sgn</a> (T val)</td></tr>
-<tr class="memdesc:ga6e04c089f7c8a60a65298ff67aa5ad12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns 1 if the sign of the given <b>value</b> is positive number; returns -1 if it's negative; returns 0 if it's 0. <br /></td></tr>
+<tr class="memitem:ga6e04c089f7c8a60a65298ff67aa5ad12"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga6e04c089f7c8a60a65298ff67aa5ad12"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga6e04c089f7c8a60a65298ff67aa5ad12">Sgn</a> (<a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> val)</td></tr>
+<tr class="memdesc:ga6e04c089f7c8a60a65298ff67aa5ad12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns 1 if the sign of the given <b>value</b> is positive number; returns -1 if it's negative; returns 0 if it's 0.  <a href="group___common_functions.html#ga6e04c089f7c8a60a65298ff67aa5ad12">More...</a><br /></td></tr>
 <tr class="separator:ga6e04c089f7c8a60a65298ff67aa5ad12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab5f839a6c2bd2aabbb213ea3eebe20db"><td class="memItemLeft" align="right" valign="top"><a id="gab5f839a6c2bd2aabbb213ea3eebe20db"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#gab5f839a6c2bd2aabbb213ea3eebe20db">fRand</a> (double fMin, double fMax)</td></tr>
-<tr class="memdesc:gab5f839a6c2bd2aabbb213ea3eebe20db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random float number between (and including) the given <b>fMin</b> and <b>fMax</b>. <br /></td></tr>
+<tr class="memitem:gab5f839a6c2bd2aabbb213ea3eebe20db"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#gab5f839a6c2bd2aabbb213ea3eebe20db">fRand</a> (double fMin, double fMax)</td></tr>
+<tr class="memdesc:gab5f839a6c2bd2aabbb213ea3eebe20db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random float number between (and including) the given <b>fMin</b> and <b>fMax</b>.  <a href="group___common_functions.html#gab5f839a6c2bd2aabbb213ea3eebe20db">More...</a><br /></td></tr>
 <tr class="separator:gab5f839a6c2bd2aabbb213ea3eebe20db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c7c8ceeb7e2845d89ed799a6f6d998a"><td class="memItemLeft" align="right" valign="top"><a id="ga4c7c8ceeb7e2845d89ed799a6f6d998a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga4c7c8ceeb7e2845d89ed799a6f6d998a">iRand</a> (int iMin, int iMax)</td></tr>
-<tr class="memdesc:ga4c7c8ceeb7e2845d89ed799a6f6d998a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random integer number between (and including) the given <b>iMin</b> and <b>iMax</b>. <br /></td></tr>
+<tr class="memitem:ga4c7c8ceeb7e2845d89ed799a6f6d998a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga4c7c8ceeb7e2845d89ed799a6f6d998a">iRand</a> (int iMin, int iMax)</td></tr>
+<tr class="memdesc:ga4c7c8ceeb7e2845d89ed799a6f6d998a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random integer number between (and including) the given <b>iMin</b> and <b>iMax</b>.  <a href="group___common_functions.html#ga4c7c8ceeb7e2845d89ed799a6f6d998a">More...</a><br /></td></tr>
 <tr class="separator:ga4c7c8ceeb7e2845d89ed799a6f6d998a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6f554eb2aff6db006245ac02346ce330"><td class="memTemplParams" colspan="2"><a id="ga6f554eb2aff6db006245ac02346ce330"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga6f554eb2aff6db006245ac02346ce330"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga6f554eb2aff6db006245ac02346ce330">ClampValue</a> (T value, T valueMin, T valueMax)</td></tr>
-<tr class="memdesc:ga6f554eb2aff6db006245ac02346ce330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <b>value</b> clamped to the <b>valueMin</b> and <b>valueMax</b>. <br /></td></tr>
+<tr class="memitem:ga6f554eb2aff6db006245ac02346ce330"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga6f554eb2aff6db006245ac02346ce330"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga6f554eb2aff6db006245ac02346ce330">ClampValue</a> (<a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> value, <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> valueMin, <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> valueMax)</td></tr>
+<tr class="memdesc:ga6f554eb2aff6db006245ac02346ce330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <b>value</b> clamped to the <b>valueMin</b> and <b>valueMax</b>.  <a href="group___common_functions.html#ga6f554eb2aff6db006245ac02346ce330">More...</a><br /></td></tr>
 <tr class="separator:ga6f554eb2aff6db006245ac02346ce330"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga239ee981a83319e4f19a3e499086166b"><td class="memItemLeft" align="right" valign="top"><a id="ga239ee981a83319e4f19a3e499086166b"></a>
-<a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga239ee981a83319e4f19a3e499086166b">Vec2iToVec2f</a> (const <a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> &amp;v)</td></tr>
-<tr class="memdesc:ga239ee981a83319e4f19a3e499086166b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Vec2f object formed by converting Vec2i to Vec2f. <br /></td></tr>
+<tr class="memitem:ga239ee981a83319e4f19a3e499086166b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga239ee981a83319e4f19a3e499086166b">Vec2iToVec2f</a> (const <a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> &amp;v)</td></tr>
+<tr class="memdesc:ga239ee981a83319e4f19a3e499086166b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Vec2f object formed by converting Vec2i to Vec2f.  <a href="group___common_functions.html#ga239ee981a83319e4f19a3e499086166b">More...</a><br /></td></tr>
 <tr class="separator:ga239ee981a83319e4f19a3e499086166b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga108d46e72c1e92bcfea620b1c5bccbd4"><td class="memItemLeft" align="right" valign="top"><a id="ga108d46e72c1e92bcfea620b1c5bccbd4"></a>
-<a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga108d46e72c1e92bcfea620b1c5bccbd4">Vec2fToVec2i</a> (const <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> &amp;v)</td></tr>
-<tr class="memdesc:ga108d46e72c1e92bcfea620b1c5bccbd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Vec2i object formed by converting Vec2f to Vec2i. <br /></td></tr>
+<tr class="memitem:ga108d46e72c1e92bcfea620b1c5bccbd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga108d46e72c1e92bcfea620b1c5bccbd4">Vec2fToVec2i</a> (const <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> &amp;v)</td></tr>
+<tr class="memdesc:ga108d46e72c1e92bcfea620b1c5bccbd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Vec2i object formed by converting Vec2f to Vec2i.  <a href="group___common_functions.html#ga108d46e72c1e92bcfea620b1c5bccbd4">More...</a><br /></td></tr>
 <tr class="separator:ga108d46e72c1e92bcfea620b1c5bccbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c9d1cd58204fbcaa5b78cbf8329e5aa"><td class="memTemplParams" colspan="2"><a id="ga4c9d1cd58204fbcaa5b78cbf8329e5aa"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga4c9d1cd58204fbcaa5b78cbf8329e5aa"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga4c9d1cd58204fbcaa5b78cbf8329e5aa">MakeVec2fAtDistanceFromP1</a> (const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; T &gt; &amp;p1, const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; T &gt; &amp;p2, double distance)</td></tr>
-<tr class="memdesc:ga4c9d1cd58204fbcaa5b78cbf8329e5aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Vec2f at the given <b>distance</b> from <b>P1</b> to <b>P2</b> using linear interpolation. <br /></td></tr>
+<tr class="memitem:ga4c9d1cd58204fbcaa5b78cbf8329e5aa"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga4c9d1cd58204fbcaa5b78cbf8329e5aa"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga4c9d1cd58204fbcaa5b78cbf8329e5aa">MakeVec2fAtDistanceFromP1</a> (const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &amp;p1, const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &amp;p2, double distance)</td></tr>
+<tr class="memdesc:ga4c9d1cd58204fbcaa5b78cbf8329e5aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Vec2f at the given <b>distance</b> from <b>P1</b> to <b>P2</b> using linear interpolation.  <a href="group___common_functions.html#ga4c9d1cd58204fbcaa5b78cbf8329e5aa">More...</a><br /></td></tr>
 <tr class="separator:ga4c9d1cd58204fbcaa5b78cbf8329e5aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga98c53f09d8d9fa95ade5c0fa81c6e51b"><td class="memTemplParams" colspan="2"><a id="ga98c53f09d8d9fa95ade5c0fa81c6e51b"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga98c53f09d8d9fa95ade5c0fa81c6e51b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga98c53f09d8d9fa95ade5c0fa81c6e51b">MakeVec2fAtDistanceFactorFromP1</a> (const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; T &gt; &amp;p1, const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; T &gt; &amp;p2, double fDistance)</td></tr>
-<tr class="memdesc:ga98c53f09d8d9fa95ade5c0fa81c6e51b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Vec2f at the given <b>fDistance</b> from <b>P1</b> to <b>P2</b> using linear interpolation. <b>fDistance</b> is defined as 'distanceP1toP/distanceP1toP2'. <br /></td></tr>
+<tr class="memitem:ga98c53f09d8d9fa95ade5c0fa81c6e51b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga98c53f09d8d9fa95ade5c0fa81c6e51b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga98c53f09d8d9fa95ade5c0fa81c6e51b">MakeVec2fAtDistanceFactorFromP1</a> (const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &amp;p1, const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &amp;p2, double fDistance)</td></tr>
+<tr class="memdesc:ga98c53f09d8d9fa95ade5c0fa81c6e51b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Vec2f at the given <b>fDistance</b> from <b>P1</b> to <b>P2</b> using linear interpolation. <b>fDistance</b> is defined as 'distanceP1toP/distanceP1toP2'.  <a href="group___common_functions.html#ga98c53f09d8d9fa95ade5c0fa81c6e51b">More...</a><br /></td></tr>
 <tr class="separator:ga98c53f09d8d9fa95ade5c0fa81c6e51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd0a33091d9429de49959cf279c394b6"><td class="memItemLeft" align="right" valign="top"><a id="gabd0a33091d9429de49959cf279c394b6"></a>
-<a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#gabd0a33091d9429de49959cf279c394b6">RectiToRectf</a> (const <a class="el" href="group___common.html#gad5884c160f442779efa7b4872ffa3e3c">Recti</a> &amp;r)</td></tr>
-<tr class="memdesc:gabd0a33091d9429de49959cf279c394b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Rectf object formed by converting the given Recti object <b>r</b> to Rectf. <br /></td></tr>
+<tr class="memitem:gabd0a33091d9429de49959cf279c394b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#gabd0a33091d9429de49959cf279c394b6">RectiToRectf</a> (const <a class="el" href="group___common.html#gad5884c160f442779efa7b4872ffa3e3c">Recti</a> &amp;r)</td></tr>
+<tr class="memdesc:gabd0a33091d9429de49959cf279c394b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Rectf object formed by converting the given Recti object <b>r</b> to Rectf.  <a href="group___common_functions.html#gabd0a33091d9429de49959cf279c394b6">More...</a><br /></td></tr>
 <tr class="separator:gabd0a33091d9429de49959cf279c394b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5bb2321d5721b23764cb53aeb12f5ec2"><td class="memItemLeft" align="right" valign="top"><a id="ga5bb2321d5721b23764cb53aeb12f5ec2"></a>
-<a class="el" href="group___common.html#gad5884c160f442779efa7b4872ffa3e3c">Recti</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga5bb2321d5721b23764cb53aeb12f5ec2">RectfToRecti</a> (const <a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> &amp;r)</td></tr>
-<tr class="memdesc:ga5bb2321d5721b23764cb53aeb12f5ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Recti object formed by converting the given Rectf object <b>r</b> to Recti. <br /></td></tr>
+<tr class="memitem:ga5bb2321d5721b23764cb53aeb12f5ec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#gad5884c160f442779efa7b4872ffa3e3c">Recti</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga5bb2321d5721b23764cb53aeb12f5ec2">RectfToRecti</a> (const <a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> &amp;r)</td></tr>
+<tr class="memdesc:ga5bb2321d5721b23764cb53aeb12f5ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Recti object formed by converting the given Rectf object <b>r</b> to Recti.  <a href="group___common_functions.html#ga5bb2321d5721b23764cb53aeb12f5ec2">More...</a><br /></td></tr>
 <tr class="separator:ga5bb2321d5721b23764cb53aeb12f5ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f2f786b32cda3fefadd5ade996ffbda"><td class="memItemLeft" align="right" valign="top"><a id="ga1f2f786b32cda3fefadd5ade996ffbda"></a>
-<a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga1f2f786b32cda3fefadd5ade996ffbda">MakeTransformationMatrix</a> (<a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> pos, <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> scale, <a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> flip, float rotation, <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> handle)</td></tr>
-<tr class="memdesc:ga1f2f786b32cda3fefadd5ade996ffbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an AffineMat3f matrix for the given transformations <b>pos</b>, <b>scale</b>, <b>flip</b>, <b>rotation</b> and <b>handle</b>. <br /></td></tr>
+<tr class="memitem:ga1f2f786b32cda3fefadd5ade996ffbda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga1f2f786b32cda3fefadd5ade996ffbda">MakeTransformationMatrix</a> (<a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> pos, <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> scale, <a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> flip, float rotation, <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> handle)</td></tr>
+<tr class="memdesc:ga1f2f786b32cda3fefadd5ade996ffbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an AffineMat3f matrix for the given transformations <b>pos</b>, <b>scale</b>, <b>flip</b>, <b>rotation</b> and <b>handle</b>.  <a href="group___common_functions.html#ga1f2f786b32cda3fefadd5ade996ffbda">More...</a><br /></td></tr>
 <tr class="separator:ga1f2f786b32cda3fefadd5ade996ffbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga957ef9b389a2187cfbe47d0d7e7fbe39"><td class="memItemLeft" align="right" valign="top"><a id="ga957ef9b389a2187cfbe47d0d7e7fbe39"></a>
-<a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga957ef9b389a2187cfbe47d0d7e7fbe39">MakeTransformationMatrix</a> (<a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> pos, <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> scale, <a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> flip, float rotation)</td></tr>
-<tr class="memdesc:ga957ef9b389a2187cfbe47d0d7e7fbe39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an AffineMat3f matrix for the given transformations <b>pos</b>, <b>scale</b>, <b>flip</b> and <b>rotation</b>. <br /></td></tr>
+<tr class="memitem:ga957ef9b389a2187cfbe47d0d7e7fbe39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga957ef9b389a2187cfbe47d0d7e7fbe39">MakeTransformationMatrix</a> (<a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> pos, <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> scale, <a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> flip, float rotation)</td></tr>
+<tr class="memdesc:ga957ef9b389a2187cfbe47d0d7e7fbe39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an AffineMat3f matrix for the given transformations <b>pos</b>, <b>scale</b>, <b>flip</b> and <b>rotation</b>.  <a href="group___common_functions.html#ga957ef9b389a2187cfbe47d0d7e7fbe39">More...</a><br /></td></tr>
 <tr class="separator:ga957ef9b389a2187cfbe47d0d7e7fbe39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e04e0b657e6a02bd981b75b59548d8f"><td class="memItemLeft" align="right" valign="top"><a id="ga5e04e0b657e6a02bd981b75b59548d8f"></a>
-<a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga5e04e0b657e6a02bd981b75b59548d8f">TransformRectf</a> (const <a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> &amp;rect, const <a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a> &amp;matrix)</td></tr>
-<tr class="memdesc:ga5e04e0b657e6a02bd981b75b59548d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Rectf bounding of the given rectangle <b>rect</b> transformed by <b>matrix</b>. <br /></td></tr>
+<tr class="memitem:ga5e04e0b657e6a02bd981b75b59548d8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___common_functions.html#ga5e04e0b657e6a02bd981b75b59548d8f">TransformRectf</a> (const <a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> &amp;rect, const <a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a> &amp;matrix)</td></tr>
+<tr class="memdesc:ga5e04e0b657e6a02bd981b75b59548d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Rectf bounding of the given rectangle <b>rect</b> transformed by <b>matrix</b>.  <a href="group___common_functions.html#ga5e04e0b657e6a02bd981b75b59548d8f">More...</a><br /></td></tr>
 <tr class="separator:ga5e04e0b657e6a02bd981b75b59548d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gae5e0e0ea1df607e1d7ece28a70841f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae5e0e0ea1df607e1d7ece28a70841f03">&#9670;&nbsp;</a></span>DbgOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DbgOutput </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>_text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print ASCII text in IDE output window - MS Windows only. </p>
+
+</div>
+</div>
 <a id="ga1057a7b8fbce1e37403d4a1075e9dd45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga1057a7b8fbce1e37403d4a1075e9dd45">&#9670;&nbsp;</a></span>AreEqual()</h2>
 
@@ -204,6 +210,442 @@ template&lt;typename T &gt; </td></tr>
 
 <p>Returns true if the given <b>a</b> and <b>b</b> are equal; otherwise returns false. </p>
 <p>The compared floating-point numbers are considered equal if their difference is smaller then the given <b>epsilon</b>. </p>
+
+</div>
+</div>
+<a id="ga6e04c089f7c8a60a65298ff67aa5ad12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6e04c089f7c8a60a65298ff67aa5ad12">&#9670;&nbsp;</a></span>Sgn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int jugimap::Sgn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a>&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns 1 if the sign of the given <b>value</b> is positive number; returns -1 if it's negative; returns 0 if it's 0. </p>
+
+</div>
+</div>
+<a id="gab5f839a6c2bd2aabbb213ea3eebe20db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5f839a6c2bd2aabbb213ea3eebe20db">&#9670;&nbsp;</a></span>fRand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double fRand </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a random float number between (and including) the given <b>fMin</b> and <b>fMax</b>. </p>
+
+</div>
+</div>
+<a id="ga4c7c8ceeb7e2845d89ed799a6f6d998a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c7c8ceeb7e2845d89ed799a6f6d998a">&#9670;&nbsp;</a></span>iRand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int iRand </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a random integer number between (and including) the given <b>iMin</b> and <b>iMax</b>. </p>
+
+</div>
+</div>
+<a id="ga6f554eb2aff6db006245ac02346ce330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f554eb2aff6db006245ac02346ce330">&#9670;&nbsp;</a></span>ClampValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> jugimap::ClampValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a>&#160;</td>
+          <td class="paramname"><em>valueMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a>&#160;</td>
+          <td class="paramname"><em>valueMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a <b>value</b> clamped to the <b>valueMin</b> and <b>valueMax</b>. </p>
+
+</div>
+</div>
+<a id="ga239ee981a83319e4f19a3e499086166b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga239ee981a83319e4f19a3e499086166b">&#9670;&nbsp;</a></span>Vec2iToVec2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> jugimap::Vec2iToVec2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a Vec2f object formed by converting Vec2i to Vec2f. </p>
+
+</div>
+</div>
+<a id="ga108d46e72c1e92bcfea620b1c5bccbd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga108d46e72c1e92bcfea620b1c5bccbd4">&#9670;&nbsp;</a></span>Vec2fToVec2i()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> jugimap::Vec2fToVec2i </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a Vec2i object formed by converting Vec2f to Vec2i. </p>
+
+</div>
+</div>
+<a id="ga4c9d1cd58204fbcaa5b78cbf8329e5aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c9d1cd58204fbcaa5b78cbf8329e5aa">&#9670;&nbsp;</a></span>MakeVec2fAtDistanceFromP1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> jugimap::MakeVec2fAtDistanceFromP1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>p2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>distance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a Vec2f at the given <b>distance</b> from <b>P1</b> to <b>P2</b> using linear interpolation. </p>
+
+</div>
+</div>
+<a id="ga98c53f09d8d9fa95ade5c0fa81c6e51b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98c53f09d8d9fa95ade5c0fa81c6e51b">&#9670;&nbsp;</a></span>MakeVec2fAtDistanceFactorFromP1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> jugimap::MakeVec2fAtDistanceFactorFromP1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structjugimap_1_1_vec2.html">Vec2</a>&lt; <a class="el" href="group___input.html#gga7885f47644a0388f981f416fa20389b2ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>p2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fDistance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a Vec2f at the given <b>fDistance</b> from <b>P1</b> to <b>P2</b> using linear interpolation. <b>fDistance</b> is defined as 'distanceP1toP/distanceP1toP2'. </p>
+
+</div>
+</div>
+<a id="gabd0a33091d9429de49959cf279c394b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd0a33091d9429de49959cf279c394b6">&#9670;&nbsp;</a></span>RectiToRectf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> jugimap::RectiToRectf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___common.html#gad5884c160f442779efa7b4872ffa3e3c">Recti</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a Rectf object formed by converting the given Recti object <b>r</b> to Rectf. </p>
+
+</div>
+</div>
+<a id="ga5bb2321d5721b23764cb53aeb12f5ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5bb2321d5721b23764cb53aeb12f5ec2">&#9670;&nbsp;</a></span>RectfToRecti()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#gad5884c160f442779efa7b4872ffa3e3c">Recti</a> jugimap::RectfToRecti </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a Recti object formed by converting the given Rectf object <b>r</b> to Recti. </p>
+
+</div>
+</div>
+<a id="ga1f2f786b32cda3fefadd5ade996ffbda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1f2f786b32cda3fefadd5ade996ffbda">&#9670;&nbsp;</a></span>MakeTransformationMatrix() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a> MakeTransformationMatrix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td>
+          <td class="paramname"><em>scale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a>&#160;</td>
+          <td class="paramname"><em>flip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td>
+          <td class="paramname"><em>handle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an AffineMat3f matrix for the given transformations <b>pos</b>, <b>scale</b>, <b>flip</b>, <b>rotation</b> and <b>handle</b>. </p>
+
+</div>
+</div>
+<a id="ga957ef9b389a2187cfbe47d0d7e7fbe39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga957ef9b389a2187cfbe47d0d7e7fbe39">&#9670;&nbsp;</a></span>MakeTransformationMatrix() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a> MakeTransformationMatrix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td>
+          <td class="paramname"><em>scale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a>&#160;</td>
+          <td class="paramname"><em>flip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an AffineMat3f matrix for the given transformations <b>pos</b>, <b>scale</b>, <b>flip</b> and <b>rotation</b>. </p>
+
+</div>
+</div>
+<a id="ga5e04e0b657e6a02bd981b75b59548d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e04e0b657e6a02bd981b75b59548d8f">&#9670;&nbsp;</a></span>TransformRectf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> TransformRectf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> &amp;&#160;</td>
+          <td class="paramname"><em>rect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group___common.html#ga4507701bd49beb55158c7b7e2f79955b">AffineMat3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>matrix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a Rectf bounding of the given rectangle <b>rect</b> transformed by <b>matrix</b>. </p>
 
 </div>
 </div>

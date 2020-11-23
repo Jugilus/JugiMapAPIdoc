@@ -1,12 +1,42 @@
 var group___common =
 [
+    [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html", [
+      [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html#a0947174ffa990ced2e3d6bc79588ec00", null ],
+      [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html#ae42a73713393574758e55849f2411055", null ],
+      [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html#a89767f2a0363d5187247dc42076b4fe2", null ],
+      [ "operator==", "structjugimap_1_1_color_r_g_b_a.html#a7a7e12c36a1e8e72d4a3bbf75bdb5eac", null ],
+      [ "operator!=", "structjugimap_1_1_color_r_g_b_a.html#aa0ac8c6f435343b41df4a43423cb1d56", null ],
+      [ "GetRGBA", "structjugimap_1_1_color_r_g_b_a.html#a5fca9cb83193baeba8136ec09596f995", null ],
+      [ "Set", "structjugimap_1_1_color_r_g_b_a.html#aead6e96e8f0236889b6e868d3658eb86", null ],
+      [ "Set", "structjugimap_1_1_color_r_g_b_a.html#a49d82bf0f5910a5bf86d3872dcf0a392", null ],
+      [ "r", "structjugimap_1_1_color_r_g_b_a.html#afd7b1ea9ff115205b65e0bffc92946ac", null ],
+      [ "g", "structjugimap_1_1_color_r_g_b_a.html#a83576af39a9f289a28c1263d61073508", null ],
+      [ "b", "structjugimap_1_1_color_r_g_b_a.html#a41cede1b4c0d05cff170ad5761f70964", null ],
+      [ "a", "structjugimap_1_1_color_r_g_b_a.html#a24420a9beaac7cee08b5e255a4c29db1", null ]
+    ] ],
+    [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html", [
+      [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html#add341398be855fa5ff3a127a4ab53b11", null ],
+      [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html#a26d94b56075fd985e40e4e5315dbb7f1", null ],
+      [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html#ab4e95b13085b1c3f2ffe22cf8b80cda5", null ],
+      [ "r", "structjugimap_1_1_color_r_g_b_af.html#a4788d82c901b9367dd5c0daff8a7616b", null ],
+      [ "g", "structjugimap_1_1_color_r_g_b_af.html#a8cf17d727651616de6f2b79ef32170cd", null ],
+      [ "b", "structjugimap_1_1_color_r_g_b_af.html#a83fc1af92e29717b4513d121b0c72c7d", null ],
+      [ "a", "structjugimap_1_1_color_r_g_b_af.html#a4aec1a5be9d9a4a394a2e49e9744286e", null ]
+    ] ],
+    [ "ColorsLibrary", "classjugimap_1_1_colors_library.html", [
+      [ "Add", "classjugimap_1_1_colors_library.html#ac73be6f97c05aab2eef9953094997615", null ],
+      [ "Clear", "classjugimap_1_1_colors_library.html#aa71d36872f416feaa853788a7a7a7ef8", null ],
+      [ "Find", "classjugimap_1_1_colors_library.html#afa8d97644ff588cd72b47df5bdd6744b", null ],
+      [ "At", "classjugimap_1_1_colors_library.html#a7f92e3a87618b2d43b7b4c4deffd6973", null ],
+      [ "GetSize", "classjugimap_1_1_colors_library.html#af20bedaf7c9a39abf3f99b1122503107", null ]
+    ] ],
     [ "Vec2", "structjugimap_1_1_vec2.html", [
       [ "Vec2", "structjugimap_1_1_vec2.html#a1ab54d75ff36ed23a47e9229039c825d", null ],
       [ "Vec2", "structjugimap_1_1_vec2.html#a45878cc9b5c3214d23cae0857c4c6c78", null ],
       [ "Set", "structjugimap_1_1_vec2.html#a3c8359469180989af9f7fb99f31b61f7", null ],
       [ "operator==", "structjugimap_1_1_vec2.html#a4b15e4ed639ab67cfc64e9ff21a204f1", null ],
       [ "operator!=", "structjugimap_1_1_vec2.html#ae569708e934af06477f4dc1251ee1b04", null ],
-      [ "Equals", "structjugimap_1_1_vec2.html#a70f928b4d38e67e897a8d0db58e0d735", null ],
+      [ "Equals", "structjugimap_1_1_vec2.html#a5ce1faf60c18cbb20a323c82132159ef", null ],
       [ "operator-", "structjugimap_1_1_vec2.html#a75dbde84a7a392acdf477cf234ccf8d6", null ],
       [ "operator*", "structjugimap_1_1_vec2.html#a65f3aa292be9659aa4e5d82ce4c43a42", null ],
       [ "operator/", "structjugimap_1_1_vec2.html#aa0560ce9281f1aedcc23e110540572ac", null ],
@@ -24,8 +54,8 @@ var group___common =
       [ "operator/", "structjugimap_1_1_vec2.html#aea4367bf4e27ab4635b9436ac148488e", null ],
       [ "operator+", "structjugimap_1_1_vec2.html#a65341d14068aefb716ead5ffaf0affba", null ],
       [ "operator-", "structjugimap_1_1_vec2.html#abe93e6855089a262398019cca5385602", null ],
-      [ "Length", "structjugimap_1_1_vec2.html#aa0cf6a71f5339d3fc703e70f2dcb60a3", null ],
-      [ "Length2", "structjugimap_1_1_vec2.html#a44c90f323837a28943319ae55896bbe0", null ],
+      [ "GetLength", "structjugimap_1_1_vec2.html#adca4fce8e3ab8fd1eacd396af7c9adbb", null ],
+      [ "GetLength2", "structjugimap_1_1_vec2.html#af8ee03d65827a012458abfb34c005d66", null ],
       [ "Distance", "structjugimap_1_1_vec2.html#acc794ef135d63abe04c5ed8b337ba809", null ],
       [ "Distance2", "structjugimap_1_1_vec2.html#a112f7163448ae9eccdcc8ef31cebdddc", null ],
       [ "Normalize", "structjugimap_1_1_vec2.html#abd6a76a1d80f7c1532fa24ce43bc6690", null ],
@@ -39,15 +69,15 @@ var group___common =
       [ "Rect", "structjugimap_1_1_rect.html#a5b9547099a678af185d6fe04138d1f96", null ],
       [ "operator==", "structjugimap_1_1_rect.html#af5c27ea1806dd6a206110ef1d4e4390a", null ],
       [ "operator!=", "structjugimap_1_1_rect.html#a5bb45450f588aa56c816b99c4ab11363", null ],
-      [ "Equals", "structjugimap_1_1_rect.html#ae6b7be75ac4cf195bf339b6818a7d3b0", null ],
-      [ "Width", "structjugimap_1_1_rect.html#ad3febe0238392fe748447e762f2922bb", null ],
-      [ "Height", "structjugimap_1_1_rect.html#aad5cbc18676e541f77a16fe8928557b4", null ],
+      [ "Equals", "structjugimap_1_1_rect.html#a46c0a0b803dd9cf075853f2bccb87df9", null ],
+      [ "GetWidth", "structjugimap_1_1_rect.html#af34a6cd4e56022e62524c908391d952c", null ],
+      [ "GetHeight", "structjugimap_1_1_rect.html#a22bc26956863c0755f4fb0bdc649d895", null ],
       [ "Unite", "structjugimap_1_1_rect.html#aeeb94e8c30a5ae3a6819c8a159cb9216", null ],
       [ "Expand", "structjugimap_1_1_rect.html#a71f74a0db18a9555cd5ef31348192573", null ],
-      [ "Size", "structjugimap_1_1_rect.html#a7cf54466a4c85f526862992bf0c38d49", null ],
-      [ "Center", "structjugimap_1_1_rect.html#a42495b4c0b11c45e7178150abb2da8dc", null ],
-      [ "Empty", "structjugimap_1_1_rect.html#a31d1053aee208079bcc3c5e1884774df", null ],
-      [ "Valid", "structjugimap_1_1_rect.html#a62f0e274c1fe43a9411e2c6d3d144913", null ],
+      [ "GetSize", "structjugimap_1_1_rect.html#a999dbcb00f8308f8657696a212a5089c", null ],
+      [ "GetCenter", "structjugimap_1_1_rect.html#a31ca7a8f9aaf778bd7d2afbf4ce59c17", null ],
+      [ "IsEmpty", "structjugimap_1_1_rect.html#a357657ded604ecb97b76251146f7ac75", null ],
+      [ "IsValid", "structjugimap_1_1_rect.html#a9dcb9b43a3d0fa9003d4c1c9d921f6b2", null ],
       [ "Contains", "structjugimap_1_1_rect.html#acfc2fc13dffd9630ec1310c82730eae9", null ],
       [ "Contains", "structjugimap_1_1_rect.html#a841951a70d219e1c4b1d84b533ac9c30", null ],
       [ "Intersects", "structjugimap_1_1_rect.html#a6cc0c3e6658d21c3502c32e6ccca77c3", null ],
@@ -73,29 +103,6 @@ var group___common =
       [ "j", "structjugimap_1_1_affine_mat3.html#a5a6d762e54f8787af79c6f1cb129c939", null ],
       [ "t", "structjugimap_1_1_affine_mat3.html#aa61a7a6d17dbcf0298cb5d78364486ad", null ]
     ] ],
-    [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html", [
-      [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html#a0947174ffa990ced2e3d6bc79588ec00", null ],
-      [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html#ae42a73713393574758e55849f2411055", null ],
-      [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html#a89767f2a0363d5187247dc42076b4fe2", null ],
-      [ "operator==", "structjugimap_1_1_color_r_g_b_a.html#a7a7e12c36a1e8e72d4a3bbf75bdb5eac", null ],
-      [ "operator!=", "structjugimap_1_1_color_r_g_b_a.html#aa0ac8c6f435343b41df4a43423cb1d56", null ],
-      [ "GetRGBA", "structjugimap_1_1_color_r_g_b_a.html#a5fca9cb83193baeba8136ec09596f995", null ],
-      [ "Set", "structjugimap_1_1_color_r_g_b_a.html#aead6e96e8f0236889b6e868d3658eb86", null ],
-      [ "Set", "structjugimap_1_1_color_r_g_b_a.html#a49d82bf0f5910a5bf86d3872dcf0a392", null ],
-      [ "r", "structjugimap_1_1_color_r_g_b_a.html#afd7b1ea9ff115205b65e0bffc92946ac", null ],
-      [ "g", "structjugimap_1_1_color_r_g_b_a.html#a83576af39a9f289a28c1263d61073508", null ],
-      [ "b", "structjugimap_1_1_color_r_g_b_a.html#a41cede1b4c0d05cff170ad5761f70964", null ],
-      [ "a", "structjugimap_1_1_color_r_g_b_a.html#a24420a9beaac7cee08b5e255a4c29db1", null ]
-    ] ],
-    [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html", [
-      [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html#add341398be855fa5ff3a127a4ab53b11", null ],
-      [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html#a26d94b56075fd985e40e4e5315dbb7f1", null ],
-      [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html#ab4e95b13085b1c3f2ffe22cf8b80cda5", null ],
-      [ "r", "structjugimap_1_1_color_r_g_b_af.html#a4788d82c901b9367dd5c0daff8a7616b", null ],
-      [ "g", "structjugimap_1_1_color_r_g_b_af.html#a8cf17d727651616de6f2b79ef32170cd", null ],
-      [ "b", "structjugimap_1_1_color_r_g_b_af.html#a83fc1af92e29717b4513d121b0c72c7d", null ],
-      [ "a", "structjugimap_1_1_color_r_g_b_af.html#a4aec1a5be9d9a4a394a2e49e9744286e", null ]
-    ] ],
     [ "Parameter", "structjugimap_1_1_parameter.html", [
       [ "name", "structjugimap_1_1_parameter.html#a9b45b3e13bd9167aab02e17e08916231", null ],
       [ "value", "structjugimap_1_1_parameter.html#a5c33da5929c9f2f9ef8d006d2350e6ec", null ],
@@ -111,9 +118,33 @@ var group___common =
       ] ],
       [ "GetValue", "classjugimap_1_1_easing.html#a7524afb54b9ad3e8ac9bdbbed2ac587a", null ]
     ] ],
+    [ "Tween", "classjugimap_1_1_tween.html", [
+      [ "Mode", "classjugimap_1_1_tween.html#a46c8a310cf4c094f8c80e1cb8dc1f911", [
+        [ "NORMAL", "classjugimap_1_1_tween.html#a46c8a310cf4c094f8c80e1cb8dc1f911a1e23852820b9154316c7c06e2b7ba051", null ],
+        [ "REVERSE", "classjugimap_1_1_tween.html#a46c8a310cf4c094f8c80e1cb8dc1f911a642e0b6684e6165e142c074f1cd8d55c", null ],
+        [ "LOOP", "classjugimap_1_1_tween.html#a46c8a310cf4c094f8c80e1cb8dc1f911a9159b3578e4e1eb31ffdf90acd6f6e40", null ],
+        [ "LOOP_REVERSE", "classjugimap_1_1_tween.html#a46c8a310cf4c094f8c80e1cb8dc1f911a3a2100701b8ced38406c85454ca7d5b5", null ]
+      ] ],
+      [ "Init", "classjugimap_1_1_tween.html#a1e6848c05c5e0c5c297b18a1aa79aaa4", null ],
+      [ "Play", "classjugimap_1_1_tween.html#a12574569144fb9d22d996965ee42b627", null ],
+      [ "Update", "classjugimap_1_1_tween.html#a8700f8fa8a832dcbf9567b470b134bb2", null ],
+      [ "IsIdle", "classjugimap_1_1_tween.html#a429c892072aceb4600503a23503a03f6", null ],
+      [ "Stop", "classjugimap_1_1_tween.html#a17a237457e57625296e6b24feb19c60a", null ],
+      [ "Pause", "classjugimap_1_1_tween.html#a70babc5227ddd16ca31dccc6cec0bb22", null ],
+      [ "Resume", "classjugimap_1_1_tween.html#a8af8fb637c7ae9d71a23bf3ac80d3c86", null ],
+      [ "SetEasingKind", "classjugimap_1_1_tween.html#ab52e8a16caec1e5424d22d99da6143e6", null ],
+      [ "SetMode", "classjugimap_1_1_tween.html#aaf17684233026d4cd79f4e21133963c3", null ],
+      [ "GetStartValue", "classjugimap_1_1_tween.html#a4b206d11b1ba23615945dd32b929832e", null ],
+      [ "GetEndValue", "classjugimap_1_1_tween.html#ab89ecdf5c2bc2fc8a8db2edb24e80824", null ]
+    ] ],
+    [ "CustomObject", "structjugimap_1_1_custom_object.html", [
+      [ "SetTag", "structjugimap_1_1_custom_object.html#a754846b17037e88154f17fd4b116e2cd", null ],
+      [ "GetTag", "structjugimap_1_1_custom_object.html#a4a714b3ee8f1f0fa2c9403375b2323aa", null ]
+    ] ],
     [ "Vec2i", "group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58", null ],
     [ "Vec2f", "group___common.html#ga5bba51046f8678fc315d18709ac24dab", null ],
     [ "Recti", "group___common.html#gad5884c160f442779efa7b4872ffa3e3c", null ],
     [ "Rectf", "group___common.html#ga72bbf42989aebda81ab76753d34422c9", null ],
-    [ "AffineMat3f", "group___common.html#ga4507701bd49beb55158c7b7e2f79955b", null ]
+    [ "AffineMat3f", "group___common.html#ga4507701bd49beb55158c7b7e2f79955b", null ],
+    [ "textColorsLibrary", "group___common.html#ga8a3c369cbfb26002849e849519950b10", null ]
 ];

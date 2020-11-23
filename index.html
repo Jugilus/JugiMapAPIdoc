@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: JugiMap API</title>
+<title>JugiMap Framework: JugiMap Framework</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -88,75 +88,45 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">JugiMap API </div>  </div>
+<div class="title">JugiMap Framework </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h2>About</h2>
 <ul>
 <li>JugiMap Editor - an application for creating 2d game maps: <a href="http://jugimap.com">http://jugimap.com</a></li>
-<li>JugiMap API - a library for using JugiMap maps in game development engines: <a href="https://github.com/Jugilus/jugimapAPI">https://github.com/Jugilus/jugimapAPI</a></li>
-<li>JugiMap API documentation: <a href="https://jugilus.github.io/JugiMapAPIdoc">https://jugilus.github.io/JugiMapAPIdoc</a></li>
+<li>JugiMap Framework - a framework for using JugiMap maps in game development engines: <a href="https://github.com/Jugilus/JugimapFramework">https://github.com/Jugilus/JugimapFramework</a></li>
+</ul>
+<h2>User documentation</h2>
+<ul>
+<li>JugiMap Editor: documentation included with the application.</li>
+<li>JugiMap Framework: <a href="https://jugilus.github.io/JugimapFrameworkDoc">https://jugilus.github.io/JugimapFrameworkDoc</a></li>
+<li>Markup codes for writing game texts: <a href="http://jugimap.com/extraDocumentation/text_markup_codes.html">http://jugimap.com/extraDocumentation/text_markup_codes.html</a></li>
 </ul>
 <h2>Main library</h2>
-<p>The main library is an engine independent part of JugiMap API. It provides support for:</p>
+<p>The main library consists of:</p>
 <ul>
-<li>Map elements from the editor: map, layers, sprites, vector shapes, ...</li>
-<li>Other map elements: text, drawing layers for geometric primitives, ...</li>
-<li>Supporting elements: cameras, colliders, tweens ...</li>
-<li>Supporting tools: map loader, functions for seeking and collecting map elements, ...</li>
-<li>Common objects: 2d vector, rectangle, transformation matrix, ...</li>
+<li>Data structure for all map elements from the editor ( layers, sprites, vector shapes, ... ).</li>
+<li>Supporting data structure ( cameras, colliders, loaders, drawing of graphic primitives, ... ).</li>
+<li>Animation module.</li>
+<li>GUI module.</li>
+<li>Core application and scene system.</li>
+<li>...</li>
 </ul>
-<p>The main library is currently available for the following languages:</p><ul>
+<p>The main library is engine independent part of JugiMap Framework. It is currently available for the following languages:</p><ul>
 <li>C++</li>
 </ul>
 <h2>Engine extensions</h2>
-<p>Engine extensions provide integration of the main library with game development engines (frameworks). An engine extension is a collection of classes which extend classes from the main library and wrap the engine objects.</p>
+<p>Engine extensions provide integration of the main library with game development engines. An engine extension is a collection of classes which extend classes from the main library and wrap the engine objects.</p>
 <p>Engine extensions are currently available for the following engines:</p><ul>
 <li>Cocos2d-x</li>
 <li>SFML</li>
 <li>AGK Tier 2</li>
 <li>nCine</li>
 </ul>
-<p>Extensions are possible for engines with the following features:</p><ul>
-<li>Programming language is c++.</li>
-<li>Game can be fully programmed by hand (as opposed to engines which require visual editors).</li>
-<li>Sufficient 2D functionality for supporting jugimap features.</li>
-</ul>
-<h2>Using the API</h2>
-<p>A game which uses scenes made from one or more JugiMap maps should be set up in the following way:</p>
-<p><b>application initialization</b></p><ul>
-<li>...</li>
-<li>Set required global jugimap parameters: screen size, engine specific parameters, path prefixes.</li>
-<li>Load shaders which are needed for some sprite properties.</li>
-<li>Make <em>object factory</em> for creating objects of the engine extended classes.</li>
-<li>Make <em>scene manager</em> (optional)</li>
-<li>...</li>
-</ul>
-<p><b>scene initialization</b></p><ul>
-<li>...</li>
-<li>Load maps.</li>
-<li>Initialize maps as world, parallax or screen maps.</li>
-<li>Initialize engine objects of the maps.</li>
-<li>Make cameras and assign them to the maps.</li>
-<li>...</li>
-</ul>
-<p><b>application update</b></p><ul>
-<li>...</li>
-<li>Update scene (called directly or via scene manager)</li>
-<li>...</li>
-</ul>
-<p><b>scene update</b></p><ul>
-<li>Set required global jugimap time parameters: <em>logic time</em> and <em>passed time</em>.</li>
-<li>...</li>
-<li>(Game logic)</li>
-<li>...</li>
-<li>Update engine objects of the maps.</li>
-</ul>
-<p>These are standard operations. Some engines may require more things. In general JugiMap API provides a consistent way to set up and use scenes based on JugiMap maps.</p>
-<p><b>Manipulation of map elements</b></p>
-<p>The API library provides an engine independent interface for managing map elements. It is possible to manipulate engine objects directly but you should not mix direct manipulation and manipulation via interface as that would lead to synchronization issues between jugimap and engine objects. It is recommended to use direct manipulation only for things not supported by the library, e.g. for sprites in physics simulation.</p>
-<h3>Programming Examples</h3>
-<p>The best way to get acquainted with practical usage of JugiMap API is by examining programming examples which use it. They can be found at: <a href="https://github.com/Jugilus/jugimapAPI">https://github.com/Jugilus/jugimapAPI</a> </p>
+<h2>Using the framework</h2>
+<p>The framework provides interface for programming games in engine independent way. If an engine provides features which are not supported in JugiMap framework you can still access and manipulate the engine objects directly.</p>
+<p><b>Examples</b></p>
+<p>Check out at: <a href="https://github.com/Jugilus/JugimapFramework">https://github.com/Jugilus/JugimapFramework</a> for various demo examples which were designed with JugiMap Editor and developed with JugiMap framework. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

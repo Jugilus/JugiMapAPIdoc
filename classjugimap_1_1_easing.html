@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: Easing Class Reference</title>
+<title>JugiMap Framework: Easing Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('classjugimap_1_1_easing.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classjugimap_1_1_easing.html" title="The Easing struct defines interpolation methods used for obtaining values between a start value and a...">Easing</a> struct defines interpolation methods used for obtaining values between a start value and an end value. It is usually used in timeline animations.  
+<p>The <a class="el" href="classjugimap_1_1_easing.html" title="The Easing struct defines interpolation methods used for obtaining values between a start value and a...">Easing</a> struct defines interpolation methods used for obtaining values between a start value and an end value. It is used in timeline animations and tweens.  
  <a href="classjugimap_1_1_easing.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="jm_common_8h_source.html">jmCommon.h</a>&gt;</code></p>
@@ -117,13 +117,12 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7524afb54b9ad3e8ac9bdbbed2ac587a"><td class="memItemLeft" align="right" valign="top"><a id="a7524afb54b9ad3e8ac9bdbbed2ac587a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_easing.html#a7524afb54b9ad3e8ac9bdbbed2ac587a">GetValue</a> (float p)</td></tr>
-<tr class="memdesc:a7524afb54b9ad3e8ac9bdbbed2ac587a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an ouput value according to the <a class="el" href="classjugimap_1_1_easing.html#a47628b5c91f6f759e32276c3d5c3a178" title="The kind of Easing.">Easing::Kind</a>. The given parameter <b>p</b> must be in range from 0.0 to 1.0. <br /></td></tr>
+<tr class="memitem:a7524afb54b9ad3e8ac9bdbbed2ac587a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_easing.html#a7524afb54b9ad3e8ac9bdbbed2ac587a">GetValue</a> (float p)</td></tr>
+<tr class="memdesc:a7524afb54b9ad3e8ac9bdbbed2ac587a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an ouput value according to the <a class="el" href="classjugimap_1_1_easing.html#a47628b5c91f6f759e32276c3d5c3a178" title="The kind of Easing.">Easing::Kind</a>. The given parameter <b>p</b> must be in range from 0.0 to 1.0.  <a href="classjugimap_1_1_easing.html#a7524afb54b9ad3e8ac9bdbbed2ac587a">More...</a><br /></td></tr>
 <tr class="separator:a7524afb54b9ad3e8ac9bdbbed2ac587a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classjugimap_1_1_easing.html" title="The Easing struct defines interpolation methods used for obtaining values between a start value and a...">Easing</a> struct defines interpolation methods used for obtaining values between a start value and an end value. It is usually used in timeline animations. </p>
+<div class="textblock"><p>The <a class="el" href="classjugimap_1_1_easing.html" title="The Easing struct defines interpolation methods used for obtaining values between a start value and a...">Easing</a> struct defines interpolation methods used for obtaining values between a start value and an end value. It is used in timeline animations and tweens. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a47628b5c91f6f759e32276c3d5c3a178"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47628b5c91f6f759e32276c3d5c3a178">&#9670;&nbsp;</a></span>Kind</h2>
@@ -161,9 +160,30 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7524afb54b9ad3e8ac9bdbbed2ac587a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7524afb54b9ad3e8ac9bdbbed2ac587a">&#9670;&nbsp;</a></span>GetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GetValue </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an ouput value according to the <a class="el" href="classjugimap_1_1_easing.html#a47628b5c91f6f759e32276c3d5c3a178" title="The kind of Easing.">Easing::Kind</a>. The given parameter <b>p</b> must be in range from 0.0 to 1.0. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/<a class="el" href="jm_common_8h_source.html">jmCommon.h</a></li>
-<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/jmCommon.cpp</li>
+<li>C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/<a class="el" href="jm_common_8h_source.html">jmCommon.h</a></li>
+<li>C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/jmCommon.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

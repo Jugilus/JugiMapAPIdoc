@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: Globals</title>
+<title>JugiMap Framework: Globals</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -118,6 +118,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___globals.html#gga84a454511f7473cb2254baa4cff462eaa7a916ed706bbb1c02749ca8e3b464479">SPINE_FILE</a>, 
 <br />
 &#160;&#160;<a class="el" href="group___globals.html#gga84a454511f7473cb2254baa4cff462eaab21063ebf7e3636f4ce5e526c744cfc6">SPRITER_FILE</a>, 
+<a class="el" href="group___globals.html#gga84a454511f7473cb2254baa4cff462eaaf12e53f5abcac7ce7cba4ed4ac9699ac">SPRITE_TEXT_CONTAINER</a>, 
 <a class="el" href="group___globals.html#gga84a454511f7473cb2254baa4cff462eaabfd8c78fbb91fe67b9886fad146392a4">NOT_DEFINED</a>
 <br />
  }</td></tr>
@@ -126,18 +127,18 @@ Enumerations</h2></td></tr>
 <tr class="memitem:gabd68c17bf2f3cc84732d58e98d519477"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a> { <br />
 &#160;&#160;<a class="el" href="group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a94e94133f4bdc1794c6b647b8ea134d0">STANDARD</a>, 
 <a class="el" href="group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a272080a76193a3649a817789e12b500b">COMPOSED</a>, 
+<a class="el" href="group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a61a96ffcb251bb9bf0abf8fec19d0ea8">TEXT</a>, 
 <a class="el" href="group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a8eedd505a4b9a5d0ad77664bd3f8aeb3">SPINE</a>, 
-<a class="el" href="group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477ab197833b2e32c15edcdd43be0b8f066d">SPRITER</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477abfd8c78fbb91fe67b9886fad146392a4">NOT_DEFINED</a>
+&#160;&#160;<a class="el" href="group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477ab197833b2e32c15edcdd43be0b8f066d">SPRITER</a>, 
+<a class="el" href="group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477abfd8c78fbb91fe67b9886fad146392a4">NOT_DEFINED</a>
 <br />
  }</td></tr>
 <tr class="memdesc:gabd68c17bf2f3cc84732d58e98d519477"><td class="mdescLeft">&#160;</td><td class="mdescRight">The kinds of sprite. Used as identifier for Sprite objects.  <a href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">More...</a><br /></td></tr>
 <tr class="separator:gabd68c17bf2f3cc84732d58e98d519477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4c73d8aa04c5b31558f468b95d4748b3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> { <a class="el" href="group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3a5289492cf082446ca4a6eec9f72f1ec3">WORLD</a>, 
 <a class="el" href="group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ae0c60ad18d407ae1a5264e56362372a2">PARALLAX</a>, 
-<a class="el" href="group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ab8640f4f990ba83d8d8bef816def1b80">SCREEN</a>, 
-<a class="el" href="group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3abfd8c78fbb91fe67b9886fad146392a4">NOT_DEFINED</a>
+<a class="el" href="group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ab8640f4f990ba83d8d8bef816def1b80">SCREEN</a>
  }</td></tr>
 <tr class="memdesc:ga4c73d8aa04c5b31558f468b95d4748b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The types of map.  <a href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">More...</a><br /></td></tr>
 <tr class="separator:ga4c73d8aa04c5b31558f468b95d4748b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,19 +146,18 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="group___globals.html#ggaa52763de299dba8324198f93970f3799a2a3389b1d8bc619aed964477ec7b1a2d">SPRITE</a>, 
 <a class="el" href="group___globals.html#ggaa52763de299dba8324198f93970f3799a87752381b583740610f1dfeb07fdad7e">VECTOR</a>, 
 <a class="el" href="group___globals.html#ggaa52763de299dba8324198f93970f3799a00e176a504ad842500fc78b769637fa1">DRAWING</a>, 
-<a class="el" href="group___globals.html#ggaa52763de299dba8324198f93970f3799a61a96ffcb251bb9bf0abf8fec19d0ea8">TEXT</a>, 
+<a class="el" href="group___globals.html#ggaa52763de299dba8324198f93970f3799a72baef04098f035e8a320b03ad197818">CUSTOM</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___globals.html#ggaa52763de299dba8324198f93970f3799a72baef04098f035e8a320b03ad197818">CUSTOM</a>, 
-<a class="el" href="group___globals.html#ggaa52763de299dba8324198f93970f3799abfd8c78fbb91fe67b9886fad146392a4">NOT_DEFINED</a>
+&#160;&#160;<a class="el" href="group___globals.html#ggaa52763de299dba8324198f93970f3799abfd8c78fbb91fe67b9886fad146392a4">NOT_DEFINED</a>
 <br />
  }</td></tr>
 <tr class="memdesc:gaa52763de299dba8324198f93970f3799"><td class="mdescLeft">&#160;</td><td class="mdescRight">The kinds of layer. Used as identifier for Layer objects.  <a href="group___globals.html#gaa52763de299dba8324198f93970f3799">More...</a><br /></td></tr>
 <tr class="separator:gaa52763de299dba8324198f93970f3799"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga56943a0946e5f15e5e58054b8e7a04a4"><td class="memItemLeft" align="right" valign="top"><a id="ga56943a0946e5f15e5e58054b8e7a04a4"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga56943a0946e5f15e5e58054b8e7a04a4">LayerType</a> </td></tr>
-<tr class="memdesc:ga56943a0946e5f15e5e58054b8e7a04a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The types of layer. Used to distinguish layers for world, parallax and screen maps. <br /></td></tr>
+<tr class="memitem:ga56943a0946e5f15e5e58054b8e7a04a4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga56943a0946e5f15e5e58054b8e7a04a4">LayerType</a> </td></tr>
+<tr class="memdesc:ga56943a0946e5f15e5e58054b8e7a04a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The types of layer. Used to distinguish layers for world, parallax and screen maps.  <a href="group___globals.html#ga56943a0946e5f15e5e58054b8e7a04a4">More...</a><br /></td></tr>
 <tr class="separator:ga56943a0946e5f15e5e58054b8e7a04a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga44a6afb54d27fc91926f14cceaaf6938"><td class="memItemLeft" align="right" valign="top"><a id="ga44a6afb54d27fc91926f14cceaaf6938"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga44a6afb54d27fc91926f14cceaaf6938">StretchingVariant</a> </td></tr>
-<tr class="memdesc:ga44a6afb54d27fc91926f14cceaaf6938"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stretching variants. <br /></td></tr>
+<tr class="memitem:ga44a6afb54d27fc91926f14cceaaf6938"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga44a6afb54d27fc91926f14cceaaf6938">StretchingVariant</a> </td></tr>
+<tr class="memdesc:ga44a6afb54d27fc91926f14cceaaf6938"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stretching variants.  <a href="group___globals.html#ga44a6afb54d27fc91926f14cceaaf6938">More...</a><br /></td></tr>
 <tr class="separator:ga44a6afb54d27fc91926f14cceaaf6938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1e98c8c780114323be63116006eb2cf6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga1e98c8c780114323be63116006eb2cf6">AlignX</a> { <a class="el" href="group___globals.html#gga1e98c8c780114323be63116006eb2cf6a684d325a7303f52e64011467ff5c5758">LEFT</a>, 
 <a class="el" href="group___globals.html#gga1e98c8c780114323be63116006eb2cf6a43eedd8685eb86592022f8da962e3474">MIDDLE</a>, 
@@ -194,8 +194,8 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:gab09328ad939b05e2dd7507c7288563eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The blend modes for the shader based pixel blending which simulate photoshop blending modes.  <a href="group___globals.html#gab09328ad939b05e2dd7507c7288563eb">More...</a><br /></td></tr>
 <tr class="separator:gab09328ad939b05e2dd7507c7288563eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad19071725187629f07e7bae695ecf60c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a> { <a class="el" href="group___globals.html#ggad19071725187629f07e7bae695ecf60ca28a8fc326ef35be2a8a8ddb6c1d00768">TRUE_TYPE</a>, 
-<a class="el" href="group___globals.html#ggad19071725187629f07e7bae695ecf60cabfd8c78fbb91fe67b9886fad146392a4">NOT_DEFINED</a>
+<tr class="memitem:gad19071725187629f07e7bae695ecf60c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a> { <a class="el" href="group___globals.html#ggad19071725187629f07e7bae695ecf60ca28a8fc326ef35be2a8a8ddb6c1d00768">TRUE_TYPE</a>
+, <a class="el" href="group___globals.html#ggad19071725187629f07e7bae695ecf60cabfd8c78fbb91fe67b9886fad146392a4">NOT_DEFINED</a>
  }</td></tr>
 <tr class="memdesc:gad19071725187629f07e7bae695ecf60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The kinds of font.  <a href="group___globals.html#gad19071725187629f07e7bae695ecf60c">More...</a><br /></td></tr>
 <tr class="separator:gad19071725187629f07e7bae695ecf60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,17 +246,36 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga50bdd3122560e2010412f9acd67687c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The states of animation player.  <a href="group___globals.html#ga50bdd3122560e2010412f9acd67687c4">More...</a><br /></td></tr>
 <tr class="separator:ga50bdd3122560e2010412f9acd67687c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81d055800f2a8f13aa2bf2ea07d8a1a1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga81d055800f2a8f13aa2bf2ea07d8a1a1">GuiWidgetKind</a> { , <br />
+&#160;&#160;<a class="el" href="group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a57b35198356d373bcd2a6e08abcb3795">BUTTON</a>, 
+<a class="el" href="group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a3c93f85078b290625b7c4db299979c4f">SLIDER</a>, 
+<a class="el" href="group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a3d75eec709b70a350e143492192a1736">BAR</a>, 
+<a class="el" href="group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1aec70c2003c3b91a4d84a9760059e48a7">TEXT_FIELD</a>, 
+<br />
+&#160;&#160;<a class="el" href="group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a7dd471445dde85d557e653dcd92da3f8">TEXT_INPUT</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ga81d055800f2a8f13aa2bf2ea07d8a1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The kinds of widget. Used as identifier for GuiWidget objects.  <a href="group___globals.html#ga81d055800f2a8f13aa2bf2ea07d8a1a1">More...</a><br /></td></tr>
+<tr class="separator:ga81d055800f2a8f13aa2bf2ea07d8a1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68a5f2df3cc58a8d71a07030de1810b8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga68a5f2df3cc58a8d71a07030de1810b8">TextHandleVariant</a> </td></tr>
+<tr class="memdesc:ga68a5f2df3cc58a8d71a07030de1810b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined handles for TextSprite objects.  <a href="group___globals.html#ga68a5f2df3cc58a8d71a07030de1810b8">More...</a><br /></td></tr>
+<tr class="separator:ga68a5f2df3cc58a8d71a07030de1810b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c252989c03f6369be1582497c899c9a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga6c252989c03f6369be1582497c899c9a">Engine</a> </td></tr>
+<tr class="memdesc:ga6c252989c03f6369be1582497c899c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Engine identification value.  <a href="group___globals.html#ga6c252989c03f6369be1582497c899c9a">More...</a><br /></td></tr>
+<tr class="separator:ga6c252989c03f6369be1582497c899c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga37036efb50f0a4da8d70593edbfa1545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga37036efb50f0a4da8d70593edbfa1545">GetRelativeHandleFromTextHandleVariant</a> (<a class="el" href="group___globals.html#ga68a5f2df3cc58a8d71a07030de1810b8">TextHandleVariant</a> _thv)</td></tr>
+<tr class="memdesc:ga37036efb50f0a4da8d70593edbfa1545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert TextHandleVariant to relative handle with coordinates in range 0 - 1.0.  <a href="group___globals.html#ga37036efb50f0a4da8d70593edbfa1545">More...</a><br /></td></tr>
+<tr class="separator:ga37036efb50f0a4da8d70593edbfa1545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga407856c9eaa02b435227d555d45330d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga407856c9eaa02b435227d555d45330d4">DeleteGlobalObjects</a> ()</td></tr>
 <tr class="separator:ga407856c9eaa02b435227d555d45330d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga19276c778f3034b94881cf1f8614dbb2"><td class="memItemLeft" align="right" valign="top"><a id="ga19276c778f3034b94881cf1f8614dbb2"></a>
-<a class="el" href="classjugimap_1_1_settings.html">Settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga19276c778f3034b94881cf1f8614dbb2">settings</a></td></tr>
-<tr class="memdesc:ga19276c778f3034b94881cf1f8614dbb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classjugimap_1_1_settings.html" title="Settings.">Settings</a> object. <br /></td></tr>
+<tr class="memitem:ga19276c778f3034b94881cf1f8614dbb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_settings.html">Settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___globals.html#ga19276c778f3034b94881cf1f8614dbb2">settings</a></td></tr>
+<tr class="memdesc:ga19276c778f3034b94881cf1f8614dbb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classjugimap_1_1_settings.html" title="Settings.">Settings</a> object.  <a href="group___globals.html#ga19276c778f3034b94881cf1f8614dbb2">More...</a><br /></td></tr>
 <tr class="separator:ga19276c778f3034b94881cf1f8614dbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -293,6 +312,8 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga84a454511f7473cb2254baa4cff462eaab21063ebf7e3636f4ce5e526c744cfc6"></a>SPRITER_FILE&#160;</td><td class="fielddoc"><p>Spriter file. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="gga84a454511f7473cb2254baa4cff462eaaf12e53f5abcac7ce7cba4ed4ac9699ac"></a>SPRITE_TEXT_CONTAINER&#160;</td><td class="fielddoc"><p>Container of text sprite source items. </p>
+</td></tr>
 <tr><td class="fieldname"><a id="gga84a454511f7473cb2254baa4cff462eaabfd8c78fbb91fe67b9886fad146392a4"></a>NOT_DEFINED&#160;</td><td class="fielddoc"><p>The file kind not defined. </p>
 </td></tr>
 </table>
@@ -319,15 +340,17 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The kinds of sprite. Used as identifier for <a class="el" href="classjugimap_1_1_sprite.html" title="The base sprite class.">Sprite</a> objects. </p>
+<p>The kinds of sprite. Used as identifier for <a class="el" href="classjugimap_1_1_sprite.html" title="The Sprite is the base sprite class.">Sprite</a> objects. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477a94e94133f4bdc1794c6b647b8ea134d0"></a>STANDARD&#160;</td><td class="fielddoc"><p>Standard sprite - <a class="el" href="classjugimap_1_1_standard_sprite.html" title="A sprite with image.">StandardSprite</a> object. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477a94e94133f4bdc1794c6b647b8ea134d0"></a>STANDARD&#160;</td><td class="fielddoc"><p>Standard sprite - <a class="el" href="classjugimap_1_1_standard_sprite.html" title="The StandardSprite class defines the sprite from JugiMap Editor.">StandardSprite</a> object. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477a272080a76193a3649a817789e12b500b"></a>COMPOSED&#160;</td><td class="fielddoc"><p>Composed sprite - <a class="el" href="classjugimap_1_1_composed_sprite.html" title="A sprite composed from other sprites.">ComposedSprite</a> object. </p>
+<tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477a272080a76193a3649a817789e12b500b"></a>COMPOSED&#160;</td><td class="fielddoc"><p>Composed sprite - <a class="el" href="classjugimap_1_1_composed_sprite.html" title="The ComposedSprite class defines the composed sprite from JugiMap Editor.">ComposedSprite</a> object. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477a8eedd505a4b9a5d0ad77664bd3f8aeb3"></a>SPINE&#160;</td><td class="fielddoc"><p>Spine sprite - <a class="el" href="classjugimap_1_1_skeleton_sprite.html" title="A skeleton based sprite.">SkeletonSprite</a> object. </p>
+<tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477a61a96ffcb251bb9bf0abf8fec19d0ea8"></a>TEXT&#160;</td><td class="fielddoc"><p>Text sprite - <a class="el" href="classjugimap_1_1_text_sprite.html" title="The TextSprite class defines the text sprite from JugiMap Editor.">TextSprite</a> object. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477ab197833b2e32c15edcdd43be0b8f066d"></a>SPRITER&#160;</td><td class="fielddoc"><p>Spriter sprite - <a class="el" href="classjugimap_1_1_skeleton_sprite.html" title="A skeleton based sprite.">SkeletonSprite</a> object. </p>
+<tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477a8eedd505a4b9a5d0ad77664bd3f8aeb3"></a>SPINE&#160;</td><td class="fielddoc"><p>Spine sprite - <a class="el" href="classjugimap_1_1_skeleton_sprite.html" title="The SkeletonSprite class defines the skeleton sprite from JugiMap Editor.">SkeletonSprite</a> object. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477ab197833b2e32c15edcdd43be0b8f066d"></a>SPRITER&#160;</td><td class="fielddoc"><p>Spriter sprite - <a class="el" href="classjugimap_1_1_skeleton_sprite.html" title="The SkeletonSprite class defines the skeleton sprite from JugiMap Editor.">SkeletonSprite</a> object. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggabd68c17bf2f3cc84732d58e98d519477abfd8c78fbb91fe67b9886fad146392a4"></a>NOT_DEFINED&#160;</td><td class="fielddoc"><p>The sprite kind not defined. </p>
 </td></tr>
@@ -363,8 +386,6 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga4c73d8aa04c5b31558f468b95d4748b3ab8640f4f990ba83d8d8bef816def1b80"></a>SCREEN&#160;</td><td class="fielddoc"><p>Screen map. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga4c73d8aa04c5b31558f468b95d4748b3abfd8c78fbb91fe67b9886fad146392a4"></a>NOT_DEFINED&#160;</td><td class="fielddoc"><p>The map type not defined. </p>
-</td></tr>
 </table>
 
 </div>
@@ -389,21 +410,67 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The kinds of layer. Used as identifier for <a class="el" href="classjugimap_1_1_layer.html" title="The base layer class.">Layer</a> objects. </p>
+<p>The kinds of layer. Used as identifier for <a class="el" href="classjugimap_1_1_layer.html" title="The Layer class is the base class for layers.">Layer</a> objects. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799a2a3389b1d8bc619aed964477ec7b1a2d"></a>SPRITE&#160;</td><td class="fielddoc"><p>Sprite layer - <a class="el" href="classjugimap_1_1_sprite_layer.html" title="A layer for using sprites.">SpriteLayer</a> object. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799a2a3389b1d8bc619aed964477ec7b1a2d"></a>SPRITE&#160;</td><td class="fielddoc"><p>Sprite layer - <a class="el" href="classjugimap_1_1_sprite_layer.html" title="The SpriteLayer class defines the sprite and tile layers from JugiMap Editor.">SpriteLayer</a> object. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799a87752381b583740610f1dfeb07fdad7e"></a>VECTOR&#160;</td><td class="fielddoc"><p>Vector layer - <a class="el" href="classjugimap_1_1_vector_layer.html" title="A layer for using vector shapes.">VectorLayer</a> object. </p>
+<tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799a87752381b583740610f1dfeb07fdad7e"></a>VECTOR&#160;</td><td class="fielddoc"><p>Vector layer - <a class="el" href="classjugimap_1_1_vector_layer.html" title="The VectorLayer class defines the vector layer from JugiMap Editor.">VectorLayer</a> object. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799a00e176a504ad842500fc78b769637fa1"></a>DRAWING&#160;</td><td class="fielddoc"><p>Drawing layer - <a class="el" href="classjugimap_1_1_drawing_layer.html" title="A layer for drawing geometric primitives.">DrawingLayer</a> object. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799a61a96ffcb251bb9bf0abf8fec19d0ea8"></a>TEXT&#160;</td><td class="fielddoc"><p>Text layer - <a class="el" href="classjugimap_1_1_text_layer.html" title="A layer for displaying texts.">TextLayer</a> object. </p>
+<tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799a00e176a504ad842500fc78b769637fa1"></a>DRAWING&#160;</td><td class="fielddoc"><p>Drawing layer - <a class="el" href="classjugimap_1_1_drawing_layer.html" title="The DrawingLayer is the base class for drawing geometric primitives.">DrawingLayer</a> object. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799a72baef04098f035e8a320b03ad197818"></a>CUSTOM&#160;</td><td class="fielddoc"><p>Custom layer. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggaa52763de299dba8324198f93970f3799abfd8c78fbb91fe67b9886fad146392a4"></a>NOT_DEFINED&#160;</td><td class="fielddoc"><p>The layer kind not defined. </p>
 </td></tr>
 </table>
+
+</div>
+</div>
+<a id="ga56943a0946e5f15e5e58054b8e7a04a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56943a0946e5f15e5e58054b8e7a04a4">&#9670;&nbsp;</a></span>LayerType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___globals.html#ga56943a0946e5f15e5e58054b8e7a04a4">LayerType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The types of layer. Used to distinguish layers for world, parallax and screen maps. </p>
+
+</div>
+</div>
+<a id="ga44a6afb54d27fc91926f14cceaaf6938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44a6afb54d27fc91926f14cceaaf6938">&#9670;&nbsp;</a></span>StretchingVariant</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___globals.html#ga44a6afb54d27fc91926f14cceaaf6938">StretchingVariant</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The stretching variants. </p>
 
 </div>
 </div>
@@ -595,7 +662,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The kinds of geometric shape. Used as identifier for <a class="el" href="structjugimap_1_1_geometric_shape.html" title="The base class for geometric shapes.">GeometricShape</a> and <a class="el" href="classjugimap_1_1_vector_shape.html" title="The vector shape.">VectorShape</a> objects. </p>
+<p>The kinds of geometric shape. Used as identifier for <a class="el" href="structjugimap_1_1_geometric_shape.html" title="The GeometricShape is the base class for geometric shapes.">GeometricShape</a> and <a class="el" href="classjugimap_1_1_vector_shape.html" title="The VectorShape class defines the vector shape from JugiMap Editor.">VectorShape</a> objects. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaaa9206375355490ae37301b68d135f8eaeaa8e11478ccd5c257fe6f8bb5591c89"></a>POLYLINE&#160;</td><td class="fielddoc"><p>Polyline - <a class="el" href="structjugimap_1_1_poly_line_shape.html" title="The polyline shape. Defines also a rectangle shape.">PolyLineShape</a> object. </p>
 </td></tr>
@@ -633,9 +700,9 @@ Variables</h2></td></tr>
 
 <p>The kinds of animation. Used as identifier for <a class="el" href="classjugimap_1_1_animation.html" title="The base animation class.">Animation</a> objects. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga62b69112568377399dfb840cb23549f7a69c783c9b451124d5866513d1b91757d"></a>FRAME_ANIMATION&#160;</td><td class="fielddoc"><p>Frame animation - <a class="el" href="classjugimap_1_1_frame_animation.html" title="Frame animation of standard sprites.">FrameAnimation</a> object. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga62b69112568377399dfb840cb23549f7a69c783c9b451124d5866513d1b91757d"></a>FRAME_ANIMATION&#160;</td><td class="fielddoc"><p>Frame animation - <a class="el" href="classjugimap_1_1_frame_animation.html" title="The FrameAnimation class represents the sprite frame animation from JugiMap Editor.">FrameAnimation</a> object. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga62b69112568377399dfb840cb23549f7a52ae94d7d8d6c6bd38960412bc5b84ee"></a>TIMELINE_ANIMATION&#160;</td><td class="fielddoc"><p>Timeline animation - <a class="el" href="classjugimap_1_1_timeline_animation.html" title="Timeline animation of standard and composed sprites.">TimelineAnimation</a> object. </p>
+<tr><td class="fieldname"><a id="gga62b69112568377399dfb840cb23549f7a52ae94d7d8d6c6bd38960412bc5b84ee"></a>TIMELINE_ANIMATION&#160;</td><td class="fielddoc"><p>Timeline animation - <a class="el" href="classjugimap_1_1_timeline_animation.html" title="The TimelineAnimation class represents the sprite timeline animation from JugiMap Editor.">TimelineAnimation</a> object. </p>
 </td></tr>
 </table>
 
@@ -729,7 +796,111 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ga81d055800f2a8f13aa2bf2ea07d8a1a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81d055800f2a8f13aa2bf2ea07d8a1a1">&#9670;&nbsp;</a></span>GuiWidgetKind</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___globals.html#ga81d055800f2a8f13aa2bf2ea07d8a1a1">GuiWidgetKind</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The kinds of widget. Used as identifier for <a class="el" href="classjugimap_1_1_gui_widget.html" title="The GuiWidget class is the base widget class.">GuiWidget</a> objects. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga81d055800f2a8f13aa2bf2ea07d8a1a1a57b35198356d373bcd2a6e08abcb3795"></a>BUTTON&#160;</td><td class="fielddoc"><p>Button - <a class="el" href="classjugimap_1_1_gui_button.html" title="The GuiButton class provides a widget for buttons.">GuiButton</a> object. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga81d055800f2a8f13aa2bf2ea07d8a1a1a3c93f85078b290625b7c4db299979c4f"></a>SLIDER&#160;</td><td class="fielddoc"><p>Slider - <a class="el" href="classjugimap_1_1_gui_slider.html" title="The GuiSlider class provides a widget for sliders.">GuiSlider</a> object. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga81d055800f2a8f13aa2bf2ea07d8a1a1a3d75eec709b70a350e143492192a1736"></a>BAR&#160;</td><td class="fielddoc"><p>Bar - <a class="el" href="classjugimap_1_1_gui_bar.html" title="The GuiBar class provides a widget for bars.">GuiBar</a> object. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga81d055800f2a8f13aa2bf2ea07d8a1a1aec70c2003c3b91a4d84a9760059e48a7"></a>TEXT_FIELD&#160;</td><td class="fielddoc"><p>Text field - <a class="el" href="classjugimap_1_1_gui_text_field.html" title="The GuiTextField class provides a widget for displaying text.">GuiTextField</a> object. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga81d055800f2a8f13aa2bf2ea07d8a1a1a7dd471445dde85d557e653dcd92da3f8"></a>TEXT_INPUT&#160;</td><td class="fielddoc"><p>Text input - <a class="el" href="classjugimap_1_1_gui_text_input.html" title="The GuiTextField class provides a widget for text input.">GuiTextInput</a> object. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga68a5f2df3cc58a8d71a07030de1810b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga68a5f2df3cc58a8d71a07030de1810b8">&#9670;&nbsp;</a></span>TextHandleVariant</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___globals.html#ga68a5f2df3cc58a8d71a07030de1810b8">TextHandleVariant</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Predefined handles for <a class="el" href="classjugimap_1_1_text_sprite.html" title="The TextSprite class defines the text sprite from JugiMap Editor.">TextSprite</a> objects. </p>
+
+</div>
+</div>
+<a id="ga6c252989c03f6369be1582497c899c9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c252989c03f6369be1582497c899c9a">&#9670;&nbsp;</a></span>Engine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___globals.html#ga6c252989c03f6369be1582497c899c9a">Engine</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Engine identification value. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga37036efb50f0a4da8d70593edbfa1545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga37036efb50f0a4da8d70593edbfa1545">&#9670;&nbsp;</a></span>GetRelativeHandleFromTextHandleVariant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> GetRelativeHandleFromTextHandleVariant </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___globals.html#ga68a5f2df3cc58a8d71a07030de1810b8">TextHandleVariant</a>&#160;</td>
+          <td class="paramname"><em>_thv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert TextHandleVariant to relative handle with coordinates in range 0 - 1.0. </p>
+
+</div>
+</div>
 <a id="ga407856c9eaa02b435227d555d45330d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga407856c9eaa02b435227d555d45330d4">&#9670;&nbsp;</a></span>DeleteGlobalObjects()</h2>
 
@@ -746,6 +917,23 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Delete global jugimap objects.</p>
 <p>This function must be called at the application exits. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga19276c778f3034b94881cf1f8614dbb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga19276c778f3034b94881cf1f8614dbb2">&#9670;&nbsp;</a></span>settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_settings.html">Settings</a> settings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="classjugimap_1_1_settings.html" title="Settings.">Settings</a> object. </p>
 
 </div>
 </div>

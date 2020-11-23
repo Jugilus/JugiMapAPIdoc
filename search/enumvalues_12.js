@@ -1,6 +1,24 @@
 var searchData=
 [
-  ['waiting_5fto_5frepeat_1294',['WAITING_TO_REPEAT',['../group___globals.html#gga50bdd3122560e2010412f9acd67687c4a3bea7bb71f24711c333db4c6de97f281',1,'jugimap']]],
-  ['waiting_5fto_5fstart_1295',['WAITING_TO_START',['../group___globals.html#gga50bdd3122560e2010412f9acd67687c4a85ae1e1a056b346a0c767e365502306a',1,'jugimap']]],
-  ['world_1296',['WORLD',['../group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3a5289492cf082446ca4a6eec9f72f1ec3',1,'jugimap']]]
+  ['s_1840',['S',['../group___input.html#gga7885f47644a0388f981f416fa20389b2a5dbc98dcc983a70728bd082d1a47546e',1,'jugimap']]],
+  ['scaling_1841',['SCALING',['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403ae4738c2e8d13809f2e73485a6c53c24b',1,'jugimap']]],
+  ['screen_1842',['SCREEN',['../group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ab8640f4f990ba83d8d8bef816def1b80',1,'jugimap']]],
+  ['semicolon_1843',['SEMICOLON',['../group___input.html#gga7885f47644a0388f981f416fa20389b2abaaceccc27b1d4e0968c999583f97de5',1,'jugimap']]],
+  ['simple_5fmultiply_1844',['SIMPLE_MULTIPLY',['../group___globals.html#ggab09328ad939b05e2dd7507c7288563ebab0c0e5400645b6a2cd0fec9d95e539d6',1,'jugimap']]],
+  ['single_5fimage_1845',['SINGLE_IMAGE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaab47cbd575d965c552109bce1eba43c72',1,'jugimap']]],
+  ['single_5fpoint_1846',['SINGLE_POINT',['../group___globals.html#ggaaa9206375355490ae37301b68d135f8ea9e57b62f97ebcf747995338945dc3451',1,'jugimap']]],
+  ['slash_1847',['SLASH',['../group___input.html#gga7885f47644a0388f981f416fa20389b2a646da671ca01bb5d84dbb5fb2238dc8e',1,'jugimap']]],
+  ['slider_1848',['SLIDER',['../group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a3c93f85078b290625b7c4db299979c4f',1,'jugimap']]],
+  ['solid_1849',['SOLID',['../group___globals.html#gga7c77e8b322345a892abf765ad75a6b11ad0dea69649a83749aa6bdf176092e8c9',1,'jugimap']]],
+  ['space_1850',['SPACE',['../group___input.html#gga7885f47644a0388f981f416fa20389b2a6506ae39fdca9845e3a6de3865183e57',1,'jugimap']]],
+  ['spine_1851',['SPINE',['../group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a8eedd505a4b9a5d0ad77664bd3f8aeb3',1,'jugimap']]],
+  ['spine_5ffile_1852',['SPINE_FILE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaa7a916ed706bbb1c02749ca8e3b464479',1,'jugimap']]],
+  ['sprite_1853',['SPRITE',['../group___globals.html#ggaa52763de299dba8324198f93970f3799a2a3389b1d8bc619aed964477ec7b1a2d',1,'jugimap']]],
+  ['sprite_5fsheet_5fimage_1854',['SPRITE_SHEET_IMAGE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaa31881490526e19cbf8ea14bddd32c66e',1,'jugimap']]],
+  ['sprite_5ftext_5fcontainer_1855',['SPRITE_TEXT_CONTAINER',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaaf12e53f5abcac7ce7cba4ed4ac9699ac',1,'jugimap']]],
+  ['spriter_1856',['SPRITER',['../group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477ab197833b2e32c15edcdd43be0b8f066d',1,'jugimap']]],
+  ['spriter_5ffile_1857',['SPRITER_FILE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaab21063ebf7e3636f4ce5e526c744cfc6',1,'jugimap']]],
+  ['stalled_1858',['STALLED',['../group___globals.html#gga50bdd3122560e2010412f9acd67687c4a4be6a75b35e47c01bca1a18f1b0ce3fb',1,'jugimap']]],
+  ['standard_1859',['STANDARD',['../group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a94e94133f4bdc1794c6b647b8ea134d0',1,'jugimap']]],
+  ['static_1860',['STATIC',['../classjugimap_1_1_standard_sprite.html#aa271142408caacfc01e8494b8650e2fdae55a36a850c67d46b3b3325de7fce0b8',1,'jugimap::StandardSprite']]]
 ];

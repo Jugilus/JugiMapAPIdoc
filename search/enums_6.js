@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['maptype_1224',['MapType',['../group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3',1,'jugimap']]]
+  ['guiwidgetkind_1704',['GuiWidgetKind',['../group___globals.html#ga81d055800f2a8f13aa2bf2ea07d8a1a1',1,'jugimap']]]
 ];

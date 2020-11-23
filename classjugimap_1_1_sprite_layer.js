@@ -2,10 +2,10 @@ var classjugimap_1_1_sprite_layer =
 [
     [ "SpriteLayer", "classjugimap_1_1_sprite_layer.html#a826eecd14cba0bd333df541e300fcff9", null ],
     [ "~SpriteLayer", "classjugimap_1_1_sprite_layer.html#a1cfd63a49f46a8239875fd3cbae14fe1", null ],
-    [ "InitEngineLayer", "classjugimap_1_1_sprite_layer.html#aeb06210e75082096f096eb94a879ad3f", null ],
+    [ "InitEngineObjects", "classjugimap_1_1_sprite_layer.html#ac372e8987a6518a22d16cb203f4d5c23", null ],
     [ "InitLayerParameters", "classjugimap_1_1_sprite_layer.html#a606d6d912180de34c0e058ee2d815fc9", null ],
-    [ "UpdateEngineLayer", "classjugimap_1_1_sprite_layer.html#af1a1dfb9e9e401d6483fbbb719f0295e", null ],
-    [ "DrawEngineLayer", "classjugimap_1_1_sprite_layer.html#a8c8156d716fca8558a3661e169c7ffa7", null ],
+    [ "UpdateEngineObjects", "classjugimap_1_1_sprite_layer.html#ad4e860f4d84ed1007aa9e4ad2762a953", null ],
+    [ "DrawEngineObjects", "classjugimap_1_1_sprite_layer.html#acb4f2fb05b5e18182a9027ddefe82fb8", null ],
     [ "GetSprites", "classjugimap_1_1_sprite_layer.html#a1871e4876af8a3b2eef64611a19984c8", null ],
     [ "UpdateBoundingBox", "classjugimap_1_1_sprite_layer.html#a09af1ef6dd8050fe625978d668b6964c", null ],
     [ "SetAlpha", "classjugimap_1_1_sprite_layer.html#a6af26982eee6793ec41cc60168bc46cd", null ],

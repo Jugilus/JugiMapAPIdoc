@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/jmMap.h Source File</title>
+<title>JugiMap Framework: C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/jmMap.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -104,184 +104,258 @@ $(document).ready(function(){initNavTree('jm_map_8h_source.html','');});
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span>Layer;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>SpriteLayer;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>VectorLayer;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>Sprite;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>VectorShape;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>JugiMapBinaryLoader;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>Camera;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>DrawingLayer;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>Sprite;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>VectorShape;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>JugiMapBinaryLoader;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span>Camera;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span>GuiWidget;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classjugimap_1_1_map.html">Map</a></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_jugi_map_binary_loader.html">JugiMapBinaryLoader</a>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7">   29</a></span>&#160;    <a class="code" href="classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7">Map</a>(){}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classjugimap_1_1_map.html">Map</a></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_jugi_map_binary_loader.html">JugiMapBinaryLoader</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classjugimap_1_1_map.html#ac59b12e62f61360298c324334ecc6bc9">~Map</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7">Map</a>(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_map.html">Map</a> &amp;l) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classjugimap_1_1_map.html">Map</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_map.html">Map</a> &amp;l) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a81c685d35944829b799b414b6ed82398">DeleteContent</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7">   34</a></span>&#160;    <a class="code" href="classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7">Map</a>(){}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a44b9bd8606db291b9e0f68cbcc387202">   38</a></span>&#160;    <a class="code" href="classjugimap_1_1_map.html#a44b9bd8606db291b9e0f68cbcc387202">Map</a>(<span class="keywordtype">int</span> _zOrderStart) : zOrderStart(_zOrderStart){}</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classjugimap_1_1_map.html#ac59b12e62f61360298c324334ecc6bc9">~Map</a>();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a8805d6c0643246083e96805553236038">InitWorldMap</a>();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a030032ee76debe1b851b791b883a2b3d">InitParallaxMap</a>(<a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _worldMapSize);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7">Map</a>(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_map.html">Map</a> &amp;l) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="classjugimap_1_1_map.html">Map</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_map.html">Map</a> &amp;l) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a81c685d35944829b799b414b6ed82398">DeleteContent</a>();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a92fec14f2ae16a2757eb951ded559042">InitScreenMap</a>(<a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _screenMapDesignSize);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">//virtual void Init(MapType _mapType);</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a4994531e0ae4dd6183a41ade1a0312b5">InitEngineMap</a>();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a16af7a2a4e26af6a7339c4fcf7629327">UpdateEngineMap</a>();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a1ddf1e955d5db60630e3ced57f64bac7">InitAsWorldMap</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#af4f19c68cd77a56fdd31b21598aa934d">InitAsParallaxMap</a>(<a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _worldMapSize);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#ac1a22830faa23cbf9aea48388bab5329">InitAsScreenMap</a>(<a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _screenMapDesignSize);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#abcc4ad54977474f51e5a439f58d8cd7b">DrawEngineMap</a>();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a8ea4c982b4d32dcb860f58905da3f79b">InitEngineObjects</a>(<a class="code" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> _mapType);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a96bfda3b4ec049dfe169d013ebe54262">   82</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a96bfda3b4ec049dfe169d013ebe54262">SetCamera</a>(<a class="code" href="classjugimap_1_1_camera.html">Camera</a> *_camera) { camera = _camera; }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a28e69ca914c00455fe9e758f562103d0">   86</a></span>&#160;    <a class="code" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> <a class="code" href="classjugimap_1_1_map.html#a28e69ca914c00455fe9e758f562103d0">GetType</a>(){ <span class="keywordflow">return</span> type; }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#ad6611bdb8cc5fd668bb0f2558adba2be">   90</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#ad6611bdb8cc5fd668bb0f2558adba2be">GetTileSize</a>() {<span class="keywordflow">return</span> tileSize; }</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#abd3a50a31fe101358f2a05a59c254d0b">   94</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#abd3a50a31fe101358f2a05a59c254d0b">GetTilesCount</a>() {<span class="keywordflow">return</span> nTiles; }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a5e9e235f0a9721af2f7e2f10338527fb">UpdateEngineObjects</a>();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a1bee1a75ff6a4670c2a77c0ba36d00cf">DrawEngineObjects</a>();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a96bfda3b4ec049dfe169d013ebe54262">   94</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a96bfda3b4ec049dfe169d013ebe54262">SetCamera</a>(<a class="code" href="classjugimap_1_1_camera.html">Camera</a> *_camera) { camera = _camera; }</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a69b77bbca1e14254db2fa1d7f29e6685">   98</a></span>&#160;    <a class="code" href="classjugimap_1_1_camera.html">Camera</a>* <a class="code" href="classjugimap_1_1_map.html#a69b77bbca1e14254db2fa1d7f29e6685">GetCamera</a>(){ <span class="keywordflow">return</span> camera; }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    std::string GetName(){ <span class="keywordflow">return</span> name; }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#af006e5433f33ecdf1c0ae04ce6377db4">  102</a></span>&#160;    std::vector&lt;Layer*&gt;&amp; <a class="code" href="classjugimap_1_1_map.html#af006e5433f33ecdf1c0ae04ce6377db4">GetLayers</a>() {<span class="keywordflow">return</span> layers; }</div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a28e69ca914c00455fe9e758f562103d0">  101</a></span>&#160;    <a class="code" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> <a class="code" href="classjugimap_1_1_map.html#a28e69ca914c00455fe9e758f562103d0">GetType</a>(){ <span class="keywordflow">return</span> type; }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a198f46b16f622f1feeedd9591cae41d4">  106</a></span>&#160;    std::vector&lt;jugimap::Parameter&gt;&amp; <a class="code" href="classjugimap_1_1_map.html#a198f46b16f622f1feeedd9591cae41d4">GetParameters</a>() {<span class="keywordflow">return</span> parameters; }</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#ad6611bdb8cc5fd668bb0f2558adba2be">  105</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#ad6611bdb8cc5fd668bb0f2558adba2be">GetTileSize</a>() {<span class="keywordflow">return</span> tileSize; }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
-<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a3653592876e0f0b30440354ffe41f400">  116</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#a3653592876e0f0b30440354ffe41f400">GetWorldMapSize</a>() { <span class="keywordflow">return</span> worldMapSize; }</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#abd3a50a31fe101358f2a05a59c254d0b">  109</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#abd3a50a31fe101358f2a05a59c254d0b">GetTilesCount</a>() {<span class="keywordflow">return</span> nTiles; }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a69b77bbca1e14254db2fa1d7f29e6685">  113</a></span>&#160;    <a class="code" href="classjugimap_1_1_camera.html">Camera</a>* <a class="code" href="classjugimap_1_1_map.html#a69b77bbca1e14254db2fa1d7f29e6685">GetCamera</a>(){ <span class="keywordflow">return</span> camera; }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#af006e5433f33ecdf1c0ae04ce6377db4">  117</a></span>&#160;    std::vector&lt;Layer*&gt;&amp; <a class="code" href="classjugimap_1_1_map.html#af006e5433f33ecdf1c0ae04ce6377db4">GetLayers</a>() {<span class="keywordflow">return</span> layers; }</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a17ef89e64314f6619f8cf4508234edb8">  125</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#a17ef89e64314f6619f8cf4508234edb8">GetScreenMapDesignSize</a>() { <span class="keywordflow">return</span> screenMapDesignSize; }</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="comment">//Vec2i GetSize() { return Vec2i(boundingBox.Width(), boundingBox.Height());}</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a198f46b16f622f1feeedd9591cae41d4">  121</a></span>&#160;    std::vector&lt;jugimap::Parameter&gt;&amp; <a class="code" href="classjugimap_1_1_map.html#a198f46b16f622f1feeedd9591cae41d4">GetParameters</a>() {<span class="keywordflow">return</span> parameters; }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a3653592876e0f0b30440354ffe41f400">  131</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#a3653592876e0f0b30440354ffe41f400">GetWorldMapSize</a>() { <span class="keywordflow">return</span> worldMapSize; }</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#ab36f46927a48ab36b9454e220db12044">ModifyXParallaxFactorsForFixedMapWidth</a>(<a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _designViewport);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordtype">void</span> ModifyYParallaxFactorsForFixedMapHeight(<a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _designViewport);</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a66ef472c486043771699ba0b49236bba">CaptureForLerpDrawing</a>();</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#ab89b6890f1d9db8e5b353635500e2930">_AddLayer</a>(<a class="code" href="classjugimap_1_1_layer.html">jugimap::Layer</a> *_layer, <span class="keywordtype">int</span> _index=-1);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a17ef89e64314f6619f8cf4508234edb8">  140</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#a17ef89e64314f6619f8cf4508234edb8">GetScreenMapDesignSize</a>() { <span class="keywordflow">return</span> screenMapDesignSize; }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a0ddbe2bb1be79543f2b3751b4a3cb95d">  144</a></span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> <a class="code" href="classjugimap_1_1_map.html#a0ddbe2bb1be79543f2b3751b4a3cb95d">GetSize</a>() { <span class="keywordflow">return</span> <a class="code" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a>(boundingBox.<a class="code" href="structjugimap_1_1_rect.html#af34a6cd4e56022e62524c908391d952c">GetWidth</a>(), boundingBox.<a class="code" href="structjugimap_1_1_rect.html#a22bc26956863c0755f4fb0bdc649d895">GetHeight</a>());}</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordtype">void</span> ModifyXParallaxFactorsForFixedMapWidth(<a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _designViewport, <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _newViewport);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordtype">void</span> ModifyYParallaxFactorsForFixedMapHeight(<a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _designViewport, <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> _newViewport);</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
-<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a44b2ff91aac4ed54f91c8ce4bd2aee04">  155</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a44b2ff91aac4ed54f91c8ce4bd2aee04">_SetName</a>(<span class="keyword">const</span> std::string &amp;_name){ name = _name; }</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a66ef472c486043771699ba0b49236bba">CaptureForLerpDrawing</a>();</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
-<div class="line"><a name="l00161"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a9b0fa166769e6933f1ea9faea56793a6">  161</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a9b0fa166769e6933f1ea9faea56793a6">_SetType</a>(<a class="code" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> _type){ type = _type; }</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a5c189db6bbc0983e5ab669c873a71b7a">  162</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a5c189db6bbc0983e5ab669c873a71b7a">SetVisible</a>(<span class="keywordtype">bool</span> _visible){ visible = _visible; }</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
-<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a5abea10c9dda50e2d01428aac37213b1">  168</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a5abea10c9dda50e2d01428aac37213b1">_SetZOrderStart</a>(<span class="keywordtype">int</span> _zOrderStart){ zOrderStart = _zOrderStart; }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#afcd62a638f43f1f9c3a507b923a2dffd">  168</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classjugimap_1_1_map.html#afcd62a638f43f1f9c3a507b923a2dffd">IsVisible</a>(){ <span class="keywordflow">return</span> visible; }</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
-<div class="line"><a name="l00174"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#abe76c1e36dfa786e7acdf062a416d4c5">  174</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classjugimap_1_1_map.html#abe76c1e36dfa786e7acdf062a416d4c5">GetZOrderStart</a>(){ <span class="keywordflow">return</span> zOrderStart; }</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160; </div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classjugimap_1_1_map.html#a87e338830e85dadd5e66819cb2b6b5bf">GetNextZOrder</a>();</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <a class="code" href="classjugimap_1_1_sprite_layer.html">jugimap::SpriteLayer</a>* <a class="code" href="classjugimap_1_1_map.html#aec84b1b5ec79775b92306374a5077680">AddSpriteLayer</a>(<span class="keyword">const</span> std::string &amp;_name);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <a class="code" href="classjugimap_1_1_vector_layer.html">jugimap::VectorLayer</a>* AddVectorLayer(<span class="keyword">const</span> std::string &amp;_name);</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> InitMapParameters();</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordtype">void</span> SetLayersPlanes();</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="comment">//void TileLayers();</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordtype">void</span> UpdateBoundingBox();</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="comment">//void SetAlignOffsetsFromMap();</span></div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">void</span> Normalize();</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordtype">void</span> AddDrawingLayer(<a class="code" href="classjugimap_1_1_drawing_layer.html">jugimap::DrawingLayer</a>* _drawingLayer);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
+<div class="line"><a name="l00190"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a44b2ff91aac4ed54f91c8ce4bd2aee04">  190</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a44b2ff91aac4ed54f91c8ce4bd2aee04">_SetName</a>(<span class="keyword">const</span> std::string &amp;_name){ name = _name; }</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    std::string name;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> tileSize;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> nTiles;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    std::vector&lt;jugimap::Parameter&gt; parameters;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    std::vector&lt;Layer*&gt;layers;                         <span class="comment">// OWNED</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="comment">//---</span></div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> type = <a class="code" href="group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3a5289492cf082446ca4a6eec9f72f1ec3">MapType::WORLD</a>;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> worldMapSize;                                 <span class="comment">// used for WORLD and PARALLAX maps</span></div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <a class="code" href="structjugimap_1_1_vec2.html">Vec2i</a> screenMapDesignSize;                          <span class="comment">// used for SCREEN maps</span></div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="structjugimap_1_1_rect.html">Rectf</a> boundingBox;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="comment">//---</span></div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <a class="code" href="classjugimap_1_1_camera.html">Camera</a>* camera = <span class="keyword">nullptr</span>;                           <span class="comment">// LINK</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160; </div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">int</span> zOrderStart = 1000;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
+<div class="line"><a name="l00199"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#a5abea10c9dda50e2d01428aac37213b1">  199</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#a5abea10c9dda50e2d01428aac37213b1">_SetZOrderStart</a>(<span class="keywordtype">int</span> _zOrderStart){ zOrderStart = _zOrderStart; }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno"><a class="line" href="classjugimap_1_1_map.html#abe76c1e36dfa786e7acdf062a416d4c5">  205</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classjugimap_1_1_map.html#abe76c1e36dfa786e7acdf062a416d4c5">GetZOrderStart</a>(){ <span class="keywordflow">return</span> zOrderStart; }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160; </div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="comment">//int GetNextZOrder();</span></div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;};</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160; </div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; </div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160; </div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;}</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="comment">//bool IsCursorInside(){ return cursorInside; }</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="comment">//Vec2f GetCursorInMapPosition(){ return cursorInMapPosition; }</span></div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160; </div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160; </div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160; </div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="comment">//void _SetCursorInside(bool _cursorInside){ cursorInside = _cursorInside; }</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="comment">//void _SetCursorInMapPosition(Vec2f _cursorInMapPosition){ cursorInMapPosition = _cursorInMapPosition; }</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160; </div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="comment">//---- WIDGETS --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160; </div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classjugimap_1_1_map.html#aa92dc01ed679009335689ed39366f889">RebuildWidgets</a>();</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160; </div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordtype">void</span> SetWidgetsToInitialState();</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160; </div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keywordtype">void</span> UpdateWidgets();</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">void</span> AddWidget(<a class="code" href="classjugimap_1_1_gui_widget.html">GuiWidget</a>* _widget){ widgets.push_back(_widget); }</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    GuiWidget* FindWidget(<span class="keyword">const</span> std::string &amp;_name);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160; </div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    GuiWidget* FindWidget(<span class="keywordtype">int</span> _tag);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    std::vector&lt;GuiWidget*&gt;&amp; GetWidgets(){ <span class="keywordflow">return</span> widgets; }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordtype">void</span> SetWidgetsActive(<span class="keywordtype">bool</span> _widgetsActive){ widgetsActive = _widgetsActive; }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordtype">bool</span> GetWidgetsActive(){ <span class="keywordflow">return</span> widgetsActive; }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160; </div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> InitMapParameters();</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    std::string name;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <a class="code" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> tileSize;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <a class="code" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> nTiles;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    std::vector&lt;jugimap::Parameter&gt; parameters;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    std::vector&lt;Layer*&gt;layers;                         <span class="comment">// OWNED</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; </div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="comment">//---</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <a class="code" href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">MapType</a> type = <a class="code" href="group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3a5289492cf082446ca4a6eec9f72f1ec3">MapType::WORLD</a>;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <a class="code" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> worldMapSize;                                 <span class="comment">// used for WORLD and PARALLAX maps</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <a class="code" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> screenMapDesignSize;                          <span class="comment">// used for SCREEN maps</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <a class="code" href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">Rectf</a> boundingBox;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="comment">//---</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    Camera* camera = <span class="keyword">nullptr</span>;                           <span class="comment">// LINK</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordtype">bool</span> visible = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160; </div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordtype">int</span> zOrderStart = 1000;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160; </div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="comment">//bool cursorInside = false;</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="comment">//Vec2f cursorInMapPosition;</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="comment">//---</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    std::vector&lt;GuiWidget*&gt;widgets;         <span class="comment">// owned</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordtype">bool</span> widgetsActive = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160; </div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordtype">void</span> UpdateBoundingBox();</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="keywordtype">void</span> SetLayersPlanes();</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordtype">void</span> Normalize();</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160; </div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;};</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; </div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160; </div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;}</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160; </div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160; </div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160; </div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclassjugimap_1_1_map_html_a81c685d35944829b799b414b6ed82398"><div class="ttname"><a href="classjugimap_1_1_map.html#a81c685d35944829b799b414b6ed82398">jugimap::Map::DeleteContent</a></div><div class="ttdeci">virtual void DeleteContent()</div><div class="ttdoc">Delete the map content.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:25</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a87e338830e85dadd5e66819cb2b6b5bf"><div class="ttname"><a href="classjugimap_1_1_map.html#a87e338830e85dadd5e66819cb2b6b5bf">jugimap::Map::GetNextZOrder</a></div><div class="ttdeci">int GetNextZOrder()</div><div class="ttdoc">Returns the next z-order to be used with a next (manually) added layer to the map.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:1052</div></div>
-<div class="ttc" id="astructjugimap_1_1_rect_html"><div class="ttname"><a href="structjugimap_1_1_rect.html">jugimap::Rect&lt; float &gt;</a></div></div>
-<div class="ttc" id="aclassjugimap_1_1_layer_html"><div class="ttname"><a href="classjugimap_1_1_layer.html">jugimap::Layer</a></div><div class="ttdoc">The base layer class.</div><div class="ttdef"><b>Definition:</b> jmLayers.h:25</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a8805d6c0643246083e96805553236038"><div class="ttname"><a href="classjugimap_1_1_map.html#a8805d6c0643246083e96805553236038">jugimap::Map::InitWorldMap</a></div><div class="ttdeci">virtual void InitWorldMap()</div><div class="ttdoc">Initialize this map as a word map.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:110</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a9b0fa166769e6933f1ea9faea56793a6"><div class="ttname"><a href="classjugimap_1_1_map.html#a9b0fa166769e6933f1ea9faea56793a6">jugimap::Map::_SetType</a></div><div class="ttdeci">void _SetType(MapType _type)</div><div class="ttdoc">Sets the name of this map to the given *_name*.</div><div class="ttdef"><b>Definition:</b> jmMap.h:161</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a92fec14f2ae16a2757eb951ded559042"><div class="ttname"><a href="classjugimap_1_1_map.html#a92fec14f2ae16a2757eb951ded559042">jugimap::Map::InitScreenMap</a></div><div class="ttdeci">virtual void InitScreenMap(Vec2i _screenMapDesignSize)</div><div class="ttdoc">Initialize this map as a screen map with the given design size *_screenMapDesignSize*.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:198</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a17ef89e64314f6619f8cf4508234edb8"><div class="ttname"><a href="classjugimap_1_1_map.html#a17ef89e64314f6619f8cf4508234edb8">jugimap::Map::GetScreenMapDesignSize</a></div><div class="ttdeci">Vec2i GetScreenMapDesignSize()</div><div class="ttdoc">Returns the screen map design size.</div><div class="ttdef"><b>Definition:</b> jmMap.h:125</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_abe76c1e36dfa786e7acdf062a416d4c5"><div class="ttname"><a href="classjugimap_1_1_map.html#abe76c1e36dfa786e7acdf062a416d4c5">jugimap::Map::GetZOrderStart</a></div><div class="ttdeci">int GetZOrderStart()</div><div class="ttdoc">Returns the starting z-order value.</div><div class="ttdef"><b>Definition:</b> jmMap.h:174</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_abd3a50a31fe101358f2a05a59c254d0b"><div class="ttname"><a href="classjugimap_1_1_map.html#abd3a50a31fe101358f2a05a59c254d0b">jugimap::Map::GetTilesCount</a></div><div class="ttdeci">Vec2i GetTilesCount()</div><div class="ttdoc">Returns the number of tile rows and columns.</div><div class="ttdef"><b>Definition:</b> jmMap.h:94</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a030032ee76debe1b851b791b883a2b3d"><div class="ttname"><a href="classjugimap_1_1_map.html#a030032ee76debe1b851b791b883a2b3d">jugimap::Map::InitParallaxMap</a></div><div class="ttdeci">virtual void InitParallaxMap(Vec2i _worldMapSize)</div><div class="ttdoc">Initialize this map as a parallax map linked to a world map with the given size *_worldMapSize*.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:179</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a198f46b16f622f1feeedd9591cae41d4"><div class="ttname"><a href="classjugimap_1_1_map.html#a198f46b16f622f1feeedd9591cae41d4">jugimap::Map::GetParameters</a></div><div class="ttdeci">std::vector&lt; jugimap::Parameter &gt; &amp; GetParameters()</div><div class="ttdoc">Returns a reference to the parameters of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:106</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_ac59b12e62f61360298c324334ecc6bc9"><div class="ttname"><a href="classjugimap_1_1_map.html#ac59b12e62f61360298c324334ecc6bc9">jugimap::Map::~Map</a></div><div class="ttdeci">virtual ~Map()</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:19</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_af006e5433f33ecdf1c0ae04ce6377db4"><div class="ttname"><a href="classjugimap_1_1_map.html#af006e5433f33ecdf1c0ae04ce6377db4">jugimap::Map::GetLayers</a></div><div class="ttdeci">std::vector&lt; Layer * &gt; &amp; GetLayers()</div><div class="ttdoc">Returns a reference to the layers of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:102</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a3653592876e0f0b30440354ffe41f400"><div class="ttname"><a href="classjugimap_1_1_map.html#a3653592876e0f0b30440354ffe41f400">jugimap::Map::GetWorldMapSize</a></div><div class="ttdeci">Vec2i GetWorldMapSize()</div><div class="ttdoc">Returns the world map size.</div><div class="ttdef"><b>Definition:</b> jmMap.h:116</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a96bfda3b4ec049dfe169d013ebe54262"><div class="ttname"><a href="classjugimap_1_1_map.html#a96bfda3b4ec049dfe169d013ebe54262">jugimap::Map::SetCamera</a></div><div class="ttdeci">void SetCamera(Camera *_camera)</div><div class="ttdoc">Assign a camera to this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:82</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a49848ab3a0e1934c5615242b67af68c7"><div class="ttname"><a href="classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7">jugimap::Map::Map</a></div><div class="ttdeci">Map()</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> jmMap.h:29</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a5abea10c9dda50e2d01428aac37213b1"><div class="ttname"><a href="classjugimap_1_1_map.html#a5abea10c9dda50e2d01428aac37213b1">jugimap::Map::_SetZOrderStart</a></div><div class="ttdeci">void _SetZOrderStart(int _zOrderStart)</div><div class="ttdoc">Sets the starting z-order.</div><div class="ttdef"><b>Definition:</b> jmMap.h:168</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_abcc4ad54977474f51e5a439f58d8cd7b"><div class="ttname"><a href="classjugimap_1_1_map.html#abcc4ad54977474f51e5a439f58d8cd7b">jugimap::Map::DrawEngineMap</a></div><div class="ttdeci">virtual void DrawEngineMap()</div><div class="ttdoc">Draw the engine map objects.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:1021</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a16af7a2a4e26af6a7339c4fcf7629327"><div class="ttname"><a href="classjugimap_1_1_map.html#a16af7a2a4e26af6a7339c4fcf7629327">jugimap::Map::UpdateEngineMap</a></div><div class="ttdeci">virtual void UpdateEngineMap()</div><div class="ttdoc">Update the engine map objects.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:1013</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_ab36f46927a48ab36b9454e220db12044"><div class="ttname"><a href="classjugimap_1_1_map.html#ab36f46927a48ab36b9454e220db12044">jugimap::Map::ModifyXParallaxFactorsForFixedMapWidth</a></div><div class="ttdeci">void ModifyXParallaxFactorsForFixedMapWidth(Vec2i _designViewport)</div><div class="ttdoc">Returns the size of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:732</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a28e69ca914c00455fe9e758f562103d0"><div class="ttname"><a href="classjugimap_1_1_map.html#a28e69ca914c00455fe9e758f562103d0">jugimap::Map::GetType</a></div><div class="ttdeci">MapType GetType()</div><div class="ttdoc">Returns the type of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:86</div></div>
-<div class="ttc" id="agroup___globals_html_ga4c73d8aa04c5b31558f468b95d4748b3"><div class="ttname"><a href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">jugimap::MapType</a></div><div class="ttdeci">MapType</div><div class="ttdoc">The types of map.</div><div class="ttdef"><b>Definition:</b> jmGlobal.h:40</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a44b2ff91aac4ed54f91c8ce4bd2aee04"><div class="ttname"><a href="classjugimap_1_1_map.html#a44b2ff91aac4ed54f91c8ce4bd2aee04">jugimap::Map::_SetName</a></div><div class="ttdeci">void _SetName(const std::string &amp;_name)</div><div class="ttdoc">Sets the name of this map to the given *_name*.</div><div class="ttdef"><b>Definition:</b> jmMap.h:155</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a4994531e0ae4dd6183a41ade1a0312b5"><div class="ttname"><a href="classjugimap_1_1_map.html#a4994531e0ae4dd6183a41ade1a0312b5">jugimap::Map::InitEngineMap</a></div><div class="ttdeci">virtual void InitEngineMap()</div><div class="ttdoc">Initialize the engine map objects.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:1005</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_ab89b6890f1d9db8e5b353635500e2930"><div class="ttname"><a href="classjugimap_1_1_map.html#ab89b6890f1d9db8e5b353635500e2930">jugimap::Map::_AddLayer</a></div><div class="ttdeci">void _AddLayer(jugimap::Layer *_layer, int _index=-1)</div><div class="ttdoc">Adds the given *_layer* to this map.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:1029</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a69b77bbca1e14254db2fa1d7f29e6685"><div class="ttname"><a href="classjugimap_1_1_map.html#a69b77bbca1e14254db2fa1d7f29e6685">jugimap::Map::GetCamera</a></div><div class="ttdeci">Camera * GetCamera()</div><div class="ttdoc">Returns the camera assigned to this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:98</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a81c685d35944829b799b414b6ed82398"><div class="ttname"><a href="classjugimap_1_1_map.html#a81c685d35944829b799b414b6ed82398">jugimap::Map::DeleteContent</a></div><div class="ttdeci">virtual void DeleteContent()</div><div class="ttdoc">Delete the map content.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:29</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a8ea4c982b4d32dcb860f58905da3f79b"><div class="ttname"><a href="classjugimap_1_1_map.html#a8ea4c982b4d32dcb860f58905da3f79b">jugimap::Map::InitEngineObjects</a></div><div class="ttdeci">virtual void InitEngineObjects(MapType _mapType)</div><div class="ttdoc">Initialize the engine map objects.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:130</div></div>
+<div class="ttc" id="aclassjugimap_1_1_gui_widget_html"><div class="ttname"><a href="classjugimap_1_1_gui_widget.html">jugimap::GuiWidget</a></div><div class="ttdoc">The GuiWidget class is the base widget class.</div><div class="ttdef"><b>Definition:</b> jmGuiCommon.h:65</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a5c189db6bbc0983e5ab669c873a71b7a"><div class="ttname"><a href="classjugimap_1_1_map.html#a5c189db6bbc0983e5ab669c873a71b7a">jugimap::Map::SetVisible</a></div><div class="ttdeci">virtual void SetVisible(bool _visible)</div><div class="ttdoc">Set the visibility of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:162</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a17ef89e64314f6619f8cf4508234edb8"><div class="ttname"><a href="classjugimap_1_1_map.html#a17ef89e64314f6619f8cf4508234edb8">jugimap::Map::GetScreenMapDesignSize</a></div><div class="ttdeci">Vec2i GetScreenMapDesignSize()</div><div class="ttdoc">Returns the screen map design size.</div><div class="ttdef"><b>Definition:</b> jmMap.h:140</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_abe76c1e36dfa786e7acdf062a416d4c5"><div class="ttname"><a href="classjugimap_1_1_map.html#abe76c1e36dfa786e7acdf062a416d4c5">jugimap::Map::GetZOrderStart</a></div><div class="ttdeci">int GetZOrderStart()</div><div class="ttdoc">Returns the starting z-order value.</div><div class="ttdef"><b>Definition:</b> jmMap.h:205</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_abd3a50a31fe101358f2a05a59c254d0b"><div class="ttname"><a href="classjugimap_1_1_map.html#abd3a50a31fe101358f2a05a59c254d0b">jugimap::Map::GetTilesCount</a></div><div class="ttdeci">Vec2i GetTilesCount()</div><div class="ttdoc">Returns the number of tile rows and columns.</div><div class="ttdef"><b>Definition:</b> jmMap.h:109</div></div>
+<div class="ttc" id="agroup___common_html_ga3fad0e3d3511071aeb1ddb2ebff1db58"><div class="ttname"><a href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">jugimap::Vec2i</a></div><div class="ttdeci">Vec2&lt; int &gt; Vec2i</div><div class="ttdoc">Vec2 struct in integer precision.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:166</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a44b9bd8606db291b9e0f68cbcc387202"><div class="ttname"><a href="classjugimap_1_1_map.html#a44b9bd8606db291b9e0f68cbcc387202">jugimap::Map::Map</a></div><div class="ttdeci">Map(int _zOrderStart)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> jmMap.h:38</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a198f46b16f622f1feeedd9591cae41d4"><div class="ttname"><a href="classjugimap_1_1_map.html#a198f46b16f622f1feeedd9591cae41d4">jugimap::Map::GetParameters</a></div><div class="ttdeci">std::vector&lt; jugimap::Parameter &gt; &amp; GetParameters()</div><div class="ttdoc">Returns a reference to the parameters of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:121</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_ac59b12e62f61360298c324334ecc6bc9"><div class="ttname"><a href="classjugimap_1_1_map.html#ac59b12e62f61360298c324334ecc6bc9">jugimap::Map::~Map</a></div><div class="ttdeci">virtual ~Map()</div><div class="ttdoc">Destructor.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:23</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_af006e5433f33ecdf1c0ae04ce6377db4"><div class="ttname"><a href="classjugimap_1_1_map.html#af006e5433f33ecdf1c0ae04ce6377db4">jugimap::Map::GetLayers</a></div><div class="ttdeci">std::vector&lt; Layer * &gt; &amp; GetLayers()</div><div class="ttdoc">Returns a reference to the layers of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:117</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a3653592876e0f0b30440354ffe41f400"><div class="ttname"><a href="classjugimap_1_1_map.html#a3653592876e0f0b30440354ffe41f400">jugimap::Map::GetWorldMapSize</a></div><div class="ttdeci">Vec2i GetWorldMapSize()</div><div class="ttdoc">Returns the world map size.</div><div class="ttdef"><b>Definition:</b> jmMap.h:131</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a96bfda3b4ec049dfe169d013ebe54262"><div class="ttname"><a href="classjugimap_1_1_map.html#a96bfda3b4ec049dfe169d013ebe54262">jugimap::Map::SetCamera</a></div><div class="ttdeci">void SetCamera(Camera *_camera)</div><div class="ttdoc">Assign a camera to this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:94</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a49848ab3a0e1934c5615242b67af68c7"><div class="ttname"><a href="classjugimap_1_1_map.html#a49848ab3a0e1934c5615242b67af68c7">jugimap::Map::Map</a></div><div class="ttdeci">Map()</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> jmMap.h:34</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a5abea10c9dda50e2d01428aac37213b1"><div class="ttname"><a href="classjugimap_1_1_map.html#a5abea10c9dda50e2d01428aac37213b1">jugimap::Map::_SetZOrderStart</a></div><div class="ttdeci">void _SetZOrderStart(int _zOrderStart)</div><div class="ttdoc">Sets the starting z-order.</div><div class="ttdef"><b>Definition:</b> jmMap.h:199</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a28e69ca914c00455fe9e758f562103d0"><div class="ttname"><a href="classjugimap_1_1_map.html#a28e69ca914c00455fe9e758f562103d0">jugimap::Map::GetType</a></div><div class="ttdeci">MapType GetType()</div><div class="ttdoc">Returns the type of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:101</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a1ddf1e955d5db60630e3ced57f64bac7"><div class="ttname"><a href="classjugimap_1_1_map.html#a1ddf1e955d5db60630e3ced57f64bac7">jugimap::Map::InitAsWorldMap</a></div><div class="ttdeci">virtual void InitAsWorldMap()</div><div class="ttdoc">Initialize this map as a word map.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:148</div></div>
+<div class="ttc" id="agroup___common_html_ga72bbf42989aebda81ab76753d34422c9"><div class="ttname"><a href="group___common.html#ga72bbf42989aebda81ab76753d34422c9">jugimap::Rectf</a></div><div class="ttdeci">Rect&lt; float &gt; Rectf</div><div class="ttdoc">Rect struct in float precision.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:257</div></div>
+<div class="ttc" id="astructjugimap_1_1_rect_html_a22bc26956863c0755f4fb0bdc649d895"><div class="ttname"><a href="structjugimap_1_1_rect.html#a22bc26956863c0755f4fb0bdc649d895">jugimap::Rect::GetHeight</a></div><div class="ttdeci">T GetHeight() const</div><div class="ttdoc">Returns the height of this rectangle.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:204</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_aa92dc01ed679009335689ed39366f889"><div class="ttname"><a href="classjugimap_1_1_map.html#aa92dc01ed679009335689ed39366f889">jugimap::Map::RebuildWidgets</a></div><div class="ttdeci">void RebuildWidgets()</div><div class="ttdoc">Returns the next z-order to be used with a next (manually) added layer to the map.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:865</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a0ddbe2bb1be79543f2b3751b4a3cb95d"><div class="ttname"><a href="classjugimap_1_1_map.html#a0ddbe2bb1be79543f2b3751b4a3cb95d">jugimap::Map::GetSize</a></div><div class="ttdeci">Vec2i GetSize()</div><div class="ttdoc">Returns the size of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:144</div></div>
+<div class="ttc" id="agroup___globals_html_ga4c73d8aa04c5b31558f468b95d4748b3"><div class="ttname"><a href="group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3">jugimap::MapType</a></div><div class="ttdeci">MapType</div><div class="ttdoc">The types of map.</div><div class="ttdef"><b>Definition:</b> jmGlobal.h:42</div></div>
+<div class="ttc" id="aclassjugimap_1_1_drawing_layer_html"><div class="ttname"><a href="classjugimap_1_1_drawing_layer.html">jugimap::DrawingLayer</a></div><div class="ttdoc">The DrawingLayer is the base class for drawing geometric primitives.</div><div class="ttdef"><b>Definition:</b> jmDrawing.h:81</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a44b2ff91aac4ed54f91c8ce4bd2aee04"><div class="ttname"><a href="classjugimap_1_1_map.html#a44b2ff91aac4ed54f91c8ce4bd2aee04">jugimap::Map::_SetName</a></div><div class="ttdeci">void _SetName(const std::string &amp;_name)</div><div class="ttdoc">Sets the name of this map to the given *_name*.</div><div class="ttdef"><b>Definition:</b> jmMap.h:190</div></div>
+<div class="ttc" id="astructjugimap_1_1_rect_html_af34a6cd4e56022e62524c908391d952c"><div class="ttname"><a href="structjugimap_1_1_rect.html#af34a6cd4e56022e62524c908391d952c">jugimap::Rect::GetWidth</a></div><div class="ttdeci">T GetWidth() const</div><div class="ttdoc">Returns the width of this rectangle.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:201</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_af4f19c68cd77a56fdd31b21598aa934d"><div class="ttname"><a href="classjugimap_1_1_map.html#af4f19c68cd77a56fdd31b21598aa934d">jugimap::Map::InitAsParallaxMap</a></div><div class="ttdeci">virtual void InitAsParallaxMap(Vec2i _worldMapSize)</div><div class="ttdoc">Initialize this map as a parallax map linked to a world map with the given size *_worldMapSize*.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:167</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_aec84b1b5ec79775b92306374a5077680"><div class="ttname"><a href="classjugimap_1_1_map.html#aec84b1b5ec79775b92306374a5077680">jugimap::Map::AddSpriteLayer</a></div><div class="ttdeci">jugimap::SpriteLayer * AddSpriteLayer(const std::string &amp;_name)</div><div class="ttdoc">Adds the given *_layer* to this map.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:780</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a1bee1a75ff6a4670c2a77c0ba36d00cf"><div class="ttname"><a href="classjugimap_1_1_map.html#a1bee1a75ff6a4670c2a77c0ba36d00cf">jugimap::Map::DrawEngineObjects</a></div><div class="ttdeci">virtual void DrawEngineObjects()</div><div class="ttdoc">Draw the engine map objects.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:769</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a69b77bbca1e14254db2fa1d7f29e6685"><div class="ttname"><a href="classjugimap_1_1_map.html#a69b77bbca1e14254db2fa1d7f29e6685">jugimap::Map::GetCamera</a></div><div class="ttdeci">Camera * GetCamera()</div><div class="ttdoc">Returns the camera assigned to this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:113</div></div>
 <div class="ttc" id="aclassjugimap_1_1_camera_html"><div class="ttname"><a href="classjugimap_1_1_camera.html">jugimap::Camera</a></div><div class="ttdoc">The base camera class.</div><div class="ttdef"><b>Definition:</b> jmCamera.h:22</div></div>
 <div class="ttc" id="astructjugimap_1_1_vec2_html"><div class="ttname"><a href="structjugimap_1_1_vec2.html">jugimap::Vec2</a></div><div class="ttdoc">2d vector.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:23</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_a66ef472c486043771699ba0b49236bba"><div class="ttname"><a href="classjugimap_1_1_map.html#a66ef472c486043771699ba0b49236bba">jugimap::Map::CaptureForLerpDrawing</a></div><div class="ttdeci">void CaptureForLerpDrawing()</div><div class="ttdoc">Capture the sprite properties, usually the position only, required for the lerp drawing.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:1041</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html_ad6611bdb8cc5fd668bb0f2558adba2be"><div class="ttname"><a href="classjugimap_1_1_map.html#ad6611bdb8cc5fd668bb0f2558adba2be">jugimap::Map::GetTileSize</a></div><div class="ttdeci">Vec2i GetTileSize()</div><div class="ttdoc">Returns the tile size of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:90</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a66ef472c486043771699ba0b49236bba"><div class="ttname"><a href="classjugimap_1_1_map.html#a66ef472c486043771699ba0b49236bba">jugimap::Map::CaptureForLerpDrawing</a></div><div class="ttdeci">void CaptureForLerpDrawing()</div><div class="ttdoc">Capture the sprite properties, usually the position only, required for the lerp drawing.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:851</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_ad6611bdb8cc5fd668bb0f2558adba2be"><div class="ttname"><a href="classjugimap_1_1_map.html#ad6611bdb8cc5fd668bb0f2558adba2be">jugimap::Map::GetTileSize</a></div><div class="ttdeci">Vec2i GetTileSize()</div><div class="ttdoc">Returns the tile size of this map.</div><div class="ttdef"><b>Definition:</b> jmMap.h:105</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_ac1a22830faa23cbf9aea48388bab5329"><div class="ttname"><a href="classjugimap_1_1_map.html#ac1a22830faa23cbf9aea48388bab5329">jugimap::Map::InitAsScreenMap</a></div><div class="ttdeci">virtual void InitAsScreenMap(Vec2i _screenMapDesignSize)</div><div class="ttdoc">Initialize this map as a screen map with the given design size *_screenMapDesignSize*.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:188</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_afcd62a638f43f1f9c3a507b923a2dffd"><div class="ttname"><a href="classjugimap_1_1_map.html#afcd62a638f43f1f9c3a507b923a2dffd">jugimap::Map::IsVisible</a></div><div class="ttdeci">bool IsVisible()</div><div class="ttdoc">Returns true if this map is visible; otherwise returns false.</div><div class="ttdef"><b>Definition:</b> jmMap.h:168</div></div>
+<div class="ttc" id="aclassjugimap_1_1_vector_layer_html"><div class="ttname"><a href="classjugimap_1_1_vector_layer.html">jugimap::VectorLayer</a></div><div class="ttdoc">The VectorLayer class defines the vector layer from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmLayers.h:477</div></div>
 <div class="ttc" id="aclassjugimap_1_1_jugi_map_binary_loader_html"><div class="ttname"><a href="classjugimap_1_1_jugi_map_binary_loader.html">jugimap::JugiMapBinaryLoader</a></div><div class="ttdoc">The JugiMapBinaryLoader class loads data from jugimap binary files (.jmb).</div><div class="ttdef"><b>Definition:</b> jmMapBinaryLoader.h:37</div></div>
 <div class="ttc" id="agroup___globals_html_gga4c73d8aa04c5b31558f468b95d4748b3a5289492cf082446ca4a6eec9f72f1ec3"><div class="ttname"><a href="group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3a5289492cf082446ca4a6eec9f72f1ec3">jugimap::MapType::WORLD</a></div><div class="ttdoc">World map.</div></div>
-<div class="ttc" id="aclassjugimap_1_1_map_html"><div class="ttname"><a href="classjugimap_1_1_map.html">jugimap::Map</a></div><div class="ttdoc">The root map element.</div><div class="ttdef"><b>Definition:</b> jmMap.h:21</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html_a5e9e235f0a9721af2f7e2f10338527fb"><div class="ttname"><a href="classjugimap_1_1_map.html#a5e9e235f0a9721af2f7e2f10338527fb">jugimap::Map::UpdateEngineObjects</a></div><div class="ttdeci">virtual void UpdateEngineObjects()</div><div class="ttdoc">Update the engine map objects.</div><div class="ttdef"><b>Definition:</b> jmMap.cpp:758</div></div>
+<div class="ttc" id="aclassjugimap_1_1_map_html"><div class="ttname"><a href="classjugimap_1_1_map.html">jugimap::Map</a></div><div class="ttdoc">The Map class defines the map element from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmMap.h:26</div></div>
+<div class="ttc" id="aclassjugimap_1_1_sprite_layer_html"><div class="ttname"><a href="classjugimap_1_1_sprite_layer.html">jugimap::SpriteLayer</a></div><div class="ttdoc">The SpriteLayer class defines the sprite and tile layers from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmLayers.h:303</div></div>
 <!-- HTML footer for doxygen 1.8.16-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

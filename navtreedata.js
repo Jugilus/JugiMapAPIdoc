@@ -22,7 +22,7 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "JugiMap API", "index.html", [
+  [ "JugiMap Framework", "index.html", [
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -42,10 +42,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classjugimap_1_1_layer.html#a44b2ff91aac4ed54f91c8ce4bd2aee04",
-"classjugimap_1_1_sprite.html#accd1c0da466a7b76f2eb177a329fb4a1",
-"functions_l.html",
-"structjugimap_1_1_rect.html#ab9516ba944fbf1c714b952ddfd744259"
+"classjugimap_1_1_fonts_library.html#ae2cc5583212a9c446f0d43ee1b3f6a4a",
+"classjugimap_1_1_map.html#a44b9bd8606db291b9e0f68cbcc387202",
+"classjugimap_1_1_sprite_layer.html",
+"functions_c.html",
+"group___input.html#gga7885f47644a0388f981f416fa20389b2ae7e0e72401a9f2718ed0f39f2861d702"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,18 +1,14 @@
 var searchData=
 [
-  ['scaling_1272',['SCALING',['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403ae4738c2e8d13809f2e73485a6c53c24b',1,'jugimap']]],
-  ['screen_1273',['SCREEN',['../group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ab8640f4f990ba83d8d8bef816def1b80',1,'jugimap']]],
-  ['simple_5fmultiply_1274',['SIMPLE_MULTIPLY',['../group___globals.html#ggab09328ad939b05e2dd7507c7288563ebab0c0e5400645b6a2cd0fec9d95e539d6',1,'jugimap']]],
-  ['single_5fimage_1275',['SINGLE_IMAGE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaab47cbd575d965c552109bce1eba43c72',1,'jugimap']]],
-  ['single_5fpoint_1276',['SINGLE_POINT',['../group___globals.html#ggaaa9206375355490ae37301b68d135f8ea9e57b62f97ebcf747995338945dc3451',1,'jugimap']]],
-  ['solid_1277',['SOLID',['../group___globals.html#gga7c77e8b322345a892abf765ad75a6b11ad0dea69649a83749aa6bdf176092e8c9',1,'jugimap']]],
-  ['spine_1278',['SPINE',['../group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a8eedd505a4b9a5d0ad77664bd3f8aeb3',1,'jugimap']]],
-  ['spine_5ffile_1279',['SPINE_FILE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaa7a916ed706bbb1c02749ca8e3b464479',1,'jugimap']]],
-  ['sprite_1280',['SPRITE',['../group___globals.html#ggaa52763de299dba8324198f93970f3799a2a3389b1d8bc619aed964477ec7b1a2d',1,'jugimap']]],
-  ['sprite_5fsheet_5fimage_1281',['SPRITE_SHEET_IMAGE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaa31881490526e19cbf8ea14bddd32c66e',1,'jugimap']]],
-  ['spriter_1282',['SPRITER',['../group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477ab197833b2e32c15edcdd43be0b8f066d',1,'jugimap']]],
-  ['spriter_5ffile_1283',['SPRITER_FILE',['../group___globals.html#gga84a454511f7473cb2254baa4cff462eaab21063ebf7e3636f4ce5e526c744cfc6',1,'jugimap']]],
-  ['stalled_1284',['STALLED',['../group___globals.html#gga50bdd3122560e2010412f9acd67687c4a4be6a75b35e47c01bca1a18f1b0ce3fb',1,'jugimap']]],
-  ['standard_1285',['STANDARD',['../group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a94e94133f4bdc1794c6b647b8ea134d0',1,'jugimap']]],
-  ['static_1286',['STATIC',['../classjugimap_1_1_standard_sprite.html#aa271142408caacfc01e8494b8650e2fdae55a36a850c67d46b3b3325de7fce0b8',1,'jugimap::StandardSprite']]]
+  ['p_1819',['P',['../group___input.html#gga7885f47644a0388f981f416fa20389b2a44c29edb103a2872f519ad0c9a0fdaaa',1,'jugimap']]],
+  ['pagedown_1820',['PAGEDOWN',['../group___input.html#gga7885f47644a0388f981f416fa20389b2a960aeda56eda2981ab0ab39faa825826',1,'jugimap']]],
+  ['pageup_1821',['PAGEUP',['../group___input.html#gga7885f47644a0388f981f416fa20389b2a56a1033a2d5368d197deb9f853cd8ed1',1,'jugimap']]],
+  ['parallax_1822',['PARALLAX',['../group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ae0c60ad18d407ae1a5264e56362372a2',1,'jugimap']]],
+  ['path_5fmovement_1823',['PATH_MOVEMENT',['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403a2c25ffc99635a4f2f74ab42f622a8978',1,'jugimap']]],
+  ['pause_1824',['PAUSE',['../group___input.html#gga7885f47644a0388f981f416fa20389b2a291554596c183e837f0a6bec3767c891',1,'jugimap']]],
+  ['paused_1825',['PAUSED',['../group___globals.html#gga50bdd3122560e2010412f9acd67687c4a99b2439e63f73ad515f7ab2447a80673',1,'jugimap']]],
+  ['period_1826',['PERIOD',['../group___input.html#gga7885f47644a0388f981f416fa20389b2ade58a28573783fe95304a260ccd90362',1,'jugimap']]],
+  ['playing_1827',['PLAYING',['../group___globals.html#gga50bdd3122560e2010412f9acd67687c4a50366a49630a416ab3ccaa004196027e',1,'jugimap']]],
+  ['polyline_1828',['POLYLINE',['../group___globals.html#ggaaa9206375355490ae37301b68d135f8eaeaa8e11478ccd5c257fe6f8bb5591c89',1,'jugimap']]],
+  ['print_1829',['PRINT',['../group___input.html#gga7885f47644a0388f981f416fa20389b2af96eee4e48ee90430f17fb3a8388507b',1,'jugimap']]]
 ];

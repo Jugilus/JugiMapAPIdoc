@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: FontSFML Class Reference</title>
+<title>JugiMap Framework: FontSFML Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('classjugimap_1_1_font_s_f_m_l.html',''
 </div><!--header-->
 <div class="contents">
 
-<p>Extended <a class="el" href="classjugimap_1_1_font.html" title="A font elements.">Font</a> class for SFML.  
+<p>Extended <a class="el" href="classjugimap_1_1_font.html" title="The Font class defines fonts used in TextSprite objects.">Font</a> class for SFML.  
  <a href="classjugimap_1_1_font_s_f_m_l.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="jm_s_f_m_l_8h_source.html">jmSFML.h</a>&gt;</code></p>
@@ -104,44 +104,66 @@ $(document).ready(function(){initNavTree('classjugimap_1_1_font_s_f_m_l.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa9683c04f99528c0fa92c9fed96b669c"><td class="memItemLeft" align="right" valign="top"><a id="aa9683c04f99528c0fa92c9fed96b669c"></a>
-sf::Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font_s_f_m_l.html#aa9683c04f99528c0fa92c9fed96b669c">GetSFFont</a> ()</td></tr>
-<tr class="memdesc:aa9683c04f99528c0fa92c9fed96b669c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the SFML font object. <br /></td></tr>
+<tr class="memitem:aa9683c04f99528c0fa92c9fed96b669c"><td class="memItemLeft" align="right" valign="top">sf::Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font_s_f_m_l.html#aa9683c04f99528c0fa92c9fed96b669c">GetSFFont</a> ()</td></tr>
+<tr class="memdesc:aa9683c04f99528c0fa92c9fed96b669c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the SFML font object.  <a href="classjugimap_1_1_font_s_f_m_l.html#aa9683c04f99528c0fa92c9fed96b669c">More...</a><br /></td></tr>
 <tr class="separator:aa9683c04f99528c0fa92c9fed96b669c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classjugimap_1_1_font"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classjugimap_1_1_font')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classjugimap_1_1_font.html">Font</a></td></tr>
-<tr class="memitem:acb64e5f9ac59d6ff25c8a012f4f090eb inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#acb64e5f9ac59d6ff25c8a012f4f090eb">Font</a> (const std::string &amp;_relativeFilePath, int _size, <a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a> _kind)</td></tr>
-<tr class="memdesc:acb64e5f9ac59d6ff25c8a012f4f090eb inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classjugimap_1_1_font.html#acb64e5f9ac59d6ff25c8a012f4f090eb">More...</a><br /></td></tr>
-<tr class="separator:acb64e5f9ac59d6ff25c8a012f4f090eb inherit pub_methods_classjugimap_1_1_font"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87d5c596daaff6d7f1488f47f0150e30 inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top"><a id="a87d5c596daaff6d7f1488f47f0150e30"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#a87d5c596daaff6d7f1488f47f0150e30">~Font</a> ()</td></tr>
-<tr class="memdesc:a87d5c596daaff6d7f1488f47f0150e30 inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="memitem:a212b154889146f29d210d3acac49e0b8 inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#a212b154889146f29d210d3acac49e0b8">Font</a> (const std::string &amp;_relativeFilePath, int _loadFontSize, <a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a> _kind)</td></tr>
+<tr class="memdesc:a212b154889146f29d210d3acac49e0b8 inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classjugimap_1_1_font.html#a212b154889146f29d210d3acac49e0b8">More...</a><br /></td></tr>
+<tr class="separator:a212b154889146f29d210d3acac49e0b8 inherit pub_methods_classjugimap_1_1_font"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d5c596daaff6d7f1488f47f0150e30 inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#a87d5c596daaff6d7f1488f47f0150e30">~Font</a> ()</td></tr>
+<tr class="memdesc:a87d5c596daaff6d7f1488f47f0150e30 inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classjugimap_1_1_font.html#a87d5c596daaff6d7f1488f47f0150e30">More...</a><br /></td></tr>
 <tr class="separator:a87d5c596daaff6d7f1488f47f0150e30 inherit pub_methods_classjugimap_1_1_font"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42cf14801b0e4457ad19af97fa7d8a12 inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top"><a id="a42cf14801b0e4457ad19af97fa7d8a12"></a>
-<a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#a42cf14801b0e4457ad19af97fa7d8a12">GetKind</a> ()</td></tr>
-<tr class="memdesc:a42cf14801b0e4457ad19af97fa7d8a12 inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the kind of this font. <br /></td></tr>
+<tr class="memitem:a42cf14801b0e4457ad19af97fa7d8a12 inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#a42cf14801b0e4457ad19af97fa7d8a12">GetKind</a> ()</td></tr>
+<tr class="memdesc:a42cf14801b0e4457ad19af97fa7d8a12 inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the kind of this font.  <a href="classjugimap_1_1_font.html#a42cf14801b0e4457ad19af97fa7d8a12">More...</a><br /></td></tr>
 <tr class="separator:a42cf14801b0e4457ad19af97fa7d8a12 inherit pub_methods_classjugimap_1_1_font"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acca82ce7cfbcae53495e4aa2770906ad inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top"><a id="acca82ce7cfbcae53495e4aa2770906ad"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#acca82ce7cfbcae53495e4aa2770906ad">GetRelativeFilePath</a> ()</td></tr>
-<tr class="memdesc:acca82ce7cfbcae53495e4aa2770906ad inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file path of this font. <br /></td></tr>
+<tr class="memitem:acca82ce7cfbcae53495e4aa2770906ad inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#acca82ce7cfbcae53495e4aa2770906ad">GetRelativeFilePath</a> ()</td></tr>
+<tr class="memdesc:acca82ce7cfbcae53495e4aa2770906ad inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file path of this font.  <a href="classjugimap_1_1_font.html#acca82ce7cfbcae53495e4aa2770906ad">More...</a><br /></td></tr>
 <tr class="separator:acca82ce7cfbcae53495e4aa2770906ad inherit pub_methods_classjugimap_1_1_font"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af20bedaf7c9a39abf3f99b1122503107 inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top"><a id="af20bedaf7c9a39abf3f99b1122503107"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#af20bedaf7c9a39abf3f99b1122503107">GetSize</a> ()</td></tr>
-<tr class="memdesc:af20bedaf7c9a39abf3f99b1122503107 inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of this font. <br /></td></tr>
-<tr class="separator:af20bedaf7c9a39abf3f99b1122503107 inherit pub_methods_classjugimap_1_1_font"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab61e9583cc31adbc5599840384f80555 inherit pub_methods_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#ab61e9583cc31adbc5599840384f80555">GetLoadFontSize</a> ()</td></tr>
+<tr class="memdesc:ab61e9583cc31adbc5599840384f80555 inherit pub_methods_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of this font.  <a href="classjugimap_1_1_font.html#ab61e9583cc31adbc5599840384f80555">More...</a><br /></td></tr>
+<tr class="separator:ab61e9583cc31adbc5599840384f80555 inherit pub_methods_classjugimap_1_1_font"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_attribs_classjugimap_1_1_font"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classjugimap_1_1_font')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classjugimap_1_1_font.html">Font</a></td></tr>
-<tr class="memitem:a2e7e62422efd1227b5a0e3d29a9d5cbd inherit pub_static_attribs_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top"><a id="a2e7e62422efd1227b5a0e3d29a9d5cbd"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#a2e7e62422efd1227b5a0e3d29a9d5cbd">pathPrefix</a></td></tr>
-<tr class="memdesc:a2e7e62422efd1227b5a0e3d29a9d5cbd inherit pub_static_attribs_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">An optional string attached to stored file paths. It must end with slash '/'! <br /></td></tr>
+<tr class="memitem:a2e7e62422efd1227b5a0e3d29a9d5cbd inherit pub_static_attribs_classjugimap_1_1_font"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_font.html#a2e7e62422efd1227b5a0e3d29a9d5cbd">pathPrefix</a></td></tr>
+<tr class="memdesc:a2e7e62422efd1227b5a0e3d29a9d5cbd inherit pub_static_attribs_classjugimap_1_1_font"><td class="mdescLeft">&#160;</td><td class="mdescRight">An optional string attached to stored file paths. It must end with slash '/'!  <a href="classjugimap_1_1_font.html#a2e7e62422efd1227b5a0e3d29a9d5cbd">More...</a><br /></td></tr>
 <tr class="separator:a2e7e62422efd1227b5a0e3d29a9d5cbd inherit pub_static_attribs_classjugimap_1_1_font"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Extended <a class="el" href="classjugimap_1_1_font.html" title="A font elements.">Font</a> class for SFML. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
-<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimapSFML/<a class="el" href="jm_s_f_m_l_8h_source.html">jmSFML.h</a></li>
-<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimapSFML/jmSFML.cpp</li>
+<div class="textblock"><p>Extended <a class="el" href="classjugimap_1_1_font.html" title="The Font class defines fonts used in TextSprite objects.">Font</a> class for SFML. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa9683c04f99528c0fa92c9fed96b669c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9683c04f99528c0fa92c9fed96b669c">&#9670;&nbsp;</a></span>GetSFFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Font* GetSFFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the SFML font object. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimapSFML/<a class="el" href="jm_s_f_m_l_8h_source.html">jmSFML.h</a></li>
+<li>C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimapSFML/jmSFML.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

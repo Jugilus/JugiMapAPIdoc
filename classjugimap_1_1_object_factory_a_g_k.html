@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: ObjectFactoryAGK Class Reference</title>
+<title>JugiMap Framework: ObjectFactoryAGK Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('classjugimap_1_1_object_factory_a_g_k.
 </div><!--header-->
 <div class="contents">
 
-<p>Extended <a class="el" href="classjugimap_1_1_object_factory.html" title="A factory for jugimap objects.">ObjectFactory</a> class for AGK.  
+<p>Extended <a class="el" href="classjugimap_1_1_object_factory.html" title="The ObjectFactory is the base class for engine specific object factories.">ObjectFactory</a> class for AGK.  
  <a href="classjugimap_1_1_object_factory_a_g_k.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="jm_a_g_k_8h_source.html">jmAGK.h</a>&gt;</code></p>
@@ -104,72 +104,431 @@ $(document).ready(function(){initNavTree('classjugimap_1_1_object_factory_a_g_k.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7450f309a8f53878c62078874771c257"><td class="memItemLeft" align="right" valign="top"><a id="a7450f309a8f53878c62078874771c257"></a>
-<a class="el" href="classjugimap_1_1_graphic_file.html">GraphicFile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a7450f309a8f53878c62078874771c257">NewFile</a> () override</td></tr>
-<tr class="memdesc:a7450f309a8f53878c62078874771c257"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new graphic file object. <br /></td></tr>
+<tr class="memitem:a7450f309a8f53878c62078874771c257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_graphic_file.html">GraphicFile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a7450f309a8f53878c62078874771c257">NewFile</a> () override</td></tr>
+<tr class="memdesc:a7450f309a8f53878c62078874771c257"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new graphic file object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#a7450f309a8f53878c62078874771c257">More...</a><br /></td></tr>
 <tr class="separator:a7450f309a8f53878c62078874771c257"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01f6bab97426980263aaea1c59a97b95"><td class="memItemLeft" align="right" valign="top"><a id="a01f6bab97426980263aaea1c59a97b95"></a>
-<a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a01f6bab97426980263aaea1c59a97b95">NewItem</a> () override</td></tr>
-<tr class="memdesc:a01f6bab97426980263aaea1c59a97b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new graphic item object. <br /></td></tr>
+<tr class="memitem:a01f6bab97426980263aaea1c59a97b95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a01f6bab97426980263aaea1c59a97b95">NewItem</a> () override</td></tr>
+<tr class="memdesc:a01f6bab97426980263aaea1c59a97b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new graphic item object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#a01f6bab97426980263aaea1c59a97b95">More...</a><br /></td></tr>
 <tr class="separator:a01f6bab97426980263aaea1c59a97b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad361a204231239dd4984fcd8e2573127"><td class="memItemLeft" align="right" valign="top"><a id="ad361a204231239dd4984fcd8e2573127"></a>
-<a class="el" href="classjugimap_1_1_standard_sprite.html">StandardSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#ad361a204231239dd4984fcd8e2573127">NewStandardSprite</a> () override</td></tr>
-<tr class="memdesc:ad361a204231239dd4984fcd8e2573127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new standard sprite object. <br /></td></tr>
+<tr class="memitem:ad361a204231239dd4984fcd8e2573127"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_standard_sprite.html">StandardSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#ad361a204231239dd4984fcd8e2573127">NewStandardSprite</a> () override</td></tr>
+<tr class="memdesc:ad361a204231239dd4984fcd8e2573127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new standard sprite object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#ad361a204231239dd4984fcd8e2573127">More...</a><br /></td></tr>
 <tr class="separator:ad361a204231239dd4984fcd8e2573127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30b2a8c10aec7aa7ddff2e3e0e512a0c"><td class="memItemLeft" align="right" valign="top"><a id="a30b2a8c10aec7aa7ddff2e3e0e512a0c"></a>
-<a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a30b2a8c10aec7aa7ddff2e3e0e512a0c">NewSpriteLayer</a> () override</td></tr>
-<tr class="memdesc:a30b2a8c10aec7aa7ddff2e3e0e512a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new sprite layer object. <br /></td></tr>
+<tr class="memitem:ac066f7f0d323653af32bad63104c2096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_text_sprite.html">TextSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#ac066f7f0d323653af32bad63104c2096">NewTextSprite</a> () override</td></tr>
+<tr class="memdesc:ac066f7f0d323653af32bad63104c2096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new standard sprite object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#ac066f7f0d323653af32bad63104c2096">More...</a><br /></td></tr>
+<tr class="separator:ac066f7f0d323653af32bad63104c2096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b2a8c10aec7aa7ddff2e3e0e512a0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a30b2a8c10aec7aa7ddff2e3e0e512a0c">NewSpriteLayer</a> () override</td></tr>
+<tr class="memdesc:a30b2a8c10aec7aa7ddff2e3e0e512a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new sprite layer object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#a30b2a8c10aec7aa7ddff2e3e0e512a0c">More...</a><br /></td></tr>
 <tr class="separator:a30b2a8c10aec7aa7ddff2e3e0e512a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a171f51b3d61dae05225aa1880c063744"><td class="memItemLeft" align="right" valign="top"><a id="a171f51b3d61dae05225aa1880c063744"></a>
-<a class="el" href="classjugimap_1_1_skeleton_sprite.html">SkeletonSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a171f51b3d61dae05225aa1880c063744">NewSpineSprite</a> () override</td></tr>
-<tr class="memdesc:a171f51b3d61dae05225aa1880c063744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new spine object. <br /></td></tr>
+<tr class="memitem:a171f51b3d61dae05225aa1880c063744"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_skeleton_sprite.html">SkeletonSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a171f51b3d61dae05225aa1880c063744">NewSpineSprite</a> () override</td></tr>
+<tr class="memdesc:a171f51b3d61dae05225aa1880c063744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new spine object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#a171f51b3d61dae05225aa1880c063744">More...</a><br /></td></tr>
 <tr class="separator:a171f51b3d61dae05225aa1880c063744"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e8183ddc4b8919b3bcc0639fdcba9c0"><td class="memItemLeft" align="right" valign="top"><a id="a7e8183ddc4b8919b3bcc0639fdcba9c0"></a>
-<a class="el" href="classjugimap_1_1_skeleton_sprite.html">SkeletonSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a7e8183ddc4b8919b3bcc0639fdcba9c0">NewSpriterSprite</a> () override</td></tr>
-<tr class="memdesc:a7e8183ddc4b8919b3bcc0639fdcba9c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new spriter object. <br /></td></tr>
+<tr class="memitem:a7e8183ddc4b8919b3bcc0639fdcba9c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_skeleton_sprite.html">SkeletonSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a7e8183ddc4b8919b3bcc0639fdcba9c0">NewSpriterSprite</a> () override</td></tr>
+<tr class="memdesc:a7e8183ddc4b8919b3bcc0639fdcba9c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new spriter object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#a7e8183ddc4b8919b3bcc0639fdcba9c0">More...</a><br /></td></tr>
 <tr class="separator:a7e8183ddc4b8919b3bcc0639fdcba9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5255eeb82133dcd4e8d2d1bbccaa27df"><td class="memItemLeft" align="right" valign="top"><a id="a5255eeb82133dcd4e8d2d1bbccaa27df"></a>
-<a class="el" href="classjugimap_1_1_font.html">Font</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a5255eeb82133dcd4e8d2d1bbccaa27df">NewFont</a> (const std::string &amp;_relativeFilePath, int _size, <a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a> _fontKind) override</td></tr>
-<tr class="memdesc:a5255eeb82133dcd4e8d2d1bbccaa27df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new font object. <br /></td></tr>
+<tr class="memitem:a5255eeb82133dcd4e8d2d1bbccaa27df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_font.html">Font</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a5255eeb82133dcd4e8d2d1bbccaa27df">NewFont</a> (const std::string &amp;_relativeFilePath, int _size, <a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a> _fontKind) override</td></tr>
+<tr class="memdesc:a5255eeb82133dcd4e8d2d1bbccaa27df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new text object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#a5255eeb82133dcd4e8d2d1bbccaa27df">More...</a><br /></td></tr>
 <tr class="separator:a5255eeb82133dcd4e8d2d1bbccaa27df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e65aa74779471bdad24cc3466fffe40"><td class="memItemLeft" align="right" valign="top"><a id="a9e65aa74779471bdad24cc3466fffe40"></a>
-<a class="el" href="classjugimap_1_1_text.html">Text</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a9e65aa74779471bdad24cc3466fffe40">NewText</a> (<a class="el" href="classjugimap_1_1_text_layer.html">TextLayer</a> *_textLayer, <a class="el" href="classjugimap_1_1_font.html">Font</a> *_font, const std::string &amp;_textString, <a class="el" href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">Vec2f</a> _position, <a class="el" href="structjugimap_1_1_color_r_g_b_a.html">ColorRGBA</a> _color) override</td></tr>
-<tr class="memdesc:a9e65aa74779471bdad24cc3466fffe40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new text object. <br /></td></tr>
-<tr class="separator:a9e65aa74779471bdad24cc3466fffe40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f7edd78aab5b8bcab78aca2b926ece"><td class="memItemLeft" align="right" valign="top"><a id="a13f7edd78aab5b8bcab78aca2b926ece"></a>
-<a class="el" href="classjugimap_1_1_text_layer.html">TextLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a13f7edd78aab5b8bcab78aca2b926ece">NewTextLayer</a> (const std::string &amp;_name) override</td></tr>
-<tr class="memdesc:a13f7edd78aab5b8bcab78aca2b926ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new text layer object. <br /></td></tr>
-<tr class="separator:a13f7edd78aab5b8bcab78aca2b926ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4877a2e531b7b3b9c7ce4eee7d4880a"><td class="memItemLeft" align="right" valign="top"><a id="ae4877a2e531b7b3b9c7ce4eee7d4880a"></a>
-<a class="el" href="classjugimap_1_1_drawer.html">Drawer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#ae4877a2e531b7b3b9c7ce4eee7d4880a">NewDrawer</a> () override</td></tr>
-<tr class="memdesc:ae4877a2e531b7b3b9c7ce4eee7d4880a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new drawer object. <br /></td></tr>
+<tr class="memitem:ae4877a2e531b7b3b9c7ce4eee7d4880a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_drawer.html">Drawer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#ae4877a2e531b7b3b9c7ce4eee7d4880a">NewDrawer</a> () override</td></tr>
+<tr class="memdesc:ae4877a2e531b7b3b9c7ce4eee7d4880a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new drawer object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#ae4877a2e531b7b3b9c7ce4eee7d4880a">More...</a><br /></td></tr>
 <tr class="separator:ae4877a2e531b7b3b9c7ce4eee7d4880a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae77cc3ff6251a028f7dba7a66ef224db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_map.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#ae77cc3ff6251a028f7dba7a66ef224db">NewMap</a> (int _zOrderStart) override</td></tr>
+<tr class="memdesc:ae77cc3ff6251a028f7dba7a66ef224db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new map object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#ae77cc3ff6251a028f7dba7a66ef224db">More...</a><br /></td></tr>
+<tr class="separator:ae77cc3ff6251a028f7dba7a66ef224db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6d809049a84be737d2cebb72385b9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_engine_scene.html">EngineScene</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#aac6d809049a84be737d2cebb72385b9e">NewEngineScene</a> (<a class="el" href="classjugimap_1_1_scene.html">Scene</a> *_scene) override</td></tr>
+<tr class="memdesc:aac6d809049a84be737d2cebb72385b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new map object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#aac6d809049a84be737d2cebb72385b9e">More...</a><br /></td></tr>
+<tr class="separator:aac6d809049a84be737d2cebb72385b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d562bb17f5ee8ada097fd6db7ae5fd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_engine_app.html">EngineApp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory_a_g_k.html#a7d562bb17f5ee8ada097fd6db7ae5fd8">NewEngineApp</a> (<a class="el" href="classjugimap_1_1_app.html">App</a> *_app) override</td></tr>
+<tr class="memdesc:a7d562bb17f5ee8ada097fd6db7ae5fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new map object.  <a href="classjugimap_1_1_object_factory_a_g_k.html#a7d562bb17f5ee8ada097fd6db7ae5fd8">More...</a><br /></td></tr>
+<tr class="separator:a7d562bb17f5ee8ada097fd6db7ae5fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classjugimap_1_1_object_factory"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classjugimap_1_1_object_factory')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classjugimap_1_1_object_factory.html">ObjectFactory</a></td></tr>
-<tr class="memitem:a24e363fddde626c12142ccafe988d914 inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top"><a id="a24e363fddde626c12142ccafe988d914"></a>
-virtual <a class="el" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#a24e363fddde626c12142ccafe988d914">NewSourceSprite</a> ()</td></tr>
-<tr class="memdesc:a24e363fddde626c12142ccafe988d914 inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new source sprite object. <br /></td></tr>
+<tr class="memitem:a24e363fddde626c12142ccafe988d914 inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#a24e363fddde626c12142ccafe988d914">NewSourceSprite</a> ()</td></tr>
+<tr class="memdesc:a24e363fddde626c12142ccafe988d914 inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new source sprite object.  <a href="classjugimap_1_1_object_factory.html#a24e363fddde626c12142ccafe988d914">More...</a><br /></td></tr>
 <tr class="separator:a24e363fddde626c12142ccafe988d914 inherit pub_methods_classjugimap_1_1_object_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae5c01a4f48aa25c938f7e6e1e44de6f inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top"><a id="aae5c01a4f48aa25c938f7e6e1e44de6f"></a>
-virtual <a class="el" href="classjugimap_1_1_map.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#aae5c01a4f48aa25c938f7e6e1e44de6f">NewMap</a> ()</td></tr>
-<tr class="memdesc:aae5c01a4f48aa25c938f7e6e1e44de6f inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new map object. <br /></td></tr>
-<tr class="separator:aae5c01a4f48aa25c938f7e6e1e44de6f inherit pub_methods_classjugimap_1_1_object_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad966534ec1f55a91172ff516eac56c67 inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top"><a id="ad966534ec1f55a91172ff516eac56c67"></a>
-virtual <a class="el" href="classjugimap_1_1_vector_layer.html">VectorLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#ad966534ec1f55a91172ff516eac56c67">NewVectorLayer</a> ()</td></tr>
-<tr class="memdesc:ad966534ec1f55a91172ff516eac56c67 inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new vector layer object. <br /></td></tr>
+<tr class="memitem:ad966534ec1f55a91172ff516eac56c67 inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classjugimap_1_1_vector_layer.html">VectorLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#ad966534ec1f55a91172ff516eac56c67">NewVectorLayer</a> ()</td></tr>
+<tr class="memdesc:ad966534ec1f55a91172ff516eac56c67 inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new vector layer object.  <a href="classjugimap_1_1_object_factory.html#ad966534ec1f55a91172ff516eac56c67">More...</a><br /></td></tr>
 <tr class="separator:ad966534ec1f55a91172ff516eac56c67 inherit pub_methods_classjugimap_1_1_object_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15cad99e54f3fa42614ac8d6ae25b96e inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top"><a id="a15cad99e54f3fa42614ac8d6ae25b96e"></a>
-virtual <a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#a15cad99e54f3fa42614ac8d6ae25b96e">NewComposedSprite</a> ()</td></tr>
-<tr class="memdesc:a15cad99e54f3fa42614ac8d6ae25b96e inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new composed sprite object. <br /></td></tr>
+<tr class="memitem:a15cad99e54f3fa42614ac8d6ae25b96e inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#a15cad99e54f3fa42614ac8d6ae25b96e">NewComposedSprite</a> ()</td></tr>
+<tr class="memdesc:a15cad99e54f3fa42614ac8d6ae25b96e inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new text sprite object.  <a href="classjugimap_1_1_object_factory.html#a15cad99e54f3fa42614ac8d6ae25b96e">More...</a><br /></td></tr>
 <tr class="separator:a15cad99e54f3fa42614ac8d6ae25b96e inherit pub_methods_classjugimap_1_1_object_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebaea0b0d9fbd59fff1107492ffd067f inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top"><a id="aebaea0b0d9fbd59fff1107492ffd067f"></a>
-<a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#aebaea0b0d9fbd59fff1107492ffd067f">NewSprite</a> (<a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a> _kind)</td></tr>
-<tr class="memdesc:aebaea0b0d9fbd59fff1107492ffd067f inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new sprite object of the given *_kind*. <br /></td></tr>
+<tr class="memitem:aebaea0b0d9fbd59fff1107492ffd067f inherit pub_methods_classjugimap_1_1_object_factory"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_object_factory.html#aebaea0b0d9fbd59fff1107492ffd067f">NewSprite</a> (<a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a> _kind)</td></tr>
+<tr class="memdesc:aebaea0b0d9fbd59fff1107492ffd067f inherit pub_methods_classjugimap_1_1_object_factory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new sprite object of the given *_kind*.  <a href="classjugimap_1_1_object_factory.html#aebaea0b0d9fbd59fff1107492ffd067f">More...</a><br /></td></tr>
 <tr class="separator:aebaea0b0d9fbd59fff1107492ffd067f inherit pub_methods_classjugimap_1_1_object_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Extended <a class="el" href="classjugimap_1_1_object_factory.html" title="A factory for jugimap objects.">ObjectFactory</a> class for AGK. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimapAGK/<a class="el" href="jm_a_g_k_8h_source.html">jmAGK.h</a></li>
+<div class="textblock"><p>Extended <a class="el" href="classjugimap_1_1_object_factory.html" title="The ObjectFactory is the base class for engine specific object factories.">ObjectFactory</a> class for AGK. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7450f309a8f53878c62078874771c257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7450f309a8f53878c62078874771c257">&#9670;&nbsp;</a></span>NewFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_graphic_file.html">GraphicFile</a>* NewFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new graphic file object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#af3bf712311615c33534519816752ab00">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="a01f6bab97426980263aaea1c59a97b95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f6bab97426980263aaea1c59a97b95">&#9670;&nbsp;</a></span>NewItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a>* NewItem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new graphic item object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a251e412ef163ab86f109311bb1bc93f2">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="ad361a204231239dd4984fcd8e2573127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad361a204231239dd4984fcd8e2573127">&#9670;&nbsp;</a></span>NewStandardSprite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_standard_sprite.html">StandardSprite</a>* NewStandardSprite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new standard sprite object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a47397406129c456a13f289c9af564cad">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="ac066f7f0d323653af32bad63104c2096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac066f7f0d323653af32bad63104c2096">&#9670;&nbsp;</a></span>NewTextSprite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_text_sprite.html">TextSprite</a>* NewTextSprite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new standard sprite object. </p>
+<p>Returns a new text sprite object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#afb3f3604be0fb55b3452d89944389d37">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="a30b2a8c10aec7aa7ddff2e3e0e512a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30b2a8c10aec7aa7ddff2e3e0e512a0c">&#9670;&nbsp;</a></span>NewSpriteLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a>* NewSpriteLayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new sprite layer object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a93d65d843e08ca884b84035ad21c4981">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="a171f51b3d61dae05225aa1880c063744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a171f51b3d61dae05225aa1880c063744">&#9670;&nbsp;</a></span>NewSpineSprite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_skeleton_sprite.html">SkeletonSprite</a>* NewSpineSprite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new spine object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a86eee2b12678512fbb79d9704015e764">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="a7e8183ddc4b8919b3bcc0639fdcba9c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e8183ddc4b8919b3bcc0639fdcba9c0">&#9670;&nbsp;</a></span>NewSpriterSprite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_skeleton_sprite.html">SkeletonSprite</a>* NewSpriterSprite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new spriter object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a529fe05b75d090a268f4d07a871dba83">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="a5255eeb82133dcd4e8d2d1bbccaa27df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5255eeb82133dcd4e8d2d1bbccaa27df">&#9670;&nbsp;</a></span>NewFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_font.html">Font</a>* NewFont </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>_relativeFilePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___globals.html#gad19071725187629f07e7bae695ecf60c">FontKind</a>&#160;</td>
+          <td class="paramname"><em>_fontKind</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new text object. </p>
+<p>Returns a new text layer object. Returns a new font object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a321656ffb69dd5ed1317ff1020ea24f5">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="ae4877a2e531b7b3b9c7ce4eee7d4880a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4877a2e531b7b3b9c7ce4eee7d4880a">&#9670;&nbsp;</a></span>NewDrawer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_drawer.html">Drawer</a>* NewDrawer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new drawer object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a59e4226adcfe41b48dabd28ec79bd102">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="ae77cc3ff6251a028f7dba7a66ef224db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae77cc3ff6251a028f7dba7a66ef224db">&#9670;&nbsp;</a></span>NewMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_map.html">Map</a>* NewMap </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_zOrderStart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new map object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#abf830d4eccf744765037075c635b17c6">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="aac6d809049a84be737d2cebb72385b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac6d809049a84be737d2cebb72385b9e">&#9670;&nbsp;</a></span>NewEngineScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_engine_scene.html">EngineScene</a>* NewEngineScene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_scene.html">Scene</a> *&#160;</td>
+          <td class="paramname"><em>_scene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new map object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a9011d481d3baad2d93cc4d70a7a6ae15">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<a id="a7d562bb17f5ee8ada097fd6db7ae5fd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d562bb17f5ee8ada097fd6db7ae5fd8">&#9670;&nbsp;</a></span>NewEngineApp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_engine_app.html">EngineApp</a>* NewEngineApp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_app.html">App</a> *&#160;</td>
+          <td class="paramname"><em>_app</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a new map object. </p>
+
+<p>Reimplemented from <a class="el" href="classjugimap_1_1_object_factory.html#a4372cc746af8825218d88609e03880d0">ObjectFactory</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimapAGK/<a class="el" href="jm_a_g_k_8h_source.html">jmAGK.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

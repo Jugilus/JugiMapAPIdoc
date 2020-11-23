@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['shapekind_1227',['ShapeKind',['../group___globals.html#gaaa9206375355490ae37301b68d135f8e',1,'jugimap']]],
-  ['spritekind_1228',['SpriteKind',['../group___globals.html#gabd68c17bf2f3cc84732d58e98d519477',1,'jugimap']]],
-  ['status_1229',['Status',['../classjugimap_1_1_source_sprite.html#a67a0db04d321a74b7e7fcfd3f1a3f70b',1,'jugimap::SourceSprite']]],
-  ['stretchingvariant_1230',['StretchingVariant',['../group___globals.html#ga44a6afb54d27fc91926f14cceaaf6938',1,'jugimap']]]
+  ['layerkind_1707',['LayerKind',['../group___globals.html#gaa52763de299dba8324198f93970f3799',1,'jugimap']]],
+  ['layertype_1708',['LayerType',['../group___globals.html#ga56943a0946e5f15e5e58054b8e7a04a4',1,'jugimap']]]
 ];

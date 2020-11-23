@@ -1,11 +1,20 @@
 var searchData=
 [
-  ['geometricshape_670',['GeometricShape',['../structjugimap_1_1_geometric_shape.html',1,'jugimap']]],
-  ['graphicfile_671',['GraphicFile',['../classjugimap_1_1_graphic_file.html',1,'jugimap']]],
-  ['graphicfileagk_672',['GraphicFileAGK',['../classjugimap_1_1_graphic_file_a_g_k.html',1,'jugimap']]],
-  ['graphicfilecc_673',['GraphicFileCC',['../classjugimap_1_1_graphic_file_c_c.html',1,'jugimap']]],
-  ['graphicfilenc_674',['GraphicFileNC',['../classjugimap_1_1_graphic_file_n_c.html',1,'jugimap']]],
-  ['graphicfilesfml_675',['GraphicFileSFML',['../classjugimap_1_1_graphic_file_s_f_m_l.html',1,'jugimap']]],
-  ['graphicitem_676',['GraphicItem',['../classjugimap_1_1_graphic_item.html',1,'jugimap']]],
-  ['graphicitemagk_677',['GraphicItemAGK',['../classjugimap_1_1_graphic_item_a_g_k.html',1,'jugimap']]]
+  ['geometricshape_966',['GeometricShape',['../structjugimap_1_1_geometric_shape.html',1,'jugimap']]],
+  ['graphicfile_967',['GraphicFile',['../classjugimap_1_1_graphic_file.html',1,'jugimap']]],
+  ['graphicfileagk_968',['GraphicFileAGK',['../classjugimap_1_1_graphic_file_a_g_k.html',1,'jugimap']]],
+  ['graphicfilecc_969',['GraphicFileCC',['../classjugimap_1_1_graphic_file_c_c.html',1,'jugimap']]],
+  ['graphicfilenc_970',['GraphicFileNC',['../classjugimap_1_1_graphic_file_n_c.html',1,'jugimap']]],
+  ['graphicfilesfml_971',['GraphicFileSFML',['../classjugimap_1_1_graphic_file_s_f_m_l.html',1,'jugimap']]],
+  ['graphicitem_972',['GraphicItem',['../classjugimap_1_1_graphic_item.html',1,'jugimap']]],
+  ['graphicitemagk_973',['GraphicItemAGK',['../classjugimap_1_1_graphic_item_a_g_k.html',1,'jugimap']]],
+  ['guibar_974',['GuiBar',['../classjugimap_1_1_gui_bar.html',1,'jugimap']]],
+  ['guibutton_975',['GuiButton',['../classjugimap_1_1_gui_button.html',1,'jugimap']]],
+  ['guicursordeviceinput_976',['GuiCursorDeviceInput',['../classjugimap_1_1_gui_cursor_device_input.html',1,'jugimap']]],
+  ['guikeyboardandjoystickinput_977',['GuiKeyboardAndJoystickInput',['../classjugimap_1_1_gui_keyboard_and_joystick_input.html',1,'jugimap']]],
+  ['guislider_978',['GuiSlider',['../classjugimap_1_1_gui_slider.html',1,'jugimap']]],
+  ['guitextfield_979',['GuiTextField',['../classjugimap_1_1_gui_text_field.html',1,'jugimap']]],
+  ['guitextinput_980',['GuiTextInput',['../classjugimap_1_1_gui_text_input.html',1,'jugimap']]],
+  ['guiwidget_981',['GuiWidget',['../classjugimap_1_1_gui_widget.html',1,'jugimap']]],
+  ['guiwidgetcallback_982',['GuiWidgetCallback',['../structjugimap_1_1_gui_widget_callback.html',1,'jugimap']]]
 ];

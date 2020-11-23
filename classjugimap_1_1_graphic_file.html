@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: GraphicFile Class Reference</title>
+<title>JugiMap Framework: GraphicFile Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -90,13 +90,14 @@ $(document).ready(function(){initNavTree('classjugimap_1_1_graphic_file.html',''
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classjugimap_1_1_graphic_file-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">GraphicFile Class Reference<div class="ingroups"><a class="el" href="group___map_elements.html">MapElements</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Graphic file.  
+<p>The <a class="el" href="classjugimap_1_1_graphic_file.html" title="The GraphicFile class defines the equivalent object from JugiMap Editor.">GraphicFile</a> class defines the equivalent object from JugiMap Editor.  
  <a href="classjugimap_1_1_graphic_file.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="jm_source_graphics_8h_source.html">jmSourceGraphics.h</a>&gt;</code></p>
@@ -105,49 +106,99 @@ $(document).ready(function(){initNavTree('classjugimap_1_1_graphic_file.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2e0294453f51e953e0f65fde56ae68b4"><td class="memItemLeft" align="right" valign="top"><a id="a2e0294453f51e953e0f65fde56ae68b4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a2e0294453f51e953e0f65fde56ae68b4">GraphicFile</a> ()</td></tr>
-<tr class="memdesc:a2e0294453f51e953e0f65fde56ae68b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:a2e0294453f51e953e0f65fde56ae68b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b1a50741e0f42fce375bdfbc76dbea4"><td class="memItemLeft" align="right" valign="top"><a id="a3b1a50741e0f42fce375bdfbc76dbea4"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a3b1a50741e0f42fce375bdfbc76dbea4">~GraphicFile</a> ()</td></tr>
-<tr class="memdesc:a3b1a50741e0f42fce375bdfbc76dbea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
-<tr class="separator:a3b1a50741e0f42fce375bdfbc76dbea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e0b39e1326de703012f81ac2be7feba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a3e0b39e1326de703012f81ac2be7feba">Init</a> ()</td></tr>
-<tr class="memdesc:a3e0b39e1326de703012f81ac2be7feba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this <a class="el" href="classjugimap_1_1_graphic_file.html" title="Graphic file.">GraphicFile</a>.  <a href="classjugimap_1_1_graphic_file.html#a3e0b39e1326de703012f81ac2be7feba">More...</a><br /></td></tr>
+<tr class="memdesc:a3e0b39e1326de703012f81ac2be7feba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize this <a class="el" href="classjugimap_1_1_graphic_file.html" title="The GraphicFile class defines the equivalent object from JugiMap Editor.">GraphicFile</a>.  <a href="classjugimap_1_1_graphic_file.html#a3e0b39e1326de703012f81ac2be7feba">More...</a><br /></td></tr>
 <tr class="separator:a3e0b39e1326de703012f81ac2be7feba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87eaf0f9e1413a077965c8e406f4f8dc"><td class="memItemLeft" align="right" valign="top"><a id="a87eaf0f9e1413a077965c8e406f4f8dc"></a>
-<a class="el" href="group___globals.html#ga84a454511f7473cb2254baa4cff462ea">FileKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a87eaf0f9e1413a077965c8e406f4f8dc">GetKind</a> ()</td></tr>
-<tr class="memdesc:a87eaf0f9e1413a077965c8e406f4f8dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the kind of this file. <br /></td></tr>
+<tr class="memitem:a87eaf0f9e1413a077965c8e406f4f8dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___globals.html#ga84a454511f7473cb2254baa4cff462ea">FileKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a87eaf0f9e1413a077965c8e406f4f8dc">GetKind</a> ()</td></tr>
+<tr class="memdesc:a87eaf0f9e1413a077965c8e406f4f8dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the kind of this file.  <a href="classjugimap_1_1_graphic_file.html#a87eaf0f9e1413a077965c8e406f4f8dc">More...</a><br /></td></tr>
 <tr class="separator:a87eaf0f9e1413a077965c8e406f4f8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acca82ce7cfbcae53495e4aa2770906ad"><td class="memItemLeft" align="right" valign="top"><a id="acca82ce7cfbcae53495e4aa2770906ad"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#acca82ce7cfbcae53495e4aa2770906ad">GetRelativeFilePath</a> ()</td></tr>
-<tr class="memdesc:acca82ce7cfbcae53495e4aa2770906ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the relative file path of this file. <br /></td></tr>
+<tr class="memitem:acca82ce7cfbcae53495e4aa2770906ad"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#acca82ce7cfbcae53495e4aa2770906ad">GetRelativeFilePath</a> ()</td></tr>
+<tr class="memdesc:acca82ce7cfbcae53495e4aa2770906ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the relative file path of this file.  <a href="classjugimap_1_1_graphic_file.html#acca82ce7cfbcae53495e4aa2770906ad">More...</a><br /></td></tr>
 <tr class="separator:acca82ce7cfbcae53495e4aa2770906ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ddbe2bb1be79543f2b3751b4a3cb95d"><td class="memItemLeft" align="right" valign="top"><a id="a0ddbe2bb1be79543f2b3751b4a3cb95d"></a>
-<a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a0ddbe2bb1be79543f2b3751b4a3cb95d">GetSize</a> ()</td></tr>
-<tr class="memdesc:a0ddbe2bb1be79543f2b3751b4a3cb95d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of image if this file is an image. <br /></td></tr>
+<tr class="memitem:a0ddbe2bb1be79543f2b3751b4a3cb95d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a0ddbe2bb1be79543f2b3751b4a3cb95d">GetSize</a> ()</td></tr>
+<tr class="memdesc:a0ddbe2bb1be79543f2b3751b4a3cb95d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of image if this file is an image.  <a href="classjugimap_1_1_graphic_file.html#a0ddbe2bb1be79543f2b3751b4a3cb95d">More...</a><br /></td></tr>
 <tr class="separator:a0ddbe2bb1be79543f2b3751b4a3cb95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f8f5c595286812036cb9e55ed7ef657"><td class="memItemLeft" align="right" valign="top"><a id="a3f8f5c595286812036cb9e55ed7ef657"></a>
-std::vector&lt; <a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a3f8f5c595286812036cb9e55ed7ef657">GetItems</a> ()</td></tr>
-<tr class="memdesc:a3f8f5c595286812036cb9e55ed7ef657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the vector of stored graphic items in this file. <br /></td></tr>
+<tr class="memitem:a3f8f5c595286812036cb9e55ed7ef657"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a3f8f5c595286812036cb9e55ed7ef657">GetItems</a> ()</td></tr>
+<tr class="memdesc:a3f8f5c595286812036cb9e55ed7ef657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the vector of stored graphic items in this file.  <a href="classjugimap_1_1_graphic_file.html#a3f8f5c595286812036cb9e55ed7ef657">More...</a><br /></td></tr>
 <tr class="separator:a3f8f5c595286812036cb9e55ed7ef657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cfc42bea4d6e55571efc24ebde5e2a7"><td class="memItemLeft" align="right" valign="top"><a id="a7cfc42bea4d6e55571efc24ebde5e2a7"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a7cfc42bea4d6e55571efc24ebde5e2a7">GetSpineAtlasRelativeFilePath</a> ()</td></tr>
-<tr class="memdesc:a7cfc42bea4d6e55571efc24ebde5e2a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the relative file path of the spine atlas if this file is a Spine file. <br /></td></tr>
+<tr class="memitem:a7cfc42bea4d6e55571efc24ebde5e2a7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a7cfc42bea4d6e55571efc24ebde5e2a7">GetSpineAtlasRelativeFilePath</a> ()</td></tr>
+<tr class="memdesc:a7cfc42bea4d6e55571efc24ebde5e2a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the relative file path of the spine atlas if this file is a Spine file.  <a href="classjugimap_1_1_graphic_file.html#a7cfc42bea4d6e55571efc24ebde5e2a7">More...</a><br /></td></tr>
 <tr class="separator:a7cfc42bea4d6e55571efc24ebde5e2a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a2e7e62422efd1227b5a0e3d29a9d5cbd"><td class="memItemLeft" align="right" valign="top"><a id="a2e7e62422efd1227b5a0e3d29a9d5cbd"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a2e7e62422efd1227b5a0e3d29a9d5cbd">pathPrefix</a></td></tr>
-<tr class="memdesc:a2e7e62422efd1227b5a0e3d29a9d5cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">An optional string attached to stored file paths. It must end with slash '/'! <br /></td></tr>
+<tr class="memitem:a2e7e62422efd1227b5a0e3d29a9d5cbd"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a2e7e62422efd1227b5a0e3d29a9d5cbd">pathPrefix</a></td></tr>
+<tr class="memdesc:a2e7e62422efd1227b5a0e3d29a9d5cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">An optional string attached to stored file paths. It must end with slash '/'!  <a href="classjugimap_1_1_graphic_file.html#a2e7e62422efd1227b5a0e3d29a9d5cbd">More...</a><br /></td></tr>
 <tr class="separator:a2e7e62422efd1227b5a0e3d29a9d5cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2e0294453f51e953e0f65fde56ae68b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a2e0294453f51e953e0f65fde56ae68b4">GraphicFile</a> ()</td></tr>
+<tr class="memdesc:a2e0294453f51e953e0f65fde56ae68b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classjugimap_1_1_graphic_file.html#a2e0294453f51e953e0f65fde56ae68b4">More...</a><br /></td></tr>
+<tr class="separator:a2e0294453f51e953e0f65fde56ae68b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1a50741e0f42fce375bdfbc76dbea4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjugimap_1_1_graphic_file.html#a3b1a50741e0f42fce375bdfbc76dbea4">~GraphicFile</a> ()</td></tr>
+<tr class="memdesc:a3b1a50741e0f42fce375bdfbc76dbea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classjugimap_1_1_graphic_file.html#a3b1a50741e0f42fce375bdfbc76dbea4">More...</a><br /></td></tr>
+<tr class="separator:a3b1a50741e0f42fce375bdfbc76dbea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Graphic file. </p>
-<p>The <a class="el" href="classjugimap_1_1_graphic_file.html" title="Graphic file.">GraphicFile</a> class defines parameters related to graphic files. It stores and owns <a class="el" href="classjugimap_1_1_graphic_item.html" title="Graphic item.">GraphicItem</a> objects. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p>The <a class="el" href="classjugimap_1_1_graphic_file.html" title="The GraphicFile class defines the equivalent object from JugiMap Editor.">GraphicFile</a> class defines the equivalent object from JugiMap Editor. </p>
+<p>A graphic file stores <a class="el" href="classjugimap_1_1_graphic_item.html" title="The GraphicItem class defines the equivalent object from JugiMap Editor.">GraphicItem</a> objects and is their owner. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2e0294453f51e953e0f65fde56ae68b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e0294453f51e953e0f65fde56ae68b4">&#9670;&nbsp;</a></span>GraphicFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_graphic_file.html">GraphicFile</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a id="a3b1a50741e0f42fce375bdfbc76dbea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b1a50741e0f42fce375bdfbc76dbea4">&#9670;&nbsp;</a></span>~GraphicFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">~<a class="el" href="classjugimap_1_1_graphic_file.html">GraphicFile</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3e0b39e1326de703012f81ac2be7feba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e0b39e1326de703012f81ac2be7feba">&#9670;&nbsp;</a></span>Init()</h2>
 
@@ -171,16 +222,176 @@ static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="
 </table>
 </div><div class="memdoc">
 
-<p>Initialize this <a class="el" href="classjugimap_1_1_graphic_file.html" title="Graphic file.">GraphicFile</a>. </p>
+<p>Initialize this <a class="el" href="classjugimap_1_1_graphic_file.html" title="The GraphicFile class defines the equivalent object from JugiMap Editor.">GraphicFile</a>. </p>
 <p>This function is called by <a class="el" href="classjugimap_1_1_graphic_item.html#a1e3b6d38df0786ccf7f938d60e386aae" title="Initialize this graphic item.">GraphicItem::Init</a> and should not be called manually. </p>
 
 <p>Reimplemented in <a class="el" href="classjugimap_1_1_graphic_file_a_g_k.html#a47de93e849d14c3eda08d78613506608">GraphicFileAGK</a>, <a class="el" href="classjugimap_1_1_graphic_file_n_c.html#a47de93e849d14c3eda08d78613506608">GraphicFileNC</a>, <a class="el" href="classjugimap_1_1_graphic_file_s_f_m_l.html#a47de93e849d14c3eda08d78613506608">GraphicFileSFML</a>, and <a class="el" href="classjugimap_1_1_graphic_file_c_c.html#a47de93e849d14c3eda08d78613506608">GraphicFileCC</a>.</p>
 
 </div>
 </div>
+<a id="a87eaf0f9e1413a077965c8e406f4f8dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87eaf0f9e1413a077965c8e406f4f8dc">&#9670;&nbsp;</a></span>GetKind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___globals.html#ga84a454511f7473cb2254baa4cff462ea">FileKind</a> GetKind </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the kind of this file. </p>
+
+</div>
+</div>
+<a id="acca82ce7cfbcae53495e4aa2770906ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acca82ce7cfbcae53495e4aa2770906ad">&#9670;&nbsp;</a></span>GetRelativeFilePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string GetRelativeFilePath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the relative file path of this file. </p>
+
+</div>
+</div>
+<a id="a0ddbe2bb1be79543f2b3751b4a3cb95d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddbe2bb1be79543f2b3751b4a3cb95d">&#9670;&nbsp;</a></span>GetSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">Vec2i</a> GetSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the size of image if this file is an image. </p>
+
+</div>
+</div>
+<a id="a3f8f5c595286812036cb9e55ed7ef657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8f5c595286812036cb9e55ed7ef657">&#9670;&nbsp;</a></span>GetItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a>*&gt;&amp; GetItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the vector of stored graphic items in this file. </p>
+
+</div>
+</div>
+<a id="a7cfc42bea4d6e55571efc24ebde5e2a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cfc42bea4d6e55571efc24ebde5e2a7">&#9670;&nbsp;</a></span>GetSpineAtlasRelativeFilePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string GetSpineAtlasRelativeFilePath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the relative file path of the spine atlas if this file is a Spine file. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2e7e62422efd1227b5a0e3d29a9d5cbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e7e62422efd1227b5a0e3d29a9d5cbd">&#9670;&nbsp;</a></span>pathPrefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string pathPrefix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>An optional string attached to stored file paths. It must end with slash '/'! </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/<a class="el" href="jm_source_graphics_8h_source.html">jmSourceGraphics.h</a></li>
-<li>C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/jmSourceGraphics.cpp</li>
+<li>C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/<a class="el" href="jm_source_graphics_8h_source.html">jmSourceGraphics.h</a></li>
+<li>C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/jmSourceGraphics.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

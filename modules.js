@@ -9,6 +9,8 @@ var modules =
     [ "Common", "group___common.html", "group___common" ],
     [ "CommonFunctions", "group___common_functions.html", "group___common_functions" ],
     [ "Streams", "group___streams.html", "group___streams" ],
+    [ "Gui", "group___gui.html", "group___gui" ],
+    [ "Input", "group___input.html", "group___input" ],
     [ "EngineExtension_Cocos2d-x", "group___engine_extension___cocos2d-x.html", "group___engine_extension___cocos2d-x" ],
     [ "EngineExtension_SFML", "group___engine_extension___s_f_m_l.html", "group___engine_extension___s_f_m_l" ],
     [ "EngineExtension_AGK-tier2", "group___engine_extension___a_g_k-tier2.html", "group___engine_extension___a_g_k-tier2" ],

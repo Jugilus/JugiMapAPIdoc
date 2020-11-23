@@ -1,24 +1,6 @@
 var searchData=
 [
-  ['scene_696',['Scene',['../classjugimap_1_1_scene.html',1,'jugimap']]],
-  ['sceneccnode_697',['SceneCCNode',['../classjugimap_1_1_scene_c_c_node.html',1,'jugimap']]],
-  ['scenemanager_698',['SceneManager',['../classjugimap_1_1_scene_manager.html',1,'jugimap']]],
-  ['screenmapcamera_699',['ScreenMapCamera',['../classjugimap_1_1_screen_map_camera.html',1,'jugimap']]],
-  ['settings_700',['Settings',['../classjugimap_1_1_settings.html',1,'jugimap']]],
-  ['singlepointshape_701',['SinglePointShape',['../structjugimap_1_1_single_point_shape.html',1,'jugimap']]],
-  ['skeletonsprite_702',['SkeletonSprite',['../classjugimap_1_1_skeleton_sprite.html',1,'jugimap']]],
-  ['skeletonspriteagk_703',['SkeletonSpriteAGK',['../classjugimap_1_1_skeleton_sprite_a_g_k.html',1,'jugimap']]],
-  ['sourcegraphics_704',['SourceGraphics',['../classjugimap_1_1_source_graphics.html',1,'jugimap']]],
-  ['sourcesprite_705',['SourceSprite',['../classjugimap_1_1_source_sprite.html',1,'jugimap']]],
-  ['sprite_706',['Sprite',['../classjugimap_1_1_sprite.html',1,'jugimap']]],
-  ['spritelayer_707',['SpriteLayer',['../classjugimap_1_1_sprite_layer.html',1,'jugimap']]],
-  ['spritelayeragk_708',['SpriteLayerAGK',['../classjugimap_1_1_sprite_layer_a_g_k.html',1,'jugimap']]],
-  ['spritelayercc_709',['SpriteLayerCC',['../classjugimap_1_1_sprite_layer_c_c.html',1,'jugimap']]],
-  ['spritelayernc_710',['SpriteLayerNC',['../classjugimap_1_1_sprite_layer_n_c.html',1,'jugimap']]],
-  ['standardsprite_711',['StandardSprite',['../classjugimap_1_1_standard_sprite.html',1,'jugimap']]],
-  ['standardspriteagk_712',['StandardSpriteAGK',['../classjugimap_1_1_standard_sprite_a_g_k.html',1,'jugimap']]],
-  ['standardspritecc_713',['StandardSpriteCC',['../classjugimap_1_1_standard_sprite_c_c.html',1,'jugimap']]],
-  ['standardspritenc_714',['StandardSpriteNC',['../classjugimap_1_1_standard_sprite_n_c.html',1,'jugimap']]],
-  ['standardspritesfml_715',['StandardSpriteSFML',['../classjugimap_1_1_standard_sprite_s_f_m_l.html',1,'jugimap']]],
-  ['stdbinaryfilestreamreader_716',['StdBinaryFileStreamReader',['../classjugimap_1_1_std_binary_file_stream_reader.html',1,'jugimap']]]
+  ['rect_1002',['Rect',['../structjugimap_1_1_rect.html',1,'jugimap']]],
+  ['rect_3c_20float_20_3e_1003',['Rect&lt; float &gt;',['../structjugimap_1_1_rect.html',1,'jugimap']]],
+  ['rect_3c_20int_20_3e_1004',['Rect&lt; int &gt;',['../structjugimap_1_1_rect.html',1,'jugimap']]]
 ];

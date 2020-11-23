@@ -8,12 +8,15 @@ var classjugimap_1_1_settings =
     [ "SpriteCollidersEnabled", "classjugimap_1_1_settings.html#a2f81e6f8b197e596308fa8ee2d3cf266", null ],
     [ "EnableEnginePhysics", "classjugimap_1_1_settings.html#a84a5d92cee15d64b61ef48c1714d9e89", null ],
     [ "EnginePhysicsEnabled", "classjugimap_1_1_settings.html#ad6d150802ffbd0af8ec7523900bc832d", null ],
-    [ "EnableLerpDrawing", "classjugimap_1_1_settings.html#a0a869e7288be91a6e5db535e653d6e42", null ],
-    [ "LerpDrawingEnabled", "classjugimap_1_1_settings.html#aed0f63e3cf69e929f57ae23c59d21f0f", null ],
-    [ "SetLerpDrawingFactor", "classjugimap_1_1_settings.html#a1e275ab01941818df8051e2162b5e9ed", null ],
-    [ "GetLerpDrawingFactor", "classjugimap_1_1_settings.html#af759021463a5344f1eb52c8fea06499b", null ],
     [ "SetErrorMessage", "classjugimap_1_1_settings.html#a2172171bc8476714dfe99eb9c214b81d", null ],
     [ "GetErrorMessage", "classjugimap_1_1_settings.html#a9a7dd090189038e49644eba9cc666d53", null ],
     [ "SetZOrderStep", "classjugimap_1_1_settings.html#a2c0a574a097d30f179e9cc61af43e6e5", null ],
-    [ "GetZOrderStep", "classjugimap_1_1_settings.html#af1bdf17db4bcc48ca84e56d9b9026163", null ]
+    [ "GetZOrderStep", "classjugimap_1_1_settings.html#af1bdf17db4bcc48ca84e56d9b9026163", null ],
+    [ "SetMapZOrderStart", "classjugimap_1_1_settings.html#a6b0479f7002b1942566320f5b7c5a98e", null ],
+    [ "GetMapZOrderStart", "classjugimap_1_1_settings.html#acba1babbde08e7124e1bd14a10f51f11", null ],
+    [ "SetMapZOrderStep", "classjugimap_1_1_settings.html#a9d24bd1270a0a3b0c68231ca5e5b9cad", null ],
+    [ "GetMapZOrderStep", "classjugimap_1_1_settings.html#a8af7ce646335c7b34a59f155a9080ec7", null ],
+    [ "SetAppTerminated", "classjugimap_1_1_settings.html#a00677761d1eef827ecc240336039b939", null ],
+    [ "IsAppTerminated", "classjugimap_1_1_settings.html#a6d29aa641d22a0299da4710022c8c96b", null ],
+    [ "GetRotationSignForYdir", "classjugimap_1_1_settings.html#aba0fb5f8e583bc6cb1e22fa57f0e874c", null ]
 ];

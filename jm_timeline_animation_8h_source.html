@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: C:/Development/JugiMapProject/JugiMapDEV/api_c++/jugimap/jmTimelineAnimation.h Source File</title>
+<title>JugiMap Framework: C:/Development/JugiMapProject/JugiMapFRM/framework_c++/jugimap/jmTimelineAnimation.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -569,54 +569,58 @@ $(document).ready(function(){initNavTree('jm_timeline_animation_8h_source.html',
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160; </div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160; </div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160; </div>
-<div class="line"><a name="l00483"></a><span class="lineno"><a class="line" href="classjugimap_1_1_timeline_animation.html">  483</a></span>&#160;<span class="keyword">class  </span><a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a> : <span class="keyword">public</span> <a class="code" href="classjugimap_1_1_animation.html">Animation</a></div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;{</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_jugi_map_binary_loader.html">JugiMapBinaryLoader</a>;</div>
+<div class="line"><a name="l00481"></a><span class="lineno"><a class="line" href="classjugimap_1_1_timeline_animation.html">  481</a></span>&#160;<span class="keyword">class  </span><a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a> : <span class="keyword">public</span> <a class="code" href="classjugimap_1_1_animation.html">Animation</a></div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;{</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_jugi_map_binary_loader.html">JugiMapBinaryLoader</a>;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a>;</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160; </div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160; </div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160; </div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    ~<a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160; </div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    <span class="comment">//---</span></div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    std::vector&lt;AnimationMember*&gt;&amp; GetAnimationMembers(){<span class="keywordflow">return</span> animationMembers;}</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    AnimationTrack* GetMetaAnimationTrack(){ <span class="keywordflow">return</span> metaAnimationTrack; }</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160; </div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    <span class="comment">//---</span></div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    std::vector&lt;AnimationMember*&gt;&amp; GetAnimationMembers(){<span class="keywordflow">return</span> animationMembers;}</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    AnimationTrack* GetMetaAnimationTrack(){ <span class="keywordflow">return</span> metaAnimationTrack; }</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    AnimationMember* GetRootAnimationMember();</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    AnimationMember* GetChildAnimationMember(<span class="keyword">const</span> std::string &amp;_childNameID);</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160; </div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160; </div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    AnimationMember* GetRootAnimationMember();</div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;    AnimationMember* GetChildAnimationMember(<span class="keyword">const</span> std::string &amp;_childNameID);</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160; </div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160; </div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    std::vector&lt;AnimationMember*&gt;animationMembers;             <span class="comment">// OWNED</span></div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    AnimationTrack *metaAnimationTrack = <span class="keyword">nullptr</span>;              <span class="comment">// OWNED</span></div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160; </div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160; </div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    <span class="comment">//----</span></div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>(<a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> *_sourceObject);</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>(<span class="keyword">const</span> std::string &amp;_nameID, <a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> *_sourceObject);</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a> &amp;taSrc);</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a> &amp;mkaSrc);</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    ~<a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160; </div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    <span class="comment">//----</span></div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>(<a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> *_sourceObject);</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>(<span class="keyword">const</span> std::string &amp;_nameID, <a class="code" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> *_sourceObject);</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a> &amp;taSrc);</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classjugimap_1_1_timeline_animation.html">TimelineAnimation</a> &amp;mkaSrc);</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160; </div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    std::vector&lt;AnimationMember*&gt;animationMembers;             <span class="comment">// OWNED</span></div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    AnimationTrack *metaAnimationTrack = <span class="keyword">nullptr</span>;              <span class="comment">// OWNED</span></div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160; </div>
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160; </div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;};</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160; </div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160; </div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160; </div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;}</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;};</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160; </div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160; </div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160; </div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;}</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160; </div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160; </div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160; </div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160; </div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclassjugimap_1_1_timeline_animation_html"><div class="ttname"><a href="classjugimap_1_1_timeline_animation.html">jugimap::TimelineAnimation</a></div><div class="ttdoc">Timeline animation of standard and composed sprites.</div><div class="ttdef"><b>Definition:</b> jmTimelineAnimation.h:483</div></div>
+<div class="ttc" id="aclassjugimap_1_1_timeline_animation_html"><div class="ttname"><a href="classjugimap_1_1_timeline_animation.html">jugimap::TimelineAnimation</a></div><div class="ttdoc">The TimelineAnimation class represents the sprite timeline animation from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmTimelineAnimation.h:481</div></div>
 <div class="ttc" id="agroup___common_html_ga3fad0e3d3511071aeb1ddb2ebff1db58"><div class="ttname"><a href="group___common.html#ga3fad0e3d3511071aeb1ddb2ebff1db58">jugimap::Vec2i</a></div><div class="ttdeci">Vec2&lt; int &gt; Vec2i</div><div class="ttdoc">Vec2 struct in integer precision.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:166</div></div>
 <div class="ttc" id="agroup___globals_html_ggab09328ad939b05e2dd7507c7288563eba1e23852820b9154316c7c06e2b7ba051"><div class="ttname"><a href="group___globals.html#ggab09328ad939b05e2dd7507c7288563eba1e23852820b9154316c7c06e2b7ba051">jugimap::ColorOverlayBlend::NORMAL</a></div><div class="ttdoc">Normal mode.</div></div>
-<div class="ttc" id="agroup___globals_html_ga443d7ae6f4c0138e4bbcee01e46a2403"><div class="ttname"><a href="group___globals.html#ga443d7ae6f4c0138e4bbcee01e46a2403">jugimap::AnimationTrackKind</a></div><div class="ttdeci">AnimationTrackKind</div><div class="ttdoc">The kinds of animation track. Used as identifier for AnimationTrack and AnimationKey classes.</div><div class="ttdef"><b>Definition:</b> jmGlobal.h:155</div></div>
-<div class="ttc" id="aclassjugimap_1_1_animation_html"><div class="ttname"><a href="classjugimap_1_1_animation.html">jugimap::Animation</a></div><div class="ttdoc">The base animation class.</div><div class="ttdef"><b>Definition:</b> jmAnimationCommon.h:94</div></div>
+<div class="ttc" id="agroup___globals_html_ga443d7ae6f4c0138e4bbcee01e46a2403"><div class="ttname"><a href="group___globals.html#ga443d7ae6f4c0138e4bbcee01e46a2403">jugimap::AnimationTrackKind</a></div><div class="ttdeci">AnimationTrackKind</div><div class="ttdoc">The kinds of animation track. Used as identifier for AnimationTrack and AnimationKey classes.</div><div class="ttdef"><b>Definition:</b> jmGlobal.h:157</div></div>
+<div class="ttc" id="aclassjugimap_1_1_animation_html"><div class="ttname"><a href="classjugimap_1_1_animation.html">jugimap::Animation</a></div><div class="ttdoc">The base animation class.</div><div class="ttdef"><b>Definition:</b> jmAnimationCommon.h:95</div></div>
 <div class="ttc" id="agroup___common_html_ga5bba51046f8678fc315d18709ac24dab"><div class="ttname"><a href="group___common.html#ga5bba51046f8678fc315d18709ac24dab">jugimap::Vec2f</a></div><div class="ttdeci">Vec2&lt; float &gt; Vec2f</div><div class="ttdoc">Vec2 struct in float precision.</div><div class="ttdef"><b>Definition:</b> jmCommon.h:167</div></div>
-<div class="ttc" id="aclassjugimap_1_1_source_sprite_html"><div class="ttname"><a href="classjugimap_1_1_source_sprite.html">jugimap::SourceSprite</a></div><div class="ttdoc">Source sprite.</div><div class="ttdef"><b>Definition:</b> jmSourceGraphics.h:193</div></div>
+<div class="ttc" id="aclassjugimap_1_1_source_sprite_html"><div class="ttname"><a href="classjugimap_1_1_source_sprite.html">jugimap::SourceSprite</a></div><div class="ttdoc">The SourceSprite class defines the source sprite from JugiMap Editor.</div><div class="ttdef"><b>Definition:</b> jmSourceGraphics.h:221</div></div>
 <div class="ttc" id="aclassjugimap_1_1_jugi_map_binary_loader_html"><div class="ttname"><a href="classjugimap_1_1_jugi_map_binary_loader.html">jugimap::JugiMapBinaryLoader</a></div><div class="ttdoc">The JugiMapBinaryLoader class loads data from jugimap binary files (.jmb).</div><div class="ttdef"><b>Definition:</b> jmMapBinaryLoader.h:37</div></div>
-<div class="ttc" id="agroup___globals_html_gab09328ad939b05e2dd7507c7288563eb"><div class="ttname"><a href="group___globals.html#gab09328ad939b05e2dd7507c7288563eb">jugimap::ColorOverlayBlend</a></div><div class="ttdeci">ColorOverlayBlend</div><div class="ttdoc">The blend modes for the shader based pixel blending which simulate photoshop blending modes.</div><div class="ttdef"><b>Definition:</b> jmGlobal.h:111</div></div>
+<div class="ttc" id="agroup___globals_html_gab09328ad939b05e2dd7507c7288563eb"><div class="ttname"><a href="group___globals.html#gab09328ad939b05e2dd7507c7288563eb">jugimap::ColorOverlayBlend</a></div><div class="ttdeci">ColorOverlayBlend</div><div class="ttdoc">The blend modes for the shader based pixel blending which simulate photoshop blending modes.</div><div class="ttdef"><b>Definition:</b> jmGlobal.h:112</div></div>
 <!-- HTML footer for doxygen 1.8.16-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

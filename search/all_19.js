@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['zordercounter_614',['zOrderCounter',['../classjugimap_1_1_jugi_map_binary_loader.html#a25a2d582c55bb5eb707a853eb6080f3f',1,'jugimap::JugiMapBinaryLoader']]],
-  ['zordercounterstart_615',['zOrderCounterStart',['../classjugimap_1_1_jugi_map_binary_loader.html#a6313e296ee0c294b8ba25bd3582f412c',1,'jugimap::JugiMapBinaryLoader']]]
+  ['y_894',['y',['../structjugimap_1_1_vec2.html#a1cb2b5ea04251d543e49356ef54eb853',1,'jugimap::Vec2::y()'],['../group___input.html#gga7885f47644a0388f981f416fa20389b2a57cec4137b614c87cb4e24a3d003a3e0',1,'jugimap::Y()']]]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JugiMap API: SearchFunctions</title>
+<title>JugiMap Framework: SearchFunctions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">JugiMap API
+   <div id="projectname">JugiMap Framework
    </div>
   </td>
  </tr>
@@ -105,27 +105,69 @@ Functions</h2></td></tr>
 <tr class="memitem:gabbd6a813c9941454a2dc57ebc8e40428"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gabbd6a813c9941454a2dc57ebc8e40428">CollectSpritesWithId</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, int id)</td></tr>
 <tr class="memdesc:gabbd6a813c9941454a2dc57ebc8e40428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites with the given id.  <a href="group___search_functions.html#gabbd6a813c9941454a2dc57ebc8e40428">More...</a><br /></td></tr>
 <tr class="separator:gabbd6a813c9941454a2dc57ebc8e40428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc986511bed78caca3e55990e6422dd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gafc986511bed78caca3e55990e6422dd0">CollectSpritesWithId</a> (<a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *composedSprite, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, int id)</td></tr>
+<tr class="memdesc:gafc986511bed78caca3e55990e6422dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite with the given id.  <a href="group___search_functions.html#gafc986511bed78caca3e55990e6422dd0">More...</a><br /></td></tr>
+<tr class="separator:gafc986511bed78caca3e55990e6422dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab0466315b9013c0d60a49971376cff89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gab0466315b9013c0d60a49971376cff89">CollectSpritesWithName</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;name)</td></tr>
 <tr class="memdesc:gab0466315b9013c0d60a49971376cff89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites with the given name.  <a href="group___search_functions.html#gab0466315b9013c0d60a49971376cff89">More...</a><br /></td></tr>
 <tr class="separator:gab0466315b9013c0d60a49971376cff89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6738a03f33a0cf34daea6287e8208f28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga6738a03f33a0cf34daea6287e8208f28">CollectSpritesWithName</a> (<a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *composedSprite, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;name)</td></tr>
+<tr class="memdesc:ga6738a03f33a0cf34daea6287e8208f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite for the given name.  <a href="group___search_functions.html#ga6738a03f33a0cf34daea6287e8208f28">More...</a><br /></td></tr>
+<tr class="separator:ga6738a03f33a0cf34daea6287e8208f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0ea771500de78adbfe77126bba13c53c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga0ea771500de78adbfe77126bba13c53c">CollectSpritesOfKind</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, <a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a> kind)</td></tr>
+<tr class="memdesc:ga0ea771500de78adbfe77126bba13c53c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites for the given kind.  <a href="group___search_functions.html#ga0ea771500de78adbfe77126bba13c53c">More...</a><br /></td></tr>
+<tr class="separator:ga0ea771500de78adbfe77126bba13c53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe410519d1de73eed034253e6d690884"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gabe410519d1de73eed034253e6d690884">CollectSpritesOfKind</a> (<a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *composedSprite, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, <a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a> kind)</td></tr>
+<tr class="memdesc:gabe410519d1de73eed034253e6d690884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite for the given kind.  <a href="group___search_functions.html#gabe410519d1de73eed034253e6d690884">More...</a><br /></td></tr>
+<tr class="separator:gabe410519d1de73eed034253e6d690884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae0f8b858d7f505c648520c5ef186463b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gae0f8b858d7f505c648520c5ef186463b">CollectSpritesWithParameter</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
 <tr class="memdesc:gae0f8b858d7f505c648520c5ef186463b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites which contain the given parameter.  <a href="group___search_functions.html#gae0f8b858d7f505c648520c5ef186463b">More...</a><br /></td></tr>
 <tr class="separator:gae0f8b858d7f505c648520c5ef186463b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga82fef58d0c721b685d317d93299e5e06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga82fef58d0c721b685d317d93299e5e06">CollectSpritesWithParameter</a> (<a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *composedSprite, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:ga82fef58d0c721b685d317d93299e5e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite which contain the given parameter.  <a href="group___search_functions.html#ga82fef58d0c721b685d317d93299e5e06">More...</a><br /></td></tr>
+<tr class="separator:ga82fef58d0c721b685d317d93299e5e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45c57ce30b79d77c652fa3744db915eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga45c57ce30b79d77c652fa3744db915eb">CollectSpritesWithConstParameter</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:ga45c57ce30b79d77c652fa3744db915eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites with a source sprite containing the given constant parameter.  <a href="group___search_functions.html#ga45c57ce30b79d77c652fa3744db915eb">More...</a><br /></td></tr>
+<tr class="separator:ga45c57ce30b79d77c652fa3744db915eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42b2f70ed669c24658497b456853783e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga42b2f70ed669c24658497b456853783e">CollectSpritesWithConstParameter</a> (<a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *composedSprite, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:ga42b2f70ed669c24658497b456853783e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite which contain the given constant parameter.  <a href="group___search_functions.html#ga42b2f70ed669c24658497b456853783e">More...</a><br /></td></tr>
+<tr class="separator:ga42b2f70ed669c24658497b456853783e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga971edb365ddc6bcd4320692164b96625"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga971edb365ddc6bcd4320692164b96625">CollectSpritesWithOrigConstParameter</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:ga971edb365ddc6bcd4320692164b96625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites with an original source sprite containing the given constant parameter.  <a href="group___search_functions.html#ga971edb365ddc6bcd4320692164b96625">More...</a><br /></td></tr>
+<tr class="separator:ga971edb365ddc6bcd4320692164b96625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf5b6994901f68d1cfb358f5abc80149f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gaf5b6994901f68d1cfb358f5abc80149f">CollectSpritesWithOrigConstParameter</a> (<a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *composedSprite, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:gaf5b6994901f68d1cfb358f5abc80149f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite with an original source sprite containing the given constant parameter.  <a href="group___search_functions.html#gaf5b6994901f68d1cfb358f5abc80149f">More...</a><br /></td></tr>
+<tr class="separator:gaf5b6994901f68d1cfb358f5abc80149f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3d908bbb3c949c58e103678b74163ce2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga3d908bbb3c949c58e103678b74163ce2">CollectSpritesWithDataFlags</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, int dataFlags, bool compareDataFlagsAsBitmask)</td></tr>
 <tr class="memdesc:ga3d908bbb3c949c58e103678b74163ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites which contain the given dataFlags.  <a href="group___search_functions.html#ga3d908bbb3c949c58e103678b74163ce2">More...</a><br /></td></tr>
 <tr class="separator:ga3d908bbb3c949c58e103678b74163ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac81e466ccbd64099931613a463795c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gac81e466ccbd64099931613a463795c66">CollectSpritesWithDataFlags</a> (<a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *composedSprite, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, int dataFlags, bool compareDataFlagsAsBitmask)</td></tr>
+<tr class="memdesc:gac81e466ccbd64099931613a463795c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite which contain the given dataFlags.  <a href="group___search_functions.html#gac81e466ccbd64099931613a463795c66">More...</a><br /></td></tr>
+<tr class="separator:gac81e466ccbd64099931613a463795c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga34e155f542fb147dba181dbfdc60e978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga34e155f542fb147dba181dbfdc60e978">CollectSpritesWithSourceSpriteName</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;name)</td></tr>
 <tr class="memdesc:ga34e155f542fb147dba181dbfdc60e978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites which have the source sprite with the given name.  <a href="group___search_functions.html#ga34e155f542fb147dba181dbfdc60e978">More...</a><br /></td></tr>
 <tr class="separator:ga34e155f542fb147dba181dbfdc60e978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab19c8664bd49cfe493210e92292657a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gab19c8664bd49cfe493210e92292657a9">CollectSpritesWithSourceSpriteName</a> (<a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *composedSprite, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;name)</td></tr>
+<tr class="memdesc:gab19c8664bd49cfe493210e92292657a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite with the given name.  <a href="group___search_functions.html#gab19c8664bd49cfe493210e92292657a9">More...</a><br /></td></tr>
+<tr class="separator:gab19c8664bd49cfe493210e92292657a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad1c68457cc0f49ed748f3af26d75561b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gad1c68457cc0f49ed748f3af26d75561b">CollectSpritesWithId</a> (<a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *layer, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, int id)</td></tr>
 <tr class="memdesc:gad1c68457cc0f49ed748f3af26d75561b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites with the given id.  <a href="group___search_functions.html#gad1c68457cc0f49ed748f3af26d75561b">More...</a><br /></td></tr>
 <tr class="separator:gad1c68457cc0f49ed748f3af26d75561b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga233fdb61b42d6cbff8a85aed72c1ff82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga233fdb61b42d6cbff8a85aed72c1ff82">CollectSpritesWithName</a> (<a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *layer, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;name)</td></tr>
 <tr class="memdesc:ga233fdb61b42d6cbff8a85aed72c1ff82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites with the given name.  <a href="group___search_functions.html#ga233fdb61b42d6cbff8a85aed72c1ff82">More...</a><br /></td></tr>
 <tr class="separator:ga233fdb61b42d6cbff8a85aed72c1ff82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab57639f57f7c11fefa5f0bafe840dabc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gab57639f57f7c11fefa5f0bafe840dabc">CollectSpritesOfKind</a> (<a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *layer, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, <a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a> kind)</td></tr>
+<tr class="memdesc:gab57639f57f7c11fefa5f0bafe840dabc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect child sprites of the given composed sprite for the given kind.  <a href="group___search_functions.html#gab57639f57f7c11fefa5f0bafe840dabc">More...</a><br /></td></tr>
+<tr class="separator:gab57639f57f7c11fefa5f0bafe840dabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga54ffbace87c3e3227f50a5d5a11fd7ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga54ffbace87c3e3227f50a5d5a11fd7ec">CollectSpritesWithParameter</a> (<a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *layer, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
 <tr class="memdesc:ga54ffbace87c3e3227f50a5d5a11fd7ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites which contain the given parameter.  <a href="group___search_functions.html#ga54ffbace87c3e3227f50a5d5a11fd7ec">More...</a><br /></td></tr>
 <tr class="separator:ga54ffbace87c3e3227f50a5d5a11fd7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga606aa69e242371560e6dd990bf93a29f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga606aa69e242371560e6dd990bf93a29f">CollectSpritesWithConstParameter</a> (<a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *layer, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:ga606aa69e242371560e6dd990bf93a29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites with a source sprite containing the given constant parameter.  <a href="group___search_functions.html#ga606aa69e242371560e6dd990bf93a29f">More...</a><br /></td></tr>
+<tr class="separator:ga606aa69e242371560e6dd990bf93a29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf86f27811f5512a1297f3d07646892bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gaf86f27811f5512a1297f3d07646892bf">CollectSpritesWithOrigConstParameter</a> (<a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *layer, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:gaf86f27811f5512a1297f3d07646892bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites with an original source sprite containing the given constant parameter.  <a href="group___search_functions.html#gaf86f27811f5512a1297f3d07646892bf">More...</a><br /></td></tr>
+<tr class="separator:gaf86f27811f5512a1297f3d07646892bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0d720f390f8b5c59890ebf988a3476c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga0d720f390f8b5c59890ebf988a3476c3">CollectSpritesWithDataFlags</a> (<a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *layer, std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;collectedSprites, int dataFlags, bool compareDataFlagsAsBitmask)</td></tr>
 <tr class="memdesc:ga0d720f390f8b5c59890ebf988a3476c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect sprites which contain the given dataFlags.  <a href="group___search_functions.html#ga0d720f390f8b5c59890ebf988a3476c3">More...</a><br /></td></tr>
 <tr class="separator:ga0d720f390f8b5c59890ebf988a3476c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,30 +180,36 @@ Functions</h2></td></tr>
 <tr class="memitem:gaaa77c65815c38b78bc4c173ea544570d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gaaa77c65815c38b78bc4c173ea544570d">FindVectorShapeWithParameter</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, const std::string &amp;pName, const std::string &amp;pValue, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
 <tr class="memdesc:gaaa77c65815c38b78bc4c173ea544570d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given parameters.  <a href="group___search_functions.html#gaaa77c65815c38b78bc4c173ea544570d">More...</a><br /></td></tr>
 <tr class="separator:gaaa77c65815c38b78bc4c173ea544570d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8264bd04b996bb13154d35ca370c3188"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga8264bd04b996bb13154d35ca370c3188">FindVectorShapeWithProperties</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, int probe, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
-<tr class="memdesc:ga8264bd04b996bb13154d35ca370c3188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given properties.  <a href="group___search_functions.html#ga8264bd04b996bb13154d35ca370c3188">More...</a><br /></td></tr>
-<tr class="separator:ga8264bd04b996bb13154d35ca370c3188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd43eae0253de37a6f94ea452f9ecc4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gacd43eae0253de37a6f94ea452f9ecc4e">FindVectorShapeWithProperties</a> (<a class="el" href="classjugimap_1_1_map.html">Map</a> *map, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
+<tr class="memdesc:gacd43eae0253de37a6f94ea452f9ecc4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given properties.  <a href="group___search_functions.html#gacd43eae0253de37a6f94ea452f9ecc4e">More...</a><br /></td></tr>
+<tr class="separator:gacd43eae0253de37a6f94ea452f9ecc4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafd52c44bf24519fc3e5ffa5f84ac5327"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gafd52c44bf24519fc3e5ffa5f84ac5327">FindVectorShapeWithName</a> (<a class="el" href="classjugimap_1_1_vector_layer.html">VectorLayer</a> *vectorLayer, const std::string &amp;name)</td></tr>
 <tr class="memdesc:gafd52c44bf24519fc3e5ffa5f84ac5327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given <em>name</em>.  <a href="group___search_functions.html#gafd52c44bf24519fc3e5ffa5f84ac5327">More...</a><br /></td></tr>
 <tr class="separator:gafd52c44bf24519fc3e5ffa5f84ac5327"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga708798fadea57bca1a3aff77b4ddd0fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga708798fadea57bca1a3aff77b4ddd0fc">FindVectorShapeWithParameter</a> (<a class="el" href="classjugimap_1_1_vector_layer.html">VectorLayer</a> *vectorLayer, const std::string &amp;pName, const std::string &amp;pValue, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
 <tr class="memdesc:ga708798fadea57bca1a3aff77b4ddd0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given parameters.  <a href="group___search_functions.html#ga708798fadea57bca1a3aff77b4ddd0fc">More...</a><br /></td></tr>
 <tr class="separator:ga708798fadea57bca1a3aff77b4ddd0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf060d20bb8197f1ac19d89ee3e377a31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gaf060d20bb8197f1ac19d89ee3e377a31">FindVectorShapeWithProperties</a> (<a class="el" href="classjugimap_1_1_vector_layer.html">VectorLayer</a> *vectorLayer, int probe, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
-<tr class="memdesc:gaf060d20bb8197f1ac19d89ee3e377a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given properties.  <a href="group___search_functions.html#gaf060d20bb8197f1ac19d89ee3e377a31">More...</a><br /></td></tr>
-<tr class="separator:gaf060d20bb8197f1ac19d89ee3e377a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe8430cdc2723ffcf5925470e7cb094e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gabe8430cdc2723ffcf5925470e7cb094e">FindVectorShapeWithProperties</a> (<a class="el" href="classjugimap_1_1_vector_layer.html">VectorLayer</a> *vectorLayer, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
+<tr class="memdesc:gabe8430cdc2723ffcf5925470e7cb094e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given properties.  <a href="group___search_functions.html#gabe8430cdc2723ffcf5925470e7cb094e">More...</a><br /></td></tr>
+<tr class="separator:gabe8430cdc2723ffcf5925470e7cb094e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac8ce0a6b2696042e03fa8b6429ff0783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gac8ce0a6b2696042e03fa8b6429ff0783">FindVectorShapeWithName</a> (std::vector&lt; <a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> * &gt; &amp;vectorShapes, const std::string &amp;name)</td></tr>
 <tr class="memdesc:gac8ce0a6b2696042e03fa8b6429ff0783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given <em>name</em>.  <a href="group___search_functions.html#gac8ce0a6b2696042e03fa8b6429ff0783">More...</a><br /></td></tr>
 <tr class="separator:gac8ce0a6b2696042e03fa8b6429ff0783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad50d05ae0cd51047693555f6dbe6ef93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gad50d05ae0cd51047693555f6dbe6ef93">FindVectorShapeWithParameter</a> (std::vector&lt; <a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> * &gt; &amp;vectorShapes, const std::string &amp;pName, const std::string &amp;pValue, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
 <tr class="memdesc:gad50d05ae0cd51047693555f6dbe6ef93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given parameters.  <a href="group___search_functions.html#gad50d05ae0cd51047693555f6dbe6ef93">More...</a><br /></td></tr>
 <tr class="separator:gad50d05ae0cd51047693555f6dbe6ef93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga216f224df013c193e041c2bbcfb98ddf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga216f224df013c193e041c2bbcfb98ddf">FindVectorShapeWithProperties</a> (std::vector&lt; <a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> * &gt; &amp;vectorShapes, int probe, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
-<tr class="memdesc:ga216f224df013c193e041c2bbcfb98ddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given properties.  <a href="group___search_functions.html#ga216f224df013c193e041c2bbcfb98ddf">More...</a><br /></td></tr>
-<tr class="separator:ga216f224df013c193e041c2bbcfb98ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5ca030dd5849e77491f1ac87fa650474"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga5ca030dd5849e77491f1ac87fa650474">FindProbeShapeWithProperties</a> (<a class="el" href="classjugimap_1_1_standard_sprite.html">StandardSprite</a> *standardSprite, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
-<tr class="memdesc:ga5ca030dd5849e77491f1ac87fa650474"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a probe vector shape within the <em>probe shapes</em> with the given properties.  <a href="group___search_functions.html#ga5ca030dd5849e77491f1ac87fa650474">More...</a><br /></td></tr>
-<tr class="separator:ga5ca030dd5849e77491f1ac87fa650474"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62c3341f237582e86a56e3ce841adff9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga62c3341f237582e86a56e3ce841adff9">FindVectorShapeWithProperties</a> (std::vector&lt; <a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> * &gt; &amp;vectorShapes, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
+<tr class="memdesc:ga62c3341f237582e86a56e3ce841adff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a vector shape with the given properties.  <a href="group___search_functions.html#ga62c3341f237582e86a56e3ce841adff9">More...</a><br /></td></tr>
+<tr class="separator:ga62c3341f237582e86a56e3ce841adff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d5761741ece158354c6b209cfff3345"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga2d5761741ece158354c6b209cfff3345">FindSpriteExtraShapeWithProperties</a> (<a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a> *graphicItem, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
+<tr class="memdesc:ga2d5761741ece158354c6b209cfff3345"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a sprite extra vector shape with the given properties.  <a href="group___search_functions.html#ga2d5761741ece158354c6b209cfff3345">More...</a><br /></td></tr>
+<tr class="separator:ga2d5761741ece158354c6b209cfff3345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b1feefea64a8ab85f3ef7b44d0b4e08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga8b1feefea64a8ab85f3ef7b44d0b4e08">FindSpriteCollisionShapeWithProperties</a> (<a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a> *graphicItem, int dataFlags, bool compareDataFlagsAsBitmask, <a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a> kind=<a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a>)</td></tr>
+<tr class="memdesc:ga8b1feefea64a8ab85f3ef7b44d0b4e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a sprite collision vector shape with the given properties.  <a href="group___search_functions.html#ga8b1feefea64a8ab85f3ef7b44d0b4e08">More...</a><br /></td></tr>
+<tr class="separator:ga8b1feefea64a8ab85f3ef7b44d0b4e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2df7637c72244bdc5470c074070f4b75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#ga2df7637c72244bdc5470c074070f4b75">CollectSourceSpritesWithConstParameter</a> (<a class="el" href="classjugimap_1_1_source_graphics.html">SourceGraphics</a> *sourceGraphics, std::vector&lt; <a class="el" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> * &gt; &amp;collectedSourceSprites, const std::string &amp;pName, const std::string &amp;pValue=&quot;&quot;)</td></tr>
+<tr class="memdesc:ga2df7637c72244bdc5470c074070f4b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect source sprites which contain the given constant parameter.  <a href="group___search_functions.html#ga2df7637c72244bdc5470c074070f4b75">More...</a><br /></td></tr>
+<tr class="separator:ga2df7637c72244bdc5470c074070f4b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabf810db34eda61bb6f222b1d8a4a556f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___search_functions.html#gabf810db34eda61bb6f222b1d8a4a556f">FindSourceSpriteWithName</a> (<a class="el" href="classjugimap_1_1_source_graphics.html">SourceGraphics</a> *sourceGraphics, const std::string &amp;name)</td></tr>
 <tr class="memdesc:gabf810db34eda61bb6f222b1d8a4a556f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a source sprite with the given name.  <a href="group___search_functions.html#gabf810db34eda61bb6f222b1d8a4a556f">More...</a><br /></td></tr>
 <tr class="separator:gabf810db34eda61bb6f222b1d8a4a556f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,7 +340,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="gabbd6a813c9941454a2dc57ebc8e40428"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabbd6a813c9941454a2dc57ebc8e40428">&#9670;&nbsp;</a></span>CollectSpritesWithId() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabbd6a813c9941454a2dc57ebc8e40428">&#9670;&nbsp;</a></span>CollectSpritesWithId() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,8 +383,52 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gafc986511bed78caca3e55990e6422dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc986511bed78caca3e55990e6422dd0">&#9670;&nbsp;</a></span>CollectSpritesWithId() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesWithId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td>
+          <td class="paramname"><em>composedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite with the given id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">composedSprite</td><td>The composed sprite in which we seek the child sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">id</td><td>The searched id. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gab0466315b9013c0d60a49971376cff89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab0466315b9013c0d60a49971376cff89">&#9670;&nbsp;</a></span>CollectSpritesWithName() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0466315b9013c0d60a49971376cff89">&#9670;&nbsp;</a></span>CollectSpritesWithName() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,8 +471,140 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga6738a03f33a0cf34daea6287e8208f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6738a03f33a0cf34daea6287e8208f28">&#9670;&nbsp;</a></span>CollectSpritesWithName() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesWithName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td>
+          <td class="paramname"><em>composedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite for the given name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">composedSprite</td><td>The composed sprite in which we seek the child sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">name</td><td>The searched name. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0ea771500de78adbfe77126bba13c53c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0ea771500de78adbfe77126bba13c53c">&#9670;&nbsp;</a></span>CollectSpritesOfKind() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesOfKind </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_map.html">Map</a> *&#160;</td>
+          <td class="paramname"><em>map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a>&#160;</td>
+          <td class="paramname"><em>kind</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect sprites for the given kind. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">map</td><td>The map where we collect the sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">name</td><td>The searched name. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabe410519d1de73eed034253e6d690884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe410519d1de73eed034253e6d690884">&#9670;&nbsp;</a></span>CollectSpritesOfKind() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesOfKind </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td>
+          <td class="paramname"><em>composedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a>&#160;</td>
+          <td class="paramname"><em>kind</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite for the given kind. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">composedSprite</td><td>The composed sprite in which we seek the child sprites. The composed sprite in which we seek the child sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">name</td><td>The searched name. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gae0f8b858d7f505c648520c5ef186463b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0f8b858d7f505c648520c5ef186463b">&#9670;&nbsp;</a></span>CollectSpritesWithParameter() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0f8b858d7f505c648520c5ef186463b">&#9670;&nbsp;</a></span>CollectSpritesWithParameter() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,8 +654,263 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga82fef58d0c721b685d317d93299e5e06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82fef58d0c721b685d317d93299e5e06">&#9670;&nbsp;</a></span>CollectSpritesWithParameter() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void jugimap::CollectSpritesWithParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td>
+          <td class="paramname"><em>composedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite which contain the given parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">composedSprite</td><td>The composed sprite in which we seek the child sprites. The composed sprite in which we seek the child sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">pName</td><td>The searched name of the parameter. </td></tr>
+    <tr><td class="paramname">pValue</td><td>The searched value of the parameter. If it is not specified the function searches for the name only. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga45c57ce30b79d77c652fa3744db915eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga45c57ce30b79d77c652fa3744db915eb">&#9670;&nbsp;</a></span>CollectSpritesWithConstParameter() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void jugimap::CollectSpritesWithConstParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_map.html">Map</a> *&#160;</td>
+          <td class="paramname"><em>map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect sprites with a source sprite containing the given constant parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">map</td><td>The map where we collect the sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">pName</td><td>The searched name of the parameter. </td></tr>
+    <tr><td class="paramname">pValue</td><td>The searched value of the parameter. If it is not specified the function searches for the name only. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga42b2f70ed669c24658497b456853783e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42b2f70ed669c24658497b456853783e">&#9670;&nbsp;</a></span>CollectSpritesWithConstParameter() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void jugimap::CollectSpritesWithConstParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td>
+          <td class="paramname"><em>composedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite which contain the given constant parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">composedSprite</td><td>The composed sprite in which we seek the child sprites. The composed sprite in which we seek the child sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">pName</td><td>The searched name of the parameter. </td></tr>
+    <tr><td class="paramname">pValue</td><td>The searched value of the parameter. If it is not specified the function searches for the name only. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga971edb365ddc6bcd4320692164b96625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga971edb365ddc6bcd4320692164b96625">&#9670;&nbsp;</a></span>CollectSpritesWithOrigConstParameter() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void jugimap::CollectSpritesWithOrigConstParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_map.html">Map</a> *&#160;</td>
+          <td class="paramname"><em>map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect sprites with an original source sprite containing the given constant parameter. </p>
+<p>This function is applicable for sprites which have replaced source sprite to access original source sprite parameters. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">map</td><td>The map where we collect the sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">pName</td><td>The searched name of the parameter. </td></tr>
+    <tr><td class="paramname">pValue</td><td>The searched value of the parameter. If it is not specified the function searches for the name only. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf5b6994901f68d1cfb358f5abc80149f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf5b6994901f68d1cfb358f5abc80149f">&#9670;&nbsp;</a></span>CollectSpritesWithOrigConstParameter() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void jugimap::CollectSpritesWithOrigConstParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td>
+          <td class="paramname"><em>composedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">jugimap::Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite with an original source sprite containing the given constant parameter. </p>
+<p>This function is applicable for sprites which have replaced source sprite to access original source sprite parameters. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">composedSprite</td><td>The composed sprite in which we seek the child sprites. The composed sprite in which we seek the child sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">pName</td><td>The searched name of the parameter. </td></tr>
+    <tr><td class="paramname">pValue</td><td>The searched value of the parameter. If it is not specified the function searches for the name only. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga3d908bbb3c949c58e103678b74163ce2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3d908bbb3c949c58e103678b74163ce2">&#9670;&nbsp;</a></span>CollectSpritesWithDataFlags() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d908bbb3c949c58e103678b74163ce2">&#9670;&nbsp;</a></span>CollectSpritesWithDataFlags() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -481,8 +960,59 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gac81e466ccbd64099931613a463795c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac81e466ccbd64099931613a463795c66">&#9670;&nbsp;</a></span>CollectSpritesWithDataFlags() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesWithDataFlags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td>
+          <td class="paramname"><em>composedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dataFlags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>compareDataFlagsAsBitmask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite which contain the given dataFlags. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">composedSprite</td><td>The composed sprite in which we seek the child sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">dataFlags</td><td>The searched dataFlag. </td></tr>
+    <tr><td class="paramname">compareDataFlagsAsBitmask</td><td>If <em>true</em> the dataFlags will be compared bitwise; if <em>false</em> it will be compared as integer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga34e155f542fb147dba181dbfdc60e978"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga34e155f542fb147dba181dbfdc60e978">&#9670;&nbsp;</a></span>CollectSpritesWithSourceSpriteName() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34e155f542fb147dba181dbfdc60e978">&#9670;&nbsp;</a></span>CollectSpritesWithSourceSpriteName() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -525,8 +1055,52 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gab19c8664bd49cfe493210e92292657a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab19c8664bd49cfe493210e92292657a9">&#9670;&nbsp;</a></span>CollectSpritesWithSourceSpriteName() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesWithSourceSpriteName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_composed_sprite.html">ComposedSprite</a> *&#160;</td>
+          <td class="paramname"><em>composedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite with the given name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">composedSprite</td><td>The composed sprite in which we seek the child sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">name</td><td>The searched name. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gad1c68457cc0f49ed748f3af26d75561b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1c68457cc0f49ed748f3af26d75561b">&#9670;&nbsp;</a></span>CollectSpritesWithId() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1c68457cc0f49ed748f3af26d75561b">&#9670;&nbsp;</a></span>CollectSpritesWithId() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -570,7 +1144,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga233fdb61b42d6cbff8a85aed72c1ff82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga233fdb61b42d6cbff8a85aed72c1ff82">&#9670;&nbsp;</a></span>CollectSpritesWithName() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga233fdb61b42d6cbff8a85aed72c1ff82">&#9670;&nbsp;</a></span>CollectSpritesWithName() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -613,8 +1187,52 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gab57639f57f7c11fefa5f0bafe840dabc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab57639f57f7c11fefa5f0bafe840dabc">&#9670;&nbsp;</a></span>CollectSpritesOfKind() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesOfKind </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *&#160;</td>
+          <td class="paramname"><em>layer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___globals.html#gabd68c17bf2f3cc84732d58e98d519477">SpriteKind</a>&#160;</td>
+          <td class="paramname"><em>kind</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect child sprites of the given composed sprite for the given kind. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layer</td><td>The sprite layer where we seek the sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">name</td><td>The searched name. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga54ffbace87c3e3227f50a5d5a11fd7ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga54ffbace87c3e3227f50a5d5a11fd7ec">&#9670;&nbsp;</a></span>CollectSpritesWithParameter() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga54ffbace87c3e3227f50a5d5a11fd7ec">&#9670;&nbsp;</a></span>CollectSpritesWithParameter() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -664,8 +1282,110 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga606aa69e242371560e6dd990bf93a29f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga606aa69e242371560e6dd990bf93a29f">&#9670;&nbsp;</a></span>CollectSpritesWithConstParameter() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesWithConstParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *&#160;</td>
+          <td class="paramname"><em>layer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect sprites with a source sprite containing the given constant parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layer</td><td>The layer where we collect the sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">pName</td><td>The searched name of the parameter. </td></tr>
+    <tr><td class="paramname">pValue</td><td>The searched value of the parameter. If it is not specified the function searches for the name only. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf86f27811f5512a1297f3d07646892bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf86f27811f5512a1297f3d07646892bf">&#9670;&nbsp;</a></span>CollectSpritesWithOrigConstParameter() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSpritesWithOrigConstParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_sprite_layer.html">SpriteLayer</a> *&#160;</td>
+          <td class="paramname"><em>layer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_sprite.html">Sprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect sprites with an original source sprite containing the given constant parameter. </p>
+<p>This function is applicable for sprites which have replaced source sprite to access original source sprite parameters. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layer</td><td>The layer where we collect the sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected sprites are stored. </td></tr>
+    <tr><td class="paramname">pName</td><td>The searched name of the parameter. </td></tr>
+    <tr><td class="paramname">pValue</td><td>The searched value of the parameter. If it is not specified the function searches for the name only. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga0d720f390f8b5c59890ebf988a3476c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0d720f390f8b5c59890ebf988a3476c3">&#9670;&nbsp;</a></span>CollectSpritesWithDataFlags() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d720f390f8b5c59890ebf988a3476c3">&#9670;&nbsp;</a></span>CollectSpritesWithDataFlags() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -716,7 +1436,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="gac0410f12bdd8119794a6f7a0bc25a197"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac0410f12bdd8119794a6f7a0bc25a197">&#9670;&nbsp;</a></span>CollectSpritesWithSourceSpriteName() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac0410f12bdd8119794a6f7a0bc25a197">&#9670;&nbsp;</a></span>CollectSpritesWithSourceSpriteName() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -847,8 +1567,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga8264bd04b996bb13154d35ca370c3188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8264bd04b996bb13154d35ca370c3188">&#9670;&nbsp;</a></span>FindVectorShapeWithProperties() <span class="overload">[1/3]</span></h2>
+<a id="gacd43eae0253de37a6f94ea452f9ecc4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd43eae0253de37a6f94ea452f9ecc4e">&#9670;&nbsp;</a></span>FindVectorShapeWithProperties() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -858,12 +1578,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classjugimap_1_1_map.html">Map</a> *&#160;</td>
           <td class="paramname"><em>map</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>probe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -993,8 +1707,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaf060d20bb8197f1ac19d89ee3e377a31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf060d20bb8197f1ac19d89ee3e377a31">&#9670;&nbsp;</a></span>FindVectorShapeWithProperties() <span class="overload">[2/3]</span></h2>
+<a id="gabe8430cdc2723ffcf5925470e7cb094e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe8430cdc2723ffcf5925470e7cb094e">&#9670;&nbsp;</a></span>FindVectorShapeWithProperties() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1004,12 +1718,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classjugimap_1_1_vector_layer.html">VectorLayer</a> *&#160;</td>
           <td class="paramname"><em>vectorLayer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>probe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1139,8 +1847,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga216f224df013c193e041c2bbcfb98ddf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga216f224df013c193e041c2bbcfb98ddf">&#9670;&nbsp;</a></span>FindVectorShapeWithProperties() <span class="overload">[3/3]</span></h2>
+<a id="ga62c3341f237582e86a56e3ce841adff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga62c3341f237582e86a56e3ce841adff9">&#9670;&nbsp;</a></span>FindVectorShapeWithProperties() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1150,12 +1858,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> * &gt; &amp;&#160;</td>
           <td class="paramname"><em>vectorShapes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>probe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1197,17 +1899,17 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga5ca030dd5849e77491f1ac87fa650474"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5ca030dd5849e77491f1ac87fa650474">&#9670;&nbsp;</a></span>FindProbeShapeWithProperties()</h2>
+<a id="ga2d5761741ece158354c6b209cfff3345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d5761741ece158354c6b209cfff3345">&#9670;&nbsp;</a></span>FindSpriteExtraShapeWithProperties()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> * FindProbeShapeWithProperties </td>
+          <td class="memname"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> * FindSpriteExtraShapeWithProperties </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classjugimap_1_1_standard_sprite.html">StandardSprite</a> *&#160;</td>
-          <td class="paramname"><em>standardSprite</em>, </td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a> *&#160;</td>
+          <td class="paramname"><em>graphicItem</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1235,13 +1937,115 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Find a probe vector shape within the <em>probe shapes</em> with the given properties. </p>
-<p>The function returns the first found vector shape; if none is found it returns nullptr. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Find a sprite extra vector shape with the given properties. </p>
+<p>The function returns the first vector shape it founds; if none is found it returns nullptr. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">standardSprite</td><td>The standard sprite where we search for the probe vector shape. </td></tr>
+    <tr><td class="paramname">graphicItem</td><td>The graphic item of a standard sprite where we search for the shape. </td></tr>
     <tr><td class="paramname">dataFlags</td><td>The <em>dataFlags</em> of the vector shape. Use -1 to skip comparing by the <em>dataFlags</em>. </td></tr>
     <tr><td class="paramname">compareDataFlagsAsBitmask</td><td>If <em>true</em> the <em>dataFlags</em> will be compared bitwise; if <em>false</em> it will be compared as integer. </td></tr>
     <tr><td class="paramname">kind</td><td>The <em>kind</em> of the vector shape. Use <a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4" title="The shape kind not defined.">ShapeKind::NOT_DEFINED</a> to skip comparing by the <em>shape</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8b1feefea64a8ab85f3ef7b44d0b4e08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b1feefea64a8ab85f3ef7b44d0b4e08">&#9670;&nbsp;</a></span>FindSpriteCollisionShapeWithProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjugimap_1_1_vector_shape.html">VectorShape</a> * FindSpriteCollisionShapeWithProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_graphic_item.html">GraphicItem</a> *&#160;</td>
+          <td class="paramname"><em>graphicItem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dataFlags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>compareDataFlagsAsBitmask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___globals.html#gaaa9206375355490ae37301b68d135f8e">ShapeKind</a>&#160;</td>
+          <td class="paramname"><em>kind</em> = <code><a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4">ShapeKind::NOT_DEFINED</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find a sprite collision vector shape with the given properties. </p>
+<p>The function returns the first vector shape it founds; if none is found it returns nullptr. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graphicItem</td><td>The graphic item of a standard sprite where we search for the shape. </td></tr>
+    <tr><td class="paramname">dataFlags</td><td>The <em>dataFlags</em> of the vector shape. Use -1 to skip comparing by the <em>dataFlags</em>. </td></tr>
+    <tr><td class="paramname">compareDataFlagsAsBitmask</td><td>If <em>true</em> the <em>dataFlags</em> will be compared bitwise; if <em>false</em> it will be compared as integer. </td></tr>
+    <tr><td class="paramname">kind</td><td>The <em>kind</em> of the vector shape. Use <a class="el" href="group___globals.html#ggaaa9206375355490ae37301b68d135f8eabfd8c78fbb91fe67b9886fad146392a4" title="The shape kind not defined.">ShapeKind::NOT_DEFINED</a> to skip comparing by the <em>shape</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2df7637c72244bdc5470c074070f4b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2df7637c72244bdc5470c074070f4b75">&#9670;&nbsp;</a></span>CollectSourceSpritesWithConstParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollectSourceSpritesWithConstParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjugimap_1_1_source_graphics.html">SourceGraphics</a> *&#160;</td>
+          <td class="paramname"><em>sourceGraphics</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classjugimap_1_1_source_sprite.html">SourceSprite</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>collectedSourceSprites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pValue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collect source sprites which contain the given constant parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sourceGraphics</td><td>The <a class="el" href="classjugimap_1_1_source_graphics.html" title="The SourceGraphics class represents source graphics elements from JugiMap Editor.">SourceGraphics</a> object where we search for the source sprites. </td></tr>
+    <tr><td class="paramname">collectedSprites</td><td>A reference to a vector where the collected source sprites are stored. </td></tr>
+    <tr><td class="paramname">pName</td><td>The searched name of the parameter. </td></tr>
+    <tr><td class="paramname">pValue</td><td>The searched value of the parameter. If it is not specified the function searches for the name only. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1277,7 +2081,7 @@ Functions</h2></td></tr>
 <p>Find a source sprite with the given name. </p>
 <p>The function returns the searched source sprite if is found; if it is not found it returns nullptr. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sourceGraphics</td><td>The <a class="el" href="classjugimap_1_1_source_graphics.html" title="The graphics storage.">SourceGraphics</a> object where we search for the source sprite. </td></tr>
+    <tr><td class="paramname">sourceGraphics</td><td>The <a class="el" href="classjugimap_1_1_source_graphics.html" title="The SourceGraphics class represents source graphics elements from JugiMap Editor.">SourceGraphics</a> object where we search for the source sprite. </td></tr>
     <tr><td class="paramname">name</td><td>The searched name of the source sprite. </td></tr>
   </table>
   </dd>
@@ -1314,7 +2118,7 @@ Functions</h2></td></tr>
 <p>Find a source sprite which contain a graphic item (image) with the given file path. </p>
 <p>The function returns the first found source sprite; if none is found it returns nullptr. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sourceGraphics</td><td>The <a class="el" href="classjugimap_1_1_source_graphics.html" title="The graphics storage.">SourceGraphics</a> object where we search for the source sprite. </td></tr>
+    <tr><td class="paramname">sourceGraphics</td><td>The <a class="el" href="classjugimap_1_1_source_graphics.html" title="The SourceGraphics class represents source graphics elements from JugiMap Editor.">SourceGraphics</a> object where we search for the source sprite. </td></tr>
     <tr><td class="paramname">filePath</td><td>The searched file path. </td></tr>
   </table>
   </dd>

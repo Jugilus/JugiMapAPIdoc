@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['right_1270',['RIGHT',['../group___globals.html#gga1e98c8c780114323be63116006eb2cf6a21507b40c80068eda19865706fdc2403',1,'jugimap']]],
-  ['rotation_1271',['ROTATION',['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403aa27939099e0fe4086159364fcf8d5f73',1,'jugimap']]]
+  ['o_1817',['O',['../group___input.html#gga7885f47644a0388f981f416fa20389b2af186217753c37b9b9f958d906208506e',1,'jugimap']]],
+  ['overlay_5fcolor_5fchange_1818',['OVERLAY_COLOR_CHANGE',['../group___globals.html#gga443d7ae6f4c0138e4bbcee01e46a2403aec933255bf3c0c63cd9e8ac4ba9fa4a8',1,'jugimap']]]
 ];

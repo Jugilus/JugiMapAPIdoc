@@ -12,5 +12,9 @@ var classjugimap_1_1_graphic_item =
     [ "GetHandle", "classjugimap_1_1_graphic_item.html#a4b17ee1b04c6979e3c89e2d7d6dbaddc", null ],
     [ "GetSpineScale", "classjugimap_1_1_graphic_item.html#a3da2c4fdb8e8df5e5a4bbc4eca98e2fb", null ],
     [ "GetSpriteShapes", "classjugimap_1_1_graphic_item.html#a3c34718d821709c6df99da61b23577d4", null ],
-    [ "GetProbeShapes", "classjugimap_1_1_graphic_item.html#a77bfedadf3dbf6a6bf082ba15c95b9a9", null ]
+    [ "GetExtraShapes", "classjugimap_1_1_graphic_item.html#a02bc608769fd990ac3dbf98a06edb5c7", null ],
+    [ "GetLabel", "classjugimap_1_1_graphic_item.html#af03feece9f59a8e557e91f5d9f7ff643", null ],
+    [ "GetFontStyleId", "classjugimap_1_1_graphic_item.html#ad5eddfcada22aa72eced4c844b42cafe", null ],
+    [ "GetColorStyleId", "classjugimap_1_1_graphic_item.html#a3e5c45c24e6ec221c22112a25fa67a64", null ],
+    [ "GetTextHandleVariant", "classjugimap_1_1_graphic_item.html#ada204c70a7d7e51cd66075feb401e8a4", null ]
 ];

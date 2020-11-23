@@ -10,14 +10,17 @@ var group___globals =
       [ "SpriteCollidersEnabled", "classjugimap_1_1_settings.html#a2f81e6f8b197e596308fa8ee2d3cf266", null ],
       [ "EnableEnginePhysics", "classjugimap_1_1_settings.html#a84a5d92cee15d64b61ef48c1714d9e89", null ],
       [ "EnginePhysicsEnabled", "classjugimap_1_1_settings.html#ad6d150802ffbd0af8ec7523900bc832d", null ],
-      [ "EnableLerpDrawing", "classjugimap_1_1_settings.html#a0a869e7288be91a6e5db535e653d6e42", null ],
-      [ "LerpDrawingEnabled", "classjugimap_1_1_settings.html#aed0f63e3cf69e929f57ae23c59d21f0f", null ],
-      [ "SetLerpDrawingFactor", "classjugimap_1_1_settings.html#a1e275ab01941818df8051e2162b5e9ed", null ],
-      [ "GetLerpDrawingFactor", "classjugimap_1_1_settings.html#af759021463a5344f1eb52c8fea06499b", null ],
       [ "SetErrorMessage", "classjugimap_1_1_settings.html#a2172171bc8476714dfe99eb9c214b81d", null ],
       [ "GetErrorMessage", "classjugimap_1_1_settings.html#a9a7dd090189038e49644eba9cc666d53", null ],
       [ "SetZOrderStep", "classjugimap_1_1_settings.html#a2c0a574a097d30f179e9cc61af43e6e5", null ],
-      [ "GetZOrderStep", "classjugimap_1_1_settings.html#af1bdf17db4bcc48ca84e56d9b9026163", null ]
+      [ "GetZOrderStep", "classjugimap_1_1_settings.html#af1bdf17db4bcc48ca84e56d9b9026163", null ],
+      [ "SetMapZOrderStart", "classjugimap_1_1_settings.html#a6b0479f7002b1942566320f5b7c5a98e", null ],
+      [ "GetMapZOrderStart", "classjugimap_1_1_settings.html#acba1babbde08e7124e1bd14a10f51f11", null ],
+      [ "SetMapZOrderStep", "classjugimap_1_1_settings.html#a9d24bd1270a0a3b0c68231ca5e5b9cad", null ],
+      [ "GetMapZOrderStep", "classjugimap_1_1_settings.html#a8af7ce646335c7b34a59f155a9080ec7", null ],
+      [ "SetAppTerminated", "classjugimap_1_1_settings.html#a00677761d1eef827ecc240336039b939", null ],
+      [ "IsAppTerminated", "classjugimap_1_1_settings.html#a6d29aa641d22a0299da4710022c8c96b", null ],
+      [ "GetRotationSignForYdir", "classjugimap_1_1_settings.html#aba0fb5f8e583bc6cb1e22fa57f0e874c", null ]
     ] ],
     [ "Time", "classjugimap_1_1_time.html", [
       [ "UpdatePassedTimeMS", "classjugimap_1_1_time.html#a24610a0a30fda48cce0276062046a5f6", null ],
@@ -32,11 +35,13 @@ var group___globals =
       [ "SPRITE_SHEET_IMAGE", "group___globals.html#gga84a454511f7473cb2254baa4cff462eaa31881490526e19cbf8ea14bddd32c66e", null ],
       [ "SPINE_FILE", "group___globals.html#gga84a454511f7473cb2254baa4cff462eaa7a916ed706bbb1c02749ca8e3b464479", null ],
       [ "SPRITER_FILE", "group___globals.html#gga84a454511f7473cb2254baa4cff462eaab21063ebf7e3636f4ce5e526c744cfc6", null ],
+      [ "SPRITE_TEXT_CONTAINER", "group___globals.html#gga84a454511f7473cb2254baa4cff462eaaf12e53f5abcac7ce7cba4ed4ac9699ac", null ],
       [ "NOT_DEFINED", "group___globals.html#gga84a454511f7473cb2254baa4cff462eaabfd8c78fbb91fe67b9886fad146392a4", null ]
     ] ],
     [ "SpriteKind", "group___globals.html#gabd68c17bf2f3cc84732d58e98d519477", [
       [ "STANDARD", "group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a94e94133f4bdc1794c6b647b8ea134d0", null ],
       [ "COMPOSED", "group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a272080a76193a3649a817789e12b500b", null ],
+      [ "TEXT", "group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a61a96ffcb251bb9bf0abf8fec19d0ea8", null ],
       [ "SPINE", "group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477a8eedd505a4b9a5d0ad77664bd3f8aeb3", null ],
       [ "SPRITER", "group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477ab197833b2e32c15edcdd43be0b8f066d", null ],
       [ "NOT_DEFINED", "group___globals.html#ggabd68c17bf2f3cc84732d58e98d519477abfd8c78fbb91fe67b9886fad146392a4", null ]
@@ -44,14 +49,12 @@ var group___globals =
     [ "MapType", "group___globals.html#ga4c73d8aa04c5b31558f468b95d4748b3", [
       [ "WORLD", "group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3a5289492cf082446ca4a6eec9f72f1ec3", null ],
       [ "PARALLAX", "group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ae0c60ad18d407ae1a5264e56362372a2", null ],
-      [ "SCREEN", "group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ab8640f4f990ba83d8d8bef816def1b80", null ],
-      [ "NOT_DEFINED", "group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3abfd8c78fbb91fe67b9886fad146392a4", null ]
+      [ "SCREEN", "group___globals.html#gga4c73d8aa04c5b31558f468b95d4748b3ab8640f4f990ba83d8d8bef816def1b80", null ]
     ] ],
     [ "LayerKind", "group___globals.html#gaa52763de299dba8324198f93970f3799", [
       [ "SPRITE", "group___globals.html#ggaa52763de299dba8324198f93970f3799a2a3389b1d8bc619aed964477ec7b1a2d", null ],
       [ "VECTOR", "group___globals.html#ggaa52763de299dba8324198f93970f3799a87752381b583740610f1dfeb07fdad7e", null ],
       [ "DRAWING", "group___globals.html#ggaa52763de299dba8324198f93970f3799a00e176a504ad842500fc78b769637fa1", null ],
-      [ "TEXT", "group___globals.html#ggaa52763de299dba8324198f93970f3799a61a96ffcb251bb9bf0abf8fec19d0ea8", null ],
       [ "CUSTOM", "group___globals.html#ggaa52763de299dba8324198f93970f3799a72baef04098f035e8a320b03ad197818", null ],
       [ "NOT_DEFINED", "group___globals.html#ggaa52763de299dba8324198f93970f3799abfd8c78fbb91fe67b9886fad146392a4", null ]
     ] ],
@@ -119,6 +122,16 @@ var group___globals =
       [ "WAITING_TO_START", "group___globals.html#gga50bdd3122560e2010412f9acd67687c4a85ae1e1a056b346a0c767e365502306a", null ],
       [ "WAITING_TO_REPEAT", "group___globals.html#gga50bdd3122560e2010412f9acd67687c4a3bea7bb71f24711c333db4c6de97f281", null ]
     ] ],
+    [ "GuiWidgetKind", "group___globals.html#ga81d055800f2a8f13aa2bf2ea07d8a1a1", [
+      [ "BUTTON", "group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a57b35198356d373bcd2a6e08abcb3795", null ],
+      [ "SLIDER", "group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a3c93f85078b290625b7c4db299979c4f", null ],
+      [ "BAR", "group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a3d75eec709b70a350e143492192a1736", null ],
+      [ "TEXT_FIELD", "group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1aec70c2003c3b91a4d84a9760059e48a7", null ],
+      [ "TEXT_INPUT", "group___globals.html#gga81d055800f2a8f13aa2bf2ea07d8a1a1a7dd471445dde85d557e653dcd92da3f8", null ]
+    ] ],
+    [ "TextHandleVariant", "group___globals.html#ga68a5f2df3cc58a8d71a07030de1810b8", null ],
+    [ "Engine", "group___globals.html#ga6c252989c03f6369be1582497c899c9a", null ],
+    [ "GetRelativeHandleFromTextHandleVariant", "group___globals.html#ga37036efb50f0a4da8d70593edbfa1545", null ],
     [ "DeleteGlobalObjects", "group___globals.html#ga407856c9eaa02b435227d555d45330d4", null ],
     [ "settings", "group___globals.html#ga19276c778f3034b94881cf1f8614dbb2", null ]
 ];

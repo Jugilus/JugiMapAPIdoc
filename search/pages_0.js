@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jugimap_20api_1310',['JugiMap API',['../index.html',1,'']]]
+  ['jugimap_20framework_1899',['JugiMap Framework',['../index.html',1,'']]]
 ];

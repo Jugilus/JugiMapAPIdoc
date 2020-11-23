@@ -15,6 +15,8 @@ var hierarchy =
     [ "AnimationPlayer", "classjugimap_1_1_animation_player.html", null ],
     [ "AnimationPlayerFlags", "structjugimap_1_1_animation_player_flags.html", null ],
     [ "AnimationQueuePlayer", "classjugimap_1_1_animation_queue_player.html", null ],
+    [ "App", "classjugimap_1_1_app.html", null ],
+    [ "AppCCNode", "classjugimap_1_1_app_c_c_node.html", null ],
     [ "BinaryStreamReader", "classjugimap_1_1_binary_stream_reader.html", [
       [ "BinaryBufferStreamReader", "classjugimap_1_1_binary_buffer_stream_reader.html", [
         [ "BinaryFileStreamReaderCC", "classjugimap_1_1_binary_file_stream_reader_c_c.html", null ]
@@ -29,6 +31,8 @@ var hierarchy =
     ] ],
     [ "ColorRGBA", "structjugimap_1_1_color_r_g_b_a.html", null ],
     [ "ColorRGBAf", "structjugimap_1_1_color_r_g_b_af.html", null ],
+    [ "ColorsLibrary", "classjugimap_1_1_colors_library.html", null ],
+    [ "CustomObject", "structjugimap_1_1_custom_object.html", null ],
     [ "Drawer", "classjugimap_1_1_drawer.html", [
       [ "DrawerAGK", "classjugimap_1_1_drawer_a_g_k.html", null ],
       [ "DrawerCC", "classjugimap_1_1_drawer_c_c.html", null ],
@@ -36,11 +40,21 @@ var hierarchy =
       [ "DrawerSFML", "classjugimap_1_1_drawer_s_f_m_l.html", null ]
     ] ],
     [ "Easing", "classjugimap_1_1_easing.html", null ],
+    [ "EngineApp", "classjugimap_1_1_engine_app.html", [
+      [ "EngineAppAGK", "classjugimap_1_1_engine_app_a_g_k.html", null ],
+      [ "EngineAppCC", "classjugimap_1_1_engine_app_c_c.html", null ]
+    ] ],
+    [ "EngineScene", "classjugimap_1_1_engine_scene.html", [
+      [ "EngineSceneAGK", "classjugimap_1_1_engine_scene_a_g_k.html", null ],
+      [ "EngineSceneCC", "classjugimap_1_1_engine_scene_c_c.html", null ]
+    ] ],
     [ "Font", "classjugimap_1_1_font.html", [
       [ "FontAGK", "classjugimap_1_1_font_a_g_k.html", null ],
+      [ "FontCC", "classjugimap_1_1_font_c_c.html", null ],
       [ "FontNC", "classjugimap_1_1_font_n_c.html", null ],
       [ "FontSFML", "classjugimap_1_1_font_s_f_m_l.html", null ]
     ] ],
+    [ "FontsLibrary", "classjugimap_1_1_fonts_library.html", null ],
     [ "GeometricShape", "structjugimap_1_1_geometric_shape.html", [
       [ "BezierShape", "structjugimap_1_1_bezier_shape.html", null ],
       [ "EllipseShape", "structjugimap_1_1_ellipse_shape.html", null ],
@@ -56,7 +70,19 @@ var hierarchy =
     [ "GraphicItem", "classjugimap_1_1_graphic_item.html", [
       [ "GraphicItemAGK", "classjugimap_1_1_graphic_item_a_g_k.html", null ]
     ] ],
+    [ "GuiCursorDeviceInput", "classjugimap_1_1_gui_cursor_device_input.html", null ],
+    [ "GuiKeyboardAndJoystickInput", "classjugimap_1_1_gui_keyboard_and_joystick_input.html", null ],
+    [ "GuiWidget", "classjugimap_1_1_gui_widget.html", [
+      [ "GuiBar", "classjugimap_1_1_gui_bar.html", null ],
+      [ "GuiButton", "classjugimap_1_1_gui_button.html", null ],
+      [ "GuiSlider", "classjugimap_1_1_gui_slider.html", null ],
+      [ "GuiTextField", "classjugimap_1_1_gui_text_field.html", null ],
+      [ "GuiTextInput", "classjugimap_1_1_gui_text_input.html", null ]
+    ] ],
+    [ "GuiWidgetCallback", "structjugimap_1_1_gui_widget_callback.html", null ],
+    [ "Joystick", "classjugimap_1_1_joystick.html", null ],
     [ "JugiMapBinaryLoader", "classjugimap_1_1_jugi_map_binary_loader.html", null ],
+    [ "Keyboard", "classjugimap_1_1_keyboard.html", null ],
     [ "Layer", "classjugimap_1_1_layer.html", [
       [ "DrawingLayer", "classjugimap_1_1_drawing_layer.html", null ],
       [ "SpriteLayer", "classjugimap_1_1_sprite_layer.html", [
@@ -64,21 +90,17 @@ var hierarchy =
         [ "SpriteLayerCC", "classjugimap_1_1_sprite_layer_c_c.html", null ],
         [ "SpriteLayerNC", "classjugimap_1_1_sprite_layer_n_c.html", null ]
       ] ],
-      [ "TextLayer", "classjugimap_1_1_text_layer.html", [
-        [ "TextLayerAGK", "classjugimap_1_1_text_layer_a_g_k.html", null ],
-        [ "TextLayerCC", "classjugimap_1_1_text_layer_c_c.html", null ],
-        [ "TextLayerNC", "classjugimap_1_1_text_layer_n_c.html", null ],
-        [ "TextLayerSFML", "classjugimap_1_1_text_layer_s_f_m_l.html", null ]
-      ] ],
       [ "VectorLayer", "classjugimap_1_1_vector_layer.html", null ]
     ] ],
     [ "Map", "classjugimap_1_1_map.html", [
+      [ "MapAGK", "classjugimap_1_1_map_a_g_k.html", null ],
       [ "MapCC", "classjugimap_1_1_map_c_c.html", null ],
       [ "MapNC", "classjugimap_1_1_map_n_c.html", null ],
       [ "MapSFML", "classjugimap_1_1_map_s_f_m_l.html", null ]
     ] ],
     [ "MapCCNode", "classjugimap_1_1_map_c_c_node.html", null ],
     [ "MapNCNode", "classjugimap_1_1_map_n_c_node.html", null ],
+    [ "Mouse", "classjugimap_1_1_mouse.html", null ],
     [ "ObjectFactory", "classjugimap_1_1_object_factory.html", [
       [ "ObjectFactoryAGK", "classjugimap_1_1_object_factory_a_g_k.html", null ],
       [ "ObjectFactoryCC", "classjugimap_1_1_object_factory_c_c.html", null ],
@@ -90,8 +112,6 @@ var hierarchy =
     [ "Rect< float >", "structjugimap_1_1_rect.html", null ],
     [ "Rect< int >", "structjugimap_1_1_rect.html", null ],
     [ "Scene", "classjugimap_1_1_scene.html", null ],
-    [ "SceneCCNode", "classjugimap_1_1_scene_c_c_node.html", null ],
-    [ "SceneManager", "classjugimap_1_1_scene_manager.html", null ],
     [ "Settings", "classjugimap_1_1_settings.html", null ],
     [ "SourceGraphics", "classjugimap_1_1_source_graphics.html", null ],
     [ "SourceSprite", "classjugimap_1_1_source_sprite.html", null ],
@@ -105,15 +125,26 @@ var hierarchy =
         [ "StandardSpriteCC", "classjugimap_1_1_standard_sprite_c_c.html", null ],
         [ "StandardSpriteNC", "classjugimap_1_1_standard_sprite_n_c.html", null ],
         [ "StandardSpriteSFML", "classjugimap_1_1_standard_sprite_s_f_m_l.html", null ]
+      ] ],
+      [ "TextSprite", "classjugimap_1_1_text_sprite.html", [
+        [ "TextSpriteAGK", "classjugimap_1_1_text_sprite_a_g_k.html", null ],
+        [ "TextSpriteCC", "classjugimap_1_1_text_sprite_c_c.html", null ],
+        [ "TextSpriteNC", "classjugimap_1_1_text_sprite_n_c.html", null ],
+        [ "TextSpriteSFML", "classjugimap_1_1_text_sprite_s_f_m_l.html", null ]
       ] ]
     ] ],
-    [ "Text", "classjugimap_1_1_text.html", [
-      [ "TextAGK", "classjugimap_1_1_text_a_g_k.html", null ],
-      [ "TextCC", "classjugimap_1_1_text_c_c.html", null ],
-      [ "TextNC", "classjugimap_1_1_text_n_c.html", null ],
-      [ "TextSFML", "classjugimap_1_1_text_s_f_m_l.html", null ]
+    [ "TextBook", "classjugimap_1_1_text_book.html", null ],
+    [ "TextLibrary", "classjugimap_1_1_text_library.html", null ],
+    [ "TextSegment", "classjugimap_1_1_text_segment.html", null ],
+    [ "TextSequence", "classjugimap_1_1_text_sequence.html", null ],
+    [ "TextStreamReader", "classjugimap_1_1_text_stream_reader.html", [
+      [ "StdTextFileStreamReader", "classjugimap_1_1_std_text_file_stream_reader.html", null ],
+      [ "TextFileStreamReaderAGK", "classjugimap_1_1_text_file_stream_reader_a_g_k.html", null ],
+      [ "TextFileStreamReaderCC", "classjugimap_1_1_text_file_stream_reader_c_c.html", null ]
     ] ],
     [ "Time", "classjugimap_1_1_time.html", null ],
+    [ "Touch", "classjugimap_1_1_touch.html", null ],
+    [ "Tween", "classjugimap_1_1_tween.html", null ],
     [ "Vec2< T >", "structjugimap_1_1_vec2.html", null ],
     [ "Vec2< float >", "structjugimap_1_1_vec2.html", null ],
     [ "Vec2< int >", "structjugimap_1_1_vec2.html", null ],
